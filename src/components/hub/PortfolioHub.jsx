@@ -18,36 +18,47 @@ const HubState = {
 const PORTFOLIOS = [
     {
         id: "commercial",
-        title: "Commercial Portfolio",
+        title: "Commercial",
         subtitle: "Professional Work",
-        description: "Client projects and professional development work showcasing enterprise-level solutions.",
+        description: "Client projects and enterprise solutions",
         url: "https://thomasjbutler.me/",
         image: "/images/pictures/matrix.png",
         isInternal: true,
-        buttonText: "Enter Site",
+        buttonText: "Enter",
         icon: "fa-solid fa-briefcase"
     },
     {
         id: "personal",
-        title: "Personal Portfolio",
-        subtitle: "Personal Projects",
-        description: "Side projects, experiments, and personal work demonstrating creativity and passion.",
+        title: "Personal",
+        subtitle: "Side Projects",
+        description: "Experiments and passion projects",
         url: "https://thomasjbutler.github.io/",
         image: "/images/pictures/matrix.png",
         isInternal: false,
-        buttonText: "Visit Site",
+        buttonText: "Visit",
         icon: "fa-solid fa-code"
     },
     {
         id: "ai-projects",
         title: "AI Projects",
-        subtitle: "Agentic AI Portfolio",
-        description: "Machine learning and AI-powered applications showcasing cutting-edge technology.",
+        subtitle: "Agentic AI",
+        description: "ML and AI-powered applications",
         url: "https://agenticaiprojectsportfolio.vercel.app/",
         image: "/images/pictures/matrix.png",
         isInternal: false,
-        buttonText: "Visit Site",
+        buttonText: "Visit",
         icon: "fa-solid fa-robot"
+    },
+    {
+        id: "agency",
+        title: "Agency Work",
+        subtitle: "Web Agency",
+        description: "Professional agency showcase",
+        url: "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+        image: "/images/pictures/matrix.png",
+        isInternal: false,
+        buttonText: "Visit",
+        icon: "fa-solid fa-building"
     }
 ]
 
@@ -114,13 +125,13 @@ function PortfolioHub({ children }) {
     }, [state])
 
     const handlePortfolioClick = (portfolio) => {
-        utils.storage.setSessionVariable(SESSION_KEY, "true")
-
         if (portfolio.isInternal) {
+            // Only dismiss hub when entering the commercial site
+            utils.storage.setSessionVariable(SESSION_KEY, "true")
             setState(HubState.HIDING)
         } else {
+            // External links open in new tab but keep hub open
             window.open(portfolio.url, '_blank', 'noopener,noreferrer')
-            setState(HubState.HIDING)
         }
     }
 
@@ -154,7 +165,7 @@ function PortfolioHubOverlay({ state, isMobile, portfolios, onPortfolioClick }) 
                         onPortfolioClick={onPortfolioClick}
                     />
                 ) : (
-                    <PortfolioHubGrid
+                    <PortfolioHubPanels
                         portfolios={portfolios}
                         onPortfolioClick={onPortfolioClick}
                     />
@@ -170,26 +181,74 @@ function PortfolioHubHeader() {
     return (
         <div className="portfolio-hub-header">
             <h1 className="portfolio-hub-title">
-                Welcome to My <span className="highlight">Portfolios</span>
+                Thomas <span className="highlight">Butler</span>
             </h1>
             <p className="portfolio-hub-subtitle">
-                Select a portfolio to explore my work
+                Full-Stack Developer & AI Specialist
             </p>
         </div>
     )
 }
 
-function PortfolioHubGrid({ portfolios, onPortfolioClick }) {
+function PortfolioHubPanels({ portfolios, onPortfolioClick }) {
     return (
-        <div className="portfolio-hub-grid">
+        <div className="portfolio-hub-panels">
             {portfolios.map((portfolio, index) => (
-                <PortfolioHubCard
+                <PortfolioHubPanel
                     key={portfolio.id}
                     portfolio={portfolio}
                     onClick={() => onPortfolioClick(portfolio)}
                     index={index}
                 />
             ))}
+        </div>
+    )
+}
+
+function PortfolioHubPanel({ portfolio, onClick, index }) {
+    const utils = useUtils()
+    const [isHovered, setIsHovered] = useState(false)
+
+    return (
+        <div
+            className={`portfolio-hub-panel ${isHovered ? 'hovered' : ''}`}
+            onClick={onClick}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+            style={{ animationDelay: `${index * 0.1}s` }}
+        >
+            <div className="portfolio-hub-panel-image">
+                <img
+                    src={utils.file.resolvePath(portfolio.image)}
+                    alt={portfolio.title}
+                />
+                <div className="portfolio-hub-panel-overlay" />
+            </div>
+
+            <div className="portfolio-hub-panel-content">
+                <div className="portfolio-hub-panel-icon">
+                    <i className={portfolio.icon} />
+                </div>
+                <h3 className="portfolio-hub-panel-title">{portfolio.title}</h3>
+                <p className="portfolio-hub-panel-subtitle">{portfolio.subtitle}</p>
+
+                <button
+                    className="portfolio-hub-panel-button"
+                    onClick={(e) => {
+                        e.stopPropagation()
+                        onClick()
+                    }}
+                >
+                    {portfolio.buttonText}
+                    <i className={portfolio.isInternal ? "fa-solid fa-arrow-right" : "fa-solid fa-external-link"} />
+                </button>
+            </div>
+
+            {!portfolio.isInternal && (
+                <div className="portfolio-hub-panel-badge">
+                    <i className="fa-solid fa-external-link" />
+                </div>
+            )}
         </div>
     )
 }
@@ -265,7 +324,6 @@ function PortfolioHubCard({ portfolio, onClick, index }) {
 function PortfolioHubFooter() {
     return (
         <div className="portfolio-hub-footer">
-            <p className="portfolio-hub-footer-text">Connect with me</p>
             <div className="portfolio-hub-social">
                 <a
                     href="https://github.com/ThomasJButler"

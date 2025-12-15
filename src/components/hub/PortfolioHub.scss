@@ -2,7 +2,7 @@
 
 // Variables
 $hub-z-index: $z-index-loader - 1; // 9998
-$hub-backdrop: rgba(#0c0c0c, 0.97);
+$hub-backdrop: rgba(#0c0c0c, 0.98);
 $hub-transition-in: 0.5s ease-out;
 $hub-transition-out: 0.4s ease-in;
 
@@ -16,7 +16,6 @@ $hub-transition-out: 0.4s ease-in;
     z-index: $hub-z-index;
 
     background-color: $hub-backdrop;
-    backdrop-filter: blur(10px);
 
     display: flex;
     align-items: center;
@@ -59,19 +58,20 @@ $hub-transition-out: 0.4s ease-in;
 
 // Container
 .portfolio-hub-container {
-    max-width: 1100px;
+    max-width: 1400px;
     width: 100%;
+    height: 100%;
     max-height: 90vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 
     animation: hubSlideUp 0.6s ease-out 0.1s both;
 
     @include media-breakpoint-down(md) {
-        gap: 1.5rem;
+        gap: 1.25rem;
         max-height: none;
     }
 }
@@ -90,7 +90,7 @@ $hub-transition-out: 0.4s ease-in;
 // Header
 .portfolio-hub-header {
     text-align: center;
-    margin-bottom: 0.5rem;
+    flex-shrink: 0;
 }
 
 .portfolio-hub-title {
@@ -98,7 +98,7 @@ $hub-transition-out: 0.4s ease-in;
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--theme-texts);
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
 
     .highlight {
         color: var(--theme-primary);
@@ -114,33 +114,216 @@ $hub-transition-out: 0.4s ease-in;
 }
 
 .portfolio-hub-subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--theme-texts-light);
     opacity: 0.8;
     margin: 0;
 
     @include media-breakpoint-down(md) {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
-// Grid (Desktop)
-.portfolio-hub-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    width: 100%;
+// ==========================================
+// COMIC PANELS LAYOUT (Desktop)
+// ==========================================
 
-    @include media-breakpoint-down(lg) {
-        gap: 1.25rem;
-    }
+.portfolio-hub-panels {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    max-height: 55vh;
 
     @include media-breakpoint-down(md) {
-        display: none; // Hide on mobile, show carousel instead
+        display: none;
     }
 }
 
-// Carousel (Mobile)
+.portfolio-hub-panel {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    transition: flex 0.4s ease-out;
+    animation: panelSlideIn 0.5s ease-out both;
+
+    &:hover,
+    &.hovered {
+        flex: 1.5;
+
+        .portfolio-hub-panel-overlay {
+            opacity: 0.4;
+        }
+
+        .portfolio-hub-panel-content {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .portfolio-hub-panel-image img {
+            transform: scale(1.05);
+        }
+    }
+}
+
+@keyframes panelSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.portfolio-hub-panel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease-out;
+    }
+}
+
+.portfolio-hub-panel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.95) 0%,
+        rgba(0, 0, 0, 0.7) 30%,
+        rgba(0, 0, 0, 0.3) 60%,
+        rgba(0, 0, 0, 0.5) 100%
+    );
+    opacity: 0.8;
+    transition: opacity 0.4s ease-out;
+}
+
+.portfolio-hub-panel-content {
+    position: relative;
+    z-index: 2;
+    padding: 1.5rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+
+    opacity: 0.85;
+    transform: translateY(10px);
+    transition: all 0.4s ease-out;
+}
+
+.portfolio-hub-panel-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    background: var(--theme-primary);
+    color: var(--theme-texts-inv);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio-hub-panel-title {
+    font-family: $headings-font-family;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-hub-panel-subtitle {
+    font-size: 0.8rem;
+    color: var(--theme-primary);
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.portfolio-hub-panel-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    padding: 0.6rem 1.2rem;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+
+    background: var(--theme-primary);
+    border: none;
+    color: var(--theme-texts-inv);
+
+    font-family: $font-family-base;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: all 0.3s ease-out;
+
+    i {
+        font-size: 0.75rem;
+    }
+
+    &:hover {
+        background: #fff;
+        color: #111;
+        transform: scale(1.05);
+    }
+}
+
+.portfolio-hub-panel-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 3;
+
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
+
+// ==========================================
+// MOBILE CAROUSEL
+// ==========================================
+
 .portfolio-hub-carousel {
     display: none;
     width: 100%;
@@ -167,7 +350,7 @@ $hub-transition-out: 0.4s ease-in;
     }
 }
 
-// Card
+// Card (Mobile)
 .portfolio-hub-card {
     background: var(--theme-card-background);
     border-radius: $standard-border-radius;
@@ -230,7 +413,7 @@ $hub-transition-out: 0.4s ease-in;
 
 .portfolio-hub-card-image {
     position: relative;
-    height: 160px;
+    height: 140px;
     overflow: hidden;
     background: var(--theme-boards-background);
 
@@ -239,10 +422,6 @@ $hub-transition-out: 0.4s ease-in;
         height: 100%;
         object-fit: cover;
         transition: transform 0.4s ease-out;
-    }
-
-    @include media-breakpoint-down(md) {
-        height: 140px;
     }
 }
 
@@ -353,21 +532,12 @@ $hub-transition-out: 0.4s ease-in;
     opacity: 0.7;
 }
 
-// Footer
-.portfolio-hub-footer {
-    margin-top: 0.5rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--theme-standard-borders);
-    width: 100%;
-    max-width: 300px;
-    text-align: center;
-}
+// ==========================================
+// FOOTER
+// ==========================================
 
-.portfolio-hub-footer-text {
-    font-size: 0.85rem;
-    color: var(--theme-texts-light);
-    opacity: 0.7;
-    margin-bottom: 1rem;
+.portfolio-hub-footer {
+    flex-shrink: 0;
 }
 
 .portfolio-hub-social {
@@ -377,8 +547,8 @@ $hub-transition-out: 0.4s ease-in;
 }
 
 .portfolio-hub-social-link {
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
 
     background: var(--theme-boards-background);
@@ -389,7 +559,7 @@ $hub-transition-out: 0.4s ease-in;
     justify-content: center;
 
     color: var(--theme-texts);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-decoration: none;
 
     transition: all 0.3s ease-out;
