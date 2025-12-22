@@ -18,11 +18,11 @@ const HubState = {
 const PORTFOLIOS = [
     {
         id: "commercial",
-        title: "Commercial",
+        title: "Commercial & Agency",
         subtitle: "Professional Work",
         description: "Client projects and enterprise solutions",
         url: "https://thomasjbutler.me/",
-        image: "/images/pictures/matrix.png",
+        image: "landingpagetest/coolimg1.png",
         isInternal: true,
         buttonText: "Enter",
         icon: "fa-solid fa-briefcase"
@@ -33,7 +33,7 @@ const PORTFOLIOS = [
         subtitle: "Side Projects",
         description: "Experiments and passion projects",
         url: "https://thomasjbutler.github.io/",
-        image: "/images/pictures/matrix.png",
+        image: "landingpagetest/coolimg3.png",
         isInternal: false,
         buttonText: "Visit",
         icon: "fa-solid fa-code"
@@ -44,22 +44,11 @@ const PORTFOLIOS = [
         subtitle: "Agentic AI",
         description: "ML and AI-powered applications",
         url: "https://agenticaiprojectsportfolio.vercel.app/",
-        image: "/images/pictures/matrix.png",
+        image: "landingpagetest/coolimg2.png",
         isInternal: false,
         buttonText: "Visit",
         icon: "fa-solid fa-robot"
     },
-    {
-        id: "agency",
-        title: "Agency Work",
-        subtitle: "Web Agency",
-        description: "Professional agency showcase",
-        url: "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
-        image: "/images/pictures/matrix.png",
-        isInternal: false,
-        buttonText: "Visit",
-        icon: "fa-solid fa-building"
-    }
 ]
 
 const SESSION_KEY = "hasSeenPortfolioHub"
@@ -342,6 +331,15 @@ function PortfolioHubFooter() {
                     aria-label="LinkedIn"
                 >
                     <i className="fa-brands fa-linkedin" />
+                </a>
+                <a
+                    href="https://buymeacoffee.com/ojrwoqkgmv"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="portfolio-hub-social-link"
+                    aria-label="Buy Me a Coffee"
+                >
+                    <i className="fa-solid fa-mug-hot" />
                 </a>
             </div>
         </div>
