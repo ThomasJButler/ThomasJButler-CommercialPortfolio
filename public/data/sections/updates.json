@@ -1457,11 +1457,6 @@
                                 "href": "https://thomasjbutler.github.io/",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            },
-                            {
-                                "href": "https://aitomatic.com",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
                         ],
                         "screenshots": [],
@@ -1474,11 +1469,11 @@
                             "province": "Liverpool",
                             "country": "UK",
                             "institution": "Entrepreneurship",
-                            "text": "After being made redundant, I transformed this challenge into an opportunity. Created my Matrix-themed personal portfolio as my primary showcase, founded AiTomatic company, and began developing this commercial portfolio.",
+                            "text": "After being made redundant, I transformed this challenge into an opportunity. Created my Matrix-themed personal portfolio as my primary showcase, created a small AI startup to tackle executive dysfunction by harnessing AI, making tech more human and adapt to us, and began developing this commercial portfolio.",
                             "list": [
                                 "Made redundant from previous position in December",
                                 "Created custom HTML/CSS/JS personal portfolio with Matrix theme",
-                                "Founded AiTomatic company for AI consulting and development",
+                                "Created a small AI startup to tackle executive dysfunction by harnessing AI, making tech more human and adapt to us",
                                 "Began development of this commercial React portfolio for professional presence"
                             ]
                         },
@@ -1487,11 +1482,11 @@
                             "province": "Ливерпуль",
                             "country": "Великобритания",
                             "institution": "Предпринимательство",
-                            "text": "После сокращения я превратил эту проблему в возможность. Создал свое личное портфолио в стиле Матрицы как основную витрину, основал компанию AiTomatic и начал разработку этого коммерческого портфолио.",
+                            "text": "После сокращения я превратил эту проблему в возможность. Создал свое личное портфолио в стиле Матрицы как основную витрину, создал небольшой AI-стартап для борьбы с исполнительной дисфункцией с помощью ИИ, делая технологии более человечными и адаптирующимися к нам, и начал разработку этого коммерческого портфолио.",
                             "list": [
                                 "Сокращен с предыдущей должности в декабре",
                                 "Создал индивидуальное HTML/CSS/JS портфолио с темой Матрицы",
-                                "Основал компанию AiTomatic для консалтинга и разработки ИИ",
+                                "Создал небольшой AI-стартап для борьбы с исполнительной дисфункцией с помощью ИИ, делая технологии более человечными и адаптирующимися к нам",
                                 "Начал разработку этого коммерческого портфолио React для профессионального присутствия"
                             ]
                         },
@@ -1500,11 +1495,11 @@
                             "province": "Liverpool",
                             "country": "Royaume-Uni",
                             "institution": "Entrepreneuriat",
-                            "text": "Après avoir été licencié, j'ai transformé ce défi en opportunité. J'ai créé mon portfolio personnel sur le thème Matrix comme vitrine principale, fondé la société AiTomatic et commencé à développer ce portfolio commercial.",
+                            "text": "Après avoir été licencié, j'ai transformé ce défi en opportunité. J'ai créé mon portfolio personnel sur le thème Matrix comme vitrine principale, créé une petite startup IA pour lutter contre la dysfonction exécutive en exploitant l'IA, rendant la technologie plus humaine et s'adaptant à nous, et commencé à développer ce portfolio commercial.",
                             "list": [
                                 "Licencié de mon poste précédent en décembre",
                                 "Création d'un portfolio personnel HTML/CSS/JS personnalisé avec le thème Matrix",
-                                "Fondation de la société AiTomatic pour le conseil et le développement en IA",
+                                "Créé une petite startup IA pour lutter contre la dysfonction exécutive en exploitant l'IA, rendant la technologie plus humaine et s'adaptant à nous",
                                 "Début du développement de ce portfolio commercial React pour une présence professionnelle"
                             ]
                         },
@@ -1513,11 +1508,11 @@
                             "province": "リバプール",
                             "country": "イギリス",
                             "institution": "起業家精神",
-                            "text": "解雇された後、この課題を機会に変えました。マトリックステーマの個人ポートフォリオを主要なショーケースとして作成し、AiTomatic会社を設立し、この商業ポートフォリオの開発を開始しました。",
+                            "text": "解雇された後、この課題を機会に変えました。マトリックステーマの個人ポートフォリオを主要なショーケースとして作成し、AIを活用して実行機能障害に取り組む小規模なAIスタートアップを作成し、テクノロジーをより人間的で私たちに適応させ、この商業ポートフォリオの開発を開始しました。",
                             "list": [
                                 "12月に前職から解雇",
                                 "マトリックステーマのカスタムHTML/CSS/JS個人ポートフォリオを作成",
-                                "AIコンサルティングと開発のためのAiTomatic会社を設立",
+                                "AIを活用して実行機能障害に取り組む小規模なAIスタートアップを作成し、テクノロジーをより人間的で私たちに適応させる",
                                 "プロフェッショナルな存在感のためにこの商業用Reactポートフォリオの開発を開始"
                             ]
                         }
