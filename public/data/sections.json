@@ -31,12 +31,6 @@
             "faIcon": "fa-solid fa-folder-open"
         },
         {
-            "id": "demo",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/demo.json",
-            "faIcon": "fa-solid fa-rocket"
-        },
-        {
             "id": "updates",
             "categoryId": "more",
             "jsonPath": "/data/sections/updates.json",
