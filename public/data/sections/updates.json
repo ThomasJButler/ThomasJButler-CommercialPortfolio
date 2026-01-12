@@ -47,19 +47,19 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "10",
+                            "title": "16",
                             "text": "Live Projects"
                         },
                         "ru": {
-                            "title": "10",
+                            "title": "16",
                             "text": "Живые проекты"
                         },
                         "fr": {
-                            "title": "10",
+                            "title": "16",
                             "text": "Projets en Direct"
                         },
                         "ja": {
-                            "title": "10",
+                            "title": "16",
                             "text": "ライブプロジェクト"
                         }
                     }
@@ -251,6 +251,83 @@
                 "order_items_sort": "desc"
             },
             "items": [
+                {
+                    "id": 18,
+                    "date": {
+                        "year": 2025,
+                        "month": 10
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://agenticaiprojectsportfolio.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://github.com/ThomasJButler/AgenticAICoursePortfolio",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Completed {{Agentic AI Portfolio}} Showcase",
+                            "province": "Yorkshire",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Finalised projects and released 5 polished MVP applications alongside an interactive dashboard website documenting the development process. All projects are production-grade full-stack AI applications featuring Docker containerisation and live demo deployments.",
+                            "list": [
+                                "Built interactive dashboard showcasing project architecture and methodology",
+                                "Implemented Docker containers for all deployments",
+                                "Deployed live demos with production-ready infrastructure"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Завершена витрина {{Agentic AI Portfolio}}",
+                            "province": "Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Завершены проекты и выпущены 4 отполированных MVP-приложения вместе с интерактивным дашбордом, документирующим процесс разработки. Все проекты - это полноценные full-stack AI-приложения продакшн-уровня с Docker-контейнерами и развернутыми живыми демо.",
+                            "list": [
+                                "Выпущено 4 отполированных MVP full-stack AI-приложения",
+                                "Создан интерактивный дашборд с архитектурой и методологией проектов",
+                                "Реализована Docker-контейнеризация для всех развертываний",
+                                "Развернуты живые демо с продакшн-инфраструктурой"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Vitrine {{Agentic AI Portfolio}} terminée",
+                            "province": "Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Projets finalisés et 4 applications MVP polies publiées avec un tableau de bord interactif documentant le processus de développement. Tous les projets sont des applications IA full-stack de niveau production avec conteneurisation Docker et déploiements de démonstration en direct.",
+                            "list": [
+                                "Publication de 4 applications MVP full-stack IA polies",
+                                "Création d'un tableau de bord interactif présentant l'architecture et la méthodologie",
+                                "Implémentation de conteneurs Docker pour tous les déploiements",
+                                "Déploiement de démos en direct avec infrastructure prête pour la production"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Agentic AI Portfolio}}ショーケースを完成",
+                            "province": "ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "プロジェクトを最終化し、開発プロセスを文書化したインタラクティブなダッシュボードウェブサイトとともに、4つの洗練されたMVPアプリケーションをリリースしました。すべてのプロジェクトは、Dockerコンテナ化とライブデモデプロイメントを備えた本番グレードのフルスタックAIアプリケーションです。",
+                            "list": [
+                                "4つの洗練されたMVPフルスタックAIアプリケーションをリリース",
+                                "プロジェクトのアーキテクチャと方法論を紹介するインタラクティブなダッシュボードを構築",
+                                "すべてのデプロイメントにDockerコンテナを実装",
+                                "本番対応のインフラストラクチャでライブデモをデプロイ"
+                            ]
+                        }
+                    }
+                },
                 {
                     "id": 1,
                     "date": {
