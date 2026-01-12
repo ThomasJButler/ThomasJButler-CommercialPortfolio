@@ -342,6 +342,90 @@
                         "fr": {"title": "Supabase"},
                         "ja": {"title": "Supabase"}
                     }
+                },
+                {
+                    "id": 16,
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {
+                        "bg": "#3544B1",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Umbraco"},
+                        "ru": {"title": "Umbraco"},
+                        "fr": {"title": "Umbraco"},
+                        "ja": {"title": "Umbraco"}
+                    }
+                },
+                {
+                    "id": 17,
+                    "faIcon": "fa-brands fa-hubspot",
+                    "faIconColors": {
+                        "bg": "#FF7A59",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "HubSpot"},
+                        "ru": {"title": "HubSpot"},
+                        "fr": {"title": "HubSpot"},
+                        "ja": {"title": "HubSpot"}
+                    }
+                },
+                {
+                    "id": 18,
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": {
+                        "bg": "#7952B3",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Bootstrap"},
+                        "ru": {"title": "Bootstrap"},
+                        "fr": {"title": "Bootstrap"},
+                        "ja": {"title": "Bootstrap"}
+                    }
+                },
+                {
+                    "id": 19,
+                    "faIcon": "fa-brands fa-bitbucket",
+                    "faIconColors": {
+                        "bg": "#0052CC",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "BitBucket"},
+                        "ru": {"title": "BitBucket"},
+                        "fr": {"title": "BitBucket"},
+                        "ja": {"title": "BitBucket"}
+                    }
+                },
+                {
+                    "id": 20,
+                    "faIcon": "fa-solid fa-dharmachakra",
+                    "faIconColors": {
+                        "bg": "#326CE5",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Kubernetes"},
+                        "ru": {"title": "Kubernetes"},
+                        "fr": {"title": "Kubernetes"},
+                        "ja": {"title": "Kubernetes"}
+                    }
+                },
+                {
+                    "id": 21,
+                    "faIcon": "fa-brands fa-js-square",
+                    "faIconColors": {
+                        "bg": "#F7DF1E",
+                        "fill": "#000000"
+                    },
+                    "locales": {
+                        "en": {"title": "JavaScript"},
+                        "ru": {"title": "JavaScript"},
+                        "fr": {"title": "JavaScript"},
+                        "ja": {"title": "JavaScript"}
+                    }
                 }
             ]
         },

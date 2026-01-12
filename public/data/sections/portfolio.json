@@ -82,6 +82,187 @@
             ]
         },
         {
+            "id": "commercial_tech_stack",
+            "component": "ArticleStack",
+            "config": {},
+            "locales": {
+                "en": { "title": "{{Tech Stack}} Used" },
+                "ru": { "title": "Используемый {{технологический стек}}" },
+                "fr": { "title": "{{Stack technique}} utilisé" },
+                "ja": { "title": "使用した{{技術スタック}}" }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {
+                        "bg": "#3544B1",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Umbraco"},
+                        "ru": {"title": "Umbraco"},
+                        "fr": {"title": "Umbraco"},
+                        "ja": {"title": "Umbraco"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-hubspot",
+                    "faIconColors": {
+                        "bg": "#FF7A59",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "HubSpot"},
+                        "ru": {"title": "HubSpot"},
+                        "fr": {"title": "HubSpot"},
+                        "ja": {"title": "HubSpot"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#FF7A59",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "HubL"},
+                        "ru": {"title": "HubL"},
+                        "fr": {"title": "HubL"},
+                        "ja": {"title": "HubL"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#512BD4",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "C#/.NET"},
+                        "ru": {"title": "C#/.NET"},
+                        "fr": {"title": "C#/.NET"},
+                        "ja": {"title": "C#/.NET"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-sass",
+                    "faIconColors": {
+                        "bg": "#CC6699",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "SCSS"},
+                        "ru": {"title": "SCSS"},
+                        "fr": {"title": "SCSS"},
+                        "ja": {"title": "SCSS"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-js-square",
+                    "faIconColors": {
+                        "bg": "#F7DF1E",
+                        "fill": "#000000"
+                    },
+                    "locales": {
+                        "en": {"title": "JavaScript"},
+                        "ru": {"title": "JavaScript"},
+                        "fr": {"title": "JavaScript"},
+                        "ja": {"title": "JavaScript"}
+                    }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": {
+                        "bg": "#7952B3",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Bootstrap"},
+                        "ru": {"title": "Bootstrap"},
+                        "fr": {"title": "Bootstrap"},
+                        "ja": {"title": "Bootstrap"}
+                    }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-brands fa-microsoft",
+                    "faIconColors": {
+                        "bg": "#0078D4",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Azure"},
+                        "ru": {"title": "Azure"},
+                        "fr": {"title": "Azure"},
+                        "ja": {"title": "Azure"}
+                    }
+                },
+                {
+                    "id": 9,
+                    "faIcon": "fa-brands fa-bitbucket",
+                    "faIconColors": {
+                        "bg": "#0052CC",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "BitBucket"},
+                        "ru": {"title": "BitBucket"},
+                        "fr": {"title": "BitBucket"},
+                        "ja": {"title": "BitBucket"}
+                    }
+                },
+                {
+                    "id": 10,
+                    "faIcon": "fa-solid fa-seedling",
+                    "faIconColors": {
+                        "bg": "#0052CC",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Bamboo"},
+                        "ru": {"title": "Bamboo"},
+                        "fr": {"title": "Bamboo"},
+                        "ja": {"title": "Bamboo"}
+                    }
+                },
+                {
+                    "id": 11,
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {
+                        "bg": "#2496ED",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Docker"},
+                        "ru": {"title": "Docker"},
+                        "fr": {"title": "Docker"},
+                        "ja": {"title": "Docker"}
+                    }
+                },
+                {
+                    "id": 12,
+                    "faIcon": "fa-solid fa-dharmachakra",
+                    "faIconColors": {
+                        "bg": "#326CE5",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Kubernetes"},
+                        "ru": {"title": "Kubernetes"},
+                        "fr": {"title": "Kubernetes"},
+                        "ja": {"title": "Kubernetes"}
+                    }
+                }
+            ]
+        },
+        {
             "id": 2,
             "component": "ArticlePortfolio",
             "config": {},
