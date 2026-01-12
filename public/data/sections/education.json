@@ -35,7 +35,7 @@
             "locales": {},
             "items": [
                 {
-                    "img": "images/pictures/logos/codecademy.png",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945824/codecademy_arwocz.png",
                     "dateStart": {
                         "year": 2025,
                         "month": 8
@@ -120,7 +120,7 @@
                     }
                 },
                 {
-                    "img": "images/pictures/logos/jbc.png",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1768239984/JBC_kass2y.jpg",
                     "dateStart": {
                         "year": 2025,
                         "month": 5
@@ -193,7 +193,7 @@
                     }
                 },
                 {
-                    "img": "images/pictures/fuelius.jpg",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945822/fuelius_rf6xrx.jpg",
                     "dateStart": {
                         "year": 2023,
                         "month": 8
@@ -262,7 +262,7 @@
                     }
                 },
                 {
-                    "img": "images/pictures/logos/estio.png",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945823/estio_ucyrue.png",
                     "dateStart": {
                         "year": 2023,
                         "month": 9
@@ -327,7 +327,7 @@
                     }
                 },
                 {
-                    "img": "images/pictures/logos/cisco.png",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945823/cisco_cqylet.png",
                     "dateStart": {
                         "year": 2024,
                         "month": 11
@@ -388,7 +388,7 @@
                     }
                 },
                 {
-                    "img": "images/pictures/logos/codecademy.png",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945824/codecademy_arwocz.png",
                     "dateStart": {
                         "year": 2024,
                         "month": 5
@@ -453,7 +453,7 @@
                     }
                 },
                 {
-                    "img": "images/pictures/logos/codecademy.png",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945824/codecademy_arwocz.png",
                     "dateStart": {
                         "year": 2024,
                         "month": 2
@@ -514,7 +514,7 @@
                     }
                 },
                 {
-                    "img": "images/pictures/logos/codecademy.png",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945824/codecademy_arwocz.png",
                     "dateStart": {
                         "year": 2024,
                         "month": 2
@@ -575,7 +575,7 @@
                     }
                 },
                 {
-                    "img": "images/pictures/logos/gc.png",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945822/gc_ekjyj5.png",
                     "dateStart": {
                         "year": 2023,
                         "month": 2
@@ -705,7 +705,7 @@
                     }
                 },
                 {
-                    "img": "images/pictures/logos/mts.png",
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945825/mts_kfmyqj.png",
                     "dateStart": {
                         "year": 2010,
                         "month": 1
