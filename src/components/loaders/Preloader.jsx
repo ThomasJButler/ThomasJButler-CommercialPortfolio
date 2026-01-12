@@ -1,7 +1,6 @@
 import "./Preloader.scss"
 import React, {useEffect, useState} from 'react'
-import PacMan from "/src/components/widgets/PacMan.jsx"
-import Logo from "/src/components/widgets/Logo.jsx"
+import ASCIILoader from "/src/components/widgets/ASCIILoader.jsx"
 import {useScheduler} from "/src/hooks/scheduler.js"
 import {useUtils} from "/src/hooks/utils.js"
 import {useConstants} from "/src/hooks/constants.js"
@@ -22,15 +21,12 @@ function Preloader({ children, preloaderSettings }) {
     const constants = useConstants()
 
     const enabled = preloaderSettings?.enabled
-    const title = preloaderSettings?.title || ""
-    const subtitle = preloaderSettings?.subtitle || ""
-    const logoOffset = preloaderSettings?.logoOffset || {}
 
     const [state, setState] = useState(PreloaderState.NONE)
     const [didLoadAllImages, setDidLoadAllImages] = useState(false)
 
     const tag = "Preloader"
-    const minDisplayTime = 1000
+    const minDisplayTime = 1700  // Animation is 2.8s total
     const shouldShowPreloaderWindow = state.id > PreloaderState.NONE.id && state.id < PreloaderState.HIDDEN.id
     const shouldShowContent = state.id >= PreloaderState.SHOWN.id
     const shouldShowContentElements = state.id >= PreloaderState.SHOWING.id
@@ -121,7 +117,7 @@ function Preloader({ children, preloaderSettings }) {
         utils.dom.setBodyScrollEnabled(true)
         scheduler.schedule(() => {
             setState(PreloaderState.HIDDEN)
-        }, 500, tag)
+        }, 250, tag)
     }, [state === PreloaderState.HIDING])
 
     /**
@@ -138,10 +134,7 @@ function Preloader({ children, preloaderSettings }) {
     return (
         <div className={`preloader-content-wrapper`}>
             {shouldShowPreloaderWindow && (
-                <PreloaderWindow title={title}
-                                 subtitle={subtitle}
-                                 logoOffset={logoOffset}
-                                 setDidLoadAllImages={setDidLoadAllImages}
+                <PreloaderWindow setDidLoadAllImages={setDidLoadAllImages}
                                  showElements={shouldShowContentElements}
                                  isHiding={isHiding}/>
             )}
@@ -153,125 +146,36 @@ function Preloader({ children, preloaderSettings }) {
     )
 }
 
-function PreloaderWindow({ title, subtitle, logoOffset, setDidLoadAllImages, showElements, isHiding }) {
+function PreloaderWindow({ setDidLoadAllImages, showElements, isHiding }) {
     const scheduler = useScheduler()
 
-    const [didLoadLogo, setDidLoadLogo] = useState(false)
-
-    const [isPacManHidden, setIsPacManHidden] = useState(true)
+    const [isLoaderHidden, setIsLoaderHidden] = useState(true)
 
     const hiddenClass = isHiding ?
         `preloader-window-hidden` : ``
 
+    // No logo to load, so mark as ready immediately
     useEffect(() => {
-        if(didLoadLogo)
-            setDidLoadAllImages(true)
-    }, [didLoadLogo])
+        setDidLoadAllImages(true)
+    }, [])
 
     useEffect(() => {
         if(!showElements) {
-            setIsPacManHidden(true)
+            setIsLoaderHidden(true)
             return
         }
 
-        scheduler.clearAllWithTag("preloader-pacman")
+        scheduler.clearAllWithTag("preloader-loader")
         scheduler.schedule(() => {
-            setIsPacManHidden(false)
-        }, 100, "preloader-pacman")
+            setIsLoaderHidden(false)
+        }, 100, "preloader-loader")
     }, [showElements])
 
     return (
         <div className={`preloader-window ${hiddenClass}`}>
             <div className={`preloader-window-content`}>
-                <PacMan variant={PacMan.ColorVariants.LOADER}
-                        hidden={isPacManHidden}/>
-
-                <PreloaderWindowInfo title={title}
-                                     subtitle={subtitle}
-                                     logoOffset={logoOffset}
-                                     hidden={!showElements}
-                                     setDidLoadLogo={setDidLoadLogo}/>
-            </div>
-        </div>
-    )
-}
-
-function PreloaderWindowInfo({ title, subtitle, logoOffset, hidden, setDidLoadLogo }) {
-    const utils = useUtils()
-    const scheduler = useScheduler()
-
-    const [isHidden, setIsHidden] = useState(true)
-
-    const hiddenClass = isHidden ?
-        `preloader-window-info-hidden` : ``
-
-    const [offsetTop, setOffsetTop] = useState(0)
-    const [offsetRight, setOffsetRight] = useState(0)
-    const [offsetBottom, setOffsetBottom] = useState(0)
-
-    const logoStyle = {
-        marginTop: `${offsetTop}px`,
-        marginRight: `${offsetRight}px`,
-    }
-
-    const developerStyle = {
-        marginTop: `${offsetBottom}px`
-    }
-
-    useEffect(() => {
-        window.addEventListener('resize', _onResize)
-        _onResize()
-        return () => {
-            window.removeEventListener('resize', _onResize)
-        }
-    }, [])
-
-    useEffect(() => {
-        if(hidden) {
-            setIsHidden(true)
-            return
-        }
-
-        scheduler.clearAllWithTag("preloader-window-info")
-        scheduler.schedule(() => {
-            setIsHidden(false)
-        }, 600, "preloader-window-info")
-    }, [hidden])
-
-    const _onResize = () => {
-        if (!logoOffset)
-            return
-
-        let scale = 1
-
-        const width = window.innerWidth
-        const { BREAKPOINTS } = utils.css
-
-        if (width < BREAKPOINTS.sm) scale = 0.72
-        else if (width < BREAKPOINTS.md) scale = 0.84
-        else if (width < BREAKPOINTS.lg) scale = 0.90
-        else if (width < BREAKPOINTS.xl) scale = 0.95
-
-        setOffsetTop(logoOffset.top * scale)
-        setOffsetRight(logoOffset.right * scale)
-        setOffsetBottom(logoOffset.bottom)
-    }
-
-    return (
-        <div className={`preloader-window-info ${hiddenClass}`}>
-            <div className={`preloader-window-info-title`}>
-                <Logo size={3}
-                      className={`preloader-window-logo`}
-                      setDidLoad={setDidLoadLogo}
-                      style={logoStyle}/>
-
-                <h5 className={`lead-2 mb-0`}
-                    dangerouslySetInnerHTML={{__html: title}}/>
-            </div>
-
-            <div className={`preloader-window-info-developer text-4`}
-                 style={developerStyle}
-                 dangerouslySetInnerHTML={{__html: subtitle}}>
+                <ASCIILoader variant={ASCIILoader.ColorVariants.LOADER}
+                            hidden={isLoaderHidden || isHiding}/>
             </div>
         </div>
     )
