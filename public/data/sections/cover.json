@@ -401,20 +401,6 @@
                 },
                 {
                     "id": 20,
-                    "faIcon": "fa-solid fa-dharmachakra",
-                    "faIconColors": {
-                        "bg": "#326CE5",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Kubernetes"},
-                        "ru": {"title": "Kubernetes"},
-                        "fr": {"title": "Kubernetes"},
-                        "ja": {"title": "Kubernetes"}
-                    }
-                },
-                {
-                    "id": 21,
                     "faIcon": "fa-brands fa-js-square",
                     "faIconColors": {
                         "bg": "#F7DF1E",
