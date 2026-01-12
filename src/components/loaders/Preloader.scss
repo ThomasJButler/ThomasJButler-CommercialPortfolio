@@ -56,18 +56,44 @@ div.preloader-window-info-developer {
     text-align: center;
 }
 
-// Main content fade-in animation
+// Main content - starts dim, waiting for reveal
 div.preloader-content {
-    animation: content-fade-in 0.6s ease-out forwards;
+    opacity: 0.3;
+    filter: brightness(0.2) contrast(1.2) saturate(0.5);
+    transform: scale(1.01);
 }
 
-@keyframes content-fade-in {
+// "Lights turning on" effect triggers when preloader starts hiding
+div.preloader-content.preloader-content-revealing {
+    animation: lights-on 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes lights-on {
     0% {
-        opacity: 0;
-        transform: translateY(10px);
+        opacity: 0.3;
+        filter: brightness(0.2) contrast(1.2) saturate(0.5);
+        transform: scale(1.01);
+    }
+    20% {
+        opacity: 0.5;
+        filter: brightness(0.4) contrast(1.15) saturate(0.6);
+    }
+    40% {
+        opacity: 0.7;
+        filter: brightness(0.6) contrast(1.1) saturate(0.75);
+    }
+    60% {
+        opacity: 0.85;
+        filter: brightness(0.8) contrast(1.05) saturate(0.9);
+    }
+    80% {
+        opacity: 0.95;
+        filter: brightness(0.95) contrast(1.02) saturate(0.97);
+        transform: scale(1.003);
     }
     100% {
         opacity: 1;
-        transform: translateY(0);
+        filter: brightness(1) contrast(1) saturate(1);
+        transform: scale(1);
     }
 }

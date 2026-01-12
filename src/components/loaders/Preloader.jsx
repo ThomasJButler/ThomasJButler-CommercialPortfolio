@@ -140,7 +140,7 @@ function Preloader({ children, preloaderSettings }) {
             )}
 
             {shouldShowContent && (
-                <PreloaderContent children={children}/>
+                <PreloaderContent children={children} isHiding={isHiding}/>
             )}
         </div>
     )
@@ -181,9 +181,10 @@ function PreloaderWindow({ setDidLoadAllImages, showElements, isHiding }) {
     )
 }
 
-function PreloaderContent({ children }) {
+function PreloaderContent({ children, isHiding }) {
+    const revealingClass = isHiding ? 'preloader-content-revealing' : ''
     return (
-        <div className={`preloader-content`}>
+        <div className={`preloader-content ${revealingClass}`}>
             {children}
         </div>
     )
