@@ -119,20 +119,30 @@ div.pixel-loader-revealed div.pixel-grid {
 // KEYFRAME ANIMATIONS
 // ============================================
 
-// The fly-in with satisfying overshoot "snap"
+// The fly-in with satisfying "thunk" landing - overshoot → squash → bounce → settle
 @keyframes fly-in {
     0% {
         transform: translate(var(--start-x), var(--start-y)) scale(0.3) rotate(var(--start-rot, 0deg));
         opacity: 0;
     }
-    60% {
+    50% {
         opacity: 1;
     }
-    75% {
-        transform: translate(0, 0) scale(1.15) rotate(0deg);
+    68% {
+        // Big overshoot - "impact" moment
+        transform: translate(0, 0) scale(1.22) rotate(0deg);
     }
-    90% {
-        transform: translate(0, 0) scale(0.95) rotate(0deg);
+    78% {
+        // Squash on landing - feels weighty
+        transform: translate(0, 0) scale(0.88) rotate(0deg);
+    }
+    86% {
+        // Mini bounce back
+        transform: translate(0, 0) scale(1.08) rotate(0deg);
+    }
+    93% {
+        // Settle down
+        transform: translate(0, 0) scale(0.97) rotate(0deg);
     }
     100% {
         transform: translate(0, 0) scale(1) rotate(0deg);
@@ -173,6 +183,7 @@ div.pixel-tile {
     --start-y: 0px;
     --start-color: #{$win95-red};
     --start-rot: 0deg;
+    --delay: 0ms;
 
     // Motion trail effect - comet tail during flight
     &::before {
@@ -245,7 +256,8 @@ div.pixel-tile:nth-child(1) {
     --start-y: -280px;
     --start-color: #{$win95-red};
     --start-rot: -60deg;
-    animation-delay: 0ms, 0ms;
+    --delay: 0ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(2) {
@@ -253,7 +265,8 @@ div.pixel-tile:nth-child(2) {
     --start-y: -350px;
     --start-color: #{$win95-orange};
     --start-rot: 45deg;
-    animation-delay: 80ms, 80ms;
+    --delay: 80ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(3) {
@@ -261,7 +274,8 @@ div.pixel-tile:nth-child(3) {
     --start-y: -400px;
     --start-color: #{$win95-yellow};
     --start-rot: -30deg;
-    animation-delay: 160ms, 160ms;
+    --delay: 160ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(4) {
@@ -269,7 +283,8 @@ div.pixel-tile:nth-child(4) {
     --start-y: -320px;
     --start-color: #{$win95-blue};
     --start-rot: 55deg;
-    animation-delay: 240ms, 240ms;
+    --delay: 240ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(5) {
@@ -277,7 +292,8 @@ div.pixel-tile:nth-child(5) {
     --start-y: -250px;
     --start-color: #{$win95-cyan};
     --start-rot: -45deg;
-    animation-delay: 320ms, 320ms;
+    --delay: 320ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 // T - STEM (tiles 6-9) - flying from bottom
@@ -286,7 +302,8 @@ div.pixel-tile:nth-child(6) {
     --start-y: 350px;
     --start-color: #{$win95-magenta};
     --start-rot: 70deg;
-    animation-delay: 400ms, 400ms;
+    --delay: 400ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(7) {
@@ -294,7 +311,8 @@ div.pixel-tile:nth-child(7) {
     --start-y: 320px;
     --start-color: #{$win95-red};
     --start-rot: -65deg;
-    animation-delay: 480ms, 480ms;
+    --delay: 480ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(8) {
@@ -302,7 +320,8 @@ div.pixel-tile:nth-child(8) {
     --start-y: 280px;
     --start-color: #{$win95-orange};
     --start-rot: 50deg;
-    animation-delay: 560ms, 560ms;
+    --delay: 560ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(9) {
@@ -310,7 +329,8 @@ div.pixel-tile:nth-child(9) {
     --start-y: 380px;
     --start-color: #{$win95-yellow};
     --start-rot: -40deg;
-    animation-delay: 640ms, 640ms;
+    --delay: 640ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 // B - SPINE (tiles 10-14) - flying from right
@@ -319,7 +339,8 @@ div.pixel-tile:nth-child(10) {
     --start-y: -180px;
     --start-color: #{$win95-blue};
     --start-rot: 35deg;
-    animation-delay: 120ms, 120ms;
+    --delay: 120ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(11) {
@@ -327,7 +348,8 @@ div.pixel-tile:nth-child(11) {
     --start-y: 80px;
     --start-color: #{$win95-cyan};
     --start-rot: -70deg;
-    animation-delay: 280ms, 280ms;
+    --delay: 280ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(12) {
@@ -335,7 +357,8 @@ div.pixel-tile:nth-child(12) {
     --start-y: -40px;
     --start-color: #{$win95-magenta};
     --start-rot: 45deg;
-    animation-delay: 440ms, 440ms;
+    --delay: 440ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(13) {
@@ -343,7 +366,8 @@ div.pixel-tile:nth-child(13) {
     --start-y: 200px;
     --start-color: #{$win95-red};
     --start-rot: -55deg;
-    animation-delay: 520ms, 520ms;
+    --delay: 520ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(14) {
@@ -351,7 +375,8 @@ div.pixel-tile:nth-child(14) {
     --start-y: 300px;
     --start-color: #{$win95-orange};
     --start-rot: 60deg;
-    animation-delay: 600ms, 600ms;
+    --delay: 600ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 // B - TOP HORIZONTAL BAR (tiles 15-16)
@@ -360,7 +385,8 @@ div.pixel-tile:nth-child(15) {
     --start-y: -200px;
     --start-color: #{$win95-yellow};
     --start-rot: -35deg;
-    animation-delay: 200ms, 200ms;
+    --delay: 200ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(16) {
@@ -368,7 +394,8 @@ div.pixel-tile:nth-child(16) {
     --start-y: -140px;
     --start-color: #{$win95-blue};
     --start-rot: 50deg;
-    animation-delay: 260ms, 260ms;
+    --delay: 260ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 // B - TOP CURVE (tiles 17-18)
@@ -377,7 +404,8 @@ div.pixel-tile:nth-child(17) {
     --start-y: -60px;
     --start-color: #{$win95-cyan};
     --start-rot: -75deg;
-    animation-delay: 340ms, 340ms;
+    --delay: 340ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(18) {
@@ -385,7 +413,8 @@ div.pixel-tile:nth-child(18) {
     --start-y: 40px;
     --start-color: #{$win95-magenta};
     --start-rot: 40deg;
-    animation-delay: 380ms, 380ms;
+    --delay: 380ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 // B - MIDDLE BAR (tiles 19-20)
@@ -394,7 +423,8 @@ div.pixel-tile:nth-child(19) {
     --start-y: 100px;
     --start-color: #{$win95-red};
     --start-rot: -45deg;
-    animation-delay: 460ms, 460ms;
+    --delay: 460ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(20) {
@@ -402,7 +432,8 @@ div.pixel-tile:nth-child(20) {
     --start-y: 160px;
     --start-color: #{$win95-orange};
     --start-rot: 65deg;
-    animation-delay: 500ms, 500ms;
+    --delay: 500ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 // B - BOTTOM CURVE (tiles 21-22)
@@ -411,7 +442,8 @@ div.pixel-tile:nth-child(21) {
     --start-y: 220px;
     --start-color: #{$win95-yellow};
     --start-rot: -55deg;
-    animation-delay: 580ms, 580ms;
+    --delay: 580ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(22) {
@@ -419,7 +451,8 @@ div.pixel-tile:nth-child(22) {
     --start-y: 300px;
     --start-color: #{$win95-blue};
     --start-rot: 50deg;
-    animation-delay: 620ms, 620ms;
+    --delay: 620ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 // B - BOTTOM HORIZONTAL BAR (tiles 23-24)
@@ -428,7 +461,8 @@ div.pixel-tile:nth-child(23) {
     --start-y: 360px;
     --start-color: #{$win95-cyan};
     --start-rot: -60deg;
-    animation-delay: 680ms, 680ms;
+    --delay: 680ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 div.pixel-tile:nth-child(24) {
@@ -436,26 +470,52 @@ div.pixel-tile:nth-child(24) {
     --start-y: 400px;
     --start-color: #{$win95-magenta};
     --start-rot: 45deg;
-    animation-delay: 720ms, 720ms;
+    --delay: 720ms;
+    animation-delay: var(--delay), var(--delay);
 }
 
 // ============================================
-// SPARKLE EFFECT ON LANDING
+// SPARKLE BURST ON LANDING
+// 4 particles shoot outward diagonally when tile lands
 // ============================================
 
-@keyframes sparkle {
-    0% {
-        opacity: 0;
-        transform: scale(0);
+// Sparkle burst animation - particles shoot from center outward
+// Only animates box-shadow to preserve the glossy highlight background
+@keyframes sparkle-burst {
+    0%, 65% {
+        // Hidden during flight
+        box-shadow: none;
     }
-    50% {
-        opacity: 1;
-        transform: scale(1.5);
+    68% {
+        // Burst moment - 4 particles appear at corners
+        box-shadow:
+            5px -5px 0 2px var(--start-color),
+            -5px -5px 0 2px var(--start-color),
+            5px 5px 0 2px var(--start-color),
+            -5px 5px 0 2px var(--start-color);
+    }
+    80% {
+        // Particles expand outward
+        box-shadow:
+            12px -12px 0 1.5px var(--start-color),
+            -12px -12px 0 1.5px var(--start-color),
+            12px 12px 0 1.5px var(--start-color),
+            -12px 12px 0 1.5px var(--start-color);
     }
     100% {
-        opacity: 0;
-        transform: scale(2);
+        // Fade out by shrinking to nothing
+        box-shadow:
+            18px -18px 0 0 transparent,
+            -18px -18px 0 0 transparent,
+            18px 18px 0 0 transparent,
+            -18px 18px 0 0 transparent;
     }
+}
+
+// Apply sparkle to ::after (glossy highlight element)
+// Inherits delay from parent tile via --delay custom property
+div.pixel-loader-revealed div.pixel-tile::after {
+    animation: sparkle-burst 2.8s ease-out var(--delay) forwards;
 }
 
 // ============================================
