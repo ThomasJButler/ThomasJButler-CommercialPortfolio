@@ -265,42 +265,107 @@
                             "text": "CodePenで実験を見る"
                         }
                     }
+                }
+            ]
+        },
+        {
+            "id": "other_websites",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Other **Websites**"
                 },
+                "es": {
+                    "title": "Otros **Sitios Web**"
+                },
+                "fr": {
+                    "title": "Autres **Sites Web**"
+                },
+                "ko": {
+                    "title": "다른 **웹사이트**"
+                },
+                "ru": {
+                    "title": "Другие **Сайты**"
+                },
+                "ja": {
+                    "title": "その他の**ウェブサイト**"
+                }
+            },
+            "items": [
                 {
-                    "id": 4,
+                    "id": 1,
                     "faIcon": "fa-solid fa-robot",
                     "faIconColors": {
-                        "bg": "#FF0080",
+                        "bg": "#8B5CF6",
                         "fill": "#FFFFFF"
                     },
                     "link": {
-                        "href": "https://aitomatic.co.uk/",
+                        "href": "https://agenticaiprojectsportfolio.vercel.app/",
                         "tooltipString": "open_link"
                     },
                     "locales": {
                         "en": {
-                            "title": "AiTomatic",
-                            "text": "Visit my AI automation company"
+                            "title": "AI Project Showcase",
+                            "text": "Explore my AI and ML projects"
                         },
                         "es": {
-                            "title": "AiTomatic",
-                            "text": "Visita mi empresa de automatización con IA"
+                            "title": "Escaparate de Proyectos de IA",
+                            "text": "Explora mis proyectos de IA y ML"
                         },
                         "fr": {
-                            "title": "AiTomatic",
-                            "text": "Visitez mon entreprise d'automatisation IA"
+                            "title": "Vitrine de Projets IA",
+                            "text": "Explorez mes projets d'IA et ML"
                         },
                         "ko": {
-                            "title": "AiTomatic",
-                            "text": "AI 자동화 회사 방문"
+                            "title": "AI 프로젝트 쇼케이스",
+                            "text": "AI 및 ML 프로젝트 살펴보기"
                         },
                         "ru": {
-                            "title": "AiTomatic",
-                            "text": "Посетите мою компанию по автоматизации ИИ"
+                            "title": "Витрина ИИ-Проектов",
+                            "text": "Изучите мои проекты ИИ и ML"
                         },
                         "ja": {
-                            "title": "AiTomatic",
-                            "text": "AI自動化会社を訪問"
+                            "title": "AIプロジェクトショーケース",
+                            "text": "AIとMLプロジェクトを探索"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "link": {
+                        "href": "https://thomasjbutler.github.io/",
+                        "tooltipString": "open_link"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Personal Portfolio",
+                            "text": "View my personal projects and experiments"
+                        },
+                        "es": {
+                            "title": "Portfolio Personal",
+                            "text": "Ver mis proyectos personales y experimentos"
+                        },
+                        "fr": {
+                            "title": "Portfolio Personnel",
+                            "text": "Voir mes projets personnels et expériences"
+                        },
+                        "ko": {
+                            "title": "개인 포트폴리오",
+                            "text": "개인 프로젝트 및 실험 보기"
+                        },
+                        "ru": {
+                            "title": "Личное Портфолио",
+                            "text": "Посмотрите мои личные проекты и эксперименты"
+                        },
+                        "ja": {
+                            "title": "個人ポートフォリオ",
+                            "text": "個人プロジェクトと実験を見る"
                         }
                     }
                 }

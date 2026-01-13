@@ -48,4 +48,20 @@ export const _storageUtils = {
     setPreferredLanguage: (value) => _storageUtils.setPreference("preferredLanguage", value),
     getPreferredTheme: () => _storageUtils.getPreference()["preferredTheme"],
     setPreferredTheme: (value) => _storageUtils.setPreference("preferredTheme", value),
+
+    /**
+     * @param {String} id
+     * @return {String|null}
+     */
+    getSessionVariable: (id) => {
+        return window.sessionStorage.getItem(id)
+    },
+
+    /**
+     * @param {String} id
+     * @param {String} value
+     */
+    setSessionVariable: (id, value) => {
+        window.sessionStorage.setItem(id, value)
+    },
 }

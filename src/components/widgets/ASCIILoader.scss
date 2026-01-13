@@ -1,0 +1,544 @@
+@import "/src/styles/extend.scss";
+
+// Classic Windows flag colors - red, green, blue, yellow
+$win95-red: #FF0000;
+$win95-green: #00FF00;
+$win95-blue: #0000FF;
+$win95-yellow: #FFFF00;
+
+// ============================================
+// WRAPPER
+// ============================================
+
+div.pixel-loader-wrapper {
+    --tile-size: 24px;
+    --gap: 3px;
+
+    @include media-breakpoint-down(lg) { --tile-size: 22px; --gap: 3px; }
+    @include media-breakpoint-down(md) { --tile-size: 18px; --gap: 2px; }
+    @include media-breakpoint-down(sm) { --tile-size: 14px; --gap: 2px; }
+
+    transition: 0.6s opacity ease-out, 0.6s transform ease-out;
+}
+
+div.pixel-loader-wrapper-hidden {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none;
+    display: none !important;
+    // Animations have 'forwards' fill mode so final state is preserved
+    // even when display:none removes the element from layout
+}
+
+// ============================================
+// PIXEL LOADER CONTAINER
+// ============================================
+
+div.pixel-loader {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    perspective: 800px;
+
+    // CRT Scanline overlay - subtle retro feel
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 3px,
+            rgba(0, 0, 0, 0.015) 3px,
+            rgba(0, 0, 0, 0.015) 6px
+        );
+        pointer-events: none;
+        z-index: 100;
+    }
+}
+
+div.pixel-grid {
+    position: relative;
+    width: calc(10 * (var(--tile-size) + var(--gap)));
+    height: calc(5 * (var(--tile-size) + var(--gap)));
+    transform-style: preserve-3d;
+
+    // Start tilted back (90s style) - top leans away from viewer
+    transform: rotateX(60deg) rotateZ(5deg);
+
+}
+
+// 90s tilt-flip animation on the grid itself - 2s to complete before preloader hides
+div.pixel-loader-revealed div.pixel-grid {
+    animation: tilt-flip 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+// 90s-style tilt-flip animation - grid flips from tilted back to upright
+@keyframes tilt-flip {
+    0% {
+        transform: rotateX(60deg) rotateZ(5deg) scale(0.9);
+    }
+    60% {
+        transform: rotateX(20deg) rotateZ(2deg) scale(1);
+    }
+    80% {
+        transform: rotateX(-5deg) rotateZ(-1deg) scale(1.02);
+    }
+    100% {
+        transform: rotateX(0deg) rotateZ(0deg) scale(1);
+    }
+}
+
+// ============================================
+// KEYFRAME ANIMATIONS
+// ============================================
+
+// The fly-in with satisfying "thunk" landing - overshoot → squash → bounce → settle
+@keyframes fly-in {
+    0% {
+        transform: translate(var(--start-x), var(--start-y)) scale(0.3) rotate(var(--start-rot, 0deg));
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    68% {
+        // Big overshoot - "impact" moment
+        transform: translate(0, 0) scale(1.22) rotate(0deg);
+    }
+    78% {
+        // Squash on landing - feels weighty
+        transform: translate(0, 0) scale(0.88) rotate(0deg);
+    }
+    86% {
+        // Mini bounce back
+        transform: translate(0, 0) scale(1.08) rotate(0deg);
+    }
+    93% {
+        // Settle down
+        transform: translate(0, 0) scale(0.97) rotate(0deg);
+    }
+    100% {
+        transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+}
+
+// Color transition from Windows 95 palette to unified green
+@keyframes color-shift {
+    0%, 60% {
+        background: var(--start-color);
+        box-shadow:
+            0 0 6px var(--start-color),
+            0 0 12px rgba(var(--start-color), 0.5);
+    }
+    100% {
+        background: $primary;
+        box-shadow:
+            0 0 6px rgba($primary, 1),
+            0 0 14px rgba($primary, 0.8),
+            0 0 28px rgba($primary, 0.5),
+            0 0 45px rgba($primary, 0.25);
+    }
+}
+
+// ============================================
+// PIXEL TILES
+// ============================================
+
+div.pixel-tile {
+    position: absolute;
+    width: var(--tile-size);
+    height: var(--tile-size);
+    border-radius: 3px;
+    opacity: 0;
+
+    // Default values (overridden per tile)
+    --start-x: 0px;
+    --start-y: 0px;
+    --start-color: #{$win95-red};
+    --start-rot: 0deg;
+    --delay: 0ms;
+
+    // Motion trail effect - comet tail during flight
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+        background: var(--start-color);
+        filter: blur(8px);
+        opacity: 0;
+        transform: scale(1.5);
+        z-index: -1;
+    }
+
+    // Subtle inner highlight for depth - glossy "gel" effect
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 2px;
+        border-radius: 2px;
+        background: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0.35) 0%,
+            rgba(255, 255, 255, 0.1) 30%,
+            transparent 60%
+        );
+        pointer-events: none;
+    }
+}
+
+// Motion trail animation
+@keyframes trail-fade {
+    0% {
+        opacity: 0.6;
+        filter: blur(8px);
+        transform: scale(1.8);
+    }
+    50% {
+        opacity: 0.3;
+        filter: blur(12px);
+    }
+    100% {
+        opacity: 0;
+        filter: blur(4px);
+        transform: scale(1);
+    }
+}
+
+// Activate trail during flight
+div.pixel-loader-revealed div.pixel-tile::before {
+    animation: trail-fade 2s ease-out forwards;
+}
+
+// Only animate when revealed - matches grid tilt timing
+div.pixel-loader-revealed div.pixel-tile {
+    animation:
+        fly-in 2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
+        color-shift 2s ease-out forwards;
+}
+
+// ============================================
+// INDIVIDUAL TILE CONFIGURATIONS
+// Each tile gets unique: start position, color, delay, rotation
+// ============================================
+
+// T - TOP BAR (tiles 1-5) - flying from top-left to top-right
+div.pixel-tile:nth-child(1) {
+    --start-x: -380px;
+    --start-y: -280px;
+    --start-color: #{$win95-red};
+    --start-rot: -60deg;
+    --delay: 0ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(2) {
+    --start-x: -300px;
+    --start-y: -350px;
+    --start-color: #{$win95-green};
+    --start-rot: 45deg;
+    --delay: 80ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(3) {
+    --start-x: 0px;
+    --start-y: -400px;
+    --start-color: #{$win95-blue};
+    --start-rot: -30deg;
+    --delay: 160ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(4) {
+    --start-x: 280px;
+    --start-y: -320px;
+    --start-color: #{$win95-yellow};
+    --start-rot: 55deg;
+    --delay: 240ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(5) {
+    --start-x: 380px;
+    --start-y: -250px;
+    --start-color: #{$win95-red};
+    --start-rot: -45deg;
+    --delay: 320ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+// T - STEM (tiles 6-9) - flying from bottom
+div.pixel-tile:nth-child(6) {
+    --start-x: -220px;
+    --start-y: 350px;
+    --start-color: #{$win95-green};
+    --start-rot: 70deg;
+    --delay: 400ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(7) {
+    --start-x: 280px;
+    --start-y: 320px;
+    --start-color: #{$win95-blue};
+    --start-rot: -65deg;
+    --delay: 480ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(8) {
+    --start-x: -260px;
+    --start-y: 280px;
+    --start-color: #{$win95-yellow};
+    --start-rot: 50deg;
+    --delay: 560ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(9) {
+    --start-x: 240px;
+    --start-y: 380px;
+    --start-color: #{$win95-red};
+    --start-rot: -40deg;
+    --delay: 640ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+// B - SPINE (tiles 10-14) - flying from right
+div.pixel-tile:nth-child(10) {
+    --start-x: 450px;
+    --start-y: -180px;
+    --start-color: #{$win95-green};
+    --start-rot: 35deg;
+    --delay: 120ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(11) {
+    --start-x: 420px;
+    --start-y: 80px;
+    --start-color: #{$win95-blue};
+    --start-rot: -70deg;
+    --delay: 280ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(12) {
+    --start-x: 480px;
+    --start-y: -40px;
+    --start-color: #{$win95-yellow};
+    --start-rot: 45deg;
+    --delay: 440ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(13) {
+    --start-x: 400px;
+    --start-y: 200px;
+    --start-color: #{$win95-red};
+    --start-rot: -55deg;
+    --delay: 520ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(14) {
+    --start-x: 440px;
+    --start-y: 300px;
+    --start-color: #{$win95-green};
+    --start-rot: 60deg;
+    --delay: 600ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+// B - TOP HORIZONTAL BAR (tiles 15-16)
+div.pixel-tile:nth-child(15) {
+    --start-x: 500px;
+    --start-y: -200px;
+    --start-color: #{$win95-blue};
+    --start-rot: -35deg;
+    --delay: 200ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(16) {
+    --start-x: 550px;
+    --start-y: -140px;
+    --start-color: #{$win95-yellow};
+    --start-rot: 50deg;
+    --delay: 260ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+// B - TOP CURVE (tiles 17-18)
+div.pixel-tile:nth-child(17) {
+    --start-x: 580px;
+    --start-y: -60px;
+    --start-color: #{$win95-red};
+    --start-rot: -75deg;
+    --delay: 340ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(18) {
+    --start-x: 600px;
+    --start-y: 40px;
+    --start-color: #{$win95-green};
+    --start-rot: 40deg;
+    --delay: 380ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+// B - MIDDLE BAR (tiles 19-20)
+div.pixel-tile:nth-child(19) {
+    --start-x: 520px;
+    --start-y: 100px;
+    --start-color: #{$win95-blue};
+    --start-rot: -45deg;
+    --delay: 460ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(20) {
+    --start-x: 560px;
+    --start-y: 160px;
+    --start-color: #{$win95-yellow};
+    --start-rot: 65deg;
+    --delay: 500ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+// B - BOTTOM CURVE (tiles 21-22)
+div.pixel-tile:nth-child(21) {
+    --start-x: 590px;
+    --start-y: 220px;
+    --start-color: #{$win95-red};
+    --start-rot: -55deg;
+    --delay: 580ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(22) {
+    --start-x: 620px;
+    --start-y: 300px;
+    --start-color: #{$win95-green};
+    --start-rot: 50deg;
+    --delay: 620ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+// B - BOTTOM HORIZONTAL BAR (tiles 23-24)
+div.pixel-tile:nth-child(23) {
+    --start-x: 540px;
+    --start-y: 360px;
+    --start-color: #{$win95-blue};
+    --start-rot: -60deg;
+    --delay: 680ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+div.pixel-tile:nth-child(24) {
+    --start-x: 480px;
+    --start-y: 400px;
+    --start-color: #{$win95-yellow};
+    --start-rot: 45deg;
+    --delay: 720ms;
+    animation-delay: var(--delay), var(--delay);
+}
+
+// ============================================
+// SPARKLE BURST ON LANDING
+// 4 particles shoot outward diagonally when tile lands
+// ============================================
+
+// Sparkle burst animation - particles shoot from center outward
+// Only animates box-shadow to preserve the glossy highlight background
+@keyframes sparkle-burst {
+    0%, 65% {
+        // Hidden during flight
+        box-shadow: none;
+    }
+    68% {
+        // Burst moment - 4 particles appear at corners
+        box-shadow:
+            5px -5px 0 2px var(--start-color),
+            -5px -5px 0 2px var(--start-color),
+            5px 5px 0 2px var(--start-color),
+            -5px 5px 0 2px var(--start-color);
+    }
+    80% {
+        // Particles expand outward
+        box-shadow:
+            12px -12px 0 1.5px var(--start-color),
+            -12px -12px 0 1.5px var(--start-color),
+            12px 12px 0 1.5px var(--start-color),
+            -12px 12px 0 1.5px var(--start-color);
+    }
+    100% {
+        // Fade out by shrinking to nothing
+        box-shadow:
+            18px -18px 0 0 transparent,
+            -18px -18px 0 0 transparent,
+            18px 18px 0 0 transparent,
+            -18px 18px 0 0 transparent;
+    }
+}
+
+// Apply sparkle to ::after (glossy highlight element)
+// Inherits delay from parent tile via --delay custom property
+div.pixel-loader-revealed div.pixel-tile::after {
+    animation: sparkle-burst 2s ease-out var(--delay) forwards;
+}
+
+// ============================================
+// REDUCED MOTION - Accessibility
+// ============================================
+
+@media (prefers-reduced-motion: reduce) {
+    div.pixel-loader::before,
+    div.pixel-loader::after,
+    div.pixel-grid::before {
+        display: none;
+    }
+
+    div.pixel-grid {
+        animation: none !important;
+        transform: none;
+    }
+
+    div.pixel-tile {
+        animation: none !important;
+        opacity: 1;
+        background: $primary;
+        box-shadow:
+            0 0 6px rgba($primary, 1),
+            0 0 14px rgba($primary, 0.8),
+            0 0 28px rgba($primary, 0.5);
+        transform: none;
+
+        &::before {
+            display: none;
+        }
+    }
+}
+
+// ============================================
+// FINAL FLOURISH - Subtle screen flicker on complete
+// ============================================
+
+@keyframes screen-settle {
+    0%, 90%, 100% {
+        opacity: 0.8;
+    }
+    92%, 96% {
+        opacity: 0.97;
+    }
+}
+
+div.pixel-loader-revealed {
+    animation: screen-settle 0.5s ease-out 2.2s forwards;
+}

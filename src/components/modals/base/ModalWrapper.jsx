@@ -1,5 +1,6 @@
 import "./ModalWrapper.scss"
 import React, {useEffect, useState} from 'react'
+import {createPortal} from 'react-dom'
 import Modal from 'bootstrap/js/src/modal'
 import CircularButton from "/src/components/buttons/CircularButton.jsx"
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
@@ -80,7 +81,8 @@ function ModalWrapper({ children, id = "", shouldDismiss, onDismiss, className =
         document.activeElement.blur()
     }
 
-    return (
+    // Render to document.body via portal to escape any parent CSS filters
+    return createPortal(
         <div id={id}
              className={`modal ${className}`}>
             <div className={`modal-dialog ${dialogClassName}`}>
@@ -88,7 +90,8 @@ function ModalWrapper({ children, id = "", shouldDismiss, onDismiss, className =
                     {children}
                 </div>
             </div>
-        </div>
+        </div>,
+        document.body
     )
 }
 

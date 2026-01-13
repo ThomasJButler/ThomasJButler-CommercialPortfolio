@@ -96,7 +96,7 @@
             },
             "items": [
                 {
-                    "img": "images/pictures/matrix.png",
+                    "img": "/images/svg/logo.svg",
                     "locales": {
                         "en": {
                             "text": "<p>I'm a web developer with <b>over 3 years</b> experience, specialising in full-stack development.<br>I also have hands-on experience with .NET, Azure, Node.js, C#, SCSS, Python and HubSpot/Umbraco CMS in production environments.</p><p>This diverse background enables me to adapt to a wide range of project needs.</p><p>Thank you for visiting and I look forward to the possibility of collaborating with you.</p><p>Kind regards, Thomas</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View My Commercial Work</a></p></div>"
@@ -341,6 +341,76 @@
                         "ru": {"title": "Supabase"},
                         "fr": {"title": "Supabase"},
                         "ja": {"title": "Supabase"}
+                    }
+                },
+                {
+                    "id": 16,
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {
+                        "bg": "#3544B1",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Umbraco"},
+                        "ru": {"title": "Umbraco"},
+                        "fr": {"title": "Umbraco"},
+                        "ja": {"title": "Umbraco"}
+                    }
+                },
+                {
+                    "id": 17,
+                    "faIcon": "fa-brands fa-hubspot",
+                    "faIconColors": {
+                        "bg": "#FF7A59",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "HubSpot"},
+                        "ru": {"title": "HubSpot"},
+                        "fr": {"title": "HubSpot"},
+                        "ja": {"title": "HubSpot"}
+                    }
+                },
+                {
+                    "id": 18,
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": {
+                        "bg": "#7952B3",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "Bootstrap"},
+                        "ru": {"title": "Bootstrap"},
+                        "fr": {"title": "Bootstrap"},
+                        "ja": {"title": "Bootstrap"}
+                    }
+                },
+                {
+                    "id": 19,
+                    "faIcon": "fa-brands fa-bitbucket",
+                    "faIconColors": {
+                        "bg": "#0052CC",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {"title": "BitBucket"},
+                        "ru": {"title": "BitBucket"},
+                        "fr": {"title": "BitBucket"},
+                        "ja": {"title": "BitBucket"}
+                    }
+                },
+                {
+                    "id": 20,
+                    "faIcon": "fa-brands fa-js-square",
+                    "faIconColors": {
+                        "bg": "#F7DF1E",
+                        "fill": "#000000"
+                    },
+                    "locales": {
+                        "en": {"title": "JavaScript"},
+                        "ru": {"title": "JavaScript"},
+                        "fr": {"title": "JavaScript"},
+                        "ja": {"title": "JavaScript"}
                     }
                 }
             ]

@@ -47,19 +47,19 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "10",
+                            "title": "16",
                             "text": "Live Projects"
                         },
                         "ru": {
-                            "title": "10",
+                            "title": "16",
                             "text": "Живые проекты"
                         },
                         "fr": {
-                            "title": "10",
+                            "title": "16",
                             "text": "Projets en Direct"
                         },
                         "ja": {
-                            "title": "10",
+                            "title": "16",
                             "text": "ライブプロジェクト"
                         }
                     }
@@ -251,6 +251,156 @@
                 "order_items_sort": "desc"
             },
             "items": [
+                {
+                    "id": 19,
+                    "date": {
+                        "year": 2026,
+                        "month": 1
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://thomasjbutler.me",
+                                "tooltipString": "view_landing_page",
+                                "faIcon": "fa-solid fa-rocket"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "New {{Landing Page}} & Retro Preloader",
+                            "province": "Yorkshire",
+                            "country": "UK",
+                            "institution": "Portfolio Update",
+                            "text": "Created an immersive landing page featuring carefully prompted Midjourney v7 GIFs, unifying all public work in one accessible hub for prospective employers. Added a retro-inspired TB pixel loader with Windows 95 color palette, flying tile assembly animation, and a CRT warmup 'lights turning on' transition effect.",
+                            "list": [
+                                "Designed landing page with Midjourney v7 generated imagery",
+                                "Built retro TB pixel loader with Win95 colors flying in",
+                                "Implemented CRT warmup transition for smooth content reveal",
+                                "Unified all public projects for streamlined portfolio access"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Новая {{посадочная страница}} и ретро-прелоадер",
+                            "province": "Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Обновление портфолио",
+                            "text": "Создана иммерсивная посадочная страница с тщательно подобранными GIF-изображениями Midjourney v7, объединяющая все публичные работы в одном доступном месте для потенциальных работодателей. Добавлен ретро-загрузчик TB пикселей с цветовой палитрой Windows 95, анимацией сборки плиток и эффектом CRT «включения света».",
+                            "list": [
+                                "Разработана посадочная страница с изображениями Midjourney v7",
+                                "Создан ретро TB пиксельный загрузчик с палитрой Win95",
+                                "Реализован переход CRT для плавного появления контента",
+                                "Объединены все публичные проекты для удобного доступа"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Nouvelle {{page d'accueil}} et préchargeur rétro",
+                            "province": "Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Mise à jour du portfolio",
+                            "text": "Création d'une page d'accueil immersive avec des GIFs Midjourney v7 soigneusement générés, unifiant tous les travaux publics en un hub accessible pour les employeurs potentiels. Ajout d'un chargeur de pixels TB rétro avec palette Windows 95, animation d'assemblage et effet de transition CRT.",
+                            "list": [
+                                "Page d'accueil conçue avec des images Midjourney v7",
+                                "Chargeur pixel TB rétro avec palette Win95",
+                                "Transition CRT pour révélation fluide du contenu",
+                                "Unification de tous les projets publics"
+                            ]
+                        },
+                        "ja": {
+                            "title": "新しい{{ランディングページ}}とレトロプリローダー",
+                            "province": "ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "ポートフォリオ更新",
+                            "text": "Midjourney v7の慎重に生成されたGIFを使用した没入型ランディングページを作成し、潜在的な雇用主向けにすべての公開作品を1つのアクセスしやすいハブに統合しました。Windows 95カラーパレット、タイルアセンブリアニメーション、CRTウォームアップ「点灯」トランジションを備えたレトロなTBピクセルローダーを追加しました。",
+                            "list": [
+                                "Midjourney v7生成画像でランディングページをデザイン",
+                                "Win95カラーパレットでレトロTBピクセルローダーを構築",
+                                "スムーズなコンテンツ表示のためのCRTウォームアップトランジションを実装",
+                                "すべての公開プロジェクトを統合してアクセスを容易に"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 18,
+                    "date": {
+                        "year": 2025,
+                        "month": 10
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://agenticaiprojectsportfolio.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://github.com/ThomasJButler/AgenticAICoursePortfolio",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Completed {{Agentic AI Portfolio}} Showcase",
+                            "province": "Yorkshire",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Finalised projects and released 5 polished MVP applications alongside an interactive dashboard website documenting the development process. All projects are production-grade full-stack AI applications featuring Docker containerisation and live demo deployments.",
+                            "list": [
+                                "Built interactive dashboard showcasing project architecture and methodology",
+                                "Implemented Docker containers for all deployments",
+                                "Deployed live demos with production-ready infrastructure"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Завершена витрина {{Agentic AI Portfolio}}",
+                            "province": "Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Завершены проекты и выпущены 4 отполированных MVP-приложения вместе с интерактивным дашбордом, документирующим процесс разработки. Все проекты - это полноценные full-stack AI-приложения продакшн-уровня с Docker-контейнерами и развернутыми живыми демо.",
+                            "list": [
+                                "Выпущено 4 отполированных MVP full-stack AI-приложения",
+                                "Создан интерактивный дашборд с архитектурой и методологией проектов",
+                                "Реализована Docker-контейнеризация для всех развертываний",
+                                "Развернуты живые демо с продакшн-инфраструктурой"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Vitrine {{Agentic AI Portfolio}} terminée",
+                            "province": "Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Projets finalisés et 4 applications MVP polies publiées avec un tableau de bord interactif documentant le processus de développement. Tous les projets sont des applications IA full-stack de niveau production avec conteneurisation Docker et déploiements de démonstration en direct.",
+                            "list": [
+                                "Publication de 4 applications MVP full-stack IA polies",
+                                "Création d'un tableau de bord interactif présentant l'architecture et la méthodologie",
+                                "Implémentation de conteneurs Docker pour tous les déploiements",
+                                "Déploiement de démos en direct avec infrastructure prête pour la production"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Agentic AI Portfolio}}ショーケースを完成",
+                            "province": "ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "プロジェクトを最終化し、開発プロセスを文書化したインタラクティブなダッシュボードウェブサイトとともに、4つの洗練されたMVPアプリケーションをリリースしました。すべてのプロジェクトは、Dockerコンテナ化とライブデモデプロイメントを備えた本番グレードのフルスタックAIアプリケーションです。",
+                            "list": [
+                                "4つの洗練されたMVPフルスタックAIアプリケーションをリリース",
+                                "プロジェクトのアーキテクチャと方法論を紹介するインタラクティブなダッシュボードを構築",
+                                "すべてのデプロイメントにDockerコンテナを実装",
+                                "本番対応のインフラストラクチャでライブデモをデプロイ"
+                            ]
+                        }
+                    }
+                },
                 {
                     "id": 1,
                     "date": {
@@ -1457,11 +1607,6 @@
                                 "href": "https://thomasjbutler.github.io/",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            },
-                            {
-                                "href": "https://aitomatic.com",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
                         ],
                         "screenshots": [],
@@ -1474,11 +1619,11 @@
                             "province": "Liverpool",
                             "country": "UK",
                             "institution": "Entrepreneurship",
-                            "text": "After being made redundant, I transformed this challenge into an opportunity. Created my Matrix-themed personal portfolio as my primary showcase, founded AiTomatic company, and began developing this commercial portfolio.",
+                            "text": "After being made redundant, I transformed this challenge into an opportunity. Created my Matrix-themed personal portfolio as my primary showcase, created a small AI startup to tackle executive dysfunction by harnessing AI, making tech more human and adapt to us, and began developing this commercial portfolio.",
                             "list": [
                                 "Made redundant from previous position in December",
                                 "Created custom HTML/CSS/JS personal portfolio with Matrix theme",
-                                "Founded AiTomatic company for AI consulting and development",
+                                "Created a small AI startup to tackle executive dysfunction by harnessing AI, making tech more human and adapt to us",
                                 "Began development of this commercial React portfolio for professional presence"
                             ]
                         },
@@ -1487,11 +1632,11 @@
                             "province": "Ливерпуль",
                             "country": "Великобритания",
                             "institution": "Предпринимательство",
-                            "text": "После сокращения я превратил эту проблему в возможность. Создал свое личное портфолио в стиле Матрицы как основную витрину, основал компанию AiTomatic и начал разработку этого коммерческого портфолио.",
+                            "text": "После сокращения я превратил эту проблему в возможность. Создал свое личное портфолио в стиле Матрицы как основную витрину, создал небольшой AI-стартап для борьбы с исполнительной дисфункцией с помощью ИИ, делая технологии более человечными и адаптирующимися к нам, и начал разработку этого коммерческого портфолио.",
                             "list": [
                                 "Сокращен с предыдущей должности в декабре",
                                 "Создал индивидуальное HTML/CSS/JS портфолио с темой Матрицы",
-                                "Основал компанию AiTomatic для консалтинга и разработки ИИ",
+                                "Создал небольшой AI-стартап для борьбы с исполнительной дисфункцией с помощью ИИ, делая технологии более человечными и адаптирующимися к нам",
                                 "Начал разработку этого коммерческого портфолио React для профессионального присутствия"
                             ]
                         },
@@ -1500,11 +1645,11 @@
                             "province": "Liverpool",
                             "country": "Royaume-Uni",
                             "institution": "Entrepreneuriat",
-                            "text": "Après avoir été licencié, j'ai transformé ce défi en opportunité. J'ai créé mon portfolio personnel sur le thème Matrix comme vitrine principale, fondé la société AiTomatic et commencé à développer ce portfolio commercial.",
+                            "text": "Après avoir été licencié, j'ai transformé ce défi en opportunité. J'ai créé mon portfolio personnel sur le thème Matrix comme vitrine principale, créé une petite startup IA pour lutter contre la dysfonction exécutive en exploitant l'IA, rendant la technologie plus humaine et s'adaptant à nous, et commencé à développer ce portfolio commercial.",
                             "list": [
                                 "Licencié de mon poste précédent en décembre",
                                 "Création d'un portfolio personnel HTML/CSS/JS personnalisé avec le thème Matrix",
-                                "Fondation de la société AiTomatic pour le conseil et le développement en IA",
+                                "Créé une petite startup IA pour lutter contre la dysfonction exécutive en exploitant l'IA, rendant la technologie plus humaine et s'adaptant à nous",
                                 "Début du développement de ce portfolio commercial React pour une présence professionnelle"
                             ]
                         },
@@ -1513,11 +1658,11 @@
                             "province": "リバプール",
                             "country": "イギリス",
                             "institution": "起業家精神",
-                            "text": "解雇された後、この課題を機会に変えました。マトリックステーマの個人ポートフォリオを主要なショーケースとして作成し、AiTomatic会社を設立し、この商業ポートフォリオの開発を開始しました。",
+                            "text": "解雇された後、この課題を機会に変えました。マトリックステーマの個人ポートフォリオを主要なショーケースとして作成し、AIを活用して実行機能障害に取り組む小規模なAIスタートアップを作成し、テクノロジーをより人間的で私たちに適応させ、この商業ポートフォリオの開発を開始しました。",
                             "list": [
                                 "12月に前職から解雇",
                                 "マトリックステーマのカスタムHTML/CSS/JS個人ポートフォリオを作成",
-                                "AIコンサルティングと開発のためのAiTomatic会社を設立",
+                                "AIを活用して実行機能障害に取り組む小規模なAIスタートアップを作成し、テクノロジーをより人間的で私たちに適応させる",
                                 "プロフェッショナルな存在感のためにこの商業用Reactポートフォリオの開発を開始"
                             ]
                         }

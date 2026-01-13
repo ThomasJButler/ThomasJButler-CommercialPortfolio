@@ -36,3 +36,5 @@ CONTRIBUTING_TO_ORIGINAL.md
 *~
 todo.txt
 githubstats.png
+.vercel
+.env*.local
