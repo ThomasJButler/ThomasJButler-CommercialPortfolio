@@ -26,12 +26,12 @@ function ASCIILoader({ className = "", hidden = false }) {
     const [isRevealed, setIsRevealed] = useState(false)
 
     const hiddenClass = hidden ? 'pixel-loader-wrapper-hidden' : ''
-    // Don't add revealed class if hidden - prevents animation conflicts during hide
-    const revealedClass = isRevealed && !hidden ? 'pixel-loader-revealed' : ''
+    // Keep revealed class even when hiding - preserves final animation state (upright position)
+    const revealedClass = isRevealed ? 'pixel-loader-revealed' : ''
 
     useEffect(() => {
         if (hidden) {
-            setIsRevealed(false)
+            // Don't reset isRevealed - keep animations at their final state
             return
         }
 

@@ -1,12 +1,10 @@
 @import "/src/styles/extend.scss";
 
-// Windows 95 color palette - nostalgic and vibrant
+// Classic Windows flag colors - red, green, blue, yellow
 $win95-red: #FF0000;
-$win95-orange: #FF8C00;
-$win95-yellow: #FFFF00;
+$win95-green: #00FF00;
 $win95-blue: #0000FF;
-$win95-cyan: #00FFFF;
-$win95-magenta: #FF00FF;
+$win95-yellow: #FFFF00;
 
 // ============================================
 // WRAPPER
@@ -26,32 +24,10 @@ div.pixel-loader-wrapper {
 div.pixel-loader-wrapper-hidden {
     opacity: 0 !important;
     visibility: hidden !important;
-    display: none !important;  // Completely remove from layout
-    transition: none !important;
     pointer-events: none;
-
-    // Kill ALL animations and transitions immediately
-    div.pixel-loader,
-    div.pixel-grid,
-    div.pixel-tile,
-    div.pixel-tile::before,
-    div.pixel-tile::after {
-        animation: none !important;
-        transition: none !important;
-        opacity: 0 !important;
-        display: none !important;
-    }
-
-    // Kill the ambient glow completely
-    div.pixel-grid::before {
-        display: none !important;
-        opacity: 0 !important;
-        visibility: hidden !important;
-        animation: none !important;
-        transition: none !important;
-        background: transparent !important;
-        box-shadow: none !important;
-    }
+    display: none !important;
+    // Animations have 'forwards' fill mode so final state is preserved
+    // even when display:none removes the element from layout
 }
 
 // ============================================
@@ -89,26 +65,26 @@ div.pixel-grid {
     height: calc(5 * (var(--tile-size) + var(--gap)));
     transform-style: preserve-3d;
 
-    // Start tilted back (90s style) - will animate upright
-    transform: rotateX(-60deg) rotateZ(-5deg);
+    // Start tilted back (90s style) - top leans away from viewer
+    transform: rotateX(60deg) rotateZ(5deg);
 
 }
 
-// 90s tilt-flip animation on the grid itself
+// 90s tilt-flip animation on the grid itself - 2s to complete before preloader hides
 div.pixel-loader-revealed div.pixel-grid {
-    animation: tilt-flip 2.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    animation: tilt-flip 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
-// 90s-style tilt-flip animation - grid flips upright as tiles assemble
+// 90s-style tilt-flip animation - grid flips from tilted back to upright
 @keyframes tilt-flip {
     0% {
-        transform: rotateX(-60deg) rotateZ(-5deg) scale(0.9);
+        transform: rotateX(60deg) rotateZ(5deg) scale(0.9);
     }
     60% {
-        transform: rotateX(-20deg) rotateZ(-2deg) scale(1);
+        transform: rotateX(20deg) rotateZ(2deg) scale(1);
     }
     80% {
-        transform: rotateX(5deg) rotateZ(1deg) scale(1.02);
+        transform: rotateX(-5deg) rotateZ(-1deg) scale(1.02);
     }
     100% {
         transform: rotateX(0deg) rotateZ(0deg) scale(1);
@@ -235,14 +211,14 @@ div.pixel-tile {
 
 // Activate trail during flight
 div.pixel-loader-revealed div.pixel-tile::before {
-    animation: trail-fade 2.8s ease-out forwards;
+    animation: trail-fade 2s ease-out forwards;
 }
 
-// Only animate when revealed - slow and dramatic
+// Only animate when revealed - matches grid tilt timing
 div.pixel-loader-revealed div.pixel-tile {
     animation:
-        fly-in 2.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
-        color-shift 2.8s ease-out forwards;
+        fly-in 2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
+        color-shift 2s ease-out forwards;
 }
 
 // ============================================
@@ -263,7 +239,7 @@ div.pixel-tile:nth-child(1) {
 div.pixel-tile:nth-child(2) {
     --start-x: -300px;
     --start-y: -350px;
-    --start-color: #{$win95-orange};
+    --start-color: #{$win95-green};
     --start-rot: 45deg;
     --delay: 80ms;
     animation-delay: var(--delay), var(--delay);
@@ -272,7 +248,7 @@ div.pixel-tile:nth-child(2) {
 div.pixel-tile:nth-child(3) {
     --start-x: 0px;
     --start-y: -400px;
-    --start-color: #{$win95-yellow};
+    --start-color: #{$win95-blue};
     --start-rot: -30deg;
     --delay: 160ms;
     animation-delay: var(--delay), var(--delay);
@@ -281,7 +257,7 @@ div.pixel-tile:nth-child(3) {
 div.pixel-tile:nth-child(4) {
     --start-x: 280px;
     --start-y: -320px;
-    --start-color: #{$win95-blue};
+    --start-color: #{$win95-yellow};
     --start-rot: 55deg;
     --delay: 240ms;
     animation-delay: var(--delay), var(--delay);
@@ -290,7 +266,7 @@ div.pixel-tile:nth-child(4) {
 div.pixel-tile:nth-child(5) {
     --start-x: 380px;
     --start-y: -250px;
-    --start-color: #{$win95-cyan};
+    --start-color: #{$win95-red};
     --start-rot: -45deg;
     --delay: 320ms;
     animation-delay: var(--delay), var(--delay);
@@ -300,7 +276,7 @@ div.pixel-tile:nth-child(5) {
 div.pixel-tile:nth-child(6) {
     --start-x: -220px;
     --start-y: 350px;
-    --start-color: #{$win95-magenta};
+    --start-color: #{$win95-green};
     --start-rot: 70deg;
     --delay: 400ms;
     animation-delay: var(--delay), var(--delay);
@@ -309,7 +285,7 @@ div.pixel-tile:nth-child(6) {
 div.pixel-tile:nth-child(7) {
     --start-x: 280px;
     --start-y: 320px;
-    --start-color: #{$win95-red};
+    --start-color: #{$win95-blue};
     --start-rot: -65deg;
     --delay: 480ms;
     animation-delay: var(--delay), var(--delay);
@@ -318,7 +294,7 @@ div.pixel-tile:nth-child(7) {
 div.pixel-tile:nth-child(8) {
     --start-x: -260px;
     --start-y: 280px;
-    --start-color: #{$win95-orange};
+    --start-color: #{$win95-yellow};
     --start-rot: 50deg;
     --delay: 560ms;
     animation-delay: var(--delay), var(--delay);
@@ -327,7 +303,7 @@ div.pixel-tile:nth-child(8) {
 div.pixel-tile:nth-child(9) {
     --start-x: 240px;
     --start-y: 380px;
-    --start-color: #{$win95-yellow};
+    --start-color: #{$win95-red};
     --start-rot: -40deg;
     --delay: 640ms;
     animation-delay: var(--delay), var(--delay);
@@ -337,7 +313,7 @@ div.pixel-tile:nth-child(9) {
 div.pixel-tile:nth-child(10) {
     --start-x: 450px;
     --start-y: -180px;
-    --start-color: #{$win95-blue};
+    --start-color: #{$win95-green};
     --start-rot: 35deg;
     --delay: 120ms;
     animation-delay: var(--delay), var(--delay);
@@ -346,7 +322,7 @@ div.pixel-tile:nth-child(10) {
 div.pixel-tile:nth-child(11) {
     --start-x: 420px;
     --start-y: 80px;
-    --start-color: #{$win95-cyan};
+    --start-color: #{$win95-blue};
     --start-rot: -70deg;
     --delay: 280ms;
     animation-delay: var(--delay), var(--delay);
@@ -355,7 +331,7 @@ div.pixel-tile:nth-child(11) {
 div.pixel-tile:nth-child(12) {
     --start-x: 480px;
     --start-y: -40px;
-    --start-color: #{$win95-magenta};
+    --start-color: #{$win95-yellow};
     --start-rot: 45deg;
     --delay: 440ms;
     animation-delay: var(--delay), var(--delay);
@@ -373,7 +349,7 @@ div.pixel-tile:nth-child(13) {
 div.pixel-tile:nth-child(14) {
     --start-x: 440px;
     --start-y: 300px;
-    --start-color: #{$win95-orange};
+    --start-color: #{$win95-green};
     --start-rot: 60deg;
     --delay: 600ms;
     animation-delay: var(--delay), var(--delay);
@@ -383,7 +359,7 @@ div.pixel-tile:nth-child(14) {
 div.pixel-tile:nth-child(15) {
     --start-x: 500px;
     --start-y: -200px;
-    --start-color: #{$win95-yellow};
+    --start-color: #{$win95-blue};
     --start-rot: -35deg;
     --delay: 200ms;
     animation-delay: var(--delay), var(--delay);
@@ -392,7 +368,7 @@ div.pixel-tile:nth-child(15) {
 div.pixel-tile:nth-child(16) {
     --start-x: 550px;
     --start-y: -140px;
-    --start-color: #{$win95-blue};
+    --start-color: #{$win95-yellow};
     --start-rot: 50deg;
     --delay: 260ms;
     animation-delay: var(--delay), var(--delay);
@@ -402,7 +378,7 @@ div.pixel-tile:nth-child(16) {
 div.pixel-tile:nth-child(17) {
     --start-x: 580px;
     --start-y: -60px;
-    --start-color: #{$win95-cyan};
+    --start-color: #{$win95-red};
     --start-rot: -75deg;
     --delay: 340ms;
     animation-delay: var(--delay), var(--delay);
@@ -411,7 +387,7 @@ div.pixel-tile:nth-child(17) {
 div.pixel-tile:nth-child(18) {
     --start-x: 600px;
     --start-y: 40px;
-    --start-color: #{$win95-magenta};
+    --start-color: #{$win95-green};
     --start-rot: 40deg;
     --delay: 380ms;
     animation-delay: var(--delay), var(--delay);
@@ -421,7 +397,7 @@ div.pixel-tile:nth-child(18) {
 div.pixel-tile:nth-child(19) {
     --start-x: 520px;
     --start-y: 100px;
-    --start-color: #{$win95-red};
+    --start-color: #{$win95-blue};
     --start-rot: -45deg;
     --delay: 460ms;
     animation-delay: var(--delay), var(--delay);
@@ -430,7 +406,7 @@ div.pixel-tile:nth-child(19) {
 div.pixel-tile:nth-child(20) {
     --start-x: 560px;
     --start-y: 160px;
-    --start-color: #{$win95-orange};
+    --start-color: #{$win95-yellow};
     --start-rot: 65deg;
     --delay: 500ms;
     animation-delay: var(--delay), var(--delay);
@@ -440,7 +416,7 @@ div.pixel-tile:nth-child(20) {
 div.pixel-tile:nth-child(21) {
     --start-x: 590px;
     --start-y: 220px;
-    --start-color: #{$win95-yellow};
+    --start-color: #{$win95-red};
     --start-rot: -55deg;
     --delay: 580ms;
     animation-delay: var(--delay), var(--delay);
@@ -449,7 +425,7 @@ div.pixel-tile:nth-child(21) {
 div.pixel-tile:nth-child(22) {
     --start-x: 620px;
     --start-y: 300px;
-    --start-color: #{$win95-blue};
+    --start-color: #{$win95-green};
     --start-rot: 50deg;
     --delay: 620ms;
     animation-delay: var(--delay), var(--delay);
@@ -459,7 +435,7 @@ div.pixel-tile:nth-child(22) {
 div.pixel-tile:nth-child(23) {
     --start-x: 540px;
     --start-y: 360px;
-    --start-color: #{$win95-cyan};
+    --start-color: #{$win95-blue};
     --start-rot: -60deg;
     --delay: 680ms;
     animation-delay: var(--delay), var(--delay);
@@ -468,7 +444,7 @@ div.pixel-tile:nth-child(23) {
 div.pixel-tile:nth-child(24) {
     --start-x: 480px;
     --start-y: 400px;
-    --start-color: #{$win95-magenta};
+    --start-color: #{$win95-yellow};
     --start-rot: 45deg;
     --delay: 720ms;
     animation-delay: var(--delay), var(--delay);
@@ -515,7 +491,7 @@ div.pixel-tile:nth-child(24) {
 // Apply sparkle to ::after (glossy highlight element)
 // Inherits delay from parent tile via --delay custom property
 div.pixel-loader-revealed div.pixel-tile::after {
-    animation: sparkle-burst 2.8s ease-out var(--delay) forwards;
+    animation: sparkle-burst 2s ease-out var(--delay) forwards;
 }
 
 // ============================================
@@ -564,5 +540,5 @@ div.pixel-loader-revealed div.pixel-tile::after {
 }
 
 div.pixel-loader-revealed {
-    animation: screen-settle 0.5s ease-out 4s forwards;
+    animation: screen-settle 0.5s ease-out 2.2s forwards;
 }
