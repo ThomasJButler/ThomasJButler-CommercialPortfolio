@@ -263,11 +263,6 @@
                                 "href": "https://thomasjbutler.me",
                                 "tooltipString": "view_landing_page",
                                 "faIcon": "fa-solid fa-rocket"
-                            },
-                            {
-                                "href": "https://www.thomasjbutler.me/",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
                         ],
                         "screenshots": [],
