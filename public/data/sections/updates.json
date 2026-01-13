@@ -252,6 +252,84 @@
             },
             "items": [
                 {
+                    "id": 19,
+                    "date": {
+                        "year": 2026,
+                        "month": 1
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://thomasjbutler.me",
+                                "tooltipString": "view_landing_page",
+                                "faIcon": "fa-solid fa-rocket"
+                            },
+                            {
+                                "href": "https://www.thomasjbutler.me/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "New {{Landing Page}} & Retro Preloader",
+                            "province": "Yorkshire",
+                            "country": "UK",
+                            "institution": "Portfolio Update",
+                            "text": "Created an immersive landing page featuring carefully prompted Midjourney v7 GIFs, unifying all public work in one accessible hub for prospective employers. Added a retro-inspired TB pixel loader with Windows 95 color palette, flying tile assembly animation, and a CRT warmup 'lights turning on' transition effect.",
+                            "list": [
+                                "Designed landing page with Midjourney v7 generated imagery",
+                                "Built retro TB pixel loader with Win95 colors flying in",
+                                "Implemented CRT warmup transition for smooth content reveal",
+                                "Unified all public projects for streamlined portfolio access"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Новая {{посадочная страница}} и ретро-прелоадер",
+                            "province": "Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Обновление портфолио",
+                            "text": "Создана иммерсивная посадочная страница с тщательно подобранными GIF-изображениями Midjourney v7, объединяющая все публичные работы в одном доступном месте для потенциальных работодателей. Добавлен ретро-загрузчик TB пикселей с цветовой палитрой Windows 95, анимацией сборки плиток и эффектом CRT «включения света».",
+                            "list": [
+                                "Разработана посадочная страница с изображениями Midjourney v7",
+                                "Создан ретро TB пиксельный загрузчик с палитрой Win95",
+                                "Реализован переход CRT для плавного появления контента",
+                                "Объединены все публичные проекты для удобного доступа"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Nouvelle {{page d'accueil}} et préchargeur rétro",
+                            "province": "Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Mise à jour du portfolio",
+                            "text": "Création d'une page d'accueil immersive avec des GIFs Midjourney v7 soigneusement générés, unifiant tous les travaux publics en un hub accessible pour les employeurs potentiels. Ajout d'un chargeur de pixels TB rétro avec palette Windows 95, animation d'assemblage et effet de transition CRT.",
+                            "list": [
+                                "Page d'accueil conçue avec des images Midjourney v7",
+                                "Chargeur pixel TB rétro avec palette Win95",
+                                "Transition CRT pour révélation fluide du contenu",
+                                "Unification de tous les projets publics"
+                            ]
+                        },
+                        "ja": {
+                            "title": "新しい{{ランディングページ}}とレトロプリローダー",
+                            "province": "ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "ポートフォリオ更新",
+                            "text": "Midjourney v7の慎重に生成されたGIFを使用した没入型ランディングページを作成し、潜在的な雇用主向けにすべての公開作品を1つのアクセスしやすいハブに統合しました。Windows 95カラーパレット、タイルアセンブリアニメーション、CRTウォームアップ「点灯」トランジションを備えたレトロなTBピクセルローダーを追加しました。",
+                            "list": [
+                                "Midjourney v7生成画像でランディングページをデザイン",
+                                "Win95カラーパレットでレトロTBピクセルローダーを構築",
+                                "スムーズなコンテンツ表示のためのCRTウォームアップトランジションを実装",
+                                "すべての公開プロジェクトを統合してアクセスを容易に"
+                            ]
+                        }
+                    }
+                },
+                {
                     "id": 18,
                     "date": {
                         "year": 2025,
