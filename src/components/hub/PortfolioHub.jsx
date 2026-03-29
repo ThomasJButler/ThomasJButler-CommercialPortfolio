@@ -22,7 +22,6 @@ const PORTFOLIOS = [
         subtitle: "Professional Work",
         description: "Client projects and enterprise solutions",
         url: "https://thomasjbutler.me/",
-        image: "https://res.cloudinary.com/depqttzlt/image/upload/w_500,q_auto,f_auto/v1768064849/Tom_Minimalist_3D_logo_of_Commercial_glowing_neon-green_typog_21352a3d-34ec-405d-9891-f07d93f23654_2_konwkz.gif",
         isInternal: true,
         buttonText: "Enter",
         icon: "fa-solid fa-briefcase"
@@ -33,7 +32,6 @@ const PORTFOLIOS = [
         subtitle: "Side Projects",
         description: "Experiments and passion projects",
         url: "https://thomasjbutler.github.io/",
-        image: "https://res.cloudinary.com/depqttzlt/image/upload/w_500,q_auto,f_auto/v1768064850/Tom_Minimalist_3D_logo_of_Personal_with_a_glowing_neon-green__fd6f82e1-e17a-459f-825b-aee88269f44a_0_msz7y3.gif",
         isInternal: false,
         buttonText: "Visit",
         icon: "fa-solid fa-code"
@@ -44,7 +42,6 @@ const PORTFOLIOS = [
         subtitle: "Agentic AI",
         description: "ML and AI-powered applications",
         url: "https://agenticaiprojectsportfolio.vercel.app/",
-        image: "https://res.cloudinary.com/depqttzlt/image/upload/w_500,q_auto,f_auto/v1768064843/Tom_Minimalist_3D_logo_of_AI_glowing_neon-green_typography_on_046f9bf7-ba8d-4f12-8b7e-060c08cdf2c5_1_juwucv.gif",
         isInternal: false,
         buttonText: "Visit",
         icon: "fa-solid fa-robot"
@@ -195,30 +192,24 @@ function PortfolioHubPanels({ portfolios, onPortfolioClick }) {
 }
 
 function PortfolioHubPanel({ portfolio, onClick, index }) {
-    const utils = useUtils()
     const [isHovered, setIsHovered] = useState(false)
 
     return (
         <div
             className={`portfolio-hub-panel ${isHovered ? 'hovered' : ''}`}
+            data-portfolio={portfolio.id}
             onClick={onClick}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             style={{ animationDelay: `${index * 0.1}s` }}
         >
-            <div className="portfolio-hub-panel-image">
-                <img
-                    src={utils.file.resolvePath(portfolio.image)}
-                    alt={portfolio.title}
-                />
-                <div className="portfolio-hub-panel-overlay" />
-            </div>
-
             <div className="portfolio-hub-panel-content">
                 <div className="portfolio-hub-panel-icon">
                     <i className={portfolio.icon} />
                 </div>
+                <h3 className="portfolio-hub-panel-title">{portfolio.title}</h3>
                 <p className="portfolio-hub-panel-subtitle">{portfolio.subtitle}</p>
+                <p className="portfolio-hub-panel-description">{portfolio.description}</p>
 
                 <button
                     className="portfolio-hub-panel-button"
@@ -265,20 +256,14 @@ function PortfolioHubCarousel({ portfolios, onPortfolioClick }) {
 }
 
 function PortfolioHubCard({ portfolio, onClick, index }) {
-    const utils = useUtils()
-
     return (
         <div
             className="portfolio-hub-card"
+            data-portfolio={portfolio.id}
             onClick={onClick}
             style={{ animationDelay: `${index * 0.1}s` }}
         >
-            <div className="portfolio-hub-card-image">
-                <img
-                    src={utils.file.resolvePath(portfolio.image)}
-                    alt={portfolio.title}
-                />
-            </div>
+            <div className="portfolio-hub-card-accent" />
 
             <div className="portfolio-hub-card-content">
                 <p className="portfolio-hub-card-subtitle">{portfolio.subtitle}</p>

@@ -1,53 +1,54 @@
 /**
- * @description Light theme - "Paper & Ink" Editorial Style
- * A warm, magazine-inspired aesthetic with cream papers and terracotta accents
+ * @description Light theme - "Neon Blue"
+ * A crisp, modern aesthetic with electric blue accents and cool-white surfaces.
+ * Distinctive identity that complements the green dark mode without mirroring it.
  *
- * Typography: Playfair Display (headings) + Source Serif 4 (body)
- * Palette: Warm parchment backgrounds, terracotta accents, espresso ink text
+ * Typography: Inherits dark mode fonts (Lato/Orbitron/Oxygen) for brand consistency.
+ * Palette: Cool whites, electric blue primary, subtle blue-tinted surfaces.
  */
 
 @import "theme-variables-builder";
 
 // =============================================================================
-// PAPER & INK COLOR PALETTE
+// MIDNIGHT PRISM COLOR PALETTE
 // =============================================================================
 
 // Core accent colors
-$primary: #C45D35;          // Warm terracotta - evokes antique book bindings
-$secondary: #6B7B7E;        // Slate grey with blue undertone
-$dark: #2C2416;             // Deep espresso brown
-$danger: #A23B2D;           // Muted brick red
-$muted: #8B8178;            // Warm taupe grey
+$primary: #0284C7;              // Electric neon blue — vivid, modern
+$secondary: #64748B;            // Cool slate grey
+$dark: #0F172A;                 // Deep midnight — headings, emphasis
+$danger: #EF4444;               // Clean red
+$muted: #94A3B8;                // Muted slate
 
-// Background colors - warm paper tones
-$base-bg: #F5F0E8;          // Warm parchment/cream - main background
-$base-bg-light: #FFFCF7;    // Bright ivory - animation circles, highlights
-$base-bg-dark: #EDE6DB;     // Aged paper tone - darker areas
+// Backgrounds — crisp, clean, subtle cool tint
+$base-bg: #F8FAFC;              // Cool white — main background
+$base-bg-light: #FFFFFF;        // Pure white — sections, highlights
+$base-bg-dark: #F1F5F9;         // Light slate — darker areas, accents
 
-// Text colors - rich ink
-$texts: #2C2416;            // Rich espresso ink - primary text
-$texts-inverted: #FFFCF7;   // Ivory white - text on dark backgrounds
+// Text — deep midnight ink
+$texts: #0F172A;                // Near-black with blue undertone
+$texts-inverted: #FFFFFF;       // Pure white on dark backgrounds
 
-// Container backgrounds - paper variations
-$base-container-bg: #FFFCF7;        // Clean ivory - sidebar and sections
-$base-container-bg-accent: #F7F2EA; // Soft cream - inactive mobile nav
-$base-popover-bg: #FFFCF7;          // Ivory - dropdowns and popovers
-$base-boards: #F9F5EE;              // Light parchment - timeline, cards
-$base-info-badges: #EDE6DB;         // Aged paper - date badges
-$empty: #F5F0E8;                    // Form fields, empty states
+// Container backgrounds — clean surfaces
+$base-container-bg: #FFFFFF;            // Pure white — sidebar, sections
+$base-container-bg-accent: #F8FAFC;     // Cool white — inactive nav
+$base-popover-bg: #FFFFFF;              // White — dropdowns, popovers
+$base-boards: #F8FAFC;                  // Cool white — timeline, cards
+$base-info-badges: #E0F2FE;             // Sky 100 — gives badges character
+$empty: #F1F5F9;                        // Form fields, empty states
 
-// Borders - sepia toned
-$borders: #D4C9B8;                          // Warm sepia
-$borders-nav-mobile: rgba(44, 36, 22, 0.06);
-$borders-nav-mobile-accent: rgba(44, 36, 22, 0.10);
+// Borders — clean slate
+$borders: #E2E8F0;
+$borders-nav-mobile: rgba(15, 23, 42, 0.06);
+$borders-nav-mobile-accent: rgba(15, 23, 42, 0.10);
 
 // Scrollbar
-$scrollbar-track: #EDE6DB;
-$scrollbar-thumb: #B8A892;
+$scrollbar-track: #F1F5F9;
+$scrollbar-thumb: #CBD5E1;
 
 // Form specific
-$form-attach-bg: #EDE6DB;
-$form-attach-color: #5C5347;
+$form-attach-bg: #E0F2FE;
+$form-attach-color: #475569;
 
 // =============================================================================
 // THEME APPLICATION
@@ -104,52 +105,21 @@ $form-attach-color: #5C5347;
     --form-attach-color: #{$form-attach-color};
 
     // =========================================================================
-    // PAPER & INK TYPOGRAPHY - Light theme only
+    // CLEAN SHADOWS (neutral, not sepia-tinted)
     // =========================================================================
-    --theme-font-family-base: 'Source Serif 4', 'Lato', serif;
-    --theme-font-family-headings: 'Playfair Display', Georgia, serif;
+    --theme-paper-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.06);
+    --theme-paper-shadow-md: 0 4px 6px rgba(15, 23, 42, 0.06), 0 2px 4px rgba(15, 23, 42, 0.04);
+    --theme-paper-shadow-lg: 0 10px 20px rgba(15, 23, 42, 0.07), 0 4px 8px rgba(15, 23, 42, 0.04);
+    --theme-paper-shadow-xl: 0 15px 35px rgba(15, 23, 42, 0.08), 0 5px 15px rgba(15, 23, 42, 0.05);
 
-    // =========================================================================
-    // PAPER TEXTURE ATMOSPHERE EFFECTS
-    // =========================================================================
+    // No paper texture — clean surfaces
+    --theme-paper-texture: none;
 
-    // Warm-tinted shadows (using espresso brown base)
-    --theme-paper-shadow-sm: 0 1px 2px rgba(44, 36, 22, 0.06), 0 1px 3px rgba(44, 36, 22, 0.08);
-    --theme-paper-shadow-md: 0 4px 6px rgba(44, 36, 22, 0.07), 0 2px 4px rgba(44, 36, 22, 0.06);
-    --theme-paper-shadow-lg: 0 10px 20px rgba(44, 36, 22, 0.08), 0 4px 8px rgba(44, 36, 22, 0.06);
-    --theme-paper-shadow-xl: 0 15px 35px rgba(44, 36, 22, 0.10), 0 5px 15px rgba(44, 36, 22, 0.07);
-
-    // Paper texture gradient overlay
-    --theme-paper-texture: linear-gradient(135deg, rgba(255, 252, 247, 0.4) 0%, rgba(245, 240, 232, 0.2) 50%, rgba(237, 230, 219, 0.3) 100%);
-
-    // Decorative accents
-    --theme-sepia-accent: #D4C4A8;
-    --theme-warm-highlight: rgba(196, 93, 53, 0.12);
+    // Accent tints — electric blue
+    --theme-sepia-accent: #BAE6FD;             // Sky 200 — soft accent
+    --theme-warm-highlight: rgba(2, 132, 199, 0.08);  // Blue tint
 }
 
 // =============================================================================
-// TYPOGRAPHY OVERRIDES - Applied only to light theme
+// NO TYPOGRAPHY OVERRIDE — inherits dark mode fonts for brand consistency
 // =============================================================================
-
-[data-theme="light"] {
-    // Body font
-    body {
-        font-family: var(--theme-font-family-base);
-    }
-
-    // All headings
-    h1, h2, h3, h4, h5, h6,
-    .h1, .h2, .h3, .h4, .h5, .h6 {
-        font-family: var(--theme-font-family-headings);
-    }
-
-    // Display classes
-    .display-1, .display-2, .display-3, .display-4, .display-5, .display-6, .display-7 {
-        font-family: var(--theme-font-family-headings);
-    }
-
-    // Lead text
-    .lead, .lead-2, .lead-3, .lead-4 {
-        font-family: var(--theme-font-family-base);
-    }
-}

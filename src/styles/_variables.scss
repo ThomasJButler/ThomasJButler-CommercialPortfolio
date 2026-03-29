@@ -85,59 +85,59 @@ $loader-background-color: #111111;
     --theme-danger: #730808;
 }
 
-/** COLORS - light theme palette - Paper & Ink Editorial **/
+/** COLORS - light theme palette - Midnight Prism **/
 [data-theme="light"] {
-    // Main background tones - warm parchment
-    --theme-main: #F5F0E8;      // Warm parchment
-    --theme-main-2: #EDE6DB;    // Aged paper
-    --theme-main-3: #E5DDD0;    // Darker parchment
-    --theme-main-4: #DDD4C5;    // Deepest parchment
+    // Main background tones - cool white
+    --theme-main: #F8FAFC;
+    --theme-main-2: #F1F5F9;
+    --theme-main-3: #E2E8F0;
+    --theme-main-4: #CBD5E1;
 
-    // Text colors - espresso ink
-    --theme-secondary: #2C2416;
-    --theme-secondary-2: #3D3428;
-    --theme-secondary-3: #4E443A;
-    --theme-secondary-4: #5F544C;
+    // Text colors - midnight ink
+    --theme-secondary: #0F172A;
+    --theme-secondary-2: #1E293B;
+    --theme-secondary-3: #334155;
+    --theme-secondary-4: #475569;
 
     // Soft backgrounds
-    --theme-soft: #F7F2EA;
-    --theme-soft-2: #F0E9DE;
-    --theme-soft-3: #E8DFD2;
+    --theme-soft: #F8FAFC;
+    --theme-soft-2: #F1F5F9;
+    --theme-soft-3: #E2E8F0;
 
     // Dark accents
-    --theme-dark: #2C2416;
-    --theme-dark-opacity: rgba(44, 36, 22, 0.2);
-    --theme-muted: #8B8178;
-    --theme-white: #FFFCF7;
+    --theme-dark: #0F172A;
+    --theme-dark-opacity: rgba(15, 23, 42, 0.2);
+    --theme-muted: #94A3B8;
+    --theme-white: #FFFFFF;
 
-    // Highlight colors - terracotta
-    --theme-highlight: #C45D35;
-    --theme-highlight-2: #A84E2D;
-    --theme-highlight-3: #8C3F25;
+    // Highlight colors - neon blue
+    --theme-highlight: #0284C7;
+    --theme-highlight-2: #0369A1;
+    --theme-highlight-3: #075985;
 
     // Background and sections
     --theme-bg: none;
-    --theme-bg-color: #F5F0E8;
-    --theme-section-background: #FFFCF7;
-    --theme-section-background-opacity: rgba(255, 252, 247, 0.92);
-    --theme-tag-color: #EDE6DB;
-    --theme-box-shadow: 0 4px 6px rgba(44, 36, 22, 0.07), 0 2px 4px rgba(44, 36, 22, 0.06);
+    --theme-bg-color: #F8FAFC;
+    --theme-section-background: #FFFFFF;
+    --theme-section-background-opacity: rgba(255, 255, 255, 0.92);
+    --theme-tag-color: #E0F2FE;
+    --theme-box-shadow: 0 4px 6px rgba(15, 23, 42, 0.06), 0 2px 4px rgba(15, 23, 42, 0.04);
 
     // Navigation
-    --theme-nav-background: #FFFCF7;
-    --theme-nav-background-disabled: #F7F2EA;
-    --theme-nav-secondary: #5C5347;
-    --theme-nav-light: rgba(196, 93, 53, 0.08);
-    --theme-nav-highlight: #C45D35;
-    --theme-nav-selected: #F7F2EA;
+    --theme-nav-background: #FFFFFF;
+    --theme-nav-background-disabled: #F8FAFC;
+    --theme-nav-secondary: #475569;
+    --theme-nav-light: rgba(2, 132, 199, 0.06);
+    --theme-nav-highlight: #0284C7;
+    --theme-nav-selected: #E0F2FE;
 
     // Scrollbar & borders
-    --theme-scrollbar-track: #EDE6DB;
-    --theme-scrollbar-thumb: #B8A892;
-    --theme-chart-borders: #D4C9B8;
+    --theme-scrollbar-track: #F1F5F9;
+    --theme-scrollbar-thumb: #CBD5E1;
+    --theme-chart-borders: #E2E8F0;
 
     // Danger state
-    --theme-danger: #A23B2D;
+    --theme-danger: #EF4444;
 }
 
 .bg-dark {
