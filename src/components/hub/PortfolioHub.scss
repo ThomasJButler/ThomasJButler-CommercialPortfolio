@@ -2,11 +2,10 @@
 
 // Variables
 $hub-z-index: $z-index-loader - 1; // 9998
-$hub-backdrop: rgba(#0c0c0c, 0.98);
 $hub-transition-in: 0.5s ease-out;
 $hub-transition-out: 0.4s ease-in;
 
-// Overlay
+// Overlay — uses theme background for automatic light/dark support
 .portfolio-hub-overlay {
     position: fixed;
     top: 0;
@@ -15,7 +14,7 @@ $hub-transition-out: 0.4s ease-in;
     bottom: 0;
     z-index: $hub-z-index;
 
-    background-color: $hub-backdrop;
+    background-color: color-mix(in srgb, var(--theme-background) 98%, transparent);
 
     display: flex;
     align-items: center;
@@ -39,21 +38,13 @@ $hub-transition-out: 0.4s ease-in;
 }
 
 @keyframes hubFadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 @keyframes hubFadeOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+    from { opacity: 1; }
+    to { opacity: 0; }
 }
 
 // Container
@@ -122,7 +113,7 @@ $hub-transition-out: 0.4s ease-in;
 }
 
 // ==========================================
-// COMIC PANELS LAYOUT (Desktop)
+// PANELS (Desktop)
 // ==========================================
 
 .portfolio-hub-panels {
@@ -141,9 +132,9 @@ $hub-transition-out: 0.4s ease-in;
     overflow: hidden;
     cursor: pointer;
     border-radius: 12px;
-    background: rgba(#fff, 0.03);
-    border: 1px solid rgba(#fff, 0.06);
-    border-bottom: 2px solid rgba($primary, 0.25);
+    background: var(--theme-section-background);
+    border: 1px solid var(--theme-standard-borders);
+    border-bottom: 2px solid color-mix(in srgb, var(--theme-primary) 30%, transparent);
 
     display: flex;
     flex-direction: column;
@@ -170,8 +161,8 @@ $hub-transition-out: 0.4s ease-in;
         position: absolute;
         inset: 0;
         background:
-            linear-gradient(rgba($primary, 0.04) 1px, transparent 1px),
-            linear-gradient(90deg, rgba($primary, 0.04) 1px, transparent 1px);
+            linear-gradient(color-mix(in srgb, var(--theme-primary) 5%, transparent) 1px, transparent 1px),
+            linear-gradient(90deg, color-mix(in srgb, var(--theme-primary) 5%, transparent) 1px, transparent 1px);
         background-size: 32px 32px;
         opacity: 0.25;
         transition: opacity 0.5s ease-out;
@@ -181,10 +172,10 @@ $hub-transition-out: 0.4s ease-in;
     &:hover,
     &.hovered {
         transform: translateY(-4px);
-        background: rgba(#fff, 0.06);
-        border-color: rgba($primary, 0.3);
-        border-bottom-color: rgba($primary, 0.6);
-        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba($primary, 0.1);
+        background: var(--theme-boards-background);
+        border-color: color-mix(in srgb, var(--theme-primary) 35%, transparent);
+        border-bottom-color: color-mix(in srgb, var(--theme-primary) 60%, transparent);
+        box-shadow: var(--theme-paper-shadow-lg);
 
         &::before {
             opacity: 1;
@@ -202,15 +193,15 @@ $hub-transition-out: 0.4s ease-in;
 
     // Per-card gradients
     &[data-portfolio="commercial"]::before {
-        background: radial-gradient(ellipse at 25% 85%, rgba($primary, 0.2) 0%, transparent 55%);
+        background: radial-gradient(ellipse at 25% 85%, color-mix(in srgb, var(--theme-primary) 15%, transparent) 0%, transparent 55%);
     }
 
     &[data-portfolio="personal"]::before {
-        background: radial-gradient(ellipse at 50% 70%, rgba($primary, 0.15) 0%, transparent 50%);
+        background: radial-gradient(ellipse at 50% 70%, color-mix(in srgb, var(--theme-primary) 12%, transparent) 0%, transparent 50%);
     }
 
     &[data-portfolio="ai-projects"]::before {
-        background: radial-gradient(ellipse at 75% 15%, rgba($primary, 0.2) 0%, transparent 55%);
+        background: radial-gradient(ellipse at 75% 15%, color-mix(in srgb, var(--theme-primary) 15%, transparent) 0%, transparent 55%);
     }
 }
 
@@ -247,7 +238,8 @@ $hub-transition-out: 0.4s ease-in;
 
     background: var(--theme-primary);
     color: var(--theme-texts-inv);
-    box-shadow: 0 0 20px rgba($primary, 0.3), 0 0 40px rgba($primary, 0.1);
+    box-shadow: 0 0 20px color-mix(in srgb, var(--theme-primary) 30%, transparent),
+                0 0 40px color-mix(in srgb, var(--theme-primary) 10%, transparent);
 
     display: flex;
     align-items: center;
@@ -259,7 +251,8 @@ $hub-transition-out: 0.4s ease-in;
 
     .portfolio-hub-panel:hover &,
     .portfolio-hub-panel.hovered & {
-        box-shadow: 0 0 25px rgba($primary, 0.5), 0 0 50px rgba($primary, 0.2);
+        box-shadow: 0 0 25px color-mix(in srgb, var(--theme-primary) 50%, transparent),
+                    0 0 50px color-mix(in srgb, var(--theme-primary) 20%, transparent);
         transform: scale(1.08);
     }
 }
@@ -315,8 +308,8 @@ $hub-transition-out: 0.4s ease-in;
     }
 
     &:hover {
-        background: #fff;
-        color: #111;
+        background: var(--theme-texts);
+        color: var(--theme-texts-inv);
         transform: scale(1.05);
     }
 }
@@ -331,8 +324,8 @@ $hub-transition-out: 0.4s ease-in;
     height: 28px;
     border-radius: 50%;
 
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
+    background: color-mix(in srgb, var(--theme-texts) 50%, transparent);
+    color: var(--theme-texts-inv);
 
     display: flex;
     align-items: center;
@@ -394,7 +387,7 @@ $hub-transition-out: 0.4s ease-in;
     &:hover {
         transform: translateY(-8px);
         border-color: var(--theme-primary);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        box-shadow: var(--theme-paper-shadow-lg);
 
         .portfolio-hub-card-accent::before {
             opacity: 1;
@@ -427,7 +420,7 @@ $hub-transition-out: 0.4s ease-in;
     }
 }
 
-// Accent strip at top of mobile card (replaces GIF image)
+// Accent strip at top of mobile card
 .portfolio-hub-card-accent {
     position: relative;
     height: 100px;
@@ -448,8 +441,8 @@ $hub-transition-out: 0.4s ease-in;
         position: absolute;
         inset: 0;
         background:
-            linear-gradient(rgba($primary, 0.04) 1px, transparent 1px),
-            linear-gradient(90deg, rgba($primary, 0.04) 1px, transparent 1px);
+            linear-gradient(color-mix(in srgb, var(--theme-primary) 5%, transparent) 1px, transparent 1px),
+            linear-gradient(90deg, color-mix(in srgb, var(--theme-primary) 5%, transparent) 1px, transparent 1px);
         background-size: 24px 24px;
         opacity: 0.5;
     }
@@ -457,15 +450,15 @@ $hub-transition-out: 0.4s ease-in;
 
 // Per-card gradients for mobile
 [data-portfolio="commercial"] .portfolio-hub-card-accent::before {
-    background: radial-gradient(ellipse at 30% 90%, rgba($primary, 0.15) 0%, transparent 60%);
+    background: radial-gradient(ellipse at 30% 90%, color-mix(in srgb, var(--theme-primary) 15%, transparent) 0%, transparent 60%);
 }
 
 [data-portfolio="personal"] .portfolio-hub-card-accent::before {
-    background: radial-gradient(ellipse at 50% 70%, rgba($primary, 0.12) 0%, transparent 50%);
+    background: radial-gradient(ellipse at 50% 70%, color-mix(in srgb, var(--theme-primary) 12%, transparent) 0%, transparent 50%);
 }
 
 [data-portfolio="ai-projects"] .portfolio-hub-card-accent::before {
-    background: radial-gradient(ellipse at 70% 20%, rgba($primary, 0.15) 0%, transparent 60%);
+    background: radial-gradient(ellipse at 70% 20%, color-mix(in srgb, var(--theme-primary) 15%, transparent) 0%, transparent 60%);
 }
 
 .portfolio-hub-card-content {
@@ -541,8 +534,8 @@ $hub-transition-out: 0.4s ease-in;
     height: 26px;
     border-radius: 50%;
 
-    background: rgba(0, 0, 0, 0.6);
-    color: var(--theme-texts);
+    background: color-mix(in srgb, var(--theme-texts) 50%, transparent);
+    color: var(--theme-texts-inv);
 
     display: flex;
     align-items: center;
