@@ -16,12 +16,21 @@ $hub-transition-out: 0.4s ease-in;
 
     background-color: color-mix(in srgb, var(--theme-background) 98%, transparent);
 
+    @include media-breakpoint-down(md) {
+        background-color: var(--theme-background);
+    }
+
     display: flex;
     align-items: center;
     justify-content: center;
 
     padding: 20px;
     overflow-y: auto;
+
+    @include media-breakpoint-down(md) {
+        align-items: flex-start;
+        padding: 24px 12px;
+    }
 
     // States
     &.hub-showing {
@@ -61,6 +70,10 @@ $hub-transition-out: 0.4s ease-in;
 
     @include media-breakpoint-down(md) {
         gap: 1.25rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        gap: 1rem;
     }
 }
 
@@ -348,19 +361,25 @@ $hub-transition-out: 0.4s ease-in;
         display: block;
     }
 
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 40px;
+    }
+
     .swiper-pagination {
         bottom: 10px;
     }
 
     .swiper-pagination-bullet {
         background: var(--theme-texts);
-        opacity: 0.3;
-        width: 10px;
-        height: 10px;
+        opacity: 0.25;
+        width: 8px;
+        height: 8px;
 
         &-active {
             background: var(--theme-primary);
             opacity: 1;
+            width: 20px;
+            border-radius: 4px;
         }
     }
 }
@@ -370,6 +389,7 @@ $hub-transition-out: 0.4s ease-in;
     background: var(--theme-card-background);
     border-radius: $standard-border-radius;
     border: 1px solid var(--theme-standard-borders);
+    border-bottom: 2px solid color-mix(in srgb, var(--theme-primary) 30%, transparent);
     overflow: hidden;
     cursor: pointer;
 
@@ -386,21 +406,29 @@ $hub-transition-out: 0.4s ease-in;
 
     &:hover {
         transform: translateY(-8px);
-        border-color: var(--theme-primary);
+        border-color: color-mix(in srgb, var(--theme-primary) 35%, transparent);
+        border-bottom-color: color-mix(in srgb, var(--theme-primary) 60%, transparent);
         box-shadow: var(--theme-paper-shadow-lg);
 
         .portfolio-hub-card-accent::before {
             opacity: 1;
         }
 
+        .portfolio-hub-card-icon {
+            transform: scale(1.08);
+            box-shadow: 0 0 20px color-mix(in srgb, var(--theme-primary) 50%, transparent),
+                        0 0 40px color-mix(in srgb, var(--theme-primary) 15%, transparent);
+        }
+
         .portfolio-hub-card-button {
             background: var(--theme-primary);
+            border-color: var(--theme-primary);
             color: var(--theme-texts-inv);
         }
     }
 
     @include media-breakpoint-down(md) {
-        max-width: 320px;
+        max-width: 100%;
         margin: 0 auto;
 
         &:hover {
@@ -423,9 +451,17 @@ $hub-transition-out: 0.4s ease-in;
 // Accent strip at top of mobile card
 .portfolio-hub-card-accent {
     position: relative;
-    height: 100px;
+    height: 80px;
     overflow: hidden;
     background: var(--theme-boards-background);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include media-breakpoint-down(sm) {
+        height: 72px;
+    }
 
     &::before {
         content: '';
@@ -444,8 +480,29 @@ $hub-transition-out: 0.4s ease-in;
             linear-gradient(color-mix(in srgb, var(--theme-primary) 5%, transparent) 1px, transparent 1px),
             linear-gradient(90deg, color-mix(in srgb, var(--theme-primary) 5%, transparent) 1px, transparent 1px);
         background-size: 24px 24px;
-        opacity: 0.5;
+        opacity: 0.3;
     }
+}
+
+.portfolio-hub-card-icon {
+    position: relative;
+    z-index: 3;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    background: var(--theme-primary);
+    color: var(--theme-texts-inv);
+    box-shadow: 0 0 16px color-mix(in srgb, var(--theme-primary) 35%, transparent),
+                0 0 32px color-mix(in srgb, var(--theme-primary) 10%, transparent);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+
+    transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
 }
 
 // Per-card gradients for mobile
@@ -462,11 +519,17 @@ $hub-transition-out: 0.4s ease-in;
 }
 
 .portfolio-hub-card-content {
-    padding: 1.75rem 1.25rem 1.25rem;
+    padding: 1.25rem 1.25rem 1.25rem;
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    align-items: center;
+    text-align: center;
+    gap: 0.25rem;
     flex: 1;
+
+    @include media-breakpoint-down(sm) {
+        padding: 1rem;
+    }
 }
 
 .portfolio-hub-card-title {
@@ -487,11 +550,11 @@ $hub-transition-out: 0.4s ease-in;
 }
 
 .portfolio-hub-card-description {
-    font-size: 0.875rem;
+    font-size: 0.85rem;
     color: var(--theme-texts-light);
-    line-height: 1.5;
-    margin: 0.5rem 0 1rem;
-    flex: 1;
+    line-height: 1.4;
+    margin: 0.25rem 0 0.5rem;
+    opacity: 0.7;
 }
 
 .portfolio-hub-card-button {
@@ -500,28 +563,29 @@ $hub-transition-out: 0.4s ease-in;
     justify-content: center;
     gap: 0.5rem;
 
-    padding: 0.75rem 1.25rem;
+    padding: 0.6rem 1.5rem;
+    margin-top: 0.25rem;
     border-radius: 6px;
 
-    background: var(--theme-boards-background);
-    border: 1px solid var(--theme-standard-borders);
-    color: var(--theme-texts);
+    background: var(--theme-primary);
+    border: none;
+    color: var(--theme-texts-inv);
 
     font-family: $font-family-base;
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 0.85rem;
+    font-weight: 600;
     cursor: pointer;
 
     transition: all 0.3s ease-out;
 
     i {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
 
     &:hover {
-        background: var(--theme-primary);
-        border-color: var(--theme-primary);
+        background: var(--theme-texts);
         color: var(--theme-texts-inv);
+        transform: scale(1.05);
     }
 }
 
@@ -576,6 +640,12 @@ $hub-transition-out: 0.4s ease-in;
     text-decoration: none;
 
     transition: all 0.3s ease-out;
+
+    @include media-breakpoint-down(md) {
+        width: 38px;
+        height: 38px;
+        font-size: 1rem;
+    }
 
     &:hover {
         background: var(--theme-primary);
