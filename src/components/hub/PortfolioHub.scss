@@ -58,10 +58,8 @@ $hub-transition-out: 0.4s ease-in;
 
 // Container
 .portfolio-hub-container {
-    max-width: 1400px;
+    max-width: 1200px;
     width: 100%;
-    height: 100%;
-    max-height: 90vh;
 
     display: flex;
     flex-direction: column;
@@ -72,7 +70,6 @@ $hub-transition-out: 0.4s ease-in;
 
     @include media-breakpoint-down(md) {
         gap: 1.25rem;
-        max-height: none;
     }
 }
 
@@ -130,11 +127,8 @@ $hub-transition-out: 0.4s ease-in;
 
 .portfolio-hub-panels {
     display: flex;
-    gap: 8px;
+    gap: 12px;
     width: 100%;
-    flex: 1;
-    min-height: 0;
-    max-height: 55vh;
 
     @include media-breakpoint-down(md) {
         display: none;
@@ -146,31 +140,77 @@ $hub-transition-out: 0.4s ease-in;
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 12px;
+    background: rgba(#fff, 0.03);
+    border: 1px solid rgba(#fff, 0.06);
+    border-bottom: 2px solid rgba($primary, 0.25);
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 1.5rem;
 
-    transition: flex 0.4s ease-out;
+    transition: transform 0.4s ease-out, box-shadow 0.4s ease-out, border-color 0.4s ease-out, background 0.4s ease-out;
     animation: panelSlideIn 0.5s ease-out both;
+
+    // Gradient accent — unique per card
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: 0.7;
+        transition: opacity 0.5s ease-out;
+        pointer-events: none;
+    }
+
+    // Grid texture — visible at rest, brighter on hover
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background:
+            linear-gradient(rgba($primary, 0.04) 1px, transparent 1px),
+            linear-gradient(90deg, rgba($primary, 0.04) 1px, transparent 1px);
+        background-size: 32px 32px;
+        opacity: 0.25;
+        transition: opacity 0.5s ease-out;
+        pointer-events: none;
+    }
 
     &:hover,
     &.hovered {
-        flex: 1.5;
+        transform: translateY(-4px);
+        background: rgba(#fff, 0.06);
+        border-color: rgba($primary, 0.3);
+        border-bottom-color: rgba($primary, 0.6);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba($primary, 0.1);
 
-        .portfolio-hub-panel-overlay {
-            opacity: 0.4;
+        &::before {
+            opacity: 1;
+        }
+
+        &::after {
+            opacity: 0.5;
         }
 
         .portfolio-hub-panel-content {
             opacity: 1;
             transform: translateY(0);
         }
+    }
 
-        .portfolio-hub-panel-image img {
-            transform: scale(1.05);
-        }
+    // Per-card gradients
+    &[data-portfolio="commercial"]::before {
+        background: radial-gradient(ellipse at 25% 85%, rgba($primary, 0.2) 0%, transparent 55%);
+    }
+
+    &[data-portfolio="personal"]::before {
+        background: radial-gradient(ellipse at 50% 70%, rgba($primary, 0.15) 0%, transparent 50%);
+    }
+
+    &[data-portfolio="ai-projects"]::before {
+        background: radial-gradient(ellipse at 75% 15%, rgba($primary, 0.2) 0%, transparent 55%);
     }
 }
 
@@ -185,42 +225,9 @@ $hub-transition-out: 0.4s ease-in;
     }
 }
 
-.portfolio-hub-panel-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.5s ease-out;
-    }
-}
-
-.portfolio-hub-panel-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.95) 0%,
-        rgba(0, 0, 0, 0.7) 30%,
-        rgba(0, 0, 0, 0.3) 60%,
-        rgba(0, 0, 0, 0.5) 100%
-    );
-    opacity: 0.8;
-    transition: opacity 0.4s ease-out;
-}
-
 .portfolio-hub-panel-content {
     position: relative;
     z-index: 2;
-    padding: 1.5rem 1rem;
 
     display: flex;
     flex-direction: column;
@@ -228,34 +235,49 @@ $hub-transition-out: 0.4s ease-in;
     text-align: center;
     gap: 0.5rem;
 
-    opacity: 0.85;
-    transform: translateY(10px);
+    opacity: 1;
+    transform: translateY(4px);
     transition: all 0.4s ease-out;
 }
 
 .portfolio-hub-panel-icon {
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
 
     background: var(--theme-primary);
     color: var(--theme-texts-inv);
+    box-shadow: 0 0 20px rgba($primary, 0.3), 0 0 40px rgba($primary, 0.1);
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
+    transition: box-shadow 0.4s ease-out, transform 0.4s ease-out;
+
+    .portfolio-hub-panel:hover &,
+    .portfolio-hub-panel.hovered & {
+        box-shadow: 0 0 25px rgba($primary, 0.5), 0 0 50px rgba($primary, 0.2);
+        transform: scale(1.08);
+    }
+}
+
+.portfolio-hub-panel-description {
+    font-size: 0.8rem;
+    color: var(--theme-texts-light);
+    opacity: 0.6;
+    margin: 0;
+    line-height: 1.4;
 }
 
 .portfolio-hub-panel-title {
     font-family: $headings-font-family;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    color: #fff;
+    color: var(--theme-texts);
     margin: 0;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-hub-panel-subtitle {
@@ -374,14 +396,8 @@ $hub-transition-out: 0.4s ease-in;
         border-color: var(--theme-primary);
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 
-        .portfolio-hub-card-image img {
-            transform: scale(1.08);
-        }
-
-        .portfolio-hub-card-icon {
-            background: var(--theme-primary);
-            color: var(--theme-texts-inv);
-            transform: scale(1.1);
+        .portfolio-hub-card-accent::before {
+            opacity: 1;
         }
 
         .portfolio-hub-card-button {
@@ -411,41 +427,45 @@ $hub-transition-out: 0.4s ease-in;
     }
 }
 
-.portfolio-hub-card-image {
+// Accent strip at top of mobile card (replaces GIF image)
+.portfolio-hub-card-accent {
     position: relative;
-    height: 140px;
+    height: 100px;
     overflow: hidden;
     background: var(--theme-boards-background);
 
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.4s ease-out;
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: 0.7;
+        transition: opacity 0.4s ease-out;
+    }
+
+    // Subtle grid overlay
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background:
+            linear-gradient(rgba($primary, 0.04) 1px, transparent 1px),
+            linear-gradient(90deg, rgba($primary, 0.04) 1px, transparent 1px);
+        background-size: 24px 24px;
+        opacity: 0.5;
     }
 }
 
-.portfolio-hub-card-icon {
-    position: absolute;
-    bottom: -22px;
-    right: 20px;
+// Per-card gradients for mobile
+[data-portfolio="commercial"] .portfolio-hub-card-accent::before {
+    background: radial-gradient(ellipse at 30% 90%, rgba($primary, 0.15) 0%, transparent 60%);
+}
 
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
+[data-portfolio="personal"] .portfolio-hub-card-accent::before {
+    background: radial-gradient(ellipse at 50% 70%, rgba($primary, 0.12) 0%, transparent 50%);
+}
 
-    background: var(--theme-boards-background);
-    border: 3px solid var(--theme-card-background);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: var(--theme-primary);
-    font-size: 1.1rem;
-
-    transition: all 0.3s ease-out;
-    z-index: 1;
+[data-portfolio="ai-projects"] .portfolio-hub-card-accent::before {
+    background: radial-gradient(ellipse at 70% 20%, rgba($primary, 0.15) 0%, transparent 60%);
 }
 
 .portfolio-hub-card-content {
