@@ -1,10 +1,10 @@
 /**
- * @description Light theme - "Midnight Prism"
- * A crisp, modern aesthetic with indigo accents and cool-white surfaces.
+ * @description Light theme - "Neon Blue"
+ * A crisp, modern aesthetic with electric blue accents and cool-white surfaces.
  * Distinctive identity that complements the green dark mode without mirroring it.
  *
  * Typography: Inherits dark mode fonts (Lato/Orbitron/Oxygen) for brand consistency.
- * Palette: Cool whites, deep indigo primary, subtle indigo-tinted surfaces.
+ * Palette: Cool whites, electric blue primary, subtle blue-tinted surfaces.
  */
 
 @import "theme-variables-builder";
@@ -14,7 +14,7 @@
 // =============================================================================
 
 // Core accent colors
-$primary: #4F46E5;              // Vibrant indigo — distinctive, modern
+$primary: #0284C7;              // Electric neon blue — vivid, modern
 $secondary: #64748B;            // Cool slate grey
 $dark: #0F172A;                 // Deep midnight — headings, emphasis
 $danger: #EF4444;               // Clean red
@@ -34,7 +34,7 @@ $base-container-bg: #FFFFFF;            // Pure white — sidebar, sections
 $base-container-bg-accent: #F8FAFC;     // Cool white — inactive nav
 $base-popover-bg: #FFFFFF;              // White — dropdowns, popovers
 $base-boards: #F8FAFC;                  // Cool white — timeline, cards
-$base-info-badges: #EEF2FF;             // Indigo 50 — gives badges character
+$base-info-badges: #E0F2FE;             // Sky 100 — gives badges character
 $empty: #F1F5F9;                        // Form fields, empty states
 
 // Borders — clean slate
@@ -47,7 +47,7 @@ $scrollbar-track: #F1F5F9;
 $scrollbar-thumb: #CBD5E1;
 
 // Form specific
-$form-attach-bg: #EEF2FF;
+$form-attach-bg: #E0F2FE;
 $form-attach-color: #475569;
 
 // =============================================================================
@@ -115,9 +115,9 @@ $form-attach-color: #475569;
     // No paper texture — clean surfaces
     --theme-paper-texture: none;
 
-    // Accent tints — indigo instead of sepia
-    --theme-sepia-accent: #C7D2FE;             // Indigo 200 — soft accent
-    --theme-warm-highlight: rgba(79, 70, 229, 0.08);  // Indigo tint
+    // Accent tints — electric blue
+    --theme-sepia-accent: #BAE6FD;             // Sky 200 — soft accent
+    --theme-warm-highlight: rgba(2, 132, 199, 0.08);  // Blue tint
 }
 
 // =============================================================================
