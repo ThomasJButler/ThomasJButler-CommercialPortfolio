@@ -324,7 +324,7 @@ function PortfolioHubFooter() {
                     className="portfolio-hub-social-link"
                     aria-label="Buy Me a Coffee"
                 >
-                    <i className="fa-solid fa-lightbulb" />
+                    <i className="fa-solid fa-mug-hot" />
                 </a>
             </div>
         </div>
