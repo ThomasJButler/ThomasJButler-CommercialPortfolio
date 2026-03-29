@@ -90,7 +90,7 @@
         },
         {
             "id": "light",
-            "icon": "fa-solid fa-sun",
+            "icon": "fa-solid fa-lightbulb",
             "dark": false,
             "locales": {
                 "en": {"name": "Light Mode"},

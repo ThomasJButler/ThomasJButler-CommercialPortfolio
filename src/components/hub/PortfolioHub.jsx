@@ -263,9 +263,14 @@ function PortfolioHubCard({ portfolio, onClick, index }) {
             onClick={onClick}
             style={{ animationDelay: `${index * 0.1}s` }}
         >
-            <div className="portfolio-hub-card-accent" />
+            <div className="portfolio-hub-card-accent">
+                <div className="portfolio-hub-card-icon">
+                    <i className={portfolio.icon} />
+                </div>
+            </div>
 
             <div className="portfolio-hub-card-content">
+                <h3 className="portfolio-hub-card-title">{portfolio.title}</h3>
                 <p className="portfolio-hub-card-subtitle">{portfolio.subtitle}</p>
                 <p className="portfolio-hub-card-description">{portfolio.description}</p>
 
