@@ -66,13 +66,6 @@
                         "href": "https://github.com/thomasjbutler"
                     },
                     "faIcon": "fa-brands fa-github"
-                },
-                {
-                    "label": "Personal",
-                    "link": {
-                        "href": "https://thomasjbutler.github.io/"
-                    },
-                    "faIcon": "fa-solid fa-user"
                 }
             ]
         },
