@@ -4,7 +4,6 @@ import {createRoot} from 'react-dom/client'
 import {useApi} from "/src/hooks/api.js"
 import {useConstants} from "/src/hooks/constants.js"
 import {useUtils} from "/src/hooks/utils.js"
-import Preloader from "/src/components/loaders/Preloader.jsx"
 import DataProvider, {useData} from "/src/providers/DataProvider.jsx"
 import LanguageProvider from "/src/providers/LanguageProvider.jsx"
 import ViewportProvider from "/src/providers/ViewportProvider.jsx"
@@ -83,37 +82,28 @@ const AppEssentialsWrapper = ({children}) => {
         const developerSettings = settings?.developerSettings
         const debugMode = developerSettings?.debugMode
         const fakeEmailRequests = developerSettings?.fakeEmailRequests
-        const stayOnThePreloaderScreen = developerSettings?.stayOnThePreloaderScreen
 
         if(constants.PRODUCTION_MODE)
             return settings
 
         if(debugMode) {
-            settings.preloaderSettings.enabled = stayOnThePreloaderScreen
             settings.templateSettings.animatedBackground = false
             utils.storage.setWindowVariable("suspendAnimations", true)
-            utils.log.warn("DataProvider", "Debug Mode is enabled, so transitions and animated content—such as the preloader screen, background animations, and role text typing—will be skipped. You can disable it manually on settings.json or by running the app on PROD_MODE, which disables it by default.")
+            utils.log.warn("DataProvider", "Debug Mode is enabled, so transitions and animated content—such as background animations and role text typing—will be skipped. You can disable it manually on settings.json or by running the app on PROD_MODE, which disables it by default.")
         }
 
         if(fakeEmailRequests) {
             utils.storage.setWindowVariable("fakeEmailRequests", true)
             utils.log.warn("DataProvider", "Fake email requests are enabled. This is only for development purposes and will be disabled automatically in production.")
         }
-
-        if(stayOnThePreloaderScreen) {
-            utils.storage.setWindowVariable("stayOnThePreloaderScreen", true)
-            utils.log.warn("DataProvider", "Preloader screen will be displayed indefinitely because the developer flag 'stayOnThePreloaderScreen' is on. This is only for development purposes and will be disabled automatically in production.")
-        }
     }
 
     return (
         <StrictMode>
             {settings && (
-                <Preloader preloaderSettings={settings["preloaderSettings"]}>
-                    <DataProvider settings={settings}>
-                        {children}
-                    </DataProvider>
-                </Preloader>
+                <DataProvider settings={settings}>
+                    {children}
+                </DataProvider>
             )}
         </StrictMode>
     )

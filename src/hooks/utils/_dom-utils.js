@@ -3,10 +3,6 @@
  * @date 2025-05-10
  */
 
-import {useConstants} from "/src/hooks/constants.js"
-
-const constants = useConstants()
-
 export const _domUtils = {
     /**
      * @return {boolean}
@@ -14,36 +10,6 @@ export const _domUtils = {
     didLoadImagesWithQuerySelector: (querySelector) => {
         const images = document.querySelectorAll(querySelector || 'img')
         return Array.from(images).every(img => img.complete && img.naturalHeight !== 0)
-    },
-
-    /**
-     * @param {String} imageClass
-     * @return {number}
-     */
-    getImageCount: (imageClass) => {
-        const imageElements = document.querySelectorAll(`.${imageClass}`)
-        return Array.from(imageElements).length
-    },
-
-    /**
-     * @param {String} imageClass
-     * @return {number}
-     */
-    getImageLoadPercentage: (imageClass) => {
-        const imageElements = document.querySelectorAll(`.${imageClass}`)
-        const imageLoadProgress = { loaded: 0, total: 0 }
-
-        Array.from(imageElements).map(item => {
-            imageLoadProgress.total++
-            if(item.classList.contains(imageClass + "-loaded") || item.classList.contains(imageClass + "-error"))
-                imageLoadProgress.loaded++
-        })
-
-        if(imageLoadProgress.total === 0)
-            return 100
-
-        const percentage = Math.round(100*imageLoadProgress.loaded/imageLoadProgress.total)
-        return Math.max(0, Math.min(100, percentage))
     },
 
     /**
@@ -77,17 +43,5 @@ export const _domUtils = {
             y >= rect.top &&
             y <= rect.bottom
         )
-    },
-
-    /**
-     * @param {Boolean} enabled
-     */
-    setBodyScrollEnabled: (enabled) => {
-        if(enabled) {
-            document.body.classList.remove(constants.HTML_CLASSES.bodyNoScroll)
-        }
-        else {
-            document.body.classList.add(constants.HTML_CLASSES.bodyNoScroll)
-        }
     }
 }

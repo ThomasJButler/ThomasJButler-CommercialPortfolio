@@ -31,19 +31,7 @@ jsonUtils.overwrite(jSettingsPath, {
     developerSettings: {
         debugMode: false,
         fakeEmailRequests: false,
-        stayOnThePreloaderScreen: false,
         version: "1.0.0"
-    },
-
-    preloaderSettings: {
-        enabled: true,
-        title: "React <b>Portfolio</b>",
-        subtitle: "by Ryan Balieiro",
-        logoOffset: {
-            right: 14,
-            top: 2,
-            bottom: 0,
-        }
     },
 
     templateSettings: {
