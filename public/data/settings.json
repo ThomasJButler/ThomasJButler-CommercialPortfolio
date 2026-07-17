@@ -2,19 +2,7 @@
     "developerSettings": {
         "debugMode": false,
         "fakeEmailRequests": false,
-        "stayOnThePreloaderScreen": false,
         "version": "2.0.0"
-    },
-
-    "preloaderSettings": {
-        "enabled": true,
-        "title": "Thomas <strong>Butler</strong>",
-        "subtitle": "Full-Stack Developer",
-        "logoOffset": {
-            "right": 14,
-            "top": 2,
-            "bottom": 0
-        }
     },
 
     "profile": {

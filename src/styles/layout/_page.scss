@@ -7,7 +7,12 @@ body {
     overflow-x: hidden!important;
     touch-action: manipulation;
     width: 100%;
-    background-color: $loader-background;
+
+    // !important is required: index.html sets an inline background on <body> as a
+    // pre-stylesheet anti-flash fallback, and an inline style outranks a normal
+    // author declaration. --theme-background resolves without JS, since the dark
+    // theme is declared on :root and only the light theme is gated on [data-theme].
+    background-color: var(--theme-background)!important;
 
     @include media-breakpoint-up($max-breakpoint-for-tabbed-interface) {
         position: fixed!important;
@@ -15,19 +20,11 @@ body {
     }
 }
 
-body.body-theme {
-    background-color: var(--theme-background)!important;
-}
-
 body.body-android {
     @include media-breakpoint-up($max-breakpoint-for-tabbed-interface) {
         position: relative!important;
         overflow-y: auto!important;
     }
-}
-
-body.body-no-scroll {
-    overflow-y: hidden!important;
 }
 
 /** ------------ SELECTION STYLES ------------ **/

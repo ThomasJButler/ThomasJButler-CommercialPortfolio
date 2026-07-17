@@ -12,21 +12,9 @@ At the root of the `settings.json` file, you're going to find a section called `
 
 | Field                      | Type   | Description                                                                                                                                                                                               |
 |----------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `debugMode`                | BOOL   | When enabled, the app skips preload animations, transitions, and other effects that can slow down development. You can turn this on to hide the preloading screen while you tweak the theme, for example. |
+| `debugMode`                | BOOL   | When enabled, the app skips transitions and animated content — such as background animations and role text typing — that can slow down development.                                                        |
 | `fakeEmailRequests`        | BOOL   | When enabled, the app will simulate email requests instead of sending real emails.                                                                                                                        |
-| `stayOnThePreloaderScreen` | BOOL   | When enabled, the app will stay on the preloader screen indefinitely, allowing you to test the preloader layout without having to reload the app multiple times.                                          |
 | `version`                  | STRING | A string containing a version number for your portfolio (e.g., "1.0.0").                                                                                                                                  |
-
-## Preloader Settings
-
-The `preloaderSettings` section customizes the preloading screen that appears when you first load your portfolio. Here’s what you can configure:
-
-| Field          | Type   | Description                                                                                                                                                              |
-|----------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `enabled`      | BOOL   | When enabled (recommended), the preloader screen will be displayed when the app is loading.                                                                              |
-| `title`        | STRING | The title displayed on the preloader screen. This is usually your name or the name of your portfolio.                                                                    |
-| `subtitle`     | STRING | A subtitle that appears below the title on the preloader screen. This can be a short description or tagline about you or your portfolio.                                 |
-| `logoOffset`   | OBJECT | An object containing three numeric properties `top`, `right` and `bottom`, allowing you to determine the offset between the logo and the titles on the preloader screen. |
 
 ## Template Settings
 
