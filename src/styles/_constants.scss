@@ -14,7 +14,6 @@ $font-family-base: 'Saira', sans-serif;
 $headings-font-family: 'Orbitron', sans-serif;
 
 /** Static Colors **/
-$loader-background: #111111;
 $loader-contrast: #FFFFFF;
 $primary: #36ad59;
 
@@ -32,7 +31,6 @@ $z-index-notifications: 9500;
 $z-index-dialogs:9800;
 $z-index-activity-spinner: 9990;
 $z-index-animated-cursor: 9995;
-$z-index-loader: 9999;
 
 /** Layout Constraints - General **/
 $max-breakpoint-for-tabbed-interface: md;

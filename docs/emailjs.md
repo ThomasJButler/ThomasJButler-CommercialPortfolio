@@ -74,7 +74,6 @@ Edit `/public/data/settings.json`:
 "developerSettings": {
     "debugMode": false,
     "fakeEmailRequests": false,  // Change this to false
-    "stayOnThePreloaderScreen": false,
     "version": "2.0.0"
 }
 ```

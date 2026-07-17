@@ -14,33 +14,32 @@ Here’s an example:
 <meta name="keywords" content="john,doe,portfolio,programmer,react"/>
 ```
 
-## Preloader Colors
+## Initial Background Color
 
-If you want to change the colors of the preloading screen, open the `src/styles/_constants.scss` file and update the following variables:
+Once the stylesheet is parsed, the `<body>` background automatically follows the active theme's background color, so there's normally nothing to configure here.
 
-```scss
-$loader-background: #1b2226; // making the loader background dark blue
-$loader-contrast: #FFFFFF; // text and pacman animation color
-$primary: #51a0c2; // the base primary color (used to color the pacman beans)
-```
-
-For a smoother visual transition, you can also match the splash screen background in `index.html` by setting the same background color:
-
+The one exception is the very first paint, before the stylesheet has loaded. That's covered by an inline background color on `<body>` in `index.html`, which exists purely to avoid a white flash. If you change your default theme's background, match it here too — along with the `<meta name="theme-color">` tag, which should track the same value:
 
 ```html
-<body style="background-color: #1b2226">
+<meta name="theme-color" content="#0c0c0c"/>
+...
+<body style="background-color: #0c0c0c">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
 </body>
 ```
 
-The logo shown in the **preloader** is a static svg file located at `public/images/svg/logo.svg`. If you're customizing your theme's color scheme, it's a good idea to use a logo that visually matches your new colors for better consistency and aesthetics. 
+Both should match your default theme's background — set by `defaultThemeId` in `settings.json`, which is `dark` (`#0c0c0c`) out of the box.
+
+The logo used for the favicon and across the site is a static svg file located at `public/images/svg/logo.svg`. If you're customizing your theme's color scheme, it's a good idea to use a logo that visually matches your new colors for better consistency and aesthetics.
 
 If you want to create a **variation of the default template logo** with a different color, you can easily edit and export it as an SVG **for free** [here](https://www.svgrepo.com/svg/411136/code?edit=true).
 
 ## Theme Colors
 
 Each theme has its own separate color schema file. The two default themes (dark and light) can be configured by editing the files `_variables-theme-dark.scss` and `_variables-theme-light.scss`, located inside the `src/styles/themes` folder.
+
+> Note: there is also a `$primary` in `src/styles/_constants.scss`. That one is a Bootstrap-only override — it sets `--bs-primary` for any Bootstrap component that hasn't been retargeted at a theme. The accent color you actually see across the portfolio is the per-theme `$primary` described below.
 
 ### Customizing the Dark Theme
 

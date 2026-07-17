@@ -17,8 +17,6 @@ export const useConstants = () => {
 
     /** @const */
     const HTML_CLASSES = {
-        bodyNoScroll: "body-no-scroll",
-        bodyAfterLoading: "body-theme",
         imageView: "image-view-img",
         scrollbarDecorator: "scrollbar-decorator",
         textHighlight: "text-primary"
