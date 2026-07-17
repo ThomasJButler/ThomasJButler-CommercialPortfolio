@@ -1,0 +1,101 @@
+@import "/src/styles/extend.scss";
+
+.nav-personal-link-wrapper {
+    flex-shrink: 0;
+    padding: 10px 12px;
+    border-top: 1px solid var(--theme-standard-borders);
+}
+
+.nav-personal-link {
+    // Component-scoped gold. Warm gold reads as "premium" and stands apart from
+    // the green (dark) / electric-blue (light) brand primaries.
+    --gold: #E8C36A;
+    --gold-strong: #F4D888;
+    --gold-border: rgba(232, 195, 106, 0.45);
+    --gold-glow: rgba(232, 195, 106, 0.20);
+    --gold-tint-a: rgba(232, 195, 106, 0.07);
+    --gold-tint-b: rgba(232, 195, 106, 0.02);
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 11px 13px;
+    border: 1px solid var(--gold-border);
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--gold-tint-a), var(--gold-tint-b));
+    text-decoration: none;
+    user-select: none;
+
+    i {
+        font-size: 1.3rem;
+        min-width: 26px;
+        text-align: center;
+        color: var(--gold);
+        filter: drop-shadow(0 0 6px var(--gold-glow));
+    }
+
+    .nav-personal-link-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.25;
+        min-width: 0;
+    }
+
+    .nav-personal-link-label {
+        color: var(--gold);
+        font-weight: 700;
+        font-size: 0.95rem;
+        letter-spacing: 0.2px;
+    }
+
+    .nav-personal-link-tagline {
+        color: var(--gold);
+        opacity: 0.6;
+        font-size: 0.72rem;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .nav-personal-link {
+        transition: border-color 0.2s ease, box-shadow 0.25s ease, background 0.25s ease, transform 0.2s ease;
+        i { transition: color 0.2s ease; }
+    }
+}
+
+.nav-personal-link:hover {
+    border-color: var(--gold-strong);
+    background: linear-gradient(135deg, rgba(232, 195, 106, 0.16), rgba(232, 195, 106, 0.05));
+    box-shadow: 0 0 18px var(--gold-glow), inset 0 0 0 1px rgba(232, 195, 106, 0.14);
+    transform: translateY(-1px);
+
+    i { color: var(--gold-strong); }
+    .nav-personal-link-label { color: var(--gold-strong); }
+}
+
+// Light theme ("Paper & Ink") — deeper gold for contrast on cool-white surfaces.
+[data-theme="light"] .nav-personal-link {
+    --gold: #B4881F;
+    --gold-strong: #93700F;
+    --gold-border: rgba(180, 136, 31, 0.55);
+    --gold-glow: rgba(180, 136, 31, 0.16);
+    --gold-tint-a: rgba(180, 136, 31, 0.10);
+    --gold-tint-b: rgba(180, 136, 31, 0.03);
+}
+
+// Collapsed / shrunk sidebar — icon only, centred, with a tooltip.
+.nav-personal-link-wrapper.nav-personal-link-shrink {
+    padding: 8px 6px;
+
+    .nav-personal-link {
+        justify-content: center;
+        gap: 0;
+        padding: 11px 0;
+
+        i { min-width: 0; }
+    }
+
+    .nav-personal-link-text {
+        display: none;
+    }
+}

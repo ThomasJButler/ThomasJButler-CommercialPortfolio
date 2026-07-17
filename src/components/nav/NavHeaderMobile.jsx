@@ -2,6 +2,7 @@ import "./NavHeaderMobile.scss"
 import React, {useEffect, useState} from 'react'
 import {Card} from "react-bootstrap"
 import NavProfileCard from "/src/components/nav/partials/NavProfileCard.jsx"
+import NavPersonalLink from "/src/components/nav/partials/NavPersonalLink.jsx"
 import NavToolLanguagePicker from "/src/components/nav/tools/NavToolLanguagePicker.jsx"
 import NavToolThemePicker from "/src/components/nav/tools/NavToolThemePicker.jsx"
 import NavLinkPills from "/src/components/nav/partials/NavLinkPills.jsx"
@@ -23,6 +24,9 @@ function NavHeaderMobile({ profile, links }) {
 
                 <NavLinkPills id={`nav-link-pills-menu`}
                               links={links}/>
+
+                <NavPersonalLink profile={profile}
+                                 expanded={true}/>
             </Card>
         </nav>
     )

@@ -5,6 +5,7 @@ import {useViewport} from "/src/providers/ViewportProvider.jsx"
 import {useConstants} from "/src/hooks/constants.js"
 import NavProfileCard from "/src/components/nav/partials/NavProfileCard.jsx"
 import NavLinkList from "/src/components/nav/partials/NavLinkList.jsx"
+import NavPersonalLink from "/src/components/nav/partials/NavPersonalLink.jsx"
 import NavToolList from "/src/components/nav/partials/NavToolList.jsx"
 import NavToolShrinkToggle from "/src/components/nav/tools/NavToolShrinkToggle.jsx"
 import {useInput} from "/src/providers/InputProvider.jsx"
@@ -44,6 +45,9 @@ function NavSidebar({ profile, links }) {
 
                 <NavLinkList links={links}
                              expanded={expanded}/>
+
+                <NavPersonalLink profile={profile}
+                                 expanded={expanded}/>
 
                 <NavToolList expanded={expanded}/>
             </Card>

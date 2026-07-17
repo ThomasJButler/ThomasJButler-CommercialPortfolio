@@ -8,11 +8,18 @@
     "statusCircleVariant": "available",
     "statusCircleHoverMessage": "status_message_available_for_freelance",
 
+    "personalLink": {
+        "href": "https://thomasjbutler.github.io/",
+        "faIcon": "fa-solid fa-laptop-code"
+    },
+
     "locales": {
         "en": {
             "localized_name": "Thomas Butler",
             "localized_name_stylized": " Thomas [[ {{Butler}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
+            "personalLinkLabel": "Personal Portfolio",
+            "personalLinkTagline": "See my real engineering projects",
             "roles": [
                 "Full-Stack Developer",
                 "AI Integration Specialist",
@@ -24,6 +31,8 @@
             "localized_name": "Томас Батлер",
             "localized_name_stylized": " [[Томас {{Батлер}}]]",
             "status_message_available_for_freelance": "Доступен для фриланса!",
+            "personalLinkLabel": "Личное портфолио",
+            "personalLinkTagline": "Мои реальные инженерные проекты",
             "roles": [
                 "Фуллстек разработчик",
                 "Специалист по AI интеграции",
@@ -35,6 +44,8 @@
             "localized_name": "Thomas Butler",
             "localized_name_stylized": " [[Thomas {{Butler}}]]",
             "status_message_available_for_freelance": "Disponible pour freelance !",
+            "personalLinkLabel": "Portfolio Personnel",
+            "personalLinkTagline": "Voir mes vrais projets d'ingénierie",
             "roles": [
                 "Développeur Full-Stack",
                 "Spécialiste en intégration IA",
@@ -46,6 +57,8 @@
             "localized_name": "トーマス・バトラー",
             "localized_name_stylized": " [[トーマス {{バトラー}}]]",
             "status_message_available_for_freelance": "フリーランス可能です！",
+            "personalLinkLabel": "個人ポートフォリオ",
+            "personalLinkTagline": "実際のエンジニアリングプロジェクトをご覧ください",
             "roles": [
                 "フルスタック開発者",
                 "AI統合スペシャリスト",
