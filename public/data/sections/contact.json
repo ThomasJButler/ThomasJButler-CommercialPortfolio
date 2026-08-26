@@ -363,7 +363,7 @@
                 },
                 {
                     "id": 3,
-                    "faIcon": "fa-brands fa-notion",
+                    "faIcon": "fa-solid fa-briefcase",
                     "faIconColors": {
                         "bg": "#1F2937",
                         "fill": "#FFFFFF"

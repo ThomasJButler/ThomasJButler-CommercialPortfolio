@@ -237,16 +237,16 @@
                     "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1768248158/notion-brands-solid-full_1_eqt1ud.svg",
                     "locales": {
                         "en": {
-                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-brands fa-notion'></i>View Detailed Agency Showcase</a></p>"
+                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View Detailed Agency Showcase</a></p>"
                         },
                         "ru": {
-                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-brands fa-notion'></i>Посмотреть подробную витрину агентства</a></p>"
+                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть подробную витрину агентства</a></p>"
                         },
                         "fr": {
-                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-brands fa-notion'></i>Voir la vitrine détaillée de l'agence</a></p>"
+                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Voir la vitrine détaillée de l'agence</a></p>"
                         },
                         "ja": {
-                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-brands fa-notion'></i>詳細な代理店ショーケースを見る</a></p>"
+                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>詳細な代理店ショーケースを見る</a></p>"
                         }
                     }
                 }
