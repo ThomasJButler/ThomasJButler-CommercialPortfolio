@@ -92,7 +92,7 @@
                     "img": "/images/svg/logo.svg",
                     "locales": {
                         "en": {
-                            "text": "<p>I'm a web developer with <b>over 3 years</b> experience, specialising in full-stack development.<br>I also have hands-on experience with .NET, Azure, Node.js, C#, SCSS, Python and HubSpot/Umbraco CMS in production environments.</p><p>This diverse background enables me to adapt to a wide range of project needs.</p><p>Thank you for visiting and I look forward to the possibility of collaborating with you.</p><p>Kind regards, Thomas</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View My Commercial Work</a></p></div>"
+                            "text": "<p>I'm a software developer in <b>Leeds, Yorkshire</b>. I started coding in late 2022, spent sixteen months as a junior developer at a HubSpot and Umbraco agency, and since December 2024 I've been building independently: data pipelines, RAG systems, multi-agent tooling and a native iOS app.</p><p>The agency taught me fundamentals and to question everything. I don't use most of that stack day to day now. I use the habits daily.</p><p>Nine versions of my personal site, two years, every one still runs: <a href='https://thomasjbutler.github.io/version-timetravel/' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>Version TimeTravel</a>. Everything else I've shipped is on <a href='https://github.com/thomasjbutler' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>GitHub</a>.</p><p>I'm after full-time work: junior roles for general software, anything non-senior for AI. Details are below and I'm always up for a chat.</p><p>Kind regards, Thomas</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View My Commercial Work</a></p></div>"
                         },
                         "ru": {
                             "text": "<p>Я веб-разработчик с <b>более чем 3-летним</b> опытом, специализирующийся на full-stack разработке.<br>Также имею практический опыт работы с .NET, Azure, Node.js, C#, SCSS, Python и HubSpot/Umbraco CMS в производственных средах.</p><p>Этот разнообразный опыт позволяет мне адаптироваться к широкому спектру проектных потребностей.</p><p>Спасибо за посещение, и я с нетерпением жду возможности сотрудничать с вами.</p><p>С уважением, Томас</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть мою коммерческую работу</a></p></div>"
@@ -102,6 +102,31 @@
                         },
                         "ja": {
                             "text": "<p>私は<b>3年以上</b>の経験を持つウェブ開発者で、フルスタック開発を専門としています。<br>また、プロダクション環境で.NET、Azure、Node.js、C#、SCSS、Python、HubSpot/Umbraco CMSの実務経験があります。</p><p>この多様な背景により、幅広いプロジェクトのニーズに適応できます。</p><p>ご訪問いただきありがとうございます。皆様と協力できる機会を楽しみにしています。</p><p>よろしくお願いします、トーマス</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>私の商業作品を見る</a></p></div>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "independent_work",
+            "component": "ArticleText",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "**Independent work**, December 2024 to now"
+                }
+            },
+            "items": [
+                {
+                    "img": null,
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {
+                        "bg": "#36ad59",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p><b>Sanctuary.</b> Native iOS, Swift and SwiftData, fully on-device. A daily functioning app for neurodiverse users, built from lived experience, in active development against iOS 27. Nothing leaves the phone, which is the whole design rather than a feature.</p><p><b>AiTomatic.</b> Where my independent work has lived since December 2024. Solo and self-funded. Data pipelines, RAG systems, multi-agent tooling and a lot of shipping. Not being pursued commercially while I look for full-time work.</p>"
                         }
                     }
                 }
