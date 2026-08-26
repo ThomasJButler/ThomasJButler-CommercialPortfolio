@@ -48,105 +48,132 @@
                     "locales": {
                         "en": {
                             "title": "16",
-                            "text": "Live Projects"
+                            "text": "Live projects"
                         },
                         "ru": {
                             "title": "16",
-                            "text": "Живые проекты"
+                            "text": "Живых проектов"
                         },
                         "fr": {
                             "title": "16",
-                            "text": "Projets en Direct"
+                            "text": "Projets en ligne"
                         },
                         "ja": {
                             "title": "16",
-                            "text": "ライブプロジェクト"
+                            "text": "公開プロジェクト"
                         }
                     }
                 },
                 {
                     "id": 2,
                     "img": null,
-                    "faIcon": "fa-solid fa-certificate",
+                    "faIcon": "fa-solid fa-briefcase",
                     "faIconColors": {
                         "bg": "#F59E0B",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "ICT",
-                            "text": "Bootcamp Completed"
+                            "title": "12",
+                            "text": "Agency client sites"
                         },
                         "ru": {
-                            "title": "ИКТ",
-                            "text": "Буткемп завершен"
+                            "title": "12",
+                            "text": "Сайтов для клиентов агентства"
                         },
                         "fr": {
-                            "title": "TIC",
-                            "text": "Bootcamp Terminé"
+                            "title": "12",
+                            "text": "Sites clients en agence"
                         },
                         "ja": {
-                            "title": "ICT",
-                            "text": "ブートキャンプ修了"
+                            "title": "12",
+                            "text": "代理店クライアントサイト"
                         }
                     }
                 },
                 {
                     "id": 3,
                     "img": null,
-                    "faIcon": "fa-solid fa-cloud",
+                    "faIcon": "fa-solid fa-map",
                     "faIconColors": {
-                        "bg": "#0078D4",
+                        "bg": "#0EA5E9",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "Azure",
-                            "text": "Cloud Certified"
+                            "title": "~23,000",
+                            "text": "Property links resolved"
                         },
                         "ru": {
-                            "title": "Azure",
-                            "text": "Сертифицирован в облаке"
+                            "title": "~23 000",
+                            "text": "Связей по недвижимости"
                         },
                         "fr": {
-                            "title": "Azure",
-                            "text": "Certifié Cloud"
+                            "title": "~23 000",
+                            "text": "Liens immobiliers résolus"
                         },
                         "ja": {
-                            "title": "Azure",
-                            "text": "クラウド認定"
+                            "title": "約23,000",
+                            "text": "不動産リンクを解決"
                         }
                     }
                 },
                 {
                     "id": 4,
                     "img": null,
-                    "faIcon": "fa-solid fa-brain",
+                    "faIcon": "fa-solid fa-clock-rotate-left",
                     "faIconColors": {
                         "bg": "#8B5CF6",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "ML/AI",
-                            "text": "Currently Studying"
+                            "title": "9",
+                            "text": "Portfolio versions, all running"
                         },
                         "ru": {
-                            "title": "ML/AI",
-                            "text": "В настоящее время изучаю"
+                            "title": "9",
+                            "text": "Версий портфолио, все работают"
                         },
                         "fr": {
-                            "title": "ML/IA",
-                            "text": "Actuellement à l'étude"
+                            "title": "9",
+                            "text": "Versions du portfolio, toutes en ligne"
                         },
                         "ja": {
-                            "title": "ML/AI",
-                            "text": "現在勉強中"
+                            "title": "9",
+                            "text": "ポートフォリオ版、すべて稼働中"
                         }
                     }
                 },
                 {
                     "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-vial",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "600+",
+                            "text": "Tests on Sanctuary"
+                        },
+                        "ru": {
+                            "title": "600+",
+                            "text": "Тестов в Sanctuary"
+                        },
+                        "fr": {
+                            "title": "600+",
+                            "text": "Tests sur Sanctuary"
+                        },
+                        "ja": {
+                            "title": "600+",
+                            "text": "Sanctuaryのテスト"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
                     "img": null,
                     "faIcon": "fa-brands fa-python",
                     "faIconColors": {
@@ -156,7 +183,7 @@
                     "locales": {
                         "en": {
                             "title": "Python",
-                            "text": "Primary Language"
+                            "text": "Primary language"
                         },
                         "ru": {
                             "title": "Python",
@@ -164,7 +191,7 @@
                         },
                         "fr": {
                             "title": "Python",
-                            "text": "Langage Principal"
+                            "text": "Langage principal"
                         },
                         "ja": {
                             "title": "Python",
@@ -173,56 +200,29 @@
                     }
                 },
                 {
-                    "id": 6,
-                    "img": null,
-                    "faIcon": "fa-solid fa-network-wired",
-                    "faIconColors": {
-                        "bg": "#10B981",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Network+",
-                            "text": "Hardware & Networking"
-                        },
-                        "ru": {
-                            "title": "Network+",
-                            "text": "Оборудование и сети"
-                        },
-                        "fr": {
-                            "title": "Network+",
-                            "text": "Matériel et Réseaux"
-                        },
-                        "ja": {
-                            "title": "Network+",
-                            "text": "ハードウェアとネットワーク"
-                        }
-                    }
-                },
-                {
                     "id": 7,
                     "img": null,
-                    "faIcon": "fa-solid fa-heart",
+                    "faIcon": "fa-solid fa-location-dot",
                     "faIconColors": {
                         "bg": "#EF4444",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "∞",
-                            "text": "Passion for Tech"
+                            "title": "Leeds",
+                            "text": "Yorkshire, UK"
                         },
                         "ru": {
-                            "title": "∞",
-                            "text": "Страсть к технологиям"
+                            "title": "Лидс",
+                            "text": "Йоркшир, Великобритания"
                         },
                         "fr": {
-                            "title": "∞",
-                            "text": "Passion pour la Tech"
+                            "title": "Leeds",
+                            "text": "Yorkshire, Royaume-Uni"
                         },
                         "ja": {
-                            "title": "∞",
-                            "text": "テクノロジーへの情熱"
+                            "title": "リーズ",
+                            "text": "ヨークシャー、イギリス"
                         }
                     }
                 }
@@ -252,6 +252,197 @@
             },
             "items": [
                 {
+                    "id": 25,
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Offshore Property Map}}: who owns England and Wales, from where?",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Independent project",
+                            "text": "HM Land Registry publishes which overseas companies own property in England and Wales. Companies House publishes who controls those companies. Neither register carries an identifier linking the two, so the join has to be built, and built carefully, because a wrong match is a libel risk. It's the most technically serious thing I've made: around 9,700 lines of Python across 21 modules, and it refuses to publish anything a person hasn't audited.",
+                            "list": [
+                                "Entity resolution with Splink across two government registers with no shared key",
+                                "~23,000 links covering ~88% of ~91,000 affected titles, at 99.5% measured precision",
+                                "Publishes the 95% lower bound next to the headline figure, not just the headline",
+                                "Won't publish unless a human has audited a sample and the tooling can verify that exact version",
+                                "DuckDB store, monthly change files applied by title number, FollowTheMoney export"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 24,
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "One engine, {{33 CVs}}, four formats",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Independent project",
+                            "text": "My CVs are generated from Python, not edited. One definition per CV, rendered four ways: designed PDF, ATS PDF, Word and print. Two PDF renderers and two Word renderers share one engine, fonts embedded, and the PDF and Word output agree to within half a millimetre. It's a rendering engine that happens to output CVs, and it means a date or location change lands in all 33 on the next rebuild instead of drifting across thirty files.",
+                            "list": [
+                                "33 CVs, four formats each, plus print versions, from one shared engine",
+                                "ReportLab and python-docx, one renderer per format, no duplicates (the duplicate was found and deleted)",
+                                "Every build is checked for page count and banned phrases, so nothing goes stale silently"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 23,
+                    "date": {
+                        "year": 2026,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{ISQ Agent}}, presented in person to RiverAI",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Technical assessment",
+                            "text": "A RAG agent for supplier security questionnaires, built for RiverAI's AI Engineer technical challenge and presented to them in person. It reads a blank questionnaire, PDF or XLSX, grounds every answer in the company's policy documents and past responses, drafts an answer with the citations it actually used, and scores its own confidence. The shaky ones get flagged for a human instead of being dressed up as fine.",
+                            "list": [
+                                "Python, FastAPI, LangChain, Claude, Voyage embeddings and Pinecone",
+                                "Per-question confidence scoring across four dimensions, with human-review flags",
+                                "Three output formats: DOCX report, XLSX overlay on the original workbook, lossless JSON",
+                                "Tokens, cost and latency logged per question, 480+ tests, CI on every push",
+                                "Also ships as an installable Claude Code skill"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 22,
+                    "date": {
+                        "year": 2026,
+                        "month": 6
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://the-premier-league-oracle.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{The Kicker}}: a Dixon-Coles model running in the browser",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Independent project",
+                            "text": "Premier League predictions from a time-decayed Dixon-Coles model fitted over 33 seasons, served up as a tabloid broadsheet written by ten original AI columnists. The bit I'm proudest of is the engine. It ships as about 5 KB of fitted coefficients plus pure TypeScript, so every prediction runs client-side. No server, no tracking, and it works with no API keys at all.",
+                            "list": [
+                                "Dixon-Coles engine, fitted and calibrated over 33 seasons, shipped as a few kilobytes of numbers",
+                                "Runs entirely in the browser: no backend needed for predictions",
+                                "SvelteKit front end, optional FastAPI backend for the training data and an XGBoost blend",
+                                "Backtest pin gate in the test suite, so a refit that gets worse fails CI",
+                                "Ten columnist personas via Claude, using an inline-token pattern for rich content inside plain prose"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 21,
+                    "date": {
+                        "year": 2026,
+                        "month": 4
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Sanctuary}} moves to native iOS",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "AiTomatic",
+                            "text": "Sanctuary is a daily functioning app for neurodiverse users, built from lived experience. This spring it moved from a web reference build to native iOS: Swift, SwiftUI and SwiftData, fully on-device, built against iOS 27. You tap the orb, speak, and it sorts the ramble into tasks and a calm daily view using Apple's on-device speech and AI. Nothing leaves the phone. That isn't a feature, it's the whole design.",
+                            "list": [
+                                "Native Swift, SwiftUI and SwiftData, in active development against iOS 27",
+                                "Fully on-device: no cloud, no accounts, no tracking, works offline",
+                                "600+ automated tests, plus security, privacy and accessibility audits with no critical issues open",
+                                "Solo build end to end: architecture, design, code and testing"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 20,
+                    "date": {
+                        "year": 2026,
+                        "month": 2
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://github.com/ThomasJButler/version-timetravel",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Version TimeTravel}}: nine versions, every one still runs",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Independent project",
+                            "text": "An archive of my personal site, version by version, from hand-written HTML in 2024 to a React and shadcn build today. Nine versions in two years, and every one opens and runs in the browser exactly as it shipped, inside a device frame you can flip between desktop, tablet and mobile. The gap between the first and the ninth is bigger than the gap between what I was working with in paid employment and what I use now. A CV can't make that claim. A working archive can.",
+                            "list": [
+                                "Nine versions, two years, one person, all still running as originally shipped",
+                                "Each version is the real frozen artefact, not a screenshot",
+                                "Desktop, tablet and mobile viewports, keyboard navigation, deep-linkable versions"
+                            ]
+                        }
+                    }
+                },
+                {
                     "id": 19,
                     "date": {
                         "year": 2026,
@@ -280,7 +471,7 @@
                                 "Designed landing page with Midjourney v7 generated imagery",
                                 "Built retro TB pixel loader with Win95 colors flying in",
                                 "Implemented CRT warmup transition for smooth content reveal",
-                                "Unified all public projects for streamlined portfolio access"
+                                "Put every public project in one place"
                             ]
                         },
                         "ru": {
@@ -626,7 +817,7 @@
                     "preview": {
                         "links": [
                             {
-                                "href": "https://thomasjbutler.github.io",
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
@@ -1459,7 +1650,7 @@
                     "preview": {
                         "links": [
                             {
-                                "href": "https://thomasjbutler.github.io",
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             },
@@ -1542,16 +1733,15 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Started {{Stealth AI Startup}}",
+                            "title": "Started building under {{AiTomatic}}",
                             "province": "Leeds, Yorkshire",
                             "country": "UK",
-                            "institution": "Entrepreneurship",
-                            "text": "Founded a stealth AI startup focused on neurodiversity solutions. Working behind the scenes to develop AI tools that streamline repetitive tasks and make technology more human-friendly for neurodiverse individuals.",
+                            "institution": "AiTomatic",
+                            "text": "Started building under AiTomatic. Solo, self-funded, no clients. The plan was to ship things nobody asked for and learn from every one of them, and most of what I know now came from exactly that.",
                             "list": [
-                                "Developing AI solutions for neurodiversity support",
-                                "Focus on streamlining repetitive tasks",
-                                "Creating human-friendly interfaces",
-                                "Currently in stealth mode with active development"
+                                "Solo and self-funded",
+                                "First product became Sanctuary, a daily functioning app for neurodiverse users",
+                                "Not being pursued commercially while I look for full-time work"
                             ]
                         },
                         "ru": {
@@ -1604,7 +1794,7 @@
                     "preview": {
                         "links": [
                             {
-                                "href": "https://thomasjbutler.github.io/",
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
@@ -1615,16 +1805,16 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Career Transition & {{New Ventures}}",
+                            "title": "Made redundant, {{started building}}",
                             "province": "Leeds, Yorkshire",
                             "country": "UK",
-                            "institution": "Entrepreneurship",
-                            "text": "After being made redundant, I transformed this challenge into an opportunity. Created my Matrix-themed personal portfolio as my primary showcase, created a small AI startup to tackle executive dysfunction by harnessing AI, making tech more human and adapt to us, and began developing this commercial portfolio.",
+                            "institution": "AiTomatic",
+                            "text": "Made redundant from Fuelius in December. Rather than sit on it, I built the first version of my personal site, started building under AiTomatic, and began this commercial site for the job search.",
                             "list": [
-                                "Made redundant from previous position in December",
-                                "Created custom HTML/CSS/JS personal portfolio with Matrix theme",
-                                "Created a small AI startup to tackle executive dysfunction by harnessing AI, making tech more human and adapt to us",
-                                "Began development of this commercial React portfolio for professional presence"
+                                "Made redundant from Fuelius in December 2024",
+                                "Built the first version of my personal site in plain HTML, CSS and JavaScript",
+                                "Started building under AiTomatic, solo and self-funded",
+                                "Began this commercial React site for the job search"
                             ]
                         },
                         "ru": {
