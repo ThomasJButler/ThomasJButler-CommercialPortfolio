@@ -4,7 +4,7 @@
 
 <img width="1461" height="857" alt="image" src="https://github.com/user-attachments/assets/ba513200-85ab-4678-9300-35e9828ac208" />
   
-  <h3>Full-Stack Developer | Liverpool, England</h3>
+  <h3>Full-Stack Developer, AI Systems | Leeds, Yorkshire</h3>
   
   [![Portfolio](https://img.shields.io/badge/Portfolio-thomasjbutler.me-blue?style=for-the-badge&logo=google-chrome)](https://www.thomasjbutler.me/)
   [![GitHub](https://img.shields.io/badge/GitHub-ThomasJButler-181717?style=for-the-badge&logo=github)](https://github.com/ThomasJButler)
@@ -125,7 +125,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 **Thomas Butler**  
-Liverpool, England  
+Leeds, Yorkshire  
 dev@thomasjbutler.me  
 Portfolio](https://www.thomasjbutler.me/) | [GitHub](https://github.com/ThomasJButler) | [LinkedIn](https://www.linkedin.com/in/thomasbutleruk/)
 

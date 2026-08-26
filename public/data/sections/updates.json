@@ -272,7 +272,7 @@
                     "locales": {
                         "en": {
                             "title": "New {{Landing Page}} & Retro Preloader",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Portfolio Update",
                             "text": "Created an immersive landing page featuring carefully prompted Midjourney v7 GIFs, unifying all public work in one accessible hub for prospective employers. Added a retro-inspired TB pixel loader with Windows 95 color palette, flying tile assembly animation, and a CRT warmup 'lights turning on' transition effect.",
@@ -285,7 +285,7 @@
                         },
                         "ru": {
                             "title": "Новая {{посадочная страница}} и ретро-прелоадер",
-                            "province": "Йоркшир",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Обновление портфолио",
                             "text": "Создана иммерсивная посадочная страница с тщательно подобранными GIF-изображениями Midjourney v7, объединяющая все публичные работы в одном доступном месте для потенциальных работодателей. Добавлен ретро-загрузчик TB пикселей с цветовой палитрой Windows 95, анимацией сборки плиток и эффектом CRT «включения света».",
@@ -298,7 +298,7 @@
                         },
                         "fr": {
                             "title": "Nouvelle {{page d'accueil}} et préchargeur rétro",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Mise à jour du portfolio",
                             "text": "Création d'une page d'accueil immersive avec des GIFs Midjourney v7 soigneusement générés, unifiant tous les travaux publics en un hub accessible pour les employeurs potentiels. Ajout d'un chargeur de pixels TB rétro avec palette Windows 95, animation d'assemblage et effet de transition CRT.",
@@ -311,7 +311,7 @@
                         },
                         "ja": {
                             "title": "新しい{{ランディングページ}}とレトロプリローダー",
-                            "province": "ヨークシャー",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "ポートフォリオ更新",
                             "text": "Midjourney v7の慎重に生成されたGIFを使用した没入型ランディングページを作成し、潜在的な雇用主向けにすべての公開作品を1つのアクセスしやすいハブに統合しました。Windows 95カラーパレット、タイルアセンブリアニメーション、CRTウォームアップ「点灯」トランジションを備えたレトロなTBピクセルローダーを追加しました。",
@@ -350,7 +350,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed {{Agentic AI Portfolio}} Showcase",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Finalised projects and released 5 polished MVP applications alongside an interactive dashboard website documenting the development process. All projects are production-grade full-stack AI applications featuring Docker containerisation and live demo deployments.",
@@ -362,7 +362,7 @@
                         },
                         "ru": {
                             "title": "Завершена витрина {{Agentic AI Portfolio}}",
-                            "province": "Йоркшир",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Завершены проекты и выпущены 4 отполированных MVP-приложения вместе с интерактивным дашбордом, документирующим процесс разработки. Все проекты - это полноценные full-stack AI-приложения продакшн-уровня с Docker-контейнерами и развернутыми живыми демо.",
@@ -375,7 +375,7 @@
                         },
                         "fr": {
                             "title": "Vitrine {{Agentic AI Portfolio}} terminée",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Projets finalisés et 4 applications MVP polies publiées avec un tableau de bord interactif documentant le processus de développement. Tous les projets sont des applications IA full-stack de niveau production avec conteneurisation Docker et déploiements de démonstration en direct.",
@@ -388,7 +388,7 @@
                         },
                         "ja": {
                             "title": "{{Agentic AI Portfolio}}ショーケースを完成",
-                            "province": "ヨークシャー",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "プロジェクトを最終化し、開発プロセスを文書化したインタラクティブなダッシュボードウェブサイトとともに、4つの洗練されたMVPアプリケーションをリリースしました。すべてのプロジェクトは、Dockerコンテナ化とライブデモデプロイメントを備えた本番グレードのフルスタックAIアプリケーションです。",
@@ -427,7 +427,7 @@
                     "locales": {
                         "en": {
                             "title": "Updated {{Commercial Portfolio}} to v2.0",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Successfully migrated my commercial portfolio website to React v2.0 with significant improvements. A key feature of this update is the comprehensive Web Agency Showcase - detailed documentation of 10+ commercial projects specifically designed for employers and recruiters to review my professional work. This major update also includes enhanced performance, modern design patterns, and improved user experience.",
@@ -441,7 +441,7 @@
                         },
                         "ru": {
                             "title": "Обновил {{Коммерческое Портфолио}} до v2.0",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Успешно мигрировал свой коммерческий сайт-портфолио на React v2.0 со значительными улучшениями. Ключевой особенностью этого обновления является комплексная витрина веб-агентства - подробная документация более 10 коммерческих проектов, специально разработанная для работодателей и рекрутеров для ознакомления с моей профессиональной работой. Это крупное обновление также включает улучшенную производительность, современные шаблоны дизайна и улучшенный пользовательский опыт.",
@@ -455,7 +455,7 @@
                         },
                         "fr": {
                             "title": "Mise à jour du {{Portfolio Commercial}} vers v2.0",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Migration réussie de mon site portfolio commercial vers React v2.0 avec des améliorations significatives. Une caractéristique clé de cette mise à jour est la vitrine complète de l'agence web - une documentation détaillée de plus de 10 projets commerciaux spécialement conçue pour que les employeurs et les recruteurs examinent mon travail professionnel. Cette mise à jour majeure comprend également des performances améliorées, des modèles de conception modernes et une expérience utilisateur améliorée.",
@@ -469,7 +469,7 @@
                         },
                         "ja": {
                             "title": "{{商業ポートフォリオ}}をv2.0に更新",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "商業ポートフォリオウェブサイトをReact v2.0に大幅な改善とともに正常に移行しました。このアップデートの主要な機能は、包括的なウェブエージェンシーショーケースです - 雇用主とリクルーターが私のプロフェッショナルな仕事をレビューするために特別に設計された10以上の商業プロジェクトの詳細なドキュメントです。この主要なアップデートには、パフォーマンスの向上、モダンなデザインパターン、ユーザーエクスペリエンスの改善も含まれています。",
@@ -498,7 +498,7 @@
                     "locales": {
                         "en": {
                             "title": "Moved to {{Yorkshire}}",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Life Milestone",
                             "text": "Relocated from Cheshire to Yorkshire for a brand new start. This significant life change brought new opportunities and a fresh perspective on both personal and professional endeavors.",
@@ -511,7 +511,7 @@
                         },
                         "ru": {
                             "title": "Переехал в {{Йоркшир}}",
-                            "province": "Йоркшир",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Жизненная веха",
                             "text": "Переехал из Чешира в Йоркшир для совершенно нового начала. Это значительное изменение в жизни принесло новые возможности и свежий взгляд как на личные, так и на профессиональные начинания.",
@@ -524,7 +524,7 @@
                         },
                         "fr": {
                             "title": "Déménagement au {{Yorkshire}}",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Étape de Vie",
                             "text": "Déménagement de Cheshire vers le Yorkshire pour un tout nouveau départ. Ce changement de vie important a apporté de nouvelles opportunités et une nouvelle perspective sur les projets personnels et professionnels.",
@@ -537,7 +537,7 @@
                         },
                         "ja": {
                             "title": "{{ヨークシャー}}へ移住",
-                            "province": "ヨークシャー",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "人生の節目",
                             "text": "チェシャーからヨークシャーへ移住し、まったく新しいスタートを切りました。この大きな人生の変化は、個人的および職業的な取り組みの両方に新しい機会と新鮮な視点をもたらしました。",
@@ -565,7 +565,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed {{CodeCademy Generative AI Bootcamp}}",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Professional Development",
                             "text": "Successfully completed CodeCademy's Generative AI for Developers bootcamp from August to September 2025. This intensive program deepened my expertise in AI development and modern generative AI technologies.",
@@ -578,7 +578,7 @@
                         },
                         "ru": {
                             "title": "Завершил {{буткемп по генеративному ИИ CodeCademy}}",
-                            "province": "Йоркшир",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Профессиональное развитие",
                             "text": "Успешно завершил буткемп CodeCademy по генеративному ИИ для разработчиков с августа по сентябрь 2025 года. Эта интенсивная программа углубила мой опыт в разработке ИИ и современных технологиях генеративного ИИ.",
@@ -591,7 +591,7 @@
                         },
                         "fr": {
                             "title": "Terminé le {{Bootcamp IA Générative CodeCademy}}",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Développement Professionnel",
                             "text": "Terminé avec succès le bootcamp IA Générative pour Développeurs de CodeCademy d'août à septembre 2025. Ce programme intensif a approfondi mon expertise en développement IA et en technologies d'IA générative modernes.",
@@ -604,7 +604,7 @@
                         },
                         "ja": {
                             "title": "{{CodeCademy生成AIブートキャンプ}}を修了",
-                            "province": "ヨークシャー",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "専門能力開発",
                             "text": "2025年8月から9月にかけて、CodeCademyの開発者向け生成AIブートキャンプを正常に修了しました。この集中的なプログラムは、AI開発と最新の生成AIテクノロジーにおける私の専門知識を深めました。",
@@ -638,7 +638,7 @@
                     "locales": {
                         "en": {
                             "title": "Personal Portfolio {{v3.0 - React Migration}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Migrated personal portfolio from static HTML/CSS/JS to a full React application with SvelteKit framework. This major upgrade brought modern development practices and enhanced user experience to my personal showcase.",
@@ -651,7 +651,7 @@
                         },
                         "ru": {
                             "title": "Личное Портфолио {{v3.0 - Миграция на React}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Мигрировал личное портфолио со статического HTML/CSS/JS на полноценное React-приложение с фреймворком SvelteKit. Это крупное обновление принесло современные практики разработки и улучшенный пользовательский опыт в мою личную витрину.",
@@ -664,7 +664,7 @@
                         },
                         "fr": {
                             "title": "Portfolio Personnel {{v3.0 - Migration React}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Migration du portfolio personnel de HTML/CSS/JS statique vers une application React complète avec le framework SvelteKit. Cette mise à niveau majeure a apporté des pratiques de développement modernes et une expérience utilisateur améliorée à ma vitrine personnelle.",
@@ -677,7 +677,7 @@
                         },
                         "ja": {
                             "title": "個人ポートフォリオ{{v3.0 - React移行}}",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "静的なHTML/CSS/JSから、SvelteKitフレームワークを使用した本格的なReactアプリケーションに個人ポートフォリオを移行しました。この大規模なアップグレードにより、個人のショーケースに最新の開発プラクティスと強化されたユーザーエクスペリエンスがもたらされました。",
@@ -711,7 +711,7 @@
                     "locales": {
                         "en": {
                             "title": "Built {{Python Backend Collection}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Developed a comprehensive suite of Python applications showcasing various backend development skills. This collection demonstrates proficiency in API development, data processing, and machine learning implementations.",
@@ -724,7 +724,7 @@
                         },
                         "ru": {
                             "title": "Создал {{коллекцию Python Backend}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Разработал комплексный набор приложений Python, демонстрирующих различные навыки backend-разработки. Эта коллекция демонстрирует мастерство в разработке API, обработке данных и реализации машинного обучения.",
@@ -737,7 +737,7 @@
                         },
                         "fr": {
                             "title": "Construction de la {{Collection Backend Python}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Développement d'une suite complète d'applications Python mettant en valeur diverses compétences de développement backend. Cette collection démontre la maîtrise du développement d'API, du traitement de données et des implémentations d'apprentissage automatique.",
@@ -750,7 +750,7 @@
                         },
                         "ja": {
                             "title": "{{Pythonバックエンドコレクション}}を構築",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "さまざまなバックエンド開発スキルを示すPythonアプリケーションの包括的なスイートを開発しました。このコレクションは、API開発、データ処理、機械学習の実装における熟練度を示しています。",
@@ -789,7 +789,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed {{CSS Showcase}} Project",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Finished development of CSS Showcase, an interactive demonstration of advanced CSS animations and effects. This project serves as both a learning resource and a portfolio piece showcasing modern CSS capabilities.",
@@ -802,7 +802,7 @@
                         },
                         "ru": {
                             "title": "Завершил проект {{CSS Showcase}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Завершена разработка CSS Showcase, интерактивной демонстрации продвинутых CSS-анимаций и эффектов. Этот проект служит как учебным ресурсом, так и элементом портфолио, демонстрирующим современные возможности CSS.",
@@ -815,7 +815,7 @@
                         },
                         "fr": {
                             "title": "Projet {{CSS Showcase}} terminé",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Développement terminé de CSS Showcase, une démonstration interactive d'animations et d'effets CSS avancés. Ce projet sert à la fois de ressource d'apprentissage et de pièce de portfolio présentant les capacités CSS modernes.",
@@ -828,7 +828,7 @@
                         },
                         "ja": {
                             "title": "{{CSS Showcase}}プロジェクトを完了",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "高度なCSSアニメーションとエフェクトのインタラクティブなデモンストレーションであるCSS Showcaseの開発を完了しました。このプロジェクトは、学習リソースとしても、最新のCSS機能を紹介するポートフォリオ作品としても機能します。",
@@ -856,7 +856,7 @@
                     "locales": {
                         "en": {
                             "title": "Building {{AI Models}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "AI Development",
                             "text": "Started creating custom AI models and applying machine learning knowledge practically. This marked a significant milestone in my AI journey, moving from theory to hands-on implementation.",
@@ -869,7 +869,7 @@
                         },
                         "ru": {
                             "title": "Создание {{моделей ИИ}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Разработка ИИ",
                             "text": "Начал создавать пользовательские модели ИИ и практически применять знания машинного обучения. Это стало важной вехой в моем путешествии с ИИ, переходя от теории к практической реализации.",
@@ -882,7 +882,7 @@
                         },
                         "fr": {
                             "title": "Construction de {{modèles IA}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Développement IA",
                             "text": "J'ai commencé à créer des modèles d'IA personnalisés et à appliquer pratiquement les connaissances en apprentissage automatique. Cela a marqué une étape importante dans mon parcours IA, passant de la théorie à la mise en œuvre pratique.",
@@ -895,7 +895,7 @@
                         },
                         "ja": {
                             "title": "{{AIモデル}}の構築",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "AI開発",
                             "text": "カスタムAIモデルの作成を開始し、機械学習の知識を実践的に適用し始めました。これは、理論から実践的な実装への移行という、私のAIの旅における重要なマイルストーンとなりました。",
@@ -923,7 +923,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed {{ICT Bootcamp}} Certification",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Professional Development",
                             "text": "Successfully completed an intensive ICT bootcamp, gaining comprehensive knowledge in hardware, cloud computing, networking, and Azure services. This certification has significantly expanded my technical skillset.",
@@ -936,7 +936,7 @@
                         },
                         "ru": {
                             "title": "Завершил сертификацию {{ICT Bootcamp}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Профессиональное развитие",
                             "text": "Успешно завершил интенсивный буткемп по ИКТ, получив всесторонние знания в области оборудования, облачных вычислений, сетей и сервисов Azure. Эта сертификация значительно расширила мои технические навыки.",
@@ -949,7 +949,7 @@
                         },
                         "fr": {
                             "title": "Certification {{ICT Bootcamp}} terminée",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Développement Professionnel",
                             "text": "Achèvement réussi d'un bootcamp TIC intensif, acquérant des connaissances complètes en matériel, cloud computing, réseaux et services Azure. Cette certification a considérablement élargi mes compétences techniques.",
@@ -962,7 +962,7 @@
                         },
                         "ja": {
                             "title": "{{ICTブートキャンプ}}認定を完了",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "専門能力開発",
                             "text": "ハードウェア、クラウドコンピューティング、ネットワーキング、Azureサービスに関する包括的な知識を得て、集中的なICTブートキャンプを正常に完了しました。この認定により、技術的なスキルセットが大幅に拡大されました。",
@@ -990,7 +990,7 @@
                     "locales": {
                         "en": {
                             "title": "Experimenting with {{AI Tools}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Self-Study",
                             "text": "Began deep exploration of AI tools and models, staying on top of the rapidly evolving AI industry. This period marked the beginning of my journey into practical AI implementation and understanding.",
@@ -1003,7 +1003,7 @@
                         },
                         "ru": {
                             "title": "Экспериментирование с {{инструментами ИИ}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Самообучение",
                             "text": "Начал глубокое изучение инструментов и моделей ИИ, следя за быстро развивающейся индустрией ИИ. Этот период ознаменовал начало моего пути в практическую реализацию и понимание ИИ.",
@@ -1016,7 +1016,7 @@
                         },
                         "fr": {
                             "title": "Expérimentation avec les {{outils IA}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Auto-apprentissage",
                             "text": "J'ai commencé une exploration approfondie des outils et modèles d'IA, en restant au courant de l'industrie de l'IA en évolution rapide. Cette période a marqué le début de mon parcours dans la mise en œuvre pratique et la compréhension de l'IA.",
@@ -1029,7 +1029,7 @@
                         },
                         "ja": {
                             "title": "{{AIツール}}の実験",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "独学",
                             "text": "AIツールとモデルの深い探求を開始し、急速に進化するAI業界の最新動向を把握しました。この期間は、実践的なAI実装と理解への私の旅の始まりを示しました。",
@@ -1063,7 +1063,7 @@
                     "locales": {
                         "en": {
                             "title": "Started {{CodePen}} Journey",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Creative Coding",
                             "text": "Joined CodePen to practice and showcase creative coding experiments. This platform became my playground for exploring ideas beyond client requirements and CMS limitations encountered at work.",
@@ -1076,7 +1076,7 @@
                         },
                         "ru": {
                             "title": "Начал путешествие на {{CodePen}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Творческое кодирование",
                             "text": "Присоединился к CodePen для практики и демонстрации творческих экспериментов с кодом. Эта платформа стала моей площадкой для изучения идей за пределами требований клиентов и ограничений CMS, с которыми сталкивался на работе.",
@@ -1089,7 +1089,7 @@
                         },
                         "fr": {
                             "title": "Début du parcours {{CodePen}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Codage Créatif",
                             "text": "J'ai rejoint CodePen pour pratiquer et présenter des expériences de codage créatif. Cette plateforme est devenue mon terrain de jeu pour explorer des idées au-delà des exigences des clients et des limitations CMS rencontrées au travail.",
@@ -1102,7 +1102,7 @@
                         },
                         "ja": {
                             "title": "{{CodePen}}の旅を開始",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "クリエイティブコーディング",
                             "text": "クリエイティブなコーディング実験を練習し、紹介するためにCodePenに参加しました。このプラットフォームは、仕事で遭遇したクライアントの要件やCMSの制限を超えたアイデアを探求するための遊び場となりました。",
@@ -1130,7 +1130,7 @@
                     "locales": {
                         "en": {
                             "title": "Started {{ML and Python}} Deep Dive",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Self-Study",
                             "text": "Began an intensive self-study program focused on Machine Learning and advanced Python programming. Currently working through comprehensive courses and building practical ML projects.",
@@ -1143,7 +1143,7 @@
                         },
                         "ru": {
                             "title": "Начал глубокое изучение {{ML и Python}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Самообучение",
                             "text": "Начал интенсивную программу самообучения, сосредоточенную на машинном обучении и продвинутом программировании на Python. В настоящее время прохожу комплексные курсы и создаю практические проекты ML.",
@@ -1156,7 +1156,7 @@
                         },
                         "fr": {
                             "title": "Début de l'approfondissement {{ML et Python}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Auto-apprentissage",
                             "text": "Début d'un programme d'auto-apprentissage intensif axé sur l'apprentissage automatique et la programmation Python avancée. Actuellement en train de suivre des cours complets et de construire des projets ML pratiques.",
@@ -1169,7 +1169,7 @@
                         },
                         "ja": {
                             "title": "{{MLとPython}}の深い学習を開始",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "自己学習",
                             "text": "機械学習と高度なPythonプログラミングに焦点を当てた集中的な自己学習プログラムを開始しました。現在、包括的なコースを受講し、実用的なMLプロジェクトを構築しています。",
@@ -1197,7 +1197,7 @@
                     "locales": {
                         "en": {
                             "title": "Left {{DWP Work Coach}} Role",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Career Transition",
                             "text": "Left my position as a Work Coach at the Department for Work and Pensions (DWP) to pursue my passion for technology and software development. This marked the beginning of my journey into the tech industry.",
@@ -1210,7 +1210,7 @@
                         },
                         "ru": {
                             "title": "Покинул должность {{консультанта DWP}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Карьерный переход",
                             "text": "Покинул свою должность консультанта по трудоустройству в Департаменте труда и пенсий (DWP), чтобы следовать своей страсти к технологиям и разработке программного обеспечения. Это стало началом моего пути в технологическую индустрию.",
@@ -1223,7 +1223,7 @@
                         },
                         "fr": {
                             "title": "Quitté le rôle de {{Coach DWP}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Transition de Carrière",
                             "text": "Quitté mon poste de conseiller professionnel au Département du Travail et des Pensions (DWP) pour poursuivre ma passion pour la technologie et le développement logiciel. Cela a marqué le début de mon parcours dans l'industrie technologique.",
@@ -1236,7 +1236,7 @@
                         },
                         "ja": {
                             "title": "{{DWPワークコーチ}}の職を退職",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "キャリア転換",
                             "text": "テクノロジーとソフトウェア開発への情熱を追求するため、労働年金省(DWP)のワークコーチの職を退職しました。これは、テクノロジー業界への私の旅の始まりとなりました。",
@@ -1264,7 +1264,7 @@
                     "locales": {
                         "en": {
                             "title": "Cloud & Data Engineering {{Bootcamp}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Professional Training",
                             "text": "Enrolled in an intensive Cloud and Data Engineering bootcamp from February to April 2023. This comprehensive program provided hands-on experience with modern cloud technologies and data processing frameworks.",
@@ -1277,7 +1277,7 @@
                         },
                         "ru": {
                             "title": "{{Буткемп}} по облачным технологиям и инженерии данных",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Профессиональная подготовка",
                             "text": "Зачислен в интенсивный буткемп по облачным технологиям и инженерии данных с февраля по апрель 2023 года. Эта комплексная программа предоставила практический опыт работы с современными облачными технологиями и фреймворками обработки данных.",
@@ -1290,7 +1290,7 @@
                         },
                         "fr": {
                             "title": "{{Bootcamp}} Cloud & Data Engineering",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Formation Professionnelle",
                             "text": "Inscrit à un bootcamp intensif Cloud et Data Engineering de février à avril 2023. Ce programme complet a fourni une expérience pratique avec les technologies cloud modernes et les frameworks de traitement de données.",
@@ -1303,7 +1303,7 @@
                         },
                         "ja": {
                             "title": "クラウド＆データエンジニアリング{{ブートキャンプ}}",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "専門トレーニング",
                             "text": "2023年2月から4月まで、集中的なクラウドおよびデータエンジニアリングブートキャンプに参加しました。この包括的なプログラムは、最新のクラウドテクノロジーとデータ処理フレームワークの実践的な経験を提供しました。",
@@ -1331,7 +1331,7 @@
                     "locales": {
                         "en": {
                             "title": "Python Development & {{First Projects}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Projects",
                             "text": "Focused intensively on Python development, creating my first scripts and web applications. This period marked significant growth in practical programming skills and creative exploration with AI tools.",
@@ -1344,7 +1344,7 @@
                         },
                         "ru": {
                             "title": "Разработка на Python и {{первые проекты}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личные проекты",
                             "text": "Интенсивно сосредоточился на разработке на Python, создавая свои первые скрипты и веб-приложения. Этот период ознаменовался значительным ростом практических навыков программирования и творческим исследованием с помощью инструментов ИИ.",
@@ -1357,7 +1357,7 @@
                         },
                         "fr": {
                             "title": "Développement Python & {{Premiers Projets}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projets Personnels",
                             "text": "Concentration intensive sur le développement Python, création de mes premiers scripts et applications web. Cette période a marqué une croissance significative des compétences pratiques en programmation et l'exploration créative avec les outils IA.",
@@ -1370,7 +1370,7 @@
                         },
                         "ja": {
                             "title": "Python開発と{{最初のプロジェクト}}",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "Pythonの開発に集中的に取り組み、最初のスクリプトとWebアプリケーションを作成しました。この期間は、実践的なプログラミングスキルの大幅な成長とAIツールを使った創造的な探求を示しました。",
@@ -1398,7 +1398,7 @@
                     "locales": {
                         "en": {
                             "title": "Secured {{First Professional Role}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Professional Career",
                             "text": "Landed my first job in the tech industry, marking a significant milestone in my career transition. This role provided invaluable real-world experience and the opportunity to apply my self-taught skills in a professional environment.",
@@ -1411,7 +1411,7 @@
                         },
                         "ru": {
                             "title": "Получил {{первую профессиональную роль}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Профессиональная карьера",
                             "text": "Получил свою первую работу в технологической индустрии, что стало важной вехой в моем карьерном переходе. Эта роль предоставила бесценный реальный опыт и возможность применить свои самостоятельно приобретенные навыки в профессиональной среде.",
@@ -1424,7 +1424,7 @@
                         },
                         "fr": {
                             "title": "Obtenu {{Premier Rôle Professionnel}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Carrière Professionnelle",
                             "text": "Décroché mon premier emploi dans l'industrie technologique, marquant une étape importante dans ma transition de carrière. Ce rôle a fourni une expérience inestimable du monde réel et l'opportunité d'appliquer mes compétences autodidactes dans un environnement professionnel.",
@@ -1437,7 +1437,7 @@
                         },
                         "ja": {
                             "title": "{{最初の専門職}}を確保",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "プロフェッショナルキャリア",
                             "text": "テクノロジー業界で最初の仕事を獲得し、キャリア移行の重要なマイルストーンとなりました。この役割は、貴重な実世界の経験と、独学で身につけたスキルをプロフェッショナルな環境で適用する機会を提供しました。",
@@ -1476,7 +1476,7 @@
                     "locales": {
                         "en": {
                             "title": "Created {{Personal Portfolio}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Built my first portfolio website from scratch using custom HTML, CSS, and JavaScript. Designed with a Matrix theme inspired by my favorite films, this became my primary showcase until transitioning to this professional commercial site.",
@@ -1489,7 +1489,7 @@
                         },
                         "ru": {
                             "title": "Создал {{личное портфолио}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Создал свой первый сайт-портфолио с нуля, используя пользовательские HTML, CSS и JavaScript. Разработанный с темой Матрицы, вдохновленной моими любимыми фильмами, он стал моей основной витриной до перехода на этот профессиональный коммерческий сайт.",
@@ -1502,7 +1502,7 @@
                         },
                         "fr": {
                             "title": "Création du {{Portfolio Personnel}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Construit mon premier site portfolio à partir de zéro en utilisant HTML, CSS et JavaScript personnalisés. Conçu avec un thème Matrix inspiré de mes films préférés, il est devenu ma vitrine principale jusqu'à la transition vers ce site commercial professionnel.",
@@ -1515,7 +1515,7 @@
                         },
                         "ja": {
                             "title": "{{個人ポートフォリオ}}を作成",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "カスタムHTML、CSS、JavaScriptを使用して、最初のポートフォリオウェブサイトをゼロから構築しました。お気に入りの映画に触発されたマトリックステーマでデザインされ、このプロフェッショナルな商業サイトに移行するまで私の主要なショーケースとなりました。",
@@ -1543,7 +1543,7 @@
                     "locales": {
                         "en": {
                             "title": "Started {{Stealth AI Startup}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Entrepreneurship",
                             "text": "Founded a stealth AI startup focused on neurodiversity solutions. Working behind the scenes to develop AI tools that streamline repetitive tasks and make technology more human-friendly for neurodiverse individuals.",
@@ -1556,7 +1556,7 @@
                         },
                         "ru": {
                             "title": "Основал {{скрытый AI-стартап}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Предпринимательство",
                             "text": "Основал скрытый AI-стартап, ориентированный на решения для нейроразнообразия. Работа за кулисами над разработкой AI-инструментов, которые упрощают повторяющиеся задачи и делают технологии более человечными для нейроразнообразных людей.",
@@ -1569,7 +1569,7 @@
                         },
                         "fr": {
                             "title": "Lancé une {{startup AI secrète}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Entrepreneuriat",
                             "text": "Fondé une startup IA secrète axée sur les solutions de neurodiversité. Travail en coulisses pour développer des outils IA qui rationalisent les tâches répétitives et rendent la technologie plus conviviale pour les personnes neurodivers.",
@@ -1582,7 +1582,7 @@
                         },
                         "ja": {
                             "title": "{{ステルスAIスタートアップ}}を立ち上げ",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "起業家精神",
                             "text": "神経多様性ソリューションに焦点を当てたステルスAIスタートアップを設立しました。神経多様性のある個人のために反復的なタスクを合理化し、テクノロジーをより人間に優しくするAIツールの開発に裏で取り組んでいます。",
@@ -1616,7 +1616,7 @@
                     "locales": {
                         "en": {
                             "title": "Career Transition & {{New Ventures}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Entrepreneurship",
                             "text": "After being made redundant, I transformed this challenge into an opportunity. Created my Matrix-themed personal portfolio as my primary showcase, created a small AI startup to tackle executive dysfunction by harnessing AI, making tech more human and adapt to us, and began developing this commercial portfolio.",
@@ -1629,7 +1629,7 @@
                         },
                         "ru": {
                             "title": "Карьерный переход и {{новые предприятия}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Предпринимательство",
                             "text": "После сокращения я превратил эту проблему в возможность. Создал свое личное портфолио в стиле Матрицы как основную витрину, создал небольшой AI-стартап для борьбы с исполнительной дисфункцией с помощью ИИ, делая технологии более человечными и адаптирующимися к нам, и начал разработку этого коммерческого портфолио.",
@@ -1642,7 +1642,7 @@
                         },
                         "fr": {
                             "title": "Transition de carrière et {{Nouvelles Entreprises}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Entrepreneuriat",
                             "text": "Après avoir été licencié, j'ai transformé ce défi en opportunité. J'ai créé mon portfolio personnel sur le thème Matrix comme vitrine principale, créé une petite startup IA pour lutter contre la dysfonction exécutive en exploitant l'IA, rendant la technologie plus humaine et s'adaptant à nous, et commencé à développer ce portfolio commercial.",
@@ -1655,7 +1655,7 @@
                         },
                         "ja": {
                             "title": "キャリア転換と{{新しい事業}}",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "起業家精神",
                             "text": "解雇された後、この課題を機会に変えました。マトリックステーマの個人ポートフォリオを主要なショーケースとして作成し、AIを活用して実行機能障害に取り組む小規模なAIスタートアップを作成し、テクノロジーをより人間的で私たちに適応させ、この商業ポートフォリオの開発を開始しました。",
