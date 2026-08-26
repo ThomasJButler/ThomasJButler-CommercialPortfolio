@@ -66,6 +66,13 @@
                         "href": "https://github.com/thomasjbutler"
                     },
                     "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "label": "Agency Showcase",
+                    "link": {
+                        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de"
+                    },
+                    "faIcon": "fa-brands fa-notion"
                 }
             ]
         },

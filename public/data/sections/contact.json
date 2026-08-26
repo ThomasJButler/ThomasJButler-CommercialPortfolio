@@ -333,39 +333,61 @@
                 },
                 {
                     "id": 2,
-                    "faIcon": "fa-solid fa-code",
+                    "faIcon": "fa-solid fa-clock-rotate-left",
                     "faIconColors": {
                         "bg": "#10B981",
                         "fill": "#FFFFFF"
                     },
                     "link": {
-                        "href": "https://thomasjbutler.github.io/",
+                        "href": "https://thomasjbutler.github.io/version-timetravel/",
                         "tooltipString": "open_link"
                     },
                     "locales": {
                         "en": {
-                            "title": "Personal Portfolio",
-                            "text": "View my personal projects and experiments"
-                        },
-                        "es": {
-                            "title": "Portfolio Personal",
-                            "text": "Ver mis proyectos personales y experimentos"
-                        },
-                        "fr": {
-                            "title": "Portfolio Personnel",
-                            "text": "Voir mes projets personnels et expériences"
-                        },
-                        "ko": {
-                            "title": "개인 포트폴리오",
-                            "text": "개인 프로젝트 및 실험 보기"
+                            "title": "Version TimeTravel",
+                            "text": "Nine portfolio versions, every one still running"
                         },
                         "ru": {
-                            "title": "Личное Портфолио",
-                            "text": "Посмотрите мои личные проекты и эксперименты"
+                            "title": "Version TimeTravel",
+                            "text": "Девять версий портфолио, каждая по-прежнему работает"
+                        },
+                        "fr": {
+                            "title": "Version TimeTravel",
+                            "text": "Neuf versions du portfolio, toutes encore en ligne"
                         },
                         "ja": {
-                            "title": "個人ポートフォリオ",
-                            "text": "個人プロジェクトと実験を見る"
+                            "title": "Version TimeTravel",
+                            "text": "9つのポートフォリオ版、すべて今も稼働中"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-notion",
+                    "faIconColors": {
+                        "bg": "#1F2937",
+                        "fill": "#FFFFFF"
+                    },
+                    "link": {
+                        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                        "tooltipString": "open_link"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web Agency Showcase",
+                            "text": "12 client projects from Fuelius, written up"
+                        },
+                        "ru": {
+                            "title": "Витрина веб-агентства",
+                            "text": "12 клиентских проектов из Fuelius с описанием"
+                        },
+                        "fr": {
+                            "title": "Vitrine de l'agence web",
+                            "text": "12 projets clients chez Fuelius, documentés"
+                        },
+                        "ja": {
+                            "title": "ウェブ代理店ショーケース",
+                            "text": "Fueliusでの12件のクライアントプロジェクトを解説"
                         }
                     }
                 }
