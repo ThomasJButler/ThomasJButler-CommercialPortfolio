@@ -60,22 +60,22 @@
                         "en": {
                             "title": "Web Development",
                             "text": "HTML5, CSS3, JavaScript and React, with Bootstrap, Tailwind and Sass. Sixteen months of client releases across 12 accounts at a HubSpot and Umbraco agency.",
-                            "level": "4 years experience"
+                            "level": "4 years"
                         },
                         "ru": {
                             "title": "Веб-разработка",
                             "text": "HTML5, CSS3, JavaScript и React, а также Bootstrap, Tailwind и Sass. Шестнадцать месяцев клиентских релизов по 12 аккаунтам в агентстве на HubSpot и Umbraco.",
-                            "level": "4 года опыта"
+                            "level": "4 года"
                         },
                         "fr": {
                             "title": "Développement Web",
                             "text": "HTML5, CSS3, JavaScript et React, avec Bootstrap, Tailwind et Sass. Seize mois de mises en production client sur 12 comptes dans une agence HubSpot et Umbraco.",
-                            "level": "4 ans d'expérience"
+                            "level": "4 ans"
                         },
                         "ja": {
                             "title": "ウェブ開発",
                             "text": "HTML5、CSS3、JavaScript、React、それにBootstrap、Tailwind、Sass。HubSpotとUmbracoの代理店で12アカウントにわたり16か月間クライアント向けリリースを担当。",
-                            "level": "4年の経験"
+                            "level": "4年"
                         }
                     },
                     "faIcon": "fa-brands fa-html5",
@@ -94,22 +94,22 @@
                         "en": {
                             "title": "Programming & Backend",
                             "text": "Python, C# and .NET, Node.js. FastAPI, ASP.NET Core, Django and Express in production and in side projects.",
-                            "level": "4 years experience"
+                            "level": "4 years"
                         },
                         "ru": {
                             "title": "Программирование и бэкенд",
                             "text": "Python, C# и .NET, Node.js. FastAPI, ASP.NET Core, Django и Express в продакшене и в собственных проектах.",
-                            "level": "4 года опыта"
+                            "level": "4 года"
                         },
                         "fr": {
                             "title": "Programmation et Backend",
                             "text": "Python, C# et .NET, Node.js. FastAPI, ASP.NET Core, Django et Express en production et dans mes projets perso.",
-                            "level": "4 ans d'expérience"
+                            "level": "4 ans"
                         },
                         "ja": {
                             "title": "プログラミングとバックエンド",
                             "text": "Python、C#と.NET、Node.js。FastAPI、ASP.NET Core、Django、Expressを本番環境と個人プロジェクトで使用。",
-                            "level": "4年の経験"
+                            "level": "4年"
                         }
                     },
                     "faIcon": "fa-brands fa-node-js",
@@ -128,22 +128,22 @@
                         "en": {
                             "title": "Version Control & API",
                             "text": "Git, GitHub, GitLab and BitBucket, REST APIs, GraphQL and Swagger. JIRA tickets, code review and release branches on live client sites.",
-                            "level": "4 years experience"
+                            "level": "4 years"
                         },
                         "ru": {
                             "title": "Контроль версий и API",
                             "text": "Git, GitHub, GitLab и BitBucket, REST API, GraphQL и Swagger. Задачи в JIRA, код-ревью и релизные ветки на живых клиентских сайтах.",
-                            "level": "4 года опыта"
+                            "level": "4 года"
                         },
                         "fr": {
                             "title": "Contrôle de version et API",
                             "text": "Git, GitHub, GitLab et BitBucket, API REST, GraphQL et Swagger. Tickets JIRA, revue de code et branches de release sur des sites clients en production.",
-                            "level": "4 ans d'expérience"
+                            "level": "4 ans"
                         },
                         "ja": {
                             "title": "バージョン管理とAPI",
                             "text": "Git、GitHub、GitLab、BitBucket、REST API、GraphQL、Swagger。稼働中のクライアントサイトでのJIRAチケット、コードレビュー、リリースブランチ運用。",
-                            "level": "4年の経験"
+                            "level": "4年"
                         }
                     },
                     "faIcon": "fa-brands fa-git",
@@ -162,22 +162,22 @@
                         "en": {
                             "title": "AI Systems & Agents",
                             "text": "RAG pipelines, LangChain and LangGraph agents, evaluation and confidence scoring, local models with Ollama, the Claude and OpenAI SDKs. Systems, not model training.",
-                            "level": "3 years experience"
+                            "level": "3 years"
                         },
                         "ru": {
                             "title": "ИИ-системы и агенты",
                             "text": "RAG-конвейеры, агенты на LangChain и LangGraph, оценка и скоринг уверенности, локальные модели через Ollama, SDK Claude и OpenAI. Системы, а не обучение моделей.",
-                            "level": "3 года опыта"
+                            "level": "3 года"
                         },
                         "fr": {
                             "title": "Systèmes IA et agents",
                             "text": "Pipelines RAG, agents LangChain et LangGraph, évaluation et score de confiance, modèles locaux avec Ollama, SDK Claude et OpenAI. Des systèmes, pas de l'entraînement de modèles.",
-                            "level": "3 ans d'expérience"
+                            "level": "3 ans"
                         },
                         "ja": {
                             "title": "AIシステムとエージェント",
                             "text": "RAGパイプライン、LangChainとLangGraphのエージェント、評価と確信度スコアリング、Ollamaによるローカルモデル、ClaudeとOpenAIのSDK。モデル学習ではなくシステム。",
-                            "level": "3年の経験"
+                            "level": "3年"
                         }
                     },
                     "faIcon": "fa-solid fa-brain",
@@ -196,22 +196,22 @@
                         "en": {
                             "title": "Database Management",
                             "text": "SQL, schema design and query optimisation. PostgreSQL, MySQL, MongoDB, Supabase and DuckDB.",
-                            "level": "4 years experience"
+                            "level": "4 years"
                         },
                         "ru": {
                             "title": "Управление базами данных",
                             "text": "SQL, проектирование схем и оптимизация запросов. PostgreSQL, MySQL, MongoDB, Supabase и DuckDB.",
-                            "level": "4 года опыта"
+                            "level": "4 года"
                         },
                         "fr": {
                             "title": "Gestion de bases de données",
                             "text": "SQL, conception de schémas et optimisation de requêtes. PostgreSQL, MySQL, MongoDB, Supabase et DuckDB.",
-                            "level": "4 ans d'expérience"
+                            "level": "4 ans"
                         },
                         "ja": {
                             "title": "データベース管理",
                             "text": "SQL、スキーマ設計、クエリ最適化。PostgreSQL、MySQL、MongoDB、Supabase、DuckDB。",
-                            "level": "4年の経験"
+                            "level": "4年"
                         }
                     },
                     "faIcon": "fa-solid fa-database",
@@ -230,22 +230,22 @@
                         "en": {
                             "title": "Deployment",
                             "text": "Docker, GitHub Actions and CI/CD pipelines. Vercel, Netlify, Render, Azure App Service and IIS.",
-                            "level": "4 years experience"
+                            "level": "4 years"
                         },
                         "ru": {
                             "title": "Развертывание",
                             "text": "Docker, GitHub Actions и CI/CD-конвейеры. Vercel, Netlify, Render, Azure App Service и IIS.",
-                            "level": "4 года опыта"
+                            "level": "4 года"
                         },
                         "fr": {
                             "title": "Déploiement",
                             "text": "Docker, GitHub Actions et pipelines CI/CD. Vercel, Netlify, Render, Azure App Service et IIS.",
-                            "level": "4 ans d'expérience"
+                            "level": "4 ans"
                         },
                         "ja": {
                             "title": "デプロイメント",
                             "text": "Docker、GitHub Actions、CI/CDパイプライン。Vercel、Netlify、Render、Azure App Service、IIS。",
-                            "level": "4年の経験"
+                            "level": "4年"
                         }
                     },
                     "faIcon": "fa-solid fa-cloud-upload-alt",
@@ -264,22 +264,22 @@
                         "en": {
                             "title": "Testing & QA",
                             "text": "Vitest, Playwright, pytest and xUnit. 480+ tests on the ISQ Agent, 600+ on Sanctuary, and a backtest gate on The Kicker that fails CI if a refit gets worse.",
-                            "level": "4 years experience"
+                            "level": "4 years"
                         },
                         "ru": {
                             "title": "Тестирование и QA",
                             "text": "Vitest, Playwright, pytest и xUnit. 480+ тестов в ISQ Agent, 600+ в Sanctuary и контрольная точка бэктеста в The Kicker, из-за которой CI падает, если переобучение стало хуже.",
-                            "level": "4 года опыта"
+                            "level": "4 года"
                         },
                         "fr": {
                             "title": "Tests et QA",
                             "text": "Vitest, Playwright, pytest et xUnit. 480+ tests sur l'ISQ Agent, 600+ sur Sanctuary, et un garde-fou de backtest sur The Kicker qui fait échouer la CI si un réajustement régresse.",
-                            "level": "4 ans d'expérience"
+                            "level": "4 ans"
                         },
                         "ja": {
                             "title": "テストとQA",
                             "text": "Vitest、Playwright、pytest、xUnit。ISQ Agentで480以上、Sanctuaryで600以上のテスト、そしてThe Kickerには再フィットで精度が落ちるとCIが失敗するバックテストゲート。",
-                            "level": "4年の経験"
+                            "level": "4年"
                         }
                     },
                     "faIcon": "fa-solid fa-vial-circle-check",
@@ -298,22 +298,22 @@
                         "en": {
                             "title": "Data Engineering & Pipelines",
                             "text": "DuckDB, pandas and Splink entity resolution on the Offshore Property Map. Monthly change-file ingestion, FollowTheMoney export, and a pipeline that can prove how often it's wrong.",
-                            "level": "4 years experience"
+                            "level": "4 years"
                         },
                         "ru": {
                             "title": "Инженерия данных и пайплайны",
                             "text": "DuckDB, pandas и разрешение сущностей на Splink в Offshore Property Map. Загрузка ежемесячных файлов изменений, экспорт в FollowTheMoney и пайплайн, который может доказать, как часто он ошибается.",
-                            "level": "4 года опыта"
+                            "level": "4 года"
                         },
                         "fr": {
                             "title": "Ingénierie des données et pipelines",
                             "text": "DuckDB, pandas et résolution d'entités avec Splink sur l'Offshore Property Map. Ingestion mensuelle des fichiers de changements, export FollowTheMoney, et un pipeline capable de prouver à quelle fréquence il se trompe.",
-                            "level": "4 ans d'expérience"
+                            "level": "4 ans"
                         },
                         "ja": {
                             "title": "データエンジニアリングとパイプライン",
                             "text": "Offshore Property MapでのDuckDB、pandas、Splinkによるエンティティ解決。月次変更ファイルの取り込み、FollowTheMoney形式でのエクスポート、そして自らの誤り率を証明できるパイプライン。",
-                            "level": "4年の経験"
+                            "level": "4年"
                         }
                     },
                     "faIcon": "fa-solid fa-magnifying-glass-chart",
@@ -332,22 +332,22 @@
                         "en": {
                             "title": "Accessibility & Design Systems",
                             "text": "WCAG AA across 30+ CSS Showcase demos, WCAG AAA targets on Sanctuary, Material Design 3 token systems, reduced motion by default.",
-                            "level": "4 years experience"
+                            "level": "4 years"
                         },
                         "ru": {
                             "title": "Доступность и дизайн-системы",
                             "text": "WCAG AA в 30+ демо CSS Showcase, целевой уровень WCAG AAA в Sanctuary, системы токенов Material Design 3, уменьшенная анимация по умолчанию.",
-                            "level": "4 года опыта"
+                            "level": "4 года"
                         },
                         "fr": {
                             "title": "Accessibilité et design systems",
                             "text": "WCAG AA sur 30+ démos du CSS Showcase, objectifs WCAG AAA sur Sanctuary, systèmes de tokens Material Design 3, mouvement réduit par défaut.",
-                            "level": "4 ans d'expérience"
+                            "level": "4 ans"
                         },
                         "ja": {
                             "title": "アクセシビリティとデザインシステム",
                             "text": "CSS Showcaseの30以上のデモでWCAG AA、SanctuaryではWCAG AAAを目標、Material Design 3のトークンシステム、デフォルトで動きを抑えた設計。",
-                            "level": "4年の経験"
+                            "level": "4年"
                         }
                     },
                     "faIcon": "fa-solid fa-universal-access",
