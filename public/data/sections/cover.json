@@ -108,36 +108,329 @@
             ]
         },
         {
-            "id": "tech_stack",
+            "id": "tech_stack_now",
             "component": "ArticleStack",
             "config": {},
             "locales": {
                 "en": {
-                    "title": "My **Tech Stack**"
+                    "title": "What I **use now**"
                 },
                 "ru": {
-                    "title": "Мой **технологический стек**"
+                    "title": "Что я **использую сейчас**"
                 },
                 "fr": {
-                    "title": "Ma **pile technologique**"
+                    "title": "Ce que j'**utilise aujourd'hui**"
                 },
                 "ja": {
-                    "title": "私の**技術スタック**"
+                    "title": "**今使っている**技術"
                 }
             },
             "items": [
                 {
                     "id": 1,
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {
+                        "bg": "#3776AB",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python"
+                        },
+                        "ru": {
+                            "title": "Python"
+                        },
+                        "fr": {
+                            "title": "Python"
+                        },
+                        "ja": {
+                            "title": "Python"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {
+                        "bg": "#3178C6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript"
+                        },
+                        "ru": {
+                            "title": "TypeScript"
+                        },
+                        "fr": {
+                            "title": "TypeScript"
+                        },
+                        "ja": {
+                            "title": "TypeScript"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
                     "faIcon": "fa-brands fa-react",
                     "faIconColors": {
                         "bg": "#61DAFB",
                         "fill": "#282C34"
                     },
                     "locales": {
-                        "en": {"title": "React"},
-                        "ru": {"title": "React"},
-                        "fr": {"title": "React"},
-                        "ja": {"title": "React"}
+                        "en": {
+                            "title": "React"
+                        },
+                        "ru": {
+                            "title": "React"
+                        },
+                        "fr": {
+                            "title": "React"
+                        },
+                        "ja": {
+                            "title": "React"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": {
+                        "bg": "#009688",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "FastAPI"
+                        },
+                        "ru": {
+                            "title": "FastAPI"
+                        },
+                        "fr": {
+                            "title": "FastAPI"
+                        },
+                        "ja": {
+                            "title": "FastAPI"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-link",
+                    "faIconColors": {
+                        "bg": "#1C3C3C",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "LangChain"
+                        },
+                        "ru": {
+                            "title": "LangChain"
+                        },
+                        "fr": {
+                            "title": "LangChain"
+                        },
+                        "ja": {
+                            "title": "LangChain"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {
+                        "bg": "#7C3AED",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "LangGraph"
+                        },
+                        "ru": {
+                            "title": "LangGraph"
+                        },
+                        "fr": {
+                            "title": "LangGraph"
+                        },
+                        "ja": {
+                            "title": "LangGraph"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-book-open",
+                    "faIconColors": {
+                        "bg": "#0EA5E9",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "RAG"
+                        },
+                        "ru": {
+                            "title": "RAG"
+                        },
+                        "fr": {
+                            "title": "RAG"
+                        },
+                        "ja": {
+                            "title": "RAG"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": {
+                        "bg": "#1E1E1E",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Pinecone"
+                        },
+                        "ru": {
+                            "title": "Pinecone"
+                        },
+                        "fr": {
+                            "title": "Pinecone"
+                        },
+                        "ja": {
+                            "title": "Pinecone"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "faIcon": "fa-solid fa-microchip",
+                    "faIconColors": {
+                        "bg": "#111827",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ollama"
+                        },
+                        "ru": {
+                            "title": "Ollama"
+                        },
+                        "fr": {
+                            "title": "Ollama"
+                        },
+                        "ja": {
+                            "title": "Ollama"
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "faIcon": "fa-solid fa-terminal",
+                    "faIconColors": {
+                        "bg": "#CC785C",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Claude Code"
+                        },
+                        "ru": {
+                            "title": "Claude Code"
+                        },
+                        "fr": {
+                            "title": "Claude Code"
+                        },
+                        "ja": {
+                            "title": "Claude Code"
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "faIcon": "fa-brands fa-swift",
+                    "faIconColors": {
+                        "bg": "#F05138",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Swift/SwiftUI"
+                        },
+                        "ru": {
+                            "title": "Swift/SwiftUI"
+                        },
+                        "fr": {
+                            "title": "Swift/SwiftUI"
+                        },
+                        "ja": {
+                            "title": "Swift/SwiftUI"
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {
+                        "bg": "#2496ED",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Docker"
+                        },
+                        "ru": {
+                            "title": "Docker"
+                        },
+                        "fr": {
+                            "title": "Docker"
+                        },
+                        "ja": {
+                            "title": "Docker"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tech_stack_also",
+            "component": "ArticleStack",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Also **worked with**"
+                },
+                "ru": {
+                    "title": "Также **работал с**"
+                },
+                "fr": {
+                    "title": "J'ai aussi **travaillé avec**"
+                },
+                "ja": {
+                    "title": "**経験のある**技術"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#512BD4",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": ".NET/C#"
+                        },
+                        "ru": {
+                            "title": ".NET/C#"
+                        },
+                        "fr": {
+                            "title": ".NET/C#"
+                        },
+                        "ja": {
+                            "title": ".NET/C#"
+                        }
                     }
                 },
                 {
@@ -148,262 +441,260 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "Node.js"},
-                        "ru": {"title": "Node.js"},
-                        "fr": {"title": "Node.js"},
-                        "ja": {"title": "Node.js"}
+                        "en": {
+                            "title": "Node.js"
+                        },
+                        "ru": {
+                            "title": "Node.js"
+                        },
+                        "fr": {
+                            "title": "Node.js"
+                        },
+                        "ja": {
+                            "title": "Node.js"
+                        }
                     }
                 },
                 {
                     "id": 3,
-                    "faIcon": "fa-brands fa-python",
-                    "faIconColors": {
-                        "bg": "#3776AB",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Python"},
-                        "ru": {"title": "Python"},
-                        "fr": {"title": "Python"},
-                        "ja": {"title": "Python"}
-                    }
-                },
-                {
-                    "id": 4,
-                    "faIcon": "fa-brands fa-js",
-                    "faIconColors": {
-                        "bg": "#F7DF1E",
-                        "fill": "#000000"
-                    },
-                    "locales": {
-                        "en": {"title": "TypeScript"},
-                        "ru": {"title": "TypeScript"},
-                        "fr": {"title": "TypeScript"},
-                        "ja": {"title": "TypeScript"}
-                    }
-                },
-                {
-                    "id": 5,
-                    "faIcon": "fa-solid fa-code",
-                    "faIconColors": {
-                        "bg": "#512BD4",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": ".NET/C#"},
-                        "ru": {"title": ".NET/C#"},
-                        "fr": {"title": ".NET/C#"},
-                        "ja": {"title": ".NET/C#"}
-                    }
-                },
-                {
-                    "id": 6,
-                    "faIcon": "fa-brands fa-microsoft",
-                    "faIconColors": {
-                        "bg": "#0078D4",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Azure"},
-                        "ru": {"title": "Azure"},
-                        "fr": {"title": "Azure"},
-                        "ja": {"title": "Azure"}
-                    }
-                },
-                {
-                    "id": 7,
-                    "faIcon": "fa-brands fa-docker",
-                    "faIconColors": {
-                        "bg": "#2496ED",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Docker"},
-                        "ru": {"title": "Docker"},
-                        "fr": {"title": "Docker"},
-                        "ja": {"title": "Docker"}
-                    }
-                },
-                {
-                    "id": 8,
-                    "faIcon": "fa-brands fa-css3-alt",
-                    "faIconColors": {
-                        "bg": "#1572B6",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "CSS3/SCSS"},
-                        "ru": {"title": "CSS3/SCSS"},
-                        "fr": {"title": "CSS3/SCSS"},
-                        "ja": {"title": "CSS3/SCSS"}
-                    }
-                },
-                {
-                    "id": 9,
                     "faIcon": "fa-solid fa-database",
                     "faIconColors": {
                         "bg": "#336791",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "SQL/MongoDB"},
-                        "ru": {"title": "SQL/MongoDB"},
-                        "fr": {"title": "SQL/MongoDB"},
-                        "ja": {"title": "SQL/MongoDB"}
+                        "en": {
+                            "title": "SQL/MongoDB"
+                        },
+                        "ru": {
+                            "title": "SQL/MongoDB"
+                        },
+                        "fr": {
+                            "title": "SQL/MongoDB"
+                        },
+                        "ja": {
+                            "title": "SQL/MongoDB"
+                        }
                     }
                 },
                 {
-                    "id": 10,
-                    "faIcon": "fa-solid fa-link",
+                    "id": 4,
+                    "faIcon": "fa-brands fa-microsoft",
                     "faIconColors": {
-                        "bg": "#7C3AED",
+                        "bg": "#0078D4",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "LangChain"},
-                        "ru": {"title": "LangChain"},
-                        "fr": {"title": "LangChain"},
-                        "ja": {"title": "LangChain"}
+                        "en": {
+                            "title": "Azure"
+                        },
+                        "ru": {
+                            "title": "Azure"
+                        },
+                        "fr": {
+                            "title": "Azure"
+                        },
+                        "ja": {
+                            "title": "Azure"
+                        }
                     }
                 },
                 {
-                    "id": 11,
-                    "faIcon": "fa-solid fa-brain",
-                    "faIconColors": {
-                        "bg": "#FF6F00",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "TensorFlow"},
-                        "ru": {"title": "TensorFlow"},
-                        "fr": {"title": "TensorFlow"},
-                        "ja": {"title": "TensorFlow"}
-                    }
-                },
-                {
-                    "id": 12,
-                    "faIcon": "fa-solid fa-fire",
-                    "faIconColors": {
-                        "bg": "#EE4C2C",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "PyTorch"},
-                        "ru": {"title": "PyTorch"},
-                        "fr": {"title": "PyTorch"},
-                        "ja": {"title": "PyTorch"}
-                    }
-                },
-                {
-                    "id": 13,
+                    "id": 5,
                     "faIcon": "fa-brands fa-aws",
                     "faIconColors": {
                         "bg": "#FF9900",
                         "fill": "#232F3E"
                     },
                     "locales": {
-                        "en": {"title": "AWS"},
-                        "ru": {"title": "AWS"},
-                        "fr": {"title": "AWS"},
-                        "ja": {"title": "AWS"}
+                        "en": {
+                            "title": "AWS"
+                        },
+                        "ru": {
+                            "title": "AWS"
+                        },
+                        "fr": {
+                            "title": "AWS"
+                        },
+                        "ja": {
+                            "title": "AWS"
+                        }
                     }
                 },
                 {
-                    "id": 14,
-                    "faIcon": "fa-solid fa-bolt",
-                    "faIconColors": {
-                        "bg": "#000000",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Vercel"},
-                        "ru": {"title": "Vercel"},
-                        "fr": {"title": "Vercel"},
-                        "ja": {"title": "Vercel"}
-                    }
-                },
-                {
-                    "id": 15,
-                    "faIcon": "fa-solid fa-database",
-                    "faIconColors": {
-                        "bg": "#3ECF8E",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Supabase"},
-                        "ru": {"title": "Supabase"},
-                        "fr": {"title": "Supabase"},
-                        "ja": {"title": "Supabase"}
-                    }
-                },
-                {
-                    "id": 16,
-                    "faIcon": "fa-solid fa-leaf",
-                    "faIconColors": {
-                        "bg": "#3544B1",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Umbraco"},
-                        "ru": {"title": "Umbraco"},
-                        "fr": {"title": "Umbraco"},
-                        "ja": {"title": "Umbraco"}
-                    }
-                },
-                {
-                    "id": 17,
+                    "id": 6,
                     "faIcon": "fa-brands fa-hubspot",
                     "faIconColors": {
                         "bg": "#FF7A59",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "HubSpot"},
-                        "ru": {"title": "HubSpot"},
-                        "fr": {"title": "HubSpot"},
-                        "ja": {"title": "HubSpot"}
+                        "en": {
+                            "title": "HubSpot"
+                        },
+                        "ru": {
+                            "title": "HubSpot"
+                        },
+                        "fr": {
+                            "title": "HubSpot"
+                        },
+                        "ja": {
+                            "title": "HubSpot"
+                        }
                     }
                 },
                 {
-                    "id": 18,
+                    "id": 7,
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {
+                        "bg": "#3544B1",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Umbraco"
+                        },
+                        "ru": {
+                            "title": "Umbraco"
+                        },
+                        "fr": {
+                            "title": "Umbraco"
+                        },
+                        "ja": {
+                            "title": "Umbraco"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
                     "faIcon": "fa-brands fa-bootstrap",
                     "faIconColors": {
                         "bg": "#7952B3",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "Bootstrap"},
-                        "ru": {"title": "Bootstrap"},
-                        "fr": {"title": "Bootstrap"},
-                        "ja": {"title": "Bootstrap"}
+                        "en": {
+                            "title": "Bootstrap"
+                        },
+                        "ru": {
+                            "title": "Bootstrap"
+                        },
+                        "fr": {
+                            "title": "Bootstrap"
+                        },
+                        "ja": {
+                            "title": "Bootstrap"
+                        }
                     }
                 },
                 {
-                    "id": 19,
-                    "faIcon": "fa-brands fa-bitbucket",
+                    "id": 9,
+                    "faIcon": "fa-brands fa-css3-alt",
                     "faIconColors": {
-                        "bg": "#0052CC",
+                        "bg": "#1572B6",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "BitBucket"},
-                        "ru": {"title": "BitBucket"},
-                        "fr": {"title": "BitBucket"},
-                        "ja": {"title": "BitBucket"}
+                        "en": {
+                            "title": "CSS3/SCSS"
+                        },
+                        "ru": {
+                            "title": "CSS3/SCSS"
+                        },
+                        "fr": {
+                            "title": "CSS3/SCSS"
+                        },
+                        "ja": {
+                            "title": "CSS3/SCSS"
+                        }
                     }
                 },
                 {
-                    "id": 20,
+                    "id": 10,
                     "faIcon": "fa-brands fa-js-square",
                     "faIconColors": {
                         "bg": "#F7DF1E",
                         "fill": "#000000"
                     },
                     "locales": {
-                        "en": {"title": "JavaScript"},
-                        "ru": {"title": "JavaScript"},
-                        "fr": {"title": "JavaScript"},
-                        "ja": {"title": "JavaScript"}
+                        "en": {
+                            "title": "JavaScript"
+                        },
+                        "ru": {
+                            "title": "JavaScript"
+                        },
+                        "fr": {
+                            "title": "JavaScript"
+                        },
+                        "ja": {
+                            "title": "JavaScript"
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "#3ECF8E",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Supabase"
+                        },
+                        "ru": {
+                            "title": "Supabase"
+                        },
+                        "fr": {
+                            "title": "Supabase"
+                        },
+                        "ja": {
+                            "title": "Supabase"
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": {
+                        "bg": "#000000",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Vercel"
+                        },
+                        "ru": {
+                            "title": "Vercel"
+                        },
+                        "fr": {
+                            "title": "Vercel"
+                        },
+                        "ja": {
+                            "title": "Vercel"
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "faIcon": "fa-brands fa-bitbucket",
+                    "faIconColors": {
+                        "bg": "#0052CC",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BitBucket"
+                        },
+                        "ru": {
+                            "title": "BitBucket"
+                        },
+                        "fr": {
+                            "title": "BitBucket"
+                        },
+                        "ja": {
+                            "title": "BitBucket"
+                        }
                     }
                 }
             ]

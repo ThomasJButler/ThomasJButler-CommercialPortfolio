@@ -24,12 +24,9 @@ Welcome to my commercial portfolio! This is more than just a CV - it's a showcas
 [![React Version](https://img.shields.io/badge/react-18.3.1-blue)](https://reactjs.org)
 
 ### Tech Stack
-- **Frontend**: React, JavaScript, SCSS, HTML5/CSS3
-- **Backend**: Node.js, .NET, C#
-- **Cloud**: Azure, AWS
-- **CMS**: HubSpot, Umbraco
-- **Tools**: Git, Vite, TypeScript
-- **AI/ML**: PyTorch, TensorFlow, Python
+- **Use now**: Python, TypeScript, React, FastAPI, LangChain, LangGraph, RAG, Pinecone, Ollama, Claude Code, Swift/SwiftUI, Docker
+- **Also worked with**: .NET, C#, Node.js, SQL, Azure, AWS, HubSpot, Umbraco
+- **This site**: React 18, Vite, SCSS, Bootstrap 5 (a fork of the template credited below, not built from scratch)
 
 ## Features
 
