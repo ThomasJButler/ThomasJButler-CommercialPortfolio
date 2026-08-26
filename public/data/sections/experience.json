@@ -288,23 +288,24 @@
                     "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945824/codecademy_arwocz.png",
                     "dateStart": {
                         "year": 2023,
-                        "month": 12
+                        "month": 9
                     },
                     "dateEnd": {
-                        "year": 2024,
-                        "month": 11
+                        "year": 2026,
+                        "month": 8
                     },
                     "locales": {
                         "en": {
-                            "title": "Front End Engineer Career Path",
+                            "title": "Front-End Engineer Career Path",
                             "info": "CodeCademy",
-                            "text": "Completed front-end specialization covering JavaScript, React, CSS, HTML, and modern UI/UX practices.",
+                            "text": "Started this alongside the Level 4 apprenticeship to cover the front-end depth it didn't go into, and finished it in August 2026. 115 hours: HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate</a>",
                             "tags": [
                                 "JavaScript",
                                 "React",
                                 "CSS",
                                 "HTML",
-                                "UI/UX",
+                                "Redux",
+                                "Git",
                                 "Certificate"
                             ]
                         },
@@ -317,7 +318,8 @@
                                 "React",
                                 "CSS",
                                 "HTML",
-                                "UI/UX",
+                                "Redux",
+                                "Git",
                                 "Certificate"
                             ]
                         },
@@ -330,7 +332,8 @@
                                 "React",
                                 "CSS",
                                 "HTML",
-                                "UI/UX",
+                                "Redux",
+                                "Git",
                                 "Certificate"
                             ]
                         },
@@ -343,7 +346,8 @@
                                 "React",
                                 "CSS",
                                 "HTML",
-                                "UI/UX",
+                                "Redux",
+                                "Git",
                                 "Certificate"
                             ]
                         }
@@ -357,19 +361,18 @@
                     },
                     "dateEnd": {
                         "year": 2024,
-                        "month": 12
+                        "month": 10
                     },
                     "locales": {
                         "en": {
-                            "title": "Estio Level 4 Software Developer Apprenticeship",
+                            "title": "Level 4 Software Developer Apprenticeship (studied 2023-24)",
                             "info": "Estio",
-                            "text": "Completed Level 4 Software Developer Apprenticeship with professional software development certifications.",
+                            "text": "Studied the Level 4 Software Developer Apprenticeship with Estio alongside the Fuelius role. It gave me the fundamentals: software development principles, agile, and the habit of questioning everything. The CodeCademy career paths filled in the web development it didn't go deep on.",
                             "tags": [
                                 "Software Development",
                                 "C#",
                                 ".NET",
-                                "Agile",
-                                "Certificate"
+                                "Agile"
                             ]
                         },
                         "ru": {
@@ -380,8 +383,7 @@
                                 "Software Development",
                                 "C#",
                                 ".NET",
-                                "Agile",
-                                "Certificate"
+                                "Agile"
                             ]
                         },
                         "fr": {
@@ -392,8 +394,7 @@
                                 "Software Development",
                                 "C#",
                                 ".NET",
-                                "Agile",
-                                "Certificate"
+                                "Agile"
                             ]
                         },
                         "ja": {
@@ -404,8 +405,7 @@
                                 "Software Development",
                                 "C#",
                                 ".NET",
-                                "Agile",
-                                "Certificate"
+                                "Agile"
                             ]
                         }
                     }

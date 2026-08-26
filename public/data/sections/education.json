@@ -37,6 +37,33 @@
                 {
                     "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945824/codecademy_arwocz.png",
                     "dateStart": {
+                        "year": 2023,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Front-End Engineer Career Path",
+                            "info": "CodeCademy",
+                            "text": "Started this alongside the Level 4 apprenticeship to cover the front-end depth it didn't go into, and finished it in August 2026. 115 hours: HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate</a>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "React",
+                                "Redux",
+                                "Git",
+                                "Certificate"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945824/codecademy_arwocz.png",
+                    "dateStart": {
                         "year": 2025,
                         "month": 8
                     },
@@ -206,7 +233,7 @@
                         "en": {
                             "title": "Apprentice Full-Stack Software Developer",
                             "info": "Fuelius - Chester, UK",
-                            "text": "Developed full‑stack solutions for prominent clients like Merseyrail and M&S Bank Arena using robust tech stacks including .NET, Razor, C#, React, JavaScript, and CSS/SCSS.\n\nGained hands‑on experience from backend setups to frontend styling, specialising in HubSpot and Umbraco CMS to create responsive, content‑driven websites with a polished user experience. Frequently interacted with clients, managed JIRA tickets, and ensured projects stayed on track.\n\nStepped up to cover senior responsibilities during team members' leave, demonstrating adaptability and reliability. Committed to writing clean, maintainable code and enhancing site features with AI integrations, including chatbots and blog narration. I also completed the CodeCademy Front-End Engineer Career Path whilst working at Fuelius, to help me learn the tricks of the trade!",
+                            "text": "Developed full‑stack solutions for prominent clients like Merseyrail and M&S Bank Arena using robust tech stacks including .NET, Razor, C#, React, JavaScript, and CSS/SCSS.\n\nGained hands‑on experience from backend setups to frontend styling, specialising in HubSpot and Umbraco CMS to create responsive, content‑driven websites with a polished user experience. Frequently interacted with clients, managed JIRA tickets, and ensured projects stayed on track.\n\nStepped up to cover senior responsibilities during team members' leave, demonstrating adaptability and reliability. Committed to writing clean, maintainable code and enhancing site features with AI integrations, including chatbots and blog narration. I also worked through most of the CodeCademy Front-End Engineer path whilst at Fuelius, to fill in what the apprenticeship didn't cover.",
                             "tags": [
                                 ".NET",
                                 "React",
@@ -269,13 +296,13 @@
                     },
                     "dateEnd": {
                         "year": 2024,
-                        "month": 12
+                        "month": 10
                     },
                     "locales": {
                         "en": {
-                            "title": "Estio Lv4 Software Developer Apprenticeship",
+                            "title": "Level 4 Software Developer Apprenticeship (studied 2023-24)",
                             "info": "Estio",
-                            "text": "Completed my Level 4 Software Developer Apprenticeship with Estio - this was where my professional journey really began! Gained solid foundations in software development principles, agile methodologies, and best practices. The programme brilliantly combined real-world work experience with structured learning. Really helped build my confidence as a developer!",
+                            "text": "Studied the Level 4 Software Developer Apprenticeship with Estio alongside the Fuelius role. It gave me the fundamentals: software development principles, agile, and the habit of questioning everything. The CodeCademy career paths filled in the web development it didn't go deep on.",
                             "tags": [
                                 "Software Development",
                                 "C#",
