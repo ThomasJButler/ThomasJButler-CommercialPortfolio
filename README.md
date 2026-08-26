@@ -16,7 +16,7 @@
 
 ## Overview
 
-Welcome to my commercial portfolio! This is more than just a CV - it's a showcase of my journey as a web developer with **3+ years of experience** in full-stack development. Built with React and powered by the latest v2.0 template architecture, this portfolio demonstrates my expertise in modern web technologies and commitment to clean, performant code.
+This is the employer-facing side of my work. I started coding in late 2022, spent sixteen months as a junior developer at a HubSpot and Umbraco agency, and have been building independently under AiTomatic since December 2024. The site runs on React 18 and the v2.0 template architecture, kept deliberately stable so it just works when a recruiter opens it.
 
 [![Build Status](https://github.com/ThomasJButler/Commercial-Portfolio-React/actions/workflows/deploy.yml/badge.svg)](https://github.com/ThomasJButler/Commercial-Portfolio-React/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -36,7 +36,7 @@ Welcome to my commercial portfolio! This is more than just a CV - it's a showcas
 - **Theme Switching**: Elegant light/dark mode with smooth transitions
 - **SEO Optimized**: Full meta tags and structured data
 - **Accessible**: WCAG compliant with semantic HTML
-- **Multi-language**: Support for EN, ES, FR, JA, RU, and more
+- **Multi-language**: EN, FR, RU, JA
 
 ## Acknowledgments
 

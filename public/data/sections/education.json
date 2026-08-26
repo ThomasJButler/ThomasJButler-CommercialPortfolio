@@ -75,7 +75,7 @@
                         "en": {
                             "title": "Mastering Generative AI & Agents for Developers",
                             "info": "CodeCademy",
-                            "text": "Just completed this incredible 6-week AI bootcamp - absolutely transformative! Built 6 production-ready AI applications using cutting-edge tech like LangChain, RAG pipelines, and multi-agent systems. The hands-on approach was brilliant - worked extensively with GPT-4, Claude 3.5, vector databases (Pinecone, ChromaDB), and Azure AI Foundry. Mastered 12+ AI/ML frameworks and tools, which has completely leveled me up into a true AI-powered developer. The weekly projects gave me real-world experience in building and deploying AI agents - couldn't have asked for better timing!\n\n<a href=\"https://agenticaiprojectsportfolio.vercel.app/\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view portfolio & certificate</a>",
+                            "text": "Six-week AI bootcamp, six working applications by the end of it: LangChain, RAG pipelines and multi-agent systems, with GPT-4, Claude 3.5, Pinecone, ChromaDB and Azure AI Foundry. The weekly projects were the point. Each one had to be built, deployed and defended, which is where most of what I now do with agents started.\n\n<a href=\"https://agenticaiprojectsportfolio.vercel.app/\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view portfolio & certificate</a>",
                             "tags": [
                                 "LangChain",
                                 "RAG Pipelines",
@@ -428,7 +428,7 @@
                         "en": {
                             "title": "Learn How to Use AI for Coding Course",
                             "info": "Codecademy",
-                            "text": "Mastered using AI tools like GitHub Copilot and ChatGPT to accelerate development workflows. Learned best practices for prompt engineering, code generation, and leveraging AI for debugging and optimization. This course really transformed how I approach problem-solving and made me a much more efficient developer!",
+                            "text": "Mastered using AI tools like GitHub Copilot and ChatGPT to accelerate development workflows. Learned best practices for prompt engineering, code generation, and using AI for debugging and optimisation. This course really transformed how I approach problem-solving and made me a much more efficient developer!",
                             "tags": [
                                 "AI Tools",
                                 "GitHub Copilot",
@@ -805,7 +805,7 @@
                         "en": {
                             "title": "Lifelong Passion for Technology",
                             "info": "Self-Directed Learning",
-                            "text": "I have been obsessed with technology for as long as I can remember—computers, game consoles, mobile phones, and anything new and exciting. I've always had a passion for learning and figuring things out. Some of my best early tech memories involve jailbreaking an original iPod Touch and playing with Cydia (iOS 1.1. - pre App Store days), messing around with custom repos, apps, and themes. It opened up a whole new world for me, and if I have one regret, it's not diving deeper into development sooner. Luckily, my interest in tech never faded. Over time, I got a clearer sense of what I wanted to do and finally committed to software development. Now, I have got the background knowledge, the mindset, and the drive to make it happen.",
+                            "text": "I have been obsessed with technology for as long as I can remember: computers, game consoles, mobile phones, and anything new and exciting. I've always had a passion for learning and figuring things out. Some of my best early tech memories involve jailbreaking an original iPod Touch and playing with Cydia (iOS 1.1. - pre App Store days), messing around with custom repos, apps, and themes. It opened up a whole new world for me, and if I have one regret, it's not diving deeper into development sooner. Luckily, my interest in tech never faded. Over time, I got a clearer sense of what I wanted to do and finally committed to software development. Now, I have got the background knowledge, the mindset, and the drive to make it happen.",
                             "tags": [
                                 "Self-Learning",
                                 "Technology",
