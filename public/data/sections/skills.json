@@ -38,15 +38,15 @@
                 },
                 "ru": {
                     "title": "Технические навыки",
-                    "text": "Полный обзор моих технических знаний и навыков."
+                    "text": "То, о чём я готов говорить на собеседовании, и примерно насколько глубоко."
                 },
                 "fr": {
                     "title": "Compétences techniques",
-                    "text": "Un aperçu complet de mon expertise et de mes compétences techniques."
+                    "text": "Ce sur quoi je serais content d'être interrogé en entretien, et à peu près jusqu'où ça va."
                 },
                 "ja": {
                     "title": "技術的熟練度",
-                    "text": "私の技術的専門知識と熟練度の包括的な概要。"
+                    "text": "面接で聞かれても答えられること、そしておおよその深さ。"
                 }
             },
             "items": [
@@ -159,6 +159,21 @@
                             "title": "AI Systems & Agents",
                             "text": "RAG pipelines, LangChain and LangGraph agents, evaluation and confidence scoring, local models with Ollama, and the Claude and OpenAI SDKs. Systems, retrieval and shipping rather than model training.",
                             "level": "2 years experience"
+                        },
+                        "ru": {
+                            "title": "ИИ-системы и агенты",
+                            "text": "RAG-конвейеры, агенты на LangChain и LangGraph, оценка и скоринг уверенности, локальные модели через Ollama, SDK Claude и OpenAI. Системы, поиск и выпуск, а не обучение моделей.",
+                            "level": "2 года опыта"
+                        },
+                        "fr": {
+                            "title": "Systèmes IA et agents",
+                            "text": "Pipelines RAG, agents LangChain et LangGraph, évaluation et score de confiance, modèles locaux avec Ollama, et les SDK Claude et OpenAI. Des systèmes, de la recherche et de la livraison, plutôt que de l'entraînement de modèles.",
+                            "level": "2 ans d'expérience"
+                        },
+                        "ja": {
+                            "title": "AIシステムとエージェント",
+                            "text": "RAGパイプライン、LangChainとLangGraphのエージェント、評価と確信度スコアリング、Ollamaによるローカルモデル、ClaudeとOpenAIのSDK。モデルの学習ではなく、システム、検索、リリース。",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-brain",
@@ -243,6 +258,21 @@
                             "title": "iOS / Swift",
                             "text": "SwiftUI, SwiftData and on-device speech and AI for Sanctuary. Self-taught to ship native rather than wrap a webview.",
                             "level": "In active development"
+                        },
+                        "ru": {
+                            "title": "iOS / Swift",
+                            "text": "SwiftUI, SwiftData, речь и ИИ на устройстве для Sanctuary. Выучил сам, чтобы выпускать нативно, а не оборачивать веб-вью.",
+                            "level": "В активной разработке"
+                        },
+                        "fr": {
+                            "title": "iOS / Swift",
+                            "text": "SwiftUI, SwiftData, reconnaissance vocale et IA sur l'appareil pour Sanctuary. Appris en autodidacte pour livrer du natif plutôt qu'envelopper une webview.",
+                            "level": "En développement actif"
+                        },
+                        "ja": {
+                            "title": "iOS / Swift",
+                            "text": "Sanctuaryのための、SwiftUI、SwiftData、オンデバイスの音声認識とAI。WebViewをラップするのではなくネイティブで出すために独学しました。",
+                            "level": "開発中"
                         }
                     },
                     "faIcon": "fa-brands fa-swift",

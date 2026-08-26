@@ -58,6 +58,48 @@
                                 "Git",
                                 "Certificate"
                             ]
+                        },
+                        "ru": {
+                            "title": "Карьерный путь Front-End Engineer",
+                            "info": "CodeCademy",
+                            "text": "Начал этот курс параллельно с апрентисшипом Level 4, чтобы глубже изучить фронтенд, которого там не хватало, и завершил его в августе 2026 года. 115 часов: HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат</a>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "React",
+                                "Redux",
+                                "Git",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Parcours Front-End Engineer",
+                            "info": "CodeCademy",
+                            "text": "Commencé en parallèle de l'apprentissage Level 4 pour approfondir le front-end qu'il ne couvrait pas, et terminé en août 2026. 115 heures : HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "React",
+                                "Redux",
+                                "Git",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "フロントエンドエンジニア キャリアパス",
+                            "info": "CodeCademy",
+                            "text": "Level 4アプレンティスシップでは深く扱わなかったフロントエンドを補うために並行して始め、2026年8月に修了しました。115時間：HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム。\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">証明書を表示するにはこちらをクリック</a>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "React",
+                                "Redux",
+                                "Git",
+                                "Certificate"
+                            ]
                         }
                     }
                 },
@@ -93,7 +135,7 @@
                         "ru": {
                             "title": "Мастерство генеративного ИИ и агентов для разработчиков",
                             "info": "CodeCademy",
-                            "text": "Только что завершил этот невероятный 6-недельный буткемп по ИИ - абсолютно преобразующий опыт! Создал 6 готовых к продакшену ИИ-приложений, используя передовые технологии, такие как LangChain, RAG-конвейеры и мультиагентные системы. Практический подход был великолепен - работал интенсивно с GPT-4, Claude 3.5, векторными базами данных (Pinecone, ChromaDB) и Azure AI Foundry. Освоил более 12 фреймворков и инструментов ИИ/МО, что полностью вывело меня на новый уровень как ИИ-разработчика. Еженедельные проекты дали мне реальный опыт создания и развертывания ИИ-агентов - лучшего времени и желать было нельзя!\n\n<a href=\"https://agenticaiprojectsportfolio.vercel.app/\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть портфолио и сертификат</a>",
+                            "text": "Шестинедельный буткемп по ИИ, к концу которого было шесть работающих приложений: LangChain, RAG-конвейеры и мультиагентные системы, с GPT-4, Claude 3.5, Pinecone, ChromaDB и Azure AI Foundry. Главным были еженедельные проекты. Каждый нужно было собрать, развернуть и защитить, и именно оттуда выросло большинство того, что я сейчас делаю с агентами.\n\n<a href=\"https://agenticaiprojectsportfolio.vercel.app/\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть портфолио и сертификат</a>",
                             "tags": [
                                 "LangChain",
                                 "RAG Pipelines",
@@ -111,7 +153,7 @@
                         "fr": {
                             "title": "Maîtriser l'IA Générative et les Agents pour Développeurs",
                             "info": "CodeCademy",
-                            "text": "Je viens de terminer ce bootcamp IA incroyable de 6 semaines - absolument transformateur! J'ai construit 6 applications IA prêtes pour la production en utilisant des technologies de pointe comme LangChain, les pipelines RAG et les systèmes multi-agents. L'approche pratique était brillante - j'ai travaillé intensivement avec GPT-4, Claude 3.5, les bases de données vectorielles (Pinecone, ChromaDB) et Azure AI Foundry. J'ai maîtrisé plus de 12 frameworks et outils IA/ML, ce qui m'a complètement élevé au niveau de véritable développeur dopé à l'IA. Les projets hebdomadaires m'ont donné une expérience du monde réel dans la construction et le déploiement d'agents IA - je n'aurais pas pu demander un meilleur timing!\n\n<a href=\"https://agenticaiprojectsportfolio.vercel.app/\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le portfolio et le certificat</a>",
+                            "text": "Bootcamp IA de six semaines, six applications fonctionnelles à la fin : LangChain, pipelines RAG et systèmes multi-agents, avec GPT-4, Claude 3.5, Pinecone, ChromaDB et Azure AI Foundry. Les projets hebdomadaires étaient l'essentiel. Chacun devait être construit, déployé et défendu, et c'est de là que vient l'essentiel de ce que je fais aujourd'hui avec les agents.\n\n<a href=\"https://agenticaiprojectsportfolio.vercel.app/\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le portfolio et le certificat</a>",
                             "tags": [
                                 "LangChain",
                                 "RAG Pipelines",
@@ -129,7 +171,7 @@
                         "ja": {
                             "title": "開発者向け生成AIとエージェントのマスタリング",
                             "info": "CodeCademy",
-                            "text": "この素晴らしい6週間のAIブートキャンプを修了しました - 本当に変革的な体験でした！LangChain、RAGパイプライン、マルチエージェントシステムなどの最先端技術を使用して、6つのプロダクション対応AIアプリケーションを構築しました。実践的なアプローチが素晴らしく、GPT-4、Claude 3.5、ベクターデータベース（Pinecone、ChromaDB）、Azure AI Foundryで広範囲に作業しました。12以上のAI/MLフレームワークとツールをマスターし、真のAI駆動型開発者として完全にレベルアップしました。週次プロジェクトで、AIエージェントの構築とデプロイに関する実世界の経験を得られました - これ以上のタイミングは望めませんでした！\n\n<a href=\"https://agenticaiprojectsportfolio.vercel.app/\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">ポートフォリオと証明書を表示するにはこちらをクリック</a>",
+                            "text": "6週間のAIブートキャンプで、終了時には6つの動くアプリケーションができました。LangChain、RAGパイプライン、マルチエージェントシステムを、GPT-4、Claude 3.5、Pinecone、ChromaDB、Azure AI Foundryで扱いました。要は毎週のプロジェクトでした。それぞれを構築し、デプロイし、説明できる状態にする必要があり、今エージェントでやっていることの大半はそこから始まりました。\n\n<a href=\"https://agenticaiprojectsportfolio.vercel.app/\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">ポートフォリオと証明書を表示するにはこちらをクリック</a>",
                             "tags": [
                                 "LangChain",
                                 "RAG Pipelines",
@@ -247,7 +289,7 @@
                         "ru": {
                             "title": "Стажёр Full-Stack разработчик программного обеспечения",
                             "info": "Fuelius - Честер, Великобритания",
-                            "text": "Разрабатывал полнофункциональные решения для известных клиентов, таких как Merseyrail и M&S Bank Arena, используя надёжные технологические стеки, включая .NET, Razor, C#, React, JavaScript и CSS/SCSS.\n\nПриобрёл практический опыт от настройки backend до стилизации frontend, специализируясь на HubSpot и Umbraco CMS для создания адаптивных, контент-ориентированных веб-сайтов с качественным пользовательским опытом. Часто взаимодействовал с клиентами, управлял задачами в JIRA и обеспечивал своевременное выполнение проектов.\n\nВзял на себя обязанности старших сотрудников во время их отпусков, демонстрируя адаптивность и надёжность. Привержен написанию чистого, поддерживаемого кода и улучшению функций сайта с интеграциями ИИ, включая чат-боты и озвучивание блогов. Также завершил программу CodeCademy Front-End Engineer Career Path во время работы в Fuelius, чтобы освоить все тонкости профессии!",
+                            "text": "Разрабатывал полнофункциональные решения для известных клиентов, таких как Merseyrail и M&S Bank Arena, используя надёжные технологические стеки, включая .NET, Razor, C#, React, JavaScript и CSS/SCSS.\n\nПриобрёл практический опыт от настройки backend до стилизации frontend, специализируясь на HubSpot и Umbraco CMS для создания адаптивных, контент-ориентированных веб-сайтов с качественным пользовательским опытом. Часто взаимодействовал с клиентами, управлял задачами в JIRA и обеспечивал своевременное выполнение проектов.\n\nВзял на себя обязанности старших сотрудников во время их отпусков, демонстрируя адаптивность и надёжность. Привержен написанию чистого, поддерживаемого кода и улучшению функций сайта с интеграциями ИИ, включая чат-боты и озвучивание блогов. Также, работая в Fuelius, прошёл большую часть курса CodeCademy Front-End Engineer, чтобы закрыть то, чего не давал апрентисшип.",
                             "tags": [
                                 ".NET",
                                 "React",
@@ -261,7 +303,7 @@
                         "fr": {
                             "title": "Apprenti Développeur Logiciel Full-Stack",
                             "info": "Fuelius - Chester, Royaume-Uni",
-                            "text": "J'ai développé des solutions full-stack pour des clients importants comme Merseyrail et M&S Bank Arena en utilisant des piles technologiques robustes incluant .NET, Razor, C#, React, JavaScript et CSS/SCSS.\n\nJ'ai acquis une expérience pratique de la configuration backend au styling frontend, me spécialisant dans HubSpot et Umbraco CMS pour créer des sites web réactifs et orientés contenu avec une expérience utilisateur soignée. J'ai fréquemment interagi avec les clients, géré des tickets JIRA et veillé à ce que les projets restent sur la bonne voie.\n\nJ'ai assumé des responsabilités de niveau senior pendant les congés des membres de l'équipe, démontrant adaptabilité et fiabilité. Engagé à écrire du code propre et maintenable et à améliorer les fonctionnalités du site avec des intégrations IA, y compris des chatbots et la narration de blogs. J'ai également terminé le parcours Front-End Engineer Career Path de CodeCademy tout en travaillant chez Fuelius, pour m'aider à apprendre les ficelles du métier!",
+                            "text": "J'ai développé des solutions full-stack pour des clients importants comme Merseyrail et M&S Bank Arena en utilisant des piles technologiques robustes incluant .NET, Razor, C#, React, JavaScript et CSS/SCSS.\n\nJ'ai acquis une expérience pratique de la configuration backend au styling frontend, me spécialisant dans HubSpot et Umbraco CMS pour créer des sites web réactifs et orientés contenu avec une expérience utilisateur soignée. J'ai fréquemment interagi avec les clients, géré des tickets JIRA et veillé à ce que les projets restent sur la bonne voie.\n\nJ'ai assumé des responsabilités de niveau senior pendant les congés des membres de l'équipe, démontrant adaptabilité et fiabilité. Engagé à écrire du code propre et maintenable et à améliorer les fonctionnalités du site avec des intégrations IA, y compris des chatbots et la narration de blogs. J'ai aussi suivi la majeure partie du parcours Front-End Engineer de CodeCademy pendant mon temps chez Fuelius, pour combler ce que l'apprentissage ne couvrait pas.",
                             "tags": [
                                 ".NET",
                                 "React",
@@ -275,7 +317,7 @@
                         "ja": {
                             "title": "見習いフルスタックソフトウェア開発者",
                             "info": "Fuelius - チェスター、イギリス",
-                            "text": "MerseyrailやM&S Bank Arenaなどの著名なクライアント向けに、.NET、Razor、C#、React、JavaScript、CSS/SCSSを含む堅牢な技術スタックを使用してフルスタックソリューションを開発しました。\n\nバックエンドのセットアップからフロントエンドのスタイリングまで実践的な経験を積み、HubSpotとUmbraco CMSに特化して、洗練されたユーザーエクスペリエンスを持つレスポンシブでコンテンツ駆動型のウェブサイトを作成しました。頻繁にクライアントと対話し、JIRAチケットを管理し、プロジェクトが予定通り進むよう確保しました。\n\nチームメンバーの休暇中に上級者の責任を引き受け、適応力と信頼性を示しました。クリーンで保守可能なコードを書くことに専念し、チャットボットやブログナレーションを含むAI統合でサイト機能を強化しました。また、Fueliusで働きながらCodeCademyのFront-End Engineer Career Pathを修了し、業界のコツを学びました！",
+                            "text": "MerseyrailやM&S Bank Arenaなどの著名なクライアント向けに、.NET、Razor、C#、React、JavaScript、CSS/SCSSを含む堅牢な技術スタックを使用してフルスタックソリューションを開発しました。\n\nバックエンドのセットアップからフロントエンドのスタイリングまで実践的な経験を積み、HubSpotとUmbraco CMSに特化して、洗練されたユーザーエクスペリエンスを持つレスポンシブでコンテンツ駆動型のウェブサイトを作成しました。頻繁にクライアントと対話し、JIRAチケットを管理し、プロジェクトが予定通り進むよう確保しました。\n\nチームメンバーの休暇中に上級者の責任を引き受け、適応力と信頼性を示しました。クリーンで保守可能なコードを書くことに専念し、チャットボットやブログナレーションを含むAI統合でサイト機能を強化しました。また、Fueliusで働きながらCodeCademyのFront-End Engineerパスの大部分を進め、アプレンティスシップで扱わなかった部分を補いました。",
                             "tags": [
                                 ".NET",
                                 "React",
@@ -313,9 +355,9 @@
                             ]
                         },
                         "ru": {
-                            "title": "Программа стажировки Estio Lv4 по разработке ПО",
+                            "title": "Level 4 Software Developer Apprenticeship (обучение 2023-24)",
                             "info": "Estio",
-                            "text": "Завершил программу стажировки Level 4 Software Developer в Estio - именно здесь началась моя профессиональная карьера! Получил прочную основу в принципах разработки программного обеспечения, гибких методологиях и лучших практиках. Программа великолепно сочетала реальный рабочий опыт со структурированным обучением. Это действительно помогло укрепить мою уверенность как разработчика!",
+                            "text": "Проходил программу Level 4 Software Developer Apprenticeship в Estio параллельно с работой в Fuelius. Она дала мне основы: принципы разработки ПО, agile и привычку подвергать всё сомнению. Курсы CodeCademy закрыли веб-разработку, в которую программа не углублялась.",
                             "tags": [
                                 "Software Development",
                                 "C#",
@@ -326,9 +368,9 @@
                             ]
                         },
                         "fr": {
-                            "title": "Apprentissage de Développeur Logiciel Estio Lv4",
+                            "title": "Level 4 Software Developer Apprenticeship (suivi en 2023-24)",
                             "info": "Estio",
-                            "text": "J'ai terminé mon apprentissage de Développeur Logiciel de Niveau 4 avec Estio - c'est là que mon parcours professionnel a vraiment commencé! J'ai acquis des bases solides dans les principes du développement logiciel, les méthodologies agiles et les meilleures pratiques. Le programme combinait brillamment l'expérience de travail du monde réel avec un apprentissage structuré. Cela a vraiment aidé à renforcer ma confiance en tant que développeur!",
+                            "text": "J'ai suivi l'apprentissage Level 4 Software Developer chez Estio en parallèle de mon poste chez Fuelius. Il m'a donné les fondamentaux : principes du développement logiciel, agile, et l'habitude de tout remettre en question. Les parcours CodeCademy ont couvert le développement web qu'il n'approfondissait pas.",
                             "tags": [
                                 "Software Development",
                                 "C#",
@@ -339,9 +381,9 @@
                             ]
                         },
                         "ja": {
-                            "title": "Estio Lv4ソフトウェア開発者見習いプログラム",
+                            "title": "Level 4ソフトウェア開発者アプレンティスシップ（2023-24年に受講）",
                             "info": "Estio",
-                            "text": "EstioでLevel 4 Software Developer Apprenticeshipを修了しました - ここで私のプロフェッショナルな旅が本当に始まりました！ソフトウェア開発の原則、アジャイル方法論、ベストプラクティスにおいて確固たる基盤を得ました。このプログラムは、実世界の業務経験と構造化された学習を見事に組み合わせていました。開発者としての自信を築くのに本当に役立ちました！",
+                            "text": "Fueliusでの勤務と並行して、EstioのLevel 4 Software Developer Apprenticeshipを受講しました。ソフトウェア開発の原則、アジャイル、そしてあらゆることを問い直す習慣という基礎を得ました。深く扱われなかったウェブ開発はCodeCademyのキャリアパスで補いました。",
                             "tags": [
                                 "Software Development",
                                 "C#",

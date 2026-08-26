@@ -310,9 +310,9 @@
                             ]
                         },
                         "ru": {
-                            "title": "Карьерный путь Front End инженера",
+                            "title": "Карьерный путь Front-End Engineer",
                             "info": "CodeCademy",
-                            "text": "Завершил специализацию по front-end разработке, охватывающую JavaScript, React, CSS, HTML и современные практики UI/UX.",
+                            "text": "Начал этот курс параллельно с апрентисшипом Level 4, чтобы глубже изучить фронтенд, которого там не хватало, и завершил его в августе 2026 года. 115 часов: HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат</a>",
                             "tags": [
                                 "JavaScript",
                                 "React",
@@ -324,9 +324,9 @@
                             ]
                         },
                         "fr": {
-                            "title": "Parcours Ingénieur Front End",
+                            "title": "Parcours Front-End Engineer",
                             "info": "CodeCademy",
-                            "text": "J'ai terminé une spécialisation front-end couvrant JavaScript, React, CSS, HTML et les pratiques modernes UI/UX.",
+                            "text": "Commencé en parallèle de l'apprentissage Level 4 pour approfondir le front-end qu'il ne couvrait pas, et terminé en août 2026. 115 heures : HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
                             "tags": [
                                 "JavaScript",
                                 "React",
@@ -338,9 +338,9 @@
                             ]
                         },
                         "ja": {
-                            "title": "フロントエンドエンジニアキャリアパス",
+                            "title": "フロントエンドエンジニア キャリアパス",
                             "info": "CodeCademy",
-                            "text": "JavaScript、React、CSS、HTML、最新のUI/UXプラクティスをカバーするフロントエンド専門プログラムを修了しました。",
+                            "text": "Level 4アプレンティスシップでは深く扱わなかったフロントエンドを補うために並行して始め、2026年8月に修了しました。115時間：HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム。\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">証明書を表示するにはこちらをクリック</a>",
                             "tags": [
                                 "JavaScript",
                                 "React",
@@ -376,9 +376,9 @@
                             ]
                         },
                         "ru": {
-                            "title": "Программа стажировки Estio Level 4 по разработке ПО",
+                            "title": "Level 4 Software Developer Apprenticeship (обучение 2023-24)",
                             "info": "Estio",
-                            "text": "Завершил программу стажировки Level 4 Software Developer с профессиональными сертификациями в разработке ПО.",
+                            "text": "Проходил программу Level 4 Software Developer Apprenticeship в Estio параллельно с работой в Fuelius. Она дала мне основы: принципы разработки ПО, agile и привычку подвергать всё сомнению. Курсы CodeCademy закрыли веб-разработку, в которую программа не углублялась.",
                             "tags": [
                                 "Software Development",
                                 "C#",
@@ -387,9 +387,9 @@
                             ]
                         },
                         "fr": {
-                            "title": "Apprentissage Développeur Logiciel Estio Level 4",
+                            "title": "Level 4 Software Developer Apprenticeship (suivi en 2023-24)",
                             "info": "Estio",
-                            "text": "J'ai terminé l'apprentissage Développeur Logiciel Level 4 avec des certifications professionnelles en développement logiciel.",
+                            "text": "J'ai suivi l'apprentissage Level 4 Software Developer chez Estio en parallèle de mon poste chez Fuelius. Il m'a donné les fondamentaux : principes du développement logiciel, agile, et l'habitude de tout remettre en question. Les parcours CodeCademy ont couvert le développement web qu'il n'approfondissait pas.",
                             "tags": [
                                 "Software Development",
                                 "C#",
@@ -398,9 +398,9 @@
                             ]
                         },
                         "ja": {
-                            "title": "Estio Level 4ソフトウェア開発者見習いプログラム",
+                            "title": "Level 4ソフトウェア開発者アプレンティスシップ（2023-24年に受講）",
                             "info": "Estio",
-                            "text": "プロフェッショナルなソフトウェア開発認定資格を取得してLevel 4 Software Developer Apprenticeshipを修了しました。",
+                            "text": "Fueliusでの勤務と並行して、EstioのLevel 4 Software Developer Apprenticeshipを受講しました。ソフトウェア開発の原則、アジャイル、そしてあらゆることを問い直す習慣という基礎を得ました。深く扱われなかったウェブ開発はCodeCademyのキャリアパスで補いました。",
                             "tags": [
                                 "Software Development",
                                 "C#",

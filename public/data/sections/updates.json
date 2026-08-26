@@ -277,6 +277,48 @@
                                 "Won't publish unless a human has audited a sample and the tooling can verify that exact version",
                                 "DuckDB store, monthly change files applied by title number, FollowTheMoney export"
                             ]
+                        },
+                        "ru": {
+                            "title": "{{Offshore Property Map}}: кто владеет Англией и Уэльсом и откуда?",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Независимый проект",
+                            "text": "HM Land Registry публикует, какие зарубежные компании владеют недвижимостью в Англии и Уэльсе. Companies House публикует, кто контролирует эти компании. Ни один из реестров не содержит идентификатора, связывающего их, поэтому связку нужно строить самому, и строить аккуратно, потому что ошибочное совпадение грозит иском за клевету. Это самая технически серьёзная вещь, которую я сделал: около 9 700 строк Python в 21 модуле, и она отказывается публиковать что-либо, что не проверил человек.",
+                            "list": [
+                                "Разрешение сущностей с помощью Splink между двумя государственными реестрами без общего ключа",
+                                "~23 000 связей, покрывающих ~88% из ~91 000 затронутых титулов, с измеренной точностью 99,5%",
+                                "Публикует нижнюю границу 95% доверительного интервала рядом с основной цифрой, а не только основную цифру",
+                                "Не публикует ничего, пока человек не проверил выборку, а инструменты не подтвердили именно эту версию",
+                                "Хранилище DuckDB, ежемесячные файлы изменений по номеру титула, экспорт в FollowTheMoney"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Offshore Property Map}} : qui possède l'Angleterre et le pays de Galles, et depuis où ?",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet indépendant",
+                            "text": "Le HM Land Registry publie quelles sociétés étrangères possèdent des biens en Angleterre et au pays de Galles. Companies House publie qui contrôle ces sociétés. Aucun des deux registres ne contient d'identifiant reliant l'un à l'autre, donc la jointure doit être construite, et construite avec soin, car une mauvaise correspondance est un risque de diffamation. C'est la chose la plus sérieuse techniquement que j'aie faite : environ 9 700 lignes de Python réparties en 21 modules, et elle refuse de publier quoi que ce soit qu'une personne n'a pas audité.",
+                            "list": [
+                                "Résolution d'entités avec Splink entre deux registres publics sans clé commune",
+                                "~23 000 liens couvrant ~88 % des ~91 000 titres concernés, avec une précision mesurée de 99,5 %",
+                                "Publie la borne inférieure à 95 % à côté du chiffre principal, pas seulement le chiffre principal",
+                                "Ne publie rien tant qu'un humain n'a pas audité un échantillon et que l'outillage n'a pas vérifié cette version exacte",
+                                "Stockage DuckDB, fichiers de changements mensuels appliqués par numéro de titre, export FollowTheMoney"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Offshore Property Map}}：イングランドとウェールズの所有者は誰で、どこから？",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "HM Land Registryは、どの海外企業がイングランドとウェールズの不動産を所有しているかを公開しています。Companies Houseは、それらの企業を誰が支配しているかを公開しています。どちらの登記簿にも両者を結びつける識別子がないため、結合は自分で構築する必要があり、しかも慎重に行う必要があります。誤った照合は名誉毀損のリスクになるからです。これまで作った中で最も技術的に本格的なもので、21モジュール・約9,700行のPythonからなり、人が監査していないものは一切公開しません。",
+                            "list": [
+                                "共通キーのない2つの政府登記簿間で、Splinkによるエンティティ解決",
+                                "約91,000件の対象タイトルのうち約88%をカバーする約23,000件のリンク、実測精度99.5%",
+                                "見出しの数値だけでなく、95%信頼区間の下限も併記して公開",
+                                "人がサンプルを監査し、ツールがその正確なバージョンを検証できるまで公開しない",
+                                "DuckDBストア、タイトル番号ごとに適用する月次変更ファイル、FollowTheMoney形式でのエクスポート"
+                            ]
                         }
                     }
                 },
@@ -303,6 +345,42 @@
                                 "33 CVs, four formats each, plus print versions, from one shared engine",
                                 "ReportLab and python-docx, one renderer per format, no duplicates (the duplicate was found and deleted)",
                                 "Every build is checked for page count and banned phrases, so nothing goes stale silently"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Один движок, {{33 резюме}}, четыре формата",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Независимый проект",
+                            "text": "Мои резюме генерируются из Python, а не редактируются вручную. Одно определение на резюме, четыре варианта рендеринга: дизайнерский PDF, ATS-PDF, Word и печатная версия. Два PDF-рендерера и два Word-рендерера используют один движок, шрифты встроены, а вывод PDF и Word совпадает с точностью до половины миллиметра. Это движок рендеринга, который по случайности выдаёт резюме, и это значит, что изменение даты или города попадает во все 33 при следующей сборке, вместо того чтобы расползаться по тридцати файлам.",
+                            "list": [
+                                "33 резюме, по четыре формата каждое, плюс печатные версии, из одного общего движка",
+                                "ReportLab и python-docx, один рендерер на формат, без дубликатов (дубликат был найден и удалён)",
+                                "Каждая сборка проверяется на количество страниц и запрещённые фразы, поэтому ничего не устаревает незаметно"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Un moteur, {{33 CV}}, quatre formats",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet indépendant",
+                            "text": "Mes CV sont générés depuis Python, pas édités à la main. Une définition par CV, rendue de quatre façons : PDF design, PDF ATS, Word et impression. Deux moteurs de rendu PDF et deux moteurs Word partagent un seul moteur, polices embarquées, et les sorties PDF et Word concordent à un demi-millimètre près. C'est un moteur de rendu qui se trouve produire des CV, ce qui veut dire qu'un changement de date ou de ville atterrit dans les 33 à la prochaine génération au lieu de dériver dans trente fichiers.",
+                            "list": [
+                                "33 CV, quatre formats chacun, plus des versions imprimables, à partir d'un seul moteur partagé",
+                                "ReportLab et python-docx, un moteur de rendu par format, sans doublon (le doublon a été trouvé et supprimé)",
+                                "Chaque génération est vérifiée pour le nombre de pages et les phrases interdites, rien ne devient obsolète en silence"
+                            ]
+                        },
+                        "ja": {
+                            "title": "1つのエンジン、{{33種類の履歴書}}、4つの形式",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "私の履歴書は手で編集するのではなく、Pythonから生成されます。履歴書ごとに1つの定義を、デザインPDF、ATS用PDF、Word、印刷用の4通りにレンダリングします。2つのPDFレンダラーと2つのWordレンダラーが1つのエンジンを共有し、フォントは埋め込み、PDFとWordの出力は0.5ミリ以内で一致します。たまたま履歴書を出力するレンダリングエンジンであり、日付や所在地の変更が30ファイルにばらつくのではなく、次回のビルドで33種類すべてに反映されます。",
+                            "list": [
+                                "33種類の履歴書、それぞれ4形式、さらに印刷版、すべて1つの共有エンジンから",
+                                "ReportLabとpython-docx、形式ごとに1つのレンダラー、重複なし（重複は発見して削除済み）",
+                                "ビルドごとにページ数と禁止フレーズをチェックするので、気づかないうちに古くなることがない"
                             ]
                         }
                     }
@@ -332,6 +410,48 @@
                                 "Three output formats: DOCX report, XLSX overlay on the original workbook, lossless JSON",
                                 "Tokens, cost and latency logged per question, 480+ tests, CI on every push",
                                 "Also ships as an installable Claude Code skill"
+                            ]
+                        },
+                        "ru": {
+                            "title": "{{ISQ Agent}}, представлен лично RiverAI",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Техническое задание",
+                            "text": "RAG-агент для анкет по безопасности поставщиков, созданный для технического задания RiverAI на позицию AI Engineer и представленный им лично. Он читает пустую анкету, PDF или XLSX, обосновывает каждый ответ политиками компании и прошлыми ответами, составляет ответ с реально использованными цитатами и оценивает собственную уверенность. Сомнительные ответы помечаются для проверки человеком, а не выдаются за надёжные.",
+                            "list": [
+                                "Python, FastAPI, LangChain, Claude, эмбеддинги Voyage и Pinecone",
+                                "Оценка уверенности по каждому вопросу в четырёх измерениях, с флагами для проверки человеком",
+                                "Три формата вывода: отчёт DOCX, XLSX-наложение на исходную книгу, JSON без потерь",
+                                "Токены, стоимость и задержка логируются по каждому вопросу, 480+ тестов, CI на каждый push",
+                                "Также поставляется как устанавливаемый навык Claude Code"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{ISQ Agent}}, présenté en personne à RiverAI",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Évaluation technique",
+                            "text": "Un agent RAG pour les questionnaires de sécurité fournisseurs, construit pour l'épreuve technique AI Engineer de RiverAI et présenté en personne. Il lit un questionnaire vierge, PDF ou XLSX, fonde chaque réponse sur les documents de politique de l'entreprise et les réponses passées, rédige une réponse avec les citations réellement utilisées, et note sa propre confiance. Les réponses fragiles sont signalées à un humain au lieu d'être présentées comme fiables.",
+                            "list": [
+                                "Python, FastAPI, LangChain, Claude, embeddings Voyage et Pinecone",
+                                "Score de confiance par question sur quatre dimensions, avec signalement pour relecture humaine",
+                                "Trois formats de sortie : rapport DOCX, surcouche XLSX sur le classeur d'origine, JSON sans perte",
+                                "Tokens, coût et latence journalisés par question, 480+ tests, CI à chaque push",
+                                "Livré aussi sous forme de skill Claude Code installable"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{ISQ Agent}}、RiverAIに対面でプレゼン",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "技術課題",
+                            "text": "サプライヤーのセキュリティ質問票のためのRAGエージェント。RiverAIのAIエンジニア技術課題として構築し、対面でプレゼンしました。空の質問票（PDFまたはXLSX）を読み込み、各回答を会社のポリシー文書と過去の回答に根拠づけ、実際に使った引用付きで回答を作成し、自らの確信度を採点します。怪しい回答は問題ないふりをせず、人のレビューにフラグを立てます。",
+                            "list": [
+                                "Python、FastAPI、LangChain、Claude、Voyage埋め込み、Pinecone",
+                                "4つの次元で質問ごとの確信度を採点し、人によるレビューのフラグを付与",
+                                "3つの出力形式：DOCXレポート、元のワークブックへのXLSXオーバーレイ、ロスレスJSON",
+                                "質問ごとにトークン・コスト・レイテンシを記録、480以上のテスト、プッシュごとにCI",
+                                "インストール可能なClaude Codeスキルとしても提供"
                             ]
                         }
                     }
@@ -373,6 +493,48 @@
                                 "Backtest pin gate in the test suite, so a refit that gets worse fails CI",
                                 "Ten columnist personas via Claude, using an inline-token pattern for rich content inside plain prose"
                             ]
+                        },
+                        "ru": {
+                            "title": "{{The Kicker}}: модель Диксона-Коулза, работающая в браузере",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Независимый проект",
+                            "text": "Прогнозы Премьер-лиги от модели Диксона-Коулза с временным затуханием, обученной на 33 сезонах, поданные как таблоид, который пишут десять оригинальных ИИ-колумнистов. Больше всего я горжусь движком. Он поставляется как около 5 КБ подобранных коэффициентов плюс чистый TypeScript, поэтому каждый прогноз считается на стороне клиента. Без сервера, без трекинга, и он работает вообще без API-ключей.",
+                            "list": [
+                                "Движок Диксона-Коулза, обученный и откалиброванный на 33 сезонах, поставляется как несколько килобайт чисел",
+                                "Работает полностью в браузере: для прогнозов бэкенд не нужен",
+                                "Фронтенд на SvelteKit, опциональный бэкенд на FastAPI для обучающих данных и XGBoost-смеси",
+                                "Контрольная точка бэктеста в тестах: если переобучение стало хуже, CI падает",
+                                "Десять персонажей-колумнистов через Claude с inline-token паттерном для форматированного контента внутри обычного текста"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{The Kicker}} : un modèle Dixon-Coles qui tourne dans le navigateur",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet indépendant",
+                            "text": "Des prédictions de Premier League issues d'un modèle Dixon-Coles à décroissance temporelle ajusté sur 33 saisons, servies comme un tabloïd écrit par dix chroniqueurs IA originaux. Ce dont je suis le plus fier, c'est le moteur. Il est livré sous forme d'environ 5 Ko de coefficients ajustés plus du TypeScript pur, donc chaque prédiction tourne côté client. Pas de serveur, pas de tracking, et ça fonctionne sans aucune clé API.",
+                            "list": [
+                                "Moteur Dixon-Coles, ajusté et calibré sur 33 saisons, livré en quelques kilo-octets de nombres",
+                                "Tourne entièrement dans le navigateur : aucun backend nécessaire pour les prédictions",
+                                "Front SvelteKit, backend FastAPI optionnel pour les données d'entraînement et un mélange XGBoost",
+                                "Garde-fou de backtest dans la suite de tests : un réajustement qui régresse fait échouer la CI",
+                                "Dix personnages de chroniqueurs via Claude, avec un motif inline-token pour du contenu riche dans de la prose"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{The Kicker}}：ブラウザで動くDixon-Colesモデル",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "33シーズンで学習した時間減衰型Dixon-Colesモデルによるプレミアリーグ予測を、10人のオリジナルAIコラムニストが書くタブロイド紙として提供します。一番の自慢はエンジンです。約5KBのフィット済み係数と純粋なTypeScriptだけで配布され、すべての予測がクライアント側で動きます。サーバーなし、トラッキングなし、APIキーがなくても動作します。",
+                            "list": [
+                                "33シーズンでフィットと較正を行ったDixon-Colesエンジンを、数キロバイトの数値として配布",
+                                "完全にブラウザ内で動作：予測にバックエンドは不要",
+                                "SvelteKitフロントエンド、学習データとXGBoostブレンド用のオプションのFastAPIバックエンド",
+                                "テストスイートにバックテストのピンゲートがあり、精度が下がる再フィットはCIで失敗",
+                                "Claudeによる10人のコラムニストペルソナ、通常の文章内にリッチコンテンツを埋め込むインライントークンパターン"
+                            ]
                         }
                     }
                 },
@@ -400,6 +562,45 @@
                                 "Fully on-device: no cloud, no accounts, no tracking, works offline",
                                 "600+ automated tests, plus security, privacy and accessibility audits with no critical issues open",
                                 "Solo build end to end: architecture, design, code and testing"
+                            ]
+                        },
+                        "ru": {
+                            "title": "{{Sanctuary}} переходит на нативный iOS",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "AiTomatic",
+                            "text": "Sanctuary, приложение для повседневного функционирования нейроотличных пользователей, созданное на основе личного опыта. Этой весной оно перешло от веб-версии к нативному iOS: Swift, SwiftUI и SwiftData, полностью на устройстве, собрано под iOS 27. Нажимаете на орб, говорите, и оно раскладывает поток мыслей на задачи и спокойный дневной обзор, используя речь и ИИ Apple на устройстве. Ничто не покидает телефон. Это не функция, это весь замысел.",
+                            "list": [
+                                "Нативные Swift, SwiftUI и SwiftData, в активной разработке под iOS 27",
+                                "Полностью на устройстве: без облака, без аккаунтов, без трекинга, работает офлайн",
+                                "600+ автотестов, плюс аудиты безопасности, приватности и доступности без открытых критических замечаний",
+                                "Соло-разработка от начала до конца: архитектура, дизайн, код и тестирование"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Sanctuary}} passe en iOS natif",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "AiTomatic",
+                            "text": "Sanctuary est une application de fonctionnement quotidien pour les utilisateurs neurodivergents, construite à partir d'une expérience vécue. Ce printemps, elle est passée d'une version web de référence à iOS natif : Swift, SwiftUI et SwiftData, entièrement sur l'appareil, construite pour iOS 27. On touche l'orbe, on parle, et elle trie le flot en tâches et en une vue quotidienne apaisée, avec la reconnaissance vocale et l'IA d'Apple sur l'appareil. Rien ne quitte le téléphone. Ce n'est pas une fonctionnalité, c'est toute la conception.",
+                            "list": [
+                                "Swift, SwiftUI et SwiftData natifs, en développement actif pour iOS 27",
+                                "Entièrement sur l'appareil : pas de cloud, pas de compte, pas de tracking, fonctionne hors ligne",
+                                "600+ tests automatisés, plus des audits sécurité, confidentialité et accessibilité sans problème critique ouvert",
+                                "Construit en solo de bout en bout : architecture, design, code et tests"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Sanctuary}}がネイティブiOSへ",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "AiTomatic",
+                            "text": "Sanctuaryは、ニューロダイバースなユーザーのための日常機能アプリで、実体験をもとに作っています。この春、ウェブ版のリファレンス実装からネイティブiOSに移行しました。Swift、SwiftUI、SwiftDataで、完全にオンデバイス、iOS 27向けにビルドしています。オーブをタップして話すと、Appleのオンデバイス音声認識とAIを使って、とりとめのない話をタスクと落ち着いた一日のビューに整理します。何も端末の外に出ません。これは機能ではなく、設計そのものです。",
+                            "list": [
+                                "ネイティブのSwift、SwiftUI、SwiftData、iOS 27向けに開発中",
+                                "完全にオンデバイス：クラウドなし、アカウントなし、トラッキングなし、オフラインで動作",
+                                "600以上の自動テスト、セキュリティ・プライバシー・アクセシビリティ監査で未解決のクリティカルな問題なし",
+                                "アーキテクチャ、デザイン、コード、テストまで一人で構築"
                             ]
                         }
                     }
@@ -438,6 +639,42 @@
                                 "Nine versions, two years, one person, all still running as originally shipped",
                                 "Each version is the real frozen artefact, not a screenshot",
                                 "Desktop, tablet and mobile viewports, keyboard navigation, deep-linkable versions"
+                            ]
+                        },
+                        "ru": {
+                            "title": "{{Version TimeTravel}}: девять версий, и каждая до сих пор работает",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Независимый проект",
+                            "text": "Архив моего личного сайта, версия за версией, от написанного вручную HTML в 2024 году до сегодняшней сборки на React и shadcn. Девять версий за два года, и каждая открывается и работает в браузере ровно так, как была выпущена, в рамке устройства, которую можно переключать между десктопом, планшетом и мобильным. Разрыв между первой и девятой больше, чем разрыв между тем, с чем я работал по найму, и тем, что использую сейчас. Резюме такого сказать не может. Рабочий архив может.",
+                            "list": [
+                                "Девять версий, два года, один человек, все до сих пор работают как при выпуске",
+                                "Каждая версия это настоящий замороженный артефакт, а не скриншот",
+                                "Десктоп, планшет и мобильный, навигация с клавиатуры, прямые ссылки на версии"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Version TimeTravel}} : neuf versions, chacune tourne encore",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet indépendant",
+                            "text": "Une archive de mon site personnel, version par version, du HTML écrit à la main en 2024 jusqu'à la version React et shadcn d'aujourd'hui. Neuf versions en deux ans, et chacune s'ouvre et tourne dans le navigateur exactement comme elle a été livrée, dans un cadre d'appareil que l'on peut basculer entre bureau, tablette et mobile. L'écart entre la première et la neuvième est plus grand que l'écart entre ce avec quoi je travaillais en emploi salarié et ce que j'utilise aujourd'hui. Un CV ne peut pas affirmer ça. Une archive qui fonctionne, si.",
+                            "list": [
+                                "Neuf versions, deux ans, une personne, toutes encore en ligne telles que livrées",
+                                "Chaque version est le véritable artefact figé, pas une capture d'écran",
+                                "Bureau, tablette et mobile, navigation au clavier, versions accessibles par lien direct"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Version TimeTravel}}：9つのバージョン、すべて今も動く",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "個人サイトのアーカイブで、2024年の手書きHTMLから現在のReactとshadcnのビルドまで、バージョンごとに残しています。2年間で9つのバージョン、そのすべてがリリース当時のままブラウザで開いて動作し、デスクトップ・タブレット・モバイルを切り替えられるデバイスフレームの中で見られます。最初と9番目の差は、雇用されていた頃に使っていたものと今使っているものの差より大きい。履歴書にはそう主張できません。動くアーカイブにはできます。",
+                            "list": [
+                                "9つのバージョン、2年間、1人、すべてリリース当時のまま稼働中",
+                                "各バージョンはスクリーンショットではなく、本物の凍結されたアーティファクト",
+                                "デスクトップ・タブレット・モバイルのビューポート、キーボード操作、バージョンへの直接リンク"
                             ]
                         }
                     }
@@ -705,7 +942,7 @@
                             "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Жизненная веха",
-                            "text": "Переехал из Чешира в Йоркшир для совершенно нового начала. Это значительное изменение в жизни принесло новые возможности и свежий взгляд как на личные, так и на профессиональные начинания.",
+                            "text": "Переехал из Чешира в Йоркшир, чтобы начать с чистого листа.",
                             "list": [
                                 "Переезд из Чешира в Йоркшир",
                                 "Совершенно новое начало в новом регионе",
@@ -718,7 +955,7 @@
                             "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Étape de Vie",
-                            "text": "Déménagement de Cheshire vers le Yorkshire pour un tout nouveau départ. Ce changement de vie important a apporté de nouvelles opportunités et une nouvelle perspective sur les projets personnels et professionnels.",
+                            "text": "Déménagé du Cheshire vers le Yorkshire pour repartir de zéro.",
                             "list": [
                                 "Déménagement de Cheshire vers le Yorkshire",
                                 "Tout nouveau départ dans une nouvelle région",
@@ -731,7 +968,7 @@
                             "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "人生の節目",
-                            "text": "チェシャーからヨークシャーへ移住し、まったく新しいスタートを切りました。この大きな人生の変化は、個人的および職業的な取り組みの両方に新しい機会と新鮮な視点をもたらしました。",
+                            "text": "新しいスタートのため、チェシャーからヨークシャーへ引っ越しました。",
                             "list": [
                                 "チェシャーからヨークシャーへ移住",
                                 "新しい地域でまったく新しいスタート",
@@ -1745,42 +1982,39 @@
                             ]
                         },
                         "ru": {
-                            "title": "Основал {{скрытый AI-стартап}}",
+                            "title": "Начал строить под брендом {{AiTomatic}}",
                             "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Предпринимательство",
-                            "text": "Основал скрытый AI-стартап, ориентированный на решения для нейроразнообразия. Работа за кулисами над разработкой AI-инструментов, которые упрощают повторяющиеся задачи и делают технологии более человечными для нейроразнообразных людей.",
+                            "institution": "AiTomatic",
+                            "text": "Начал строить под брендом AiTomatic. Соло, на свои деньги, без клиентов. План был выпускать то, о чём никто не просил, и учиться на каждом проекте, и большая часть того, что я знаю сейчас, пришла именно оттуда.",
                             "list": [
-                                "Разработка решений AI для поддержки нейроразнообразия",
-                                "Фокус на упрощении повторяющихся задач",
-                                "Создание удобных для человека интерфейсов",
-                                "В настоящее время в скрытом режиме с активной разработкой"
+                                "Соло и на собственные средства",
+                                "Первым продуктом стал Sanctuary, приложение для повседневного функционирования нейроотличных пользователей",
+                                "Не развивается коммерчески, пока я ищу работу на полную ставку"
                             ]
                         },
                         "fr": {
-                            "title": "Lancé une {{startup AI secrète}}",
+                            "title": "Début du travail sous {{AiTomatic}}",
                             "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Entrepreneuriat",
-                            "text": "Fondé une startup IA secrète axée sur les solutions de neurodiversité. Travail en coulisses pour développer des outils IA qui rationalisent les tâches répétitives et rendent la technologie plus conviviale pour les personnes neurodivers.",
+                            "institution": "AiTomatic",
+                            "text": "J'ai commencé à construire sous AiTomatic. Seul, autofinancé, sans clients. Le plan était de livrer des choses que personne n'avait demandées et d'apprendre de chacune, et l'essentiel de ce que je sais aujourd'hui vient exactement de là.",
                             "list": [
-                                "Développement de solutions IA pour le soutien à la neurodiversité",
-                                "Focus sur la rationalisation des tâches répétitives",
-                                "Création d'interfaces conviviales",
-                                "Actuellement en mode furtif avec développement actif"
+                                "Seul et autofinancé",
+                                "Le premier produit est devenu Sanctuary, une application de fonctionnement quotidien pour les utilisateurs neurodivergents",
+                                "Pas poursuivi commercialement pendant que je cherche un poste à temps plein"
                             ]
                         },
                         "ja": {
-                            "title": "{{ステルスAIスタートアップ}}を立ち上げ",
+                            "title": "{{AiTomatic}}の名のもとで開発を開始",
                             "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
-                            "institution": "起業家精神",
-                            "text": "神経多様性ソリューションに焦点を当てたステルスAIスタートアップを設立しました。神経多様性のある個人のために反復的なタスクを合理化し、テクノロジーをより人間に優しくするAIツールの開発に裏で取り組んでいます。",
+                            "institution": "AiTomatic",
+                            "text": "AiTomaticの名のもとで開発を始めました。一人で、自己資金で、クライアントなし。誰にも頼まれていないものを作って、その一つひとつから学ぶという計画で、今知っていることの大半はまさにそこから来ています。",
                             "list": [
-                                "神経多様性サポートのためのAIソリューションの開発",
-                                "反復的なタスクの合理化に焦点",
-                                "人間に優しいインターフェースの作成",
-                                "現在、アクティブな開発でステルスモード中"
+                                "一人で自己資金",
+                                "最初のプロダクトはSanctuary、ニューロダイバースなユーザーのための日常機能アプリになった",
+                                "フルタイムの仕事を探している間は商業的には進めていない"
                             ]
                         }
                     }
@@ -1818,42 +2052,42 @@
                             ]
                         },
                         "ru": {
-                            "title": "Карьерный переход и {{новые предприятия}}",
+                            "title": "Сокращение и {{начало собственных проектов}}",
                             "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Предпринимательство",
-                            "text": "После сокращения я превратил эту проблему в возможность. Создал свое личное портфолио в стиле Матрицы как основную витрину, создал небольшой AI-стартап для борьбы с исполнительной дисфункцией с помощью ИИ, делая технологии более человечными и адаптирующимися к нам, и начал разработку этого коммерческого портфолио.",
+                            "institution": "AiTomatic",
+                            "text": "В декабре меня сократили из Fuelius. Вместо того чтобы сидеть сложа руки, я собрал первую версию личного сайта, начал строить под брендом AiTomatic и взялся за этот коммерческий сайт для поиска работы.",
                             "list": [
-                                "Сокращен с предыдущей должности в декабре",
-                                "Создал индивидуальное HTML/CSS/JS портфолио с темой Матрицы",
-                                "Создал небольшой AI-стартап для борьбы с исполнительной дисфункцией с помощью ИИ, делая технологии более человечными и адаптирующимися к нам",
-                                "Начал разработку этого коммерческого портфолио React для профессионального присутствия"
+                                "Сокращён из Fuelius в декабре 2024 года",
+                                "Собрал первую версию личного сайта на чистых HTML, CSS и JavaScript",
+                                "Начал строить под брендом AiTomatic, соло и на свои деньги",
+                                "Начал этот коммерческий сайт на React для поиска работы"
                             ]
                         },
                         "fr": {
-                            "title": "Transition de carrière et {{Nouvelles Entreprises}}",
+                            "title": "Licenciement, {{début des projets perso}}",
                             "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Entrepreneuriat",
-                            "text": "Après avoir été licencié, j'ai transformé ce défi en opportunité. J'ai créé mon portfolio personnel sur le thème Matrix comme vitrine principale, créé une petite startup IA pour lutter contre la dysfonction exécutive en exploitant l'IA, rendant la technologie plus humaine et s'adaptant à nous, et commencé à développer ce portfolio commercial.",
+                            "institution": "AiTomatic",
+                            "text": "Licencié de Fuelius en décembre. Plutôt que de rester dessus, j'ai construit la première version de mon site personnel, commencé à construire sous AiTomatic, et lancé ce site commercial pour la recherche d'emploi.",
                             "list": [
-                                "Licencié de mon poste précédent en décembre",
-                                "Création d'un portfolio personnel HTML/CSS/JS personnalisé avec le thème Matrix",
-                                "Créé une petite startup IA pour lutter contre la dysfonction exécutive en exploitant l'IA, rendant la technologie plus humaine et s'adaptant à nous",
-                                "Début du développement de ce portfolio commercial React pour une présence professionnelle"
+                                "Licencié de Fuelius en décembre 2024",
+                                "Première version de mon site personnel en HTML, CSS et JavaScript purs",
+                                "Début du travail sous AiTomatic, seul et autofinancé",
+                                "Lancement de ce site commercial React pour la recherche d'emploi"
                             ]
                         },
                         "ja": {
-                            "title": "キャリア転換と{{新しい事業}}",
+                            "title": "解雇、そして{{開発を始める}}",
                             "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
-                            "institution": "起業家精神",
-                            "text": "解雇された後、この課題を機会に変えました。マトリックステーマの個人ポートフォリオを主要なショーケースとして作成し、AIを活用して実行機能障害に取り組む小規模なAIスタートアップを作成し、テクノロジーをより人間的で私たちに適応させ、この商業ポートフォリオの開発を開始しました。",
+                            "institution": "AiTomatic",
+                            "text": "12月にFueliusから解雇されました。落ち込んで座っている代わりに、個人サイトの最初のバージョンを作り、AiTomaticの名のもとで開発を始め、求職のためにこの商用サイトを始めました。",
                             "list": [
-                                "12月に前職から解雇",
-                                "マトリックステーマのカスタムHTML/CSS/JS個人ポートフォリオを作成",
-                                "AIを活用して実行機能障害に取り組む小規模なAIスタートアップを作成し、テクノロジーをより人間的で私たちに適応させる",
-                                "プロフェッショナルな存在感のためにこの商業用Reactポートフォリオの開発を開始"
+                                "2024年12月にFueliusから解雇",
+                                "素のHTML、CSS、JavaScriptで個人サイトの最初のバージョンを構築",
+                                "AiTomaticの名のもとで一人・自己資金で開発を開始",
+                                "求職のためにこの商用Reactサイトを開始"
                             ]
                         }
                     }
