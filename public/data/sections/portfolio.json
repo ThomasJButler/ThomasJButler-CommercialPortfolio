@@ -70,14 +70,44 @@
             ]
         },
         {
+            "id": "cta_button",
+            "component": "ArticleText",
+            "locales": {
+                "en": { "title": "" },
+                "ru": { "title": "" },
+                "fr": { "title": "" },
+                "ja": { "title": "" }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1768248158/notion-brands-solid-full_1_eqt1ud.svg",
+                    "locales": {
+                        "en": {
+                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View Detailed Agency Showcase</a></p>"
+                        },
+                        "ru": {
+                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть подробную витрину агентства</a></p>"
+                        },
+                        "fr": {
+                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Voir la vitrine détaillée de l'agence</a></p>"
+                        },
+                        "ja": {
+                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>詳細な代理店ショーケースを見る</a></p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
             "id": "commercial_tech_stack",
             "component": "ArticleStack",
             "config": {},
             "locales": {
-                "en": { "title": "{{Tech Stack}} Used" },
-                "ru": { "title": "Используемый {{технологический стек}}" },
-                "fr": { "title": "{{Stack technique}} utilisé" },
-                "ja": { "title": "使用した{{技術スタック}}" }
+                "en": { "title": "{{Tech Stack}} used at Fuelius" },
+                "ru": { "title": "{{Технологический стек}} в Fuelius" },
+                "fr": { "title": "{{Stack technique}} utilisée chez Fuelius" },
+                "ja": { "title": "Fueliusで使用した{{技術スタック}}" }
             },
             "items": [
                 {
@@ -166,16 +196,16 @@
                 },
                 {
                     "id": 7,
-                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIcon": "fa-brands fa-jira",
                     "faIconColors": {
-                        "bg": "#7952B3",
+                        "bg": "#0052CC",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "Bootstrap"},
-                        "ru": {"title": "Bootstrap"},
-                        "fr": {"title": "Bootstrap"},
-                        "ja": {"title": "Bootstrap"}
+                        "en": {"title": "JIRA"},
+                        "ru": {"title": "JIRA"},
+                        "fr": {"title": "JIRA"},
+                        "ja": {"title": "JIRA"}
                     }
                 },
                 {
@@ -218,36 +248,6 @@
                         "ru": {"title": "Docker"},
                         "fr": {"title": "Docker"},
                         "ja": {"title": "Docker"}
-                    }
-                }
-            ]
-        },
-        {
-            "id": "cta_button",
-            "component": "ArticleText",
-            "locales": {
-                "en": { "title": "" },
-                "ru": { "title": "" },
-                "fr": { "title": "" },
-                "ja": { "title": "" }
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1768248158/notion-brands-solid-full_1_eqt1ud.svg",
-                    "locales": {
-                        "en": {
-                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View Detailed Agency Showcase</a></p>"
-                        },
-                        "ru": {
-                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть подробную витрину агентства</a></p>"
-                        },
-                        "fr": {
-                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Voir la vitrine détaillée de l'agence</a></p>"
-                        },
-                        "ja": {
-                            "text": "<p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>詳細な代理店ショーケースを見る</a></p>"
-                        }
                     }
                 }
             ]
