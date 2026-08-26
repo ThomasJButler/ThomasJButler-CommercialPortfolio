@@ -236,20 +236,20 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "315 hrs",
-                            "text": "Codecademy career paths"
+                            "title": "2,000+ hrs",
+                            "text": "Front-End Engineer path, by hand"
                         },
                         "ru": {
-                            "title": "315 ч",
-                            "text": "Карьерные пути Codecademy"
+                            "title": "2 000+ ч",
+                            "text": "Путь Front-End Engineer, вручную"
                         },
                         "fr": {
-                            "title": "315 h",
-                            "text": "Parcours Codecademy"
+                            "title": "2 000+ h",
+                            "text": "Parcours Front-End Engineer, à la main"
                         },
                         "ja": {
-                            "title": "315時間",
-                            "text": "Codecademyキャリアパス"
+                            "title": "2,000時間以上",
+                            "text": "フロントエンドエンジニアパス、手作業で"
                         }
                     }
                 },
@@ -410,10 +410,10 @@
                             "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "CodeCademy",
-                            "text": "Started this alongside the Level 4 apprenticeship to cover the front-end depth it didn't go into, and finished it in August 2026. 115 hours: HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate</a>",
+                            "text": "Started this alongside the Level 4 apprenticeship to cover the front-end depth it didn't go into, and finished it in August 2026. Codecademy calls it 115 hours. It took me 2,000+, because I built every project by hand and went slow enough to understand and troubleshoot it myself rather than let AI do it. HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate</a>",
                             "list": [
                                 "Started September 2023 alongside the Level 4 apprenticeship",
-                                "115 hours: HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms",
+                                "2,000+ hours of my own, every project built by hand: HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms",
                                 "Certificate issued 24 August 2026"
                             ]
                         },
@@ -422,10 +422,10 @@
                             "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "CodeCademy",
-                            "text": "Начал этот курс параллельно с апрентисшипом Level 4, чтобы глубже изучить фронтенд, которого там не хватало, и завершил его в августе 2026 года. 115 часов: HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат</a>",
+                            "text": "Начал этот курс параллельно с апрентисшипом Level 4, чтобы глубже изучить фронтенд, которого там не хватало, и завершил его в августе 2026 года. Codecademy оценивает его в 115 часов. У меня ушло больше 2 000, потому что каждый проект я собирал вручную и шёл достаточно медленно, чтобы самому понимать и отлаживать, а не отдавать это ИИ. HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат</a>",
                             "list": [
                                 "Начал в сентябре 2023 года параллельно с апрентисшипом Level 4",
-                                "115 часов: HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы",
+                                "Больше 2 000 своих часов, каждый проект собран вручную: HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы",
                                 "Сертификат выдан 24 августа 2026 года"
                             ]
                         },
@@ -434,10 +434,10 @@
                             "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "CodeCademy",
-                            "text": "Commencé en parallèle de l'apprentissage Level 4 pour approfondir le front-end qu'il ne couvrait pas, et terminé en août 2026. 115 heures : HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
+                            "text": "Commencé en parallèle de l'apprentissage Level 4 pour approfondir le front-end qu'il ne couvrait pas, et terminé en août 2026. Codecademy l'annonce à 115 heures. Il m'en a pris plus de 2 000, parce que j'ai construit chaque projet à la main et pris le temps de comprendre et de déboguer moi-même plutôt que de laisser faire l'IA. HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
                             "list": [
                                 "Commencé en septembre 2023 en parallèle de l'apprentissage Level 4",
-                                "115 heures : HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes",
+                                "Plus de 2 000 heures à moi, chaque projet construit à la main : HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes",
                                 "Certificat délivré le 24 août 2026"
                             ]
                         },
@@ -446,10 +446,10 @@
                             "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "CodeCademy",
-                            "text": "Level 4アプレンティスシップでは深く扱わなかったフロントエンドを補うために並行して始め、2026年8月に修了しました。115時間：HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム。\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">証明書を表示するにはこちらをクリック</a>",
+                            "text": "Level 4アプレンティスシップでは深く扱わなかったフロントエンドを補うために並行して始め、2026年8月に修了しました。Codecademyの目安は115時間ですが、私は2,000時間以上かけました。すべてのプロジェクトを自分の手で作り、AIに任せるのではなく自分で理解しトラブルシュートできるよう、あえてゆっくり進めたからです。HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム。\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">証明書を表示するにはこちらをクリック</a>",
                             "list": [
                                 "Level 4アプレンティスシップと並行して2023年9月に開始",
-                                "115時間：HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム",
+                                "自分の手で2,000時間以上、すべてのプロジェクトを手作り：HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム",
                                 "2026年8月24日に証明書発行"
                             ]
                         }
