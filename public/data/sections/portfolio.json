@@ -66,19 +66,7 @@
                             "text": "<p>以下のすべての商業作品は、{{2023年8月から2024年12月}}まで英国チェスターの[[Fuelius]]で働いている間に完成しました。イベント会場、テクノロジー企業、医療提供者などの主要なクライアント向けに開発されたプロジェクトです。</p>"
                         }
                     }
-                }
-            ]
-        },
-        {
-            "id": "cta_button",
-            "component": "ArticleText",
-            "locales": {
-                "en": { "title": "" },
-                "ru": { "title": "" },
-                "fr": { "title": "" },
-                "ja": { "title": "" }
-            },
-            "items": [
+                },
                 {
                     "id": 2,
                     "img": "https://res.cloudinary.com/depqttzlt/image/upload/v1768248158/notion-brands-solid-full_1_eqt1ud.svg",

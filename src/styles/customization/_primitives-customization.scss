@@ -132,10 +132,12 @@ ul.list-mobile-small-padding {
 }
 
 
-// Commercial Work: divider between the Web Agency Showcase intro (1st article)
-// and the Notion showcase block (2nd article). Data-only sections can't add
-// separators, so it lives here with the other site customisations.
-#section-portfolio .section-content > .article-wrapper:nth-child(2) {
+// Commercial Work: divider between the Web Agency Showcase intro (item 1) and
+// the Notion showcase block (item 2 of the same ArticleText, which the template
+// renders mirrored). Data-only sections can't add separators, so it lives here
+// with the other site customisations.
+#section-portfolio .article-text-items > .article-text-item:nth-child(2) {
     border-top: 1px solid var(--theme-standard-borders);
     margin-top: 2rem;
+    padding-top: 2rem;
 }
