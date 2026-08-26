@@ -131,3 +131,11 @@ ul.list-mobile-small-padding {
     display: flex !important;
 }
 
+
+// Commercial Work: divider between the Web Agency Showcase intro (1st article)
+// and the Notion showcase block (2nd article). Data-only sections can't add
+// separators, so it lives here with the other site customisations.
+#section-portfolio .section-content > .article-wrapper:nth-child(2) {
+    border-top: 1px solid var(--theme-standard-borders);
+    margin-top: 2rem;
+}
