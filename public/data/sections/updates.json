@@ -175,6 +175,141 @@
                 {
                     "id": 6,
                     "img": null,
+                    "faIcon": "fa-solid fa-flask-vial",
+                    "faIconColors": {
+                        "bg": "#F97316",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "480+",
+                            "text": "Tests on the ISQ Agent"
+                        },
+                        "ru": {
+                            "title": "480+",
+                            "text": "Тестов в ISQ Agent"
+                        },
+                        "fr": {
+                            "title": "480+",
+                            "text": "Tests sur l'ISQ Agent"
+                        },
+                        "ja": {
+                            "title": "480+",
+                            "text": "ISQ Agentのテスト"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-file-lines",
+                    "faIconColors": {
+                        "bg": "#6366F1",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "33",
+                            "text": "CVs from one engine"
+                        },
+                        "ru": {
+                            "title": "33",
+                            "text": "Резюме из одного движка"
+                        },
+                        "fr": {
+                            "title": "33",
+                            "text": "CV depuis un seul moteur"
+                        },
+                        "ja": {
+                            "title": "33",
+                            "text": "1つのエンジンから生成した履歴書"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": null,
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {
+                        "bg": "#F59E0B",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "315 hrs",
+                            "text": "Codecademy career paths"
+                        },
+                        "ru": {
+                            "title": "315 ч",
+                            "text": "Карьерные пути Codecademy"
+                        },
+                        "fr": {
+                            "title": "315 h",
+                            "text": "Parcours Codecademy"
+                        },
+                        "ja": {
+                            "title": "315時間",
+                            "text": "Codecademyキャリアパス"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": null,
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "3",
+                            "text": "Bootcamps completed"
+                        },
+                        "ru": {
+                            "title": "3",
+                            "text": "Буткемпа завершено"
+                        },
+                        "fr": {
+                            "title": "3",
+                            "text": "Bootcamps terminés"
+                        },
+                        "ja": {
+                            "title": "3",
+                            "text": "修了したブートキャンプ"
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": null,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "4",
+                            "text": "Years building software"
+                        },
+                        "ru": {
+                            "title": "4",
+                            "text": "Года разработки ПО"
+                        },
+                        "fr": {
+                            "title": "4",
+                            "text": "Ans à construire du logiciel"
+                        },
+                        "ja": {
+                            "title": "4",
+                            "text": "ソフトウェア開発歴（年）"
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "img": null,
                     "faIcon": "fa-brands fa-python",
                     "faIconColors": {
                         "bg": "#3776AB",
@@ -200,7 +335,7 @@
                     }
                 },
                 {
-                    "id": 7,
+                    "id": 12,
                     "img": null,
                     "faIcon": "fa-solid fa-location-dot",
                     "faIconColors": {
@@ -251,6 +386,187 @@
                 "order_items_sort": "desc"
             },
             "items": [
+                {
+                    "id": 26,
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "/files/codecademyfrontendengineercertificate0826.pdf",
+                                "tooltipString": "open_link",
+                                "faIcon": "fa-solid fa-file-pdf"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Finished the {{Front-End Engineer}} career path",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "CodeCademy",
+                            "text": "Started this alongside the Level 4 apprenticeship to cover the front-end depth it didn't go into, and finished it in August 2026. 115 hours: HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate</a>",
+                            "list": [
+                                "Started September 2023 alongside the Level 4 apprenticeship",
+                                "115 hours: HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms",
+                                "Certificate issued 24 August 2026"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Завершил карьерный путь {{Front-End Engineer}}",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "CodeCademy",
+                            "text": "Начал этот курс параллельно с апрентисшипом Level 4, чтобы глубже изучить фронтенд, которого там не хватало, и завершил его в августе 2026 года. 115 часов: HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат</a>",
+                            "list": [
+                                "Начал в сентябре 2023 года параллельно с апрентисшипом Level 4",
+                                "115 часов: HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы",
+                                "Сертификат выдан 24 августа 2026 года"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Parcours {{Front-End Engineer}} terminé",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "CodeCademy",
+                            "text": "Commencé en parallèle de l'apprentissage Level 4 pour approfondir le front-end qu'il ne couvrait pas, et terminé en août 2026. 115 heures : HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
+                            "list": [
+                                "Commencé en septembre 2023 en parallèle de l'apprentissage Level 4",
+                                "115 heures : HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes",
+                                "Certificat délivré le 24 août 2026"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{フロントエンドエンジニア}}キャリアパスを修了",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "CodeCademy",
+                            "text": "Level 4アプレンティスシップでは深く扱わなかったフロントエンドを補うために並行して始め、2026年8月に修了しました。115時間：HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム。\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">証明書を表示するにはこちらをクリック</a>",
+                            "list": [
+                                "Level 4アプレンティスシップと並行して2023年9月に開始",
+                                "115時間：HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム",
+                                "2026年8月24日に証明書発行"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 27,
+                    "date": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile",
+                                "tooltipString": "open_link",
+                                "faIcon": "fa-solid fa-certificate"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cisco {{Introduction to Cybersecurity}}",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Cisco",
+                            "text": "Cisco's cybersecurity fundamentals course: network security, threat analysis, basic cryptography through to incident response. Useful for the security side of development, which is where a lot of RAG and agent work goes wrong.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate on Credly</a>"
+                        },
+                        "ru": {
+                            "title": "Cisco {{Введение в кибербезопасность}}",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Cisco",
+                            "text": "Курс Cisco по основам кибербезопасности: сетевая безопасность, анализ угроз, базовая криптография и реагирование на инциденты. Полезно для стороны безопасности в разработке, где ломается немало RAG- и агентных решений.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат на Credly</a>"
+                        },
+                        "fr": {
+                            "title": "Cisco {{Introduction à la cybersécurité}}",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Cisco",
+                            "text": "Le cours Cisco sur les fondamentaux de la cybersécurité : sécurité réseau, analyse des menaces, cryptographie de base jusqu'à la réponse aux incidents. Utile pour le volet sécurité du développement, là où beaucoup de projets RAG et agents dérapent.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat sur Credly</a>"
+                        },
+                        "ja": {
+                            "title": "Cisco {{サイバーセキュリティ入門}}",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "Cisco",
+                            "text": "Ciscoのサイバーセキュリティ基礎コース：ネットワークセキュリティ、脅威分析、基本的な暗号からインシデント対応まで。RAGやエージェントの開発で問題が起きやすいセキュリティ面に役立ちます。\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Credlyで証明書を表示するにはこちらをクリック</a>"
+                        }
+                    }
+                },
+                {
+                    "id": 28,
+                    "date": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Three {{Codecademy AI courses}}",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Codecademy",
+                            "text": "Prompt Engineering for Software Engineers and Intro to AI Strategy in February, Learn How to Use AI for Coding in May. Short courses, but they're where the habit of working with AI tools every day started.",
+                            "list": [
+                                "Prompt Engineering for Software Engineers (Feb 2024)",
+                                "Intro to AI Strategy (Feb 2024)",
+                                "Learn How to Use AI for Coding (May 2024)"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Три {{курса Codecademy по ИИ}}",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Codecademy",
+                            "text": "Prompt Engineering for Software Engineers и Intro to AI Strategy в феврале, Learn How to Use AI for Coding в мае. Короткие курсы, но именно с них началась привычка работать с ИИ-инструментами каждый день.",
+                            "list": [
+                                "Prompt Engineering for Software Engineers (февраль 2024)",
+                                "Intro to AI Strategy (февраль 2024)",
+                                "Learn How to Use AI for Coding (май 2024)"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Trois {{cours Codecademy sur l'IA}}",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Codecademy",
+                            "text": "Prompt Engineering for Software Engineers et Intro to AI Strategy en février, Learn How to Use AI for Coding en mai. Des cours courts, mais c'est là qu'a commencé l'habitude de travailler chaque jour avec des outils IA.",
+                            "list": [
+                                "Prompt Engineering for Software Engineers (février 2024)",
+                                "Intro to AI Strategy (février 2024)",
+                                "Learn How to Use AI for Coding (mai 2024)"
+                            ]
+                        },
+                        "ja": {
+                            "title": "Codecademyの{{AIコース}}を3つ",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "Codecademy",
+                            "text": "2月にPrompt Engineering for Software EngineersとIntro to AI Strategy、5月にLearn How to Use AI for Coding。短いコースですが、AIツールを毎日使う習慣はここから始まりました。",
+                            "list": [
+                                "Prompt Engineering for Software Engineers（2024年2月）",
+                                "Intro to AI Strategy（2024年2月）",
+                                "Learn How to Use AI for Coding（2024年5月）"
+                            ]
+                        }
+                    }
+                },
                 {
                     "id": 25,
                     "date": {
@@ -1624,55 +1940,51 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Left {{DWP Work Coach}} Role",
+                            "title": "Left {{DWP Work Coach}} role",
                             "province": "Leeds, Yorkshire",
                             "country": "UK",
-                            "institution": "Career Transition",
-                            "text": "Left my position as a Work Coach at the Department for Work and Pensions (DWP) to pursue my passion for technology and software development. This marked the beginning of my journey into the tech industry.",
+                            "institution": "Career change",
+                            "text": "After school I tried a few things: commercial diving, semi-pro cricket in Australia, financial services, conveyancing, and then two years as a Work Coach at the DWP. Helping other people find careers was where it clicked. I'd used tech my whole life and never once considered it as a job. Winter 2021 I bought an M1 Max MacBook the night it launched and taught myself Python; 2022 went on AI as ChatGPT took off; in November I left the DWP, and by February I was in my first bootcamp.",
                             "list": [
-                                "Transitioned from public sector to pursue tech career",
-                                "Began intensive self-directed learning in programming",
-                                "Discovered ChatGPT and used it as a learning companion",
-                                "Started exploring web development and computer science fundamentals"
+                                "Two years as a DWP Work Coach, twenty appointments a day",
+                                "Self-taught Python from winter 2021, into AI through 2022",
+                                "Left in November 2022, first bootcamp in February 2023"
                             ]
                         },
                         "ru": {
-                            "title": "Покинул должность {{консультанта DWP}}",
+                            "title": "Ушёл с должности {{консультанта DWP}}",
                             "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Карьерный переход",
-                            "text": "Покинул свою должность консультанта по трудоустройству в Департаменте труда и пенсий (DWP), чтобы следовать своей страсти к технологиям и разработке программного обеспечения. Это стало началом моего пути в технологическую индустрию.",
+                            "institution": "Смена карьеры",
+                            "text": "После школы я пробовал разное: коммерческий дайвинг, полупрофессиональный крикет в Австралии, финансовые услуги, конвейансинг, а затем два года консультантом по трудоустройству в DWP. Именно помогая другим найти карьеру, я понял: я всю жизнь пользовался технологиями и ни разу не рассматривал их как работу. Зимой 2021 года я купил M1 Max MacBook в ночь запуска и сам выучил Python; 2022 год ушёл на ИИ, когда взлетел ChatGPT; в ноябре я ушёл из DWP, а в феврале уже был на первом буткемпе.",
                             "list": [
-                                "Переход из государственного сектора для карьеры в технологиях",
-                                "Начал интенсивное самостоятельное обучение программированию",
-                                "Открыл для себя ChatGPT и использовал его как помощника в обучении",
-                                "Начал изучать веб-разработку и основы информатики"
+                                "Два года консультантом по трудоустройству в DWP, двадцать встреч в день",
+                                "Самостоятельно выучил Python с зимы 2021 года, в 2022 году погрузился в ИИ",
+                                "Ушёл в ноябре 2022 года, первый буткемп в феврале 2023 года"
                             ]
                         },
                         "fr": {
-                            "title": "Quitté le rôle de {{Coach DWP}}",
+                            "title": "Départ du poste de {{Work Coach au DWP}}",
                             "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Transition de Carrière",
-                            "text": "Quitté mon poste de conseiller professionnel au Département du Travail et des Pensions (DWP) pour poursuivre ma passion pour la technologie et le développement logiciel. Cela a marqué le début de mon parcours dans l'industrie technologique.",
+                            "institution": "Reconversion",
+                            "text": "Après l'école, j'ai essayé plusieurs choses : plongée commerciale, cricket semi-pro en Australie, services financiers, conveyancing, puis deux ans comme Work Coach au DWP. C'est en aidant les autres à trouver leur voie que ça a fait tilt : j'avais utilisé la tech toute ma vie sans jamais l'envisager comme métier. Hiver 2021, j'ai acheté un MacBook M1 Max le soir de sa sortie et appris Python seul ; 2022 est parti dans l'IA avec l'arrivée de ChatGPT ; en novembre j'ai quitté le DWP, et en février j'étais dans mon premier bootcamp.",
                             "list": [
-                                "Transition du secteur public vers une carrière dans la tech",
-                                "Commencé un apprentissage intensif autodidacte en programmation",
-                                "Découvert ChatGPT et l'utilisé comme compagnon d'apprentissage",
-                                "Commencé à explorer le développement web et les fondamentaux de l'informatique"
+                                "Deux ans comme Work Coach au DWP, vingt rendez-vous par jour",
+                                "Python en autodidacte depuis l'hiver 2021, l'IA tout au long de 2022",
+                                "Départ en novembre 2022, premier bootcamp en février 2023"
                             ]
                         },
                         "ja": {
-                            "title": "{{DWPワークコーチ}}の職を退職",
+                            "title": "{{DWPワークコーチ}}を退職",
                             "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
-                            "institution": "キャリア転換",
-                            "text": "テクノロジーとソフトウェア開発への情熱を追求するため、労働年金省(DWP)のワークコーチの職を退職しました。これは、テクノロジー業界への私の旅の始まりとなりました。",
+                            "institution": "キャリアチェンジ",
+                            "text": "学校を出てからいろいろ試しました。商業ダイビング、オーストラリアでのセミプロクリケット、金融サービス、不動産登記業務、そしてDWPでワークコーチとして2年。他の人のキャリア探しを手伝っているうちに気づきました。ずっとテクノロジーを使ってきたのに、仕事として考えたことが一度もなかったと。2021年冬、発売当夜にM1 Max MacBookを買い、独学でPythonを学び、2022年はChatGPTの登場とともにAIに費やし、11月にDWPを辞め、2月には最初のブートキャンプにいました。",
                             "list": [
-                                "公共部門からテクノロジーキャリアへの転換",
-                                "プログラミングの集中的な自己学習を開始",
-                                "ChatGPTを発見し、学習の相棒として使用",
-                                "Web開発とコンピュータサイエンスの基礎の探求を開始"
+                                "DWPでワークコーチを2年、1日20件の面談",
+                                "2021年冬からPythonを独学、2022年はAIに没頭",
+                                "2022年11月に退職、2023年2月に最初のブートキャンプ"
                             ]
                         }
                     }
@@ -1825,55 +2137,55 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Secured {{First Professional Role}}",
+                            "title": "Started at {{Fuelius}}, first developer role",
                             "province": "Leeds, Yorkshire",
                             "country": "UK",
-                            "institution": "Professional Career",
-                            "text": "Landed my first job in the tech industry, marking a significant milestone in my career transition. This role provided invaluable real-world experience and the opportunity to apply my self-taught skills in a professional environment.",
+                            "institution": "Fuelius",
+                            "text": "First job in tech: apprentice full-stack developer at Fuelius, a HubSpot and Umbraco agency in Chester. Sixteen months of client work across 12 accounts, with the Level 4 Software Developer Apprenticeship studied alongside it through Estio.",
                             "list": [
-                                "Applied coding skills in a professional setting",
-                                "Gained experience working in agile development teams",
-                                "Contributed to production-level code and systems",
-                                "Expanded technical knowledge through on-the-job learning"
+                                "Client releases for M&S Bank Arena, Merseyrail, CDW, InfoTrack and more",
+                                ".NET, C#, React, SCSS, HubSpot and Umbraco in production",
+                                "Studied the Level 4 Software Developer Apprenticeship with Estio alongside the role, 2023-24",
+                                "Covered senior responsibilities during team leave"
                             ]
                         },
                         "ru": {
-                            "title": "Получил {{первую профессиональную роль}}",
+                            "title": "Начал в {{Fuelius}}, первая работа разработчиком",
                             "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Профессиональная карьера",
-                            "text": "Получил свою первую работу в технологической индустрии, что стало важной вехой в моем карьерном переходе. Эта роль предоставила бесценный реальный опыт и возможность применить свои самостоятельно приобретенные навыки в профессиональной среде.",
+                            "institution": "Fuelius",
+                            "text": "Первая работа в IT: младший full-stack разработчик (апрентис) в Fuelius, агентстве на HubSpot и Umbraco в Честере. Шестнадцать месяцев клиентской работы по 12 аккаунтам, параллельно с изучением программы Level 4 Software Developer Apprenticeship в Estio.",
                             "list": [
-                                "Применял навыки программирования в профессиональной среде",
-                                "Получил опыт работы в agile-командах разработки",
-                                "Внес вклад в производственный код и системы",
-                                "Расширил технические знания через обучение на рабочем месте"
+                                "Клиентские релизы для M&S Bank Arena, Merseyrail, CDW, InfoTrack и других",
+                                ".NET, C#, React, SCSS, HubSpot и Umbraco в продакшене",
+                                "Параллельно с работой проходил программу Level 4 Software Developer Apprenticeship в Estio, 2023-24",
+                                "Замещал старших коллег во время их отпусков"
                             ]
                         },
                         "fr": {
-                            "title": "Obtenu {{Premier Rôle Professionnel}}",
+                            "title": "Débuts chez {{Fuelius}}, premier poste de développeur",
                             "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Carrière Professionnelle",
-                            "text": "Décroché mon premier emploi dans l'industrie technologique, marquant une étape importante dans ma transition de carrière. Ce rôle a fourni une expérience inestimable du monde réel et l'opportunité d'appliquer mes compétences autodidactes dans un environnement professionnel.",
+                            "institution": "Fuelius",
+                            "text": "Premier emploi dans la tech : développeur full-stack apprenti chez Fuelius, une agence HubSpot et Umbraco à Chester. Seize mois de travail client sur 12 comptes, avec l'apprentissage Level 4 Software Developer suivi en parallèle chez Estio.",
                             "list": [
-                                "Application des compétences de codage dans un cadre professionnel",
-                                "Acquisition d'expérience de travail dans des équipes de développement agile",
-                                "Contribution au code et aux systèmes de niveau production",
-                                "Expansion des connaissances techniques grâce à l'apprentissage sur le tas"
+                                "Mises en production client pour M&S Bank Arena, Merseyrail, CDW, InfoTrack et d'autres",
+                                ".NET, C#, React, SCSS, HubSpot et Umbraco en production",
+                                "Apprentissage Level 4 Software Developer suivi chez Estio en parallèle du poste, 2023-24",
+                                "Responsabilités senior assurées pendant les congés de l'équipe"
                             ]
                         },
                         "ja": {
-                            "title": "{{最初の専門職}}を確保",
+                            "title": "{{Fuelius}}で最初の開発者職に",
                             "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
-                            "institution": "プロフェッショナルキャリア",
-                            "text": "テクノロジー業界で最初の仕事を獲得し、キャリア移行の重要なマイルストーンとなりました。この役割は、貴重な実世界の経験と、独学で身につけたスキルをプロフェッショナルな環境で適用する機会を提供しました。",
+                            "institution": "Fuelius",
+                            "text": "テック業界での最初の仕事。チェスターのHubSpot・Umbraco代理店Fueliusで見習いフルスタック開発者として、12アカウントにわたり16か月間クライアント業務を担当。並行してEstioのLevel 4 Software Developer Apprenticeshipを受講しました。",
                             "list": [
-                                "プロフェッショナルな環境でコーディングスキルを適用",
-                                "アジャイル開発チームでの作業経験を獲得",
-                                "本番レベルのコードとシステムに貢献",
-                                "仕事を通じた学習により技術的知識を拡大"
+                                "M&S Bank Arena、Merseyrail、CDW、InfoTrackなどのクライアント向けリリース",
+                                "本番環境での.NET、C#、React、SCSS、HubSpot、Umbraco",
+                                "業務と並行してEstioのLevel 4 Software Developer Apprenticeshipを受講、2023-24",
+                                "チームの休暇中はシニアの業務を代行"
                             ]
                         }
                     }
