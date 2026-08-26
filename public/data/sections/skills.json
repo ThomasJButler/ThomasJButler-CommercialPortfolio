@@ -33,24 +33,25 @@
             "config": {},
             "locales": {
                 "en": {
-                    "title": "Technical Proficiencies",
+                    "title": "",
                     "text": "What I'd be happy to be interviewed on, and roughly how deep it goes."
                 },
                 "ru": {
-                    "title": "Технические навыки",
+                    "title": "",
                     "text": "То, о чём я готов говорить на собеседовании, и примерно насколько глубоко."
                 },
                 "fr": {
-                    "title": "Compétences techniques",
+                    "title": "",
                     "text": "Ce sur quoi je serais content d'être interrogé en entretien, et à peu près jusqu'où ça va."
                 },
                 "ja": {
-                    "title": "技術的熟練度",
+                    "title": "",
                     "text": "面接で聞かれても答えられること、そしておおよその深さ。"
                 }
             },
             "items": [
                 {
+                    "id": 1,
                     "value": 95,
                     "dates": {
                         "start": "01/01/2022"
@@ -58,23 +59,23 @@
                     "locales": {
                         "en": {
                             "title": "Web Development",
-                            "text": "Expertise in HTML5, CSS3, and JavaScript for building responsive, interactive, and visually appealing web applications. Proficient with Bootstrap, Tailwind CSS, Sass/SCSS, and modern build tools.",
-                            "level": "3 years experience"
+                            "text": "HTML5, CSS3, JavaScript and React, with Bootstrap, Tailwind and Sass. Sixteen months of client releases across 12 accounts at a HubSpot and Umbraco agency.",
+                            "level": "4 years experience"
                         },
                         "ru": {
                             "title": "Веб-разработка",
-                            "text": "Экспертиза в HTML5, CSS3 и JavaScript для создания адаптивных, интерактивных и визуально привлекательных веб-приложений. Владение Bootstrap, Tailwind CSS, Sass/SCSS и современными инструментами сборки.",
-                            "level": "3 года опыта"
+                            "text": "HTML5, CSS3, JavaScript и React, а также Bootstrap, Tailwind и Sass. Шестнадцать месяцев клиентских релизов по 12 аккаунтам в агентстве на HubSpot и Umbraco.",
+                            "level": "4 года опыта"
                         },
                         "fr": {
                             "title": "Développement Web",
-                            "text": "Expertise en HTML5, CSS3 et JavaScript pour créer des applications web réactives, interactives et visuellement attrayantes. Maîtrise de Bootstrap, Tailwind CSS, Sass/SCSS et des outils de build modernes.",
-                            "level": "3 ans d'expérience"
+                            "text": "HTML5, CSS3, JavaScript et React, avec Bootstrap, Tailwind et Sass. Seize mois de mises en production client sur 12 comptes dans une agence HubSpot et Umbraco.",
+                            "level": "4 ans d'expérience"
                         },
                         "ja": {
                             "title": "ウェブ開発",
-                            "text": "レスポンシブで対話的、視覚的に魅力的なウェブアプリケーションを構築するためのHTML5、CSS3、JavaScriptの専門知識。Bootstrap、Tailwind CSS、Sass/SCSS、最新のビルドツールに精通。",
-                            "level": "3年の経験"
+                            "text": "HTML5、CSS3、JavaScript、React、それにBootstrap、Tailwind、Sass。HubSpotとUmbracoの代理店で12アカウントにわたり16か月間クライアント向けリリースを担当。",
+                            "level": "4年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-html5",
@@ -84,6 +85,7 @@
                     }
                 },
                 {
+                    "id": 2,
                     "value": 85,
                     "dates": {
                         "start": "01/01/2022"
@@ -91,23 +93,23 @@
                     "locales": {
                         "en": {
                             "title": "Programming & Backend",
-                            "text": "Proficient in Python, Node.js, and C# & .NET for developing robust backend systems and diverse applications. Experience with Express.js, ASP.NET Core, Django, and FastAPI frameworks.",
-                            "level": "3 years experience"
+                            "text": "Python, C# and .NET, Node.js. FastAPI, ASP.NET Core, Django and Express in production and in side projects.",
+                            "level": "4 years experience"
                         },
                         "ru": {
                             "title": "Программирование и бэкенд",
-                            "text": "Владение Python, Node.js и C# & .NET для разработки надежных серверных систем и различных приложений. Опыт работы с Express.js, ASP.NET Core, Django и FastAPI.",
-                            "level": "3 года опыта"
+                            "text": "Python, C# и .NET, Node.js. FastAPI, ASP.NET Core, Django и Express в продакшене и в собственных проектах.",
+                            "level": "4 года опыта"
                         },
                         "fr": {
                             "title": "Programmation et Backend",
-                            "text": "Maîtrise de Python, Node.js et C# & .NET pour développer des systèmes backend robustes et diverses applications. Expérience avec Express.js, ASP.NET Core, Django et FastAPI.",
-                            "level": "3 ans d'expérience"
+                            "text": "Python, C# et .NET, Node.js. FastAPI, ASP.NET Core, Django et Express en production et dans mes projets perso.",
+                            "level": "4 ans d'expérience"
                         },
                         "ja": {
                             "title": "プログラミングとバックエンド",
-                            "text": "堅牢なバックエンドシステムと多様なアプリケーションを開発するためのPython、Node.js、C#＆.NETに精通。Express.js、ASP.NET Core、Django、FastAPIフレームワークの経験。",
-                            "level": "3年の経験"
+                            "text": "Python、C#と.NET、Node.js。FastAPI、ASP.NET Core、Django、Expressを本番環境と個人プロジェクトで使用。",
+                            "level": "4年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-node-js",
@@ -117,6 +119,7 @@
                     }
                 },
                 {
+                    "id": 3,
                     "value": 98,
                     "dates": {
                         "start": "01/01/2022"
@@ -124,23 +127,23 @@
                     "locales": {
                         "en": {
                             "title": "Version Control & API",
-                            "text": "Skilled in Git and API development practices to ensure smooth collaboration and efficient delivery. Experienced with GitHub, GitLab, REST APIs, GraphQL, and API documentation tools like Swagger.",
-                            "level": "3 years experience"
+                            "text": "Git, GitHub, GitLab and BitBucket, REST APIs, GraphQL and Swagger. JIRA tickets, code review and release branches on live client sites.",
+                            "level": "4 years experience"
                         },
                         "ru": {
                             "title": "Контроль версий и API",
-                            "text": "Навыки работы с Git и разработки API для обеспечения плавного сотрудничества и эффективной доставки. Опыт работы с GitHub, GitLab, REST API, GraphQL и инструментами документирования API.",
-                            "level": "3 года опыта"
+                            "text": "Git, GitHub, GitLab и BitBucket, REST API, GraphQL и Swagger. Задачи в JIRA, код-ревью и релизные ветки на живых клиентских сайтах.",
+                            "level": "4 года опыта"
                         },
                         "fr": {
                             "title": "Contrôle de version et API",
-                            "text": "Compétent en Git et pratiques de développement d'API pour assurer une collaboration fluide et une livraison efficace. Expérience avec GitHub, GitLab, API REST, GraphQL et outils de documentation.",
-                            "level": "3 ans d'expérience"
+                            "text": "Git, GitHub, GitLab et BitBucket, API REST, GraphQL et Swagger. Tickets JIRA, revue de code et branches de release sur des sites clients en production.",
+                            "level": "4 ans d'expérience"
                         },
                         "ja": {
                             "title": "バージョン管理とAPI",
-                            "text": "スムーズなコラボレーションと効率的な配信を確保するためのGitとAPI開発プラクティスに熟練。GitHub、GitLab、REST API、GraphQL、Swaggerなどのドキュメントツールの経験。",
-                            "level": "3年の経験"
+                            "text": "Git、GitHub、GitLab、BitBucket、REST API、GraphQL、Swagger。稼働中のクライアントサイトでのJIRAチケット、コードレビュー、リリースブランチ運用。",
+                            "level": "4年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-git",
@@ -150,6 +153,7 @@
                     }
                 },
                 {
+                    "id": 4,
                     "value": 85,
                     "dates": {
                         "start": "01/01/2022"
@@ -157,23 +161,23 @@
                     "locales": {
                         "en": {
                             "title": "AI Systems & Agents",
-                            "text": "RAG pipelines, LangChain and LangGraph agents, evaluation and confidence scoring, local models with Ollama, and the Claude and OpenAI SDKs. Systems, retrieval and shipping rather than model training.",
-                            "level": "2 years experience"
+                            "text": "RAG pipelines, LangChain and LangGraph agents, evaluation and confidence scoring, local models with Ollama, the Claude and OpenAI SDKs. Systems, not model training.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "ИИ-системы и агенты",
-                            "text": "RAG-конвейеры, агенты на LangChain и LangGraph, оценка и скоринг уверенности, локальные модели через Ollama, SDK Claude и OpenAI. Системы, поиск и выпуск, а не обучение моделей.",
-                            "level": "2 года опыта"
+                            "text": "RAG-конвейеры, агенты на LangChain и LangGraph, оценка и скоринг уверенности, локальные модели через Ollama, SDK Claude и OpenAI. Системы, а не обучение моделей.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Systèmes IA et agents",
-                            "text": "Pipelines RAG, agents LangChain et LangGraph, évaluation et score de confiance, modèles locaux avec Ollama, et les SDK Claude et OpenAI. Des systèmes, de la recherche et de la livraison, plutôt que de l'entraînement de modèles.",
-                            "level": "2 ans d'expérience"
+                            "text": "Pipelines RAG, agents LangChain et LangGraph, évaluation et score de confiance, modèles locaux avec Ollama, SDK Claude et OpenAI. Des systèmes, pas de l'entraînement de modèles.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "AIシステムとエージェント",
-                            "text": "RAGパイプライン、LangChainとLangGraphのエージェント、評価と確信度スコアリング、Ollamaによるローカルモデル、ClaudeとOpenAIのSDK。モデルの学習ではなく、システム、検索、リリース。",
-                            "level": "2年の経験"
+                            "text": "RAGパイプライン、LangChainとLangGraphのエージェント、評価と確信度スコアリング、Ollamaによるローカルモデル、ClaudeとOpenAIのSDK。モデル学習ではなくシステム。",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-brain",
@@ -183,6 +187,7 @@
                     }
                 },
                 {
+                    "id": 5,
                     "value": 90,
                     "dates": {
                         "start": "01/01/2022"
@@ -190,23 +195,23 @@
                     "locales": {
                         "en": {
                             "title": "Database Management",
-                            "text": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management. Proficient with PostgreSQL, MySQL, MongoDB, Supabase, and cloud-based database solutions.",
-                            "level": "3 years experience"
+                            "text": "SQL, schema design and query optimisation. PostgreSQL, MySQL, MongoDB, Supabase and DuckDB.",
+                            "level": "4 years experience"
                         },
                         "ru": {
                             "title": "Управление базами данных",
-                            "text": "Экспертиза в SQL, проектировании баз данных и техниках оптимизации для безопасного и эффективного управления данными. Владение PostgreSQL, MySQL, MongoDB, Supabase и облачными решениями для баз данных.",
-                            "level": "3 года опыта"
+                            "text": "SQL, проектирование схем и оптимизация запросов. PostgreSQL, MySQL, MongoDB, Supabase и DuckDB.",
+                            "level": "4 года опыта"
                         },
                         "fr": {
                             "title": "Gestion de bases de données",
-                            "text": "Expertise en SQL, conception de bases de données et techniques d'optimisation pour une gestion des données sécurisée et efficace. Maîtrise de PostgreSQL, MySQL, MongoDB, Supabase et solutions de bases de données cloud.",
-                            "level": "3 ans d'expérience"
+                            "text": "SQL, conception de schémas et optimisation de requêtes. PostgreSQL, MySQL, MongoDB, Supabase et DuckDB.",
+                            "level": "4 ans d'expérience"
                         },
                         "ja": {
                             "title": "データベース管理",
-                            "text": "安全で効率的なデータ管理のためのSQL、データベース設計、最適化技術の専門知識。PostgreSQL、MySQL、MongoDB、Supabase、クラウドベースのデータベースソリューションに精通。",
-                            "level": "3年の経験"
+                            "text": "SQL、スキーマ設計、クエリ最適化。PostgreSQL、MySQL、MongoDB、Supabase、DuckDB。",
+                            "level": "4年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-database",
@@ -216,6 +221,7 @@
                     }
                 },
                 {
+                    "id": 6,
                     "value": 80,
                     "dates": {
                         "start": "01/01/2022"
@@ -223,23 +229,23 @@
                     "locales": {
                         "en": {
                             "title": "Deployment",
-                            "text": "Experience with IIS, Vercel, and Hostinger for deploying web applications. Proficient with Docker, GitHub Actions, Netlify, Azure App Service, and CI/CD pipelines for automated deployments.",
-                            "level": "3 years experience"
+                            "text": "Docker, GitHub Actions and CI/CD pipelines. Vercel, Netlify, Render, Azure App Service and IIS.",
+                            "level": "4 years experience"
                         },
                         "ru": {
                             "title": "Развертывание",
-                            "text": "Опыт работы с IIS, Vercel и Hostinger для развертывания веб-приложений. Владение Docker, GitHub Actions, Netlify, Azure App Service и конвейерами CI/CD для автоматизированного развертывания.",
-                            "level": "3 года опыта"
+                            "text": "Docker, GitHub Actions и CI/CD-конвейеры. Vercel, Netlify, Render, Azure App Service и IIS.",
+                            "level": "4 года опыта"
                         },
                         "fr": {
                             "title": "Déploiement",
-                            "text": "Expérience avec IIS, Vercel et Hostinger pour le déploiement d'applications web. Maîtrise de Docker, GitHub Actions, Netlify, Azure App Service et pipelines CI/CD pour les déploiements automatisés.",
-                            "level": "3 ans d'expérience"
+                            "text": "Docker, GitHub Actions et pipelines CI/CD. Vercel, Netlify, Render, Azure App Service et IIS.",
+                            "level": "4 ans d'expérience"
                         },
                         "ja": {
                             "title": "デプロイメント",
-                            "text": "Webアプリケーションのデプロイのための IIS、Vercel、Hostingerの経験。自動デプロイのためのDocker、GitHub Actions、Netlify、Azure App Service、CI/CDパイプラインに精通。",
-                            "level": "3年の経験"
+                            "text": "Docker、GitHub Actions、CI/CDパイプライン。Vercel、Netlify、Render、Azure App Service、IIS。",
+                            "level": "4年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-cloud-upload-alt",
@@ -249,6 +255,109 @@
                     }
                 },
                 {
+                    "id": 7,
+                    "value": 85,
+                    "dates": {
+                        "start": "01/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Testing & QA",
+                            "text": "Vitest, Playwright, pytest and xUnit. 480+ tests on the ISQ Agent, 600+ on Sanctuary, and a backtest gate on The Kicker that fails CI if a refit gets worse.",
+                            "level": "4 years experience"
+                        },
+                        "ru": {
+                            "title": "Тестирование и QA",
+                            "text": "Vitest, Playwright, pytest и xUnit. 480+ тестов в ISQ Agent, 600+ в Sanctuary и контрольная точка бэктеста в The Kicker, из-за которой CI падает, если переобучение стало хуже.",
+                            "level": "4 года опыта"
+                        },
+                        "fr": {
+                            "title": "Tests et QA",
+                            "text": "Vitest, Playwright, pytest et xUnit. 480+ tests sur l'ISQ Agent, 600+ sur Sanctuary, et un garde-fou de backtest sur The Kicker qui fait échouer la CI si un réajustement régresse.",
+                            "level": "4 ans d'expérience"
+                        },
+                        "ja": {
+                            "title": "テストとQA",
+                            "text": "Vitest、Playwright、pytest、xUnit。ISQ Agentで480以上、Sanctuaryで600以上のテスト、そしてThe Kickerには再フィットで精度が落ちるとCIが失敗するバックテストゲート。",
+                            "level": "4年の経験"
+                        }
+                    },
+                    "faIcon": "fa-solid fa-vial-circle-check",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": 8,
+                    "value": 80,
+                    "dates": {
+                        "start": "01/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Data Engineering & Pipelines",
+                            "text": "DuckDB, pandas and Splink entity resolution on the Offshore Property Map. Monthly change-file ingestion, FollowTheMoney export, and a pipeline that can prove how often it's wrong.",
+                            "level": "4 years experience"
+                        },
+                        "ru": {
+                            "title": "Инженерия данных и пайплайны",
+                            "text": "DuckDB, pandas и разрешение сущностей на Splink в Offshore Property Map. Загрузка ежемесячных файлов изменений, экспорт в FollowTheMoney и пайплайн, который может доказать, как часто он ошибается.",
+                            "level": "4 года опыта"
+                        },
+                        "fr": {
+                            "title": "Ingénierie des données et pipelines",
+                            "text": "DuckDB, pandas et résolution d'entités avec Splink sur l'Offshore Property Map. Ingestion mensuelle des fichiers de changements, export FollowTheMoney, et un pipeline capable de prouver à quelle fréquence il se trompe.",
+                            "level": "4 ans d'expérience"
+                        },
+                        "ja": {
+                            "title": "データエンジニアリングとパイプライン",
+                            "text": "Offshore Property MapでのDuckDB、pandas、Splinkによるエンティティ解決。月次変更ファイルの取り込み、FollowTheMoney形式でのエクスポート、そして自らの誤り率を証明できるパイプライン。",
+                            "level": "4年の経験"
+                        }
+                    },
+                    "faIcon": "fa-solid fa-magnifying-glass-chart",
+                    "faIconColors": {
+                        "bg": "#0EA5E9",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": 9,
+                    "value": 80,
+                    "dates": {
+                        "start": "01/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Accessibility & Design Systems",
+                            "text": "WCAG AA across 30+ CSS Showcase demos, WCAG AAA targets on Sanctuary, Material Design 3 token systems, reduced motion by default.",
+                            "level": "4 years experience"
+                        },
+                        "ru": {
+                            "title": "Доступность и дизайн-системы",
+                            "text": "WCAG AA в 30+ демо CSS Showcase, целевой уровень WCAG AAA в Sanctuary, системы токенов Material Design 3, уменьшенная анимация по умолчанию.",
+                            "level": "4 года опыта"
+                        },
+                        "fr": {
+                            "title": "Accessibilité et design systems",
+                            "text": "WCAG AA sur 30+ démos du CSS Showcase, objectifs WCAG AAA sur Sanctuary, systèmes de tokens Material Design 3, mouvement réduit par défaut.",
+                            "level": "4 ans d'expérience"
+                        },
+                        "ja": {
+                            "title": "アクセシビリティとデザインシステム",
+                            "text": "CSS Showcaseの30以上のデモでWCAG AA、SanctuaryではWCAG AAAを目標、Material Design 3のトークンシステム、デフォルトで動きを抑えた設計。",
+                            "level": "4年の経験"
+                        }
+                    },
+                    "faIcon": "fa-solid fa-universal-access",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": 10,
                     "value": 70,
                     "dates": {
                         "start": "01/03/2026"
@@ -281,7 +390,12 @@
                         "fill": "#FFFFFF"
                     }
                 }
-            ]
+            ],
+            "settings": {
+                "max_items_per_row": 3,
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            }
         }
     ]
 }
