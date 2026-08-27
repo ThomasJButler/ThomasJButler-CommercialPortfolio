@@ -6,16 +6,16 @@
     "statusCircleVariant": "available",
     "statusCircleHoverMessage": "status_message_available_for_freelance",
     "personalLink": {
-        "href": "https://github.com/thomasjbutler",
-        "faIcon": "fa-brands fa-github"
+        "href": "https://thomasjbutler.github.io/",
+        "faIcon": "fa-solid fa-laptop-code"
     },
     "locales": {
         "en": {
             "localized_name": "Thomas Butler",
             "localized_name_stylized": " Thomas [[ {{Butler}}]]",
             "status_message_available_for_freelance": "Available for full-time work",
-            "personalLinkLabel": "Engineering Projects",
-            "personalLinkTagline": "All my code, in public",
+            "personalLinkLabel": "Personal Portfolio",
+            "personalLinkTagline": "See my real engineering projects",
             "roles": [
                 "Full-Stack Developer, AI Systems",
                 "Python, LangChain, React, Swift",
@@ -27,8 +27,8 @@
             "localized_name": "Томас Батлер",
             "localized_name_stylized": " [[Томас {{Батлер}}]]",
             "status_message_available_for_freelance": "Открыт для работы на полную ставку",
-            "personalLinkLabel": "Инженерные проекты",
-            "personalLinkTagline": "Весь мой код, в открытом доступе",
+            "personalLinkLabel": "Личное портфолио",
+            "personalLinkTagline": "Мои реальные инженерные проекты",
             "roles": [
                 "Фуллстек разработчик, AI-системы",
                 "Python, LangChain, React, Swift",
@@ -40,8 +40,8 @@
             "localized_name": "Thomas Butler",
             "localized_name_stylized": " [[Thomas {{Butler}}]]",
             "status_message_available_for_freelance": "Disponible pour un poste à temps plein",
-            "personalLinkLabel": "Projets d'ingénierie",
-            "personalLinkTagline": "Tout mon code, en public",
+            "personalLinkLabel": "Portfolio Personnel",
+            "personalLinkTagline": "Voir mes vrais projets d'ingénierie",
             "roles": [
                 "Développeur Full-Stack, systèmes IA",
                 "Python, LangChain, React, Swift",
@@ -53,8 +53,8 @@
             "localized_name": "トーマス・バトラー",
             "localized_name_stylized": " [[トーマス {{バトラー}}]]",
             "status_message_available_for_freelance": "フルタイム勤務可能です",
-            "personalLinkLabel": "エンジニアリングプロジェクト",
-            "personalLinkTagline": "すべてのコードを公開中",
+            "personalLinkLabel": "個人ポートフォリオ",
+            "personalLinkTagline": "実際のエンジニアリングプロジェクトをご覧ください",
             "roles": [
                 "フルスタック開発者、AIシステム",
                 "Python, LangChain, React, Swift",
