@@ -4,7 +4,7 @@
 
 <img width="1461" height="857" alt="image" src="https://github.com/user-attachments/assets/ba513200-85ab-4678-9300-35e9828ac208" />
   
-  <h3>Full-Stack Developer | Liverpool, England</h3>
+  <h3>Full-Stack Developer, AI Systems | Leeds, Yorkshire</h3>
   
   [![Portfolio](https://img.shields.io/badge/Portfolio-thomasjbutler.me-blue?style=for-the-badge&logo=google-chrome)](https://www.thomasjbutler.me/)
   [![GitHub](https://img.shields.io/badge/GitHub-ThomasJButler-181717?style=for-the-badge&logo=github)](https://github.com/ThomasJButler)
@@ -16,7 +16,7 @@
 
 ## Overview
 
-Welcome to my commercial portfolio! This is more than just a CV - it's a showcase of my journey as a web developer with **3+ years of experience** in full-stack development. Built with React and powered by the latest v2.0 template architecture, this portfolio demonstrates my expertise in modern web technologies and commitment to clean, performant code.
+This is the employer-facing side of my work. I started coding in late 2022, spent sixteen months as a junior developer at a HubSpot and Umbraco agency, and have been building independently under AiTomatic since December 2024. The site runs on React 18 and the v2.0 template architecture, kept deliberately stable so it just works when a recruiter opens it.
 
 [![Build Status](https://github.com/ThomasJButler/Commercial-Portfolio-React/actions/workflows/deploy.yml/badge.svg)](https://github.com/ThomasJButler/Commercial-Portfolio-React/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -24,12 +24,9 @@ Welcome to my commercial portfolio! This is more than just a CV - it's a showcas
 [![React Version](https://img.shields.io/badge/react-18.3.1-blue)](https://reactjs.org)
 
 ### Tech Stack
-- **Frontend**: React, JavaScript, SCSS, HTML5/CSS3
-- **Backend**: Node.js, .NET, C#
-- **Cloud**: Azure, AWS
-- **CMS**: HubSpot, Umbraco
-- **Tools**: Git, Vite, TypeScript
-- **AI/ML**: PyTorch, TensorFlow, Python
+- **Use now**: Python, TypeScript, React, FastAPI, LangChain, LangGraph, RAG, Pinecone, Ollama, Claude Code, Swift/SwiftUI, Docker
+- **Also worked with**: .NET, C#, Node.js, SQL, Azure, AWS, HubSpot, Umbraco
+- **This site**: React 18, Vite, SCSS, Bootstrap 5 (a fork of the template credited below, not built from scratch)
 
 ## Features
 
@@ -39,7 +36,7 @@ Welcome to my commercial portfolio! This is more than just a CV - it's a showcas
 - **Theme Switching**: Elegant light/dark mode with smooth transitions
 - **SEO Optimized**: Full meta tags and structured data
 - **Accessible**: WCAG compliant with semantic HTML
-- **Multi-language**: Support for EN, ES, FR, JA, RU, and more
+- **Multi-language**: EN, FR, RU, JA
 
 ## Acknowledgments
 
@@ -125,7 +122,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 **Thomas Butler**  
-Liverpool, England  
+Leeds, Yorkshire  
 dev@thomasjbutler.me  
 Portfolio](https://www.thomasjbutler.me/) | [GitHub](https://github.com/ThomasJButler) | [LinkedIn](https://www.linkedin.com/in/thomasbutleruk/)
 

@@ -48,105 +48,267 @@
                     "locales": {
                         "en": {
                             "title": "16",
-                            "text": "Live Projects"
+                            "text": "Live projects"
                         },
                         "ru": {
                             "title": "16",
-                            "text": "Живые проекты"
+                            "text": "Живых проектов"
                         },
                         "fr": {
                             "title": "16",
-                            "text": "Projets en Direct"
+                            "text": "Projets en ligne"
                         },
                         "ja": {
                             "title": "16",
-                            "text": "ライブプロジェクト"
+                            "text": "公開プロジェクト"
                         }
                     }
                 },
                 {
                     "id": 2,
                     "img": null,
-                    "faIcon": "fa-solid fa-certificate",
+                    "faIcon": "fa-solid fa-briefcase",
                     "faIconColors": {
                         "bg": "#F59E0B",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "ICT",
-                            "text": "Bootcamp Completed"
+                            "title": "12",
+                            "text": "Agency client sites"
                         },
                         "ru": {
-                            "title": "ИКТ",
-                            "text": "Буткемп завершен"
+                            "title": "12",
+                            "text": "Сайтов для клиентов агентства"
                         },
                         "fr": {
-                            "title": "TIC",
-                            "text": "Bootcamp Terminé"
+                            "title": "12",
+                            "text": "Sites clients en agence"
                         },
                         "ja": {
-                            "title": "ICT",
-                            "text": "ブートキャンプ修了"
+                            "title": "12",
+                            "text": "代理店クライアントサイト"
                         }
                     }
                 },
                 {
                     "id": 3,
                     "img": null,
-                    "faIcon": "fa-solid fa-cloud",
+                    "faIcon": "fa-solid fa-map",
                     "faIconColors": {
-                        "bg": "#0078D4",
+                        "bg": "#0EA5E9",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "Azure",
-                            "text": "Cloud Certified"
+                            "title": "~23,000",
+                            "text": "Property links resolved"
                         },
                         "ru": {
-                            "title": "Azure",
-                            "text": "Сертифицирован в облаке"
+                            "title": "~23 000",
+                            "text": "Связей по недвижимости"
                         },
                         "fr": {
-                            "title": "Azure",
-                            "text": "Certifié Cloud"
+                            "title": "~23 000",
+                            "text": "Liens immobiliers résolus"
                         },
                         "ja": {
-                            "title": "Azure",
-                            "text": "クラウド認定"
+                            "title": "約23,000",
+                            "text": "不動産リンクを解決"
                         }
                     }
                 },
                 {
                     "id": 4,
                     "img": null,
-                    "faIcon": "fa-solid fa-brain",
+                    "faIcon": "fa-solid fa-clock-rotate-left",
                     "faIconColors": {
                         "bg": "#8B5CF6",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "ML/AI",
-                            "text": "Currently Studying"
+                            "title": "9",
+                            "text": "Portfolio versions, all running"
                         },
                         "ru": {
-                            "title": "ML/AI",
-                            "text": "В настоящее время изучаю"
+                            "title": "9",
+                            "text": "Версий портфолио, все работают"
                         },
                         "fr": {
-                            "title": "ML/IA",
-                            "text": "Actuellement à l'étude"
+                            "title": "9",
+                            "text": "Versions du portfolio, toutes en ligne"
                         },
                         "ja": {
-                            "title": "ML/AI",
-                            "text": "現在勉強中"
+                            "title": "9",
+                            "text": "ポートフォリオ版、すべて稼働中"
                         }
                     }
                 },
                 {
                     "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-vial",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "600+",
+                            "text": "Tests on Sanctuary"
+                        },
+                        "ru": {
+                            "title": "600+",
+                            "text": "Тестов в Sanctuary"
+                        },
+                        "fr": {
+                            "title": "600+",
+                            "text": "Tests sur Sanctuary"
+                        },
+                        "ja": {
+                            "title": "600+",
+                            "text": "Sanctuaryのテスト"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-flask-vial",
+                    "faIconColors": {
+                        "bg": "#F97316",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "480+",
+                            "text": "Tests on the ISQ Agent"
+                        },
+                        "ru": {
+                            "title": "480+",
+                            "text": "Тестов в ISQ Agent"
+                        },
+                        "fr": {
+                            "title": "480+",
+                            "text": "Tests sur l'ISQ Agent"
+                        },
+                        "ja": {
+                            "title": "480+",
+                            "text": "ISQ Agentのテスト"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-file-lines",
+                    "faIconColors": {
+                        "bg": "#6366F1",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "33",
+                            "text": "CVs from one engine"
+                        },
+                        "ru": {
+                            "title": "33",
+                            "text": "Резюме из одного движка"
+                        },
+                        "fr": {
+                            "title": "33",
+                            "text": "CV depuis un seul moteur"
+                        },
+                        "ja": {
+                            "title": "33",
+                            "text": "1つのエンジンから生成した履歴書"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": null,
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {
+                        "bg": "#F59E0B",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "2,000+ hrs",
+                            "text": "Front-End Engineer path, by hand"
+                        },
+                        "ru": {
+                            "title": "2 000+ ч",
+                            "text": "Путь Front-End Engineer, вручную"
+                        },
+                        "fr": {
+                            "title": "2 000+ h",
+                            "text": "Parcours Front-End Engineer, à la main"
+                        },
+                        "ja": {
+                            "title": "2,000時間以上",
+                            "text": "フロントエンドエンジニアパス、手作業で"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": null,
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "3",
+                            "text": "Bootcamps completed"
+                        },
+                        "ru": {
+                            "title": "3",
+                            "text": "Буткемпа завершено"
+                        },
+                        "fr": {
+                            "title": "3",
+                            "text": "Bootcamps terminés"
+                        },
+                        "ja": {
+                            "title": "3",
+                            "text": "修了したブートキャンプ"
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": null,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "4",
+                            "text": "Years building software"
+                        },
+                        "ru": {
+                            "title": "4",
+                            "text": "Года разработки ПО"
+                        },
+                        "fr": {
+                            "title": "4",
+                            "text": "Ans à construire du logiciel"
+                        },
+                        "ja": {
+                            "title": "4",
+                            "text": "ソフトウェア開発歴（年）"
+                        }
+                    }
+                },
+                {
+                    "id": 11,
                     "img": null,
                     "faIcon": "fa-brands fa-python",
                     "faIconColors": {
@@ -156,7 +318,7 @@
                     "locales": {
                         "en": {
                             "title": "Python",
-                            "text": "Primary Language"
+                            "text": "Primary language"
                         },
                         "ru": {
                             "title": "Python",
@@ -164,7 +326,7 @@
                         },
                         "fr": {
                             "title": "Python",
-                            "text": "Langage Principal"
+                            "text": "Langage principal"
                         },
                         "ja": {
                             "title": "Python",
@@ -173,56 +335,29 @@
                     }
                 },
                 {
-                    "id": 6,
+                    "id": 12,
                     "img": null,
-                    "faIcon": "fa-solid fa-network-wired",
-                    "faIconColors": {
-                        "bg": "#10B981",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Network+",
-                            "text": "Hardware & Networking"
-                        },
-                        "ru": {
-                            "title": "Network+",
-                            "text": "Оборудование и сети"
-                        },
-                        "fr": {
-                            "title": "Network+",
-                            "text": "Matériel et Réseaux"
-                        },
-                        "ja": {
-                            "title": "Network+",
-                            "text": "ハードウェアとネットワーク"
-                        }
-                    }
-                },
-                {
-                    "id": 7,
-                    "img": null,
-                    "faIcon": "fa-solid fa-heart",
+                    "faIcon": "fa-solid fa-location-dot",
                     "faIconColors": {
                         "bg": "#EF4444",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "∞",
-                            "text": "Passion for Tech"
+                            "title": "Leeds",
+                            "text": "Yorkshire, UK"
                         },
                         "ru": {
-                            "title": "∞",
-                            "text": "Страсть к технологиям"
+                            "title": "Лидс",
+                            "text": "Йоркшир, Великобритания"
                         },
                         "fr": {
-                            "title": "∞",
-                            "text": "Passion pour la Tech"
+                            "title": "Leeds",
+                            "text": "Yorkshire, Royaume-Uni"
                         },
                         "ja": {
-                            "title": "∞",
-                            "text": "テクノロジーへの情熱"
+                            "title": "リーズ",
+                            "text": "ヨークシャー、イギリス"
                         }
                     }
                 }
@@ -252,6 +387,615 @@
             },
             "items": [
                 {
+                    "id": 26,
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "/files/codecademyfrontendengineercertificate0826.pdf",
+                                "tooltipString": "open_link",
+                                "faIcon": "fa-solid fa-file-pdf"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Finished the {{Front-End Engineer}} career path",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "CodeCademy",
+                            "text": "Started this alongside the Level 4 apprenticeship to cover the front-end depth it didn't go into, and finished it in August 2026. Codecademy calls it 115 hours. It took me 2,000+, because I built every project by hand and went slow enough to understand and troubleshoot it myself rather than let AI do it. HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate</a>",
+                            "list": [
+                                "Started September 2023 alongside the Level 4 apprenticeship",
+                                "2,000+ hours of my own, every project built by hand: HTML, CSS, JavaScript, Git, React, Redux, build tools, data structures and algorithms",
+                                "Certificate issued 24 August 2026"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Завершил карьерный путь {{Front-End Engineer}}",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "CodeCademy",
+                            "text": "Начал этот курс параллельно с апрентисшипом Level 4, чтобы глубже изучить фронтенд, которого там не хватало, и завершил его в августе 2026 года. Codecademy оценивает его в 115 часов. У меня ушло больше 2 000, потому что каждый проект я собирал вручную и шёл достаточно медленно, чтобы самому понимать и отлаживать, а не отдавать это ИИ. HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат</a>",
+                            "list": [
+                                "Начал в сентябре 2023 года параллельно с апрентисшипом Level 4",
+                                "Больше 2 000 своих часов, каждый проект собран вручную: HTML, CSS, JavaScript, Git, React, Redux, инструменты сборки, структуры данных и алгоритмы",
+                                "Сертификат выдан 24 августа 2026 года"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Parcours {{Front-End Engineer}} terminé",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "CodeCademy",
+                            "text": "Commencé en parallèle de l'apprentissage Level 4 pour approfondir le front-end qu'il ne couvrait pas, et terminé en août 2026. Codecademy l'annonce à 115 heures. Il m'en a pris plus de 2 000, parce que j'ai construit chaque projet à la main et pris le temps de comprendre et de déboguer moi-même plutôt que de laisser faire l'IA. HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes.\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
+                            "list": [
+                                "Commencé en septembre 2023 en parallèle de l'apprentissage Level 4",
+                                "Plus de 2 000 heures à moi, chaque projet construit à la main : HTML, CSS, JavaScript, Git, React, Redux, outils de build, structures de données et algorithmes",
+                                "Certificat délivré le 24 août 2026"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{フロントエンドエンジニア}}キャリアパスを修了",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "CodeCademy",
+                            "text": "Level 4アプレンティスシップでは深く扱わなかったフロントエンドを補うために並行して始め、2026年8月に修了しました。Codecademyの目安は115時間ですが、私は2,000時間以上かけました。すべてのプロジェクトを自分の手で作り、AIに任せるのではなく自分で理解しトラブルシュートできるよう、あえてゆっくり進めたからです。HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム。\n\n<a href=\"/files/codecademyfrontendengineercertificate0826.pdf\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">証明書を表示するにはこちらをクリック</a>",
+                            "list": [
+                                "Level 4アプレンティスシップと並行して2023年9月に開始",
+                                "自分の手で2,000時間以上、すべてのプロジェクトを手作り：HTML、CSS、JavaScript、Git、React、Redux、ビルドツール、データ構造とアルゴリズム",
+                                "2026年8月24日に証明書発行"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 27,
+                    "date": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile",
+                                "tooltipString": "open_link",
+                                "faIcon": "fa-solid fa-certificate"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cisco {{Introduction to Cybersecurity}}",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Cisco",
+                            "text": "Cisco's cybersecurity fundamentals course: network security, threat analysis, basic cryptography through to incident response. Useful for the security side of development, which is where a lot of RAG and agent work goes wrong.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate on Credly</a>"
+                        },
+                        "ru": {
+                            "title": "Cisco {{Введение в кибербезопасность}}",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Cisco",
+                            "text": "Курс Cisco по основам кибербезопасности: сетевая безопасность, анализ угроз, базовая криптография и реагирование на инциденты. Полезно для стороны безопасности в разработке, где ломается немало RAG- и агентных решений.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат на Credly</a>"
+                        },
+                        "fr": {
+                            "title": "Cisco {{Introduction à la cybersécurité}}",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Cisco",
+                            "text": "Le cours Cisco sur les fondamentaux de la cybersécurité : sécurité réseau, analyse des menaces, cryptographie de base jusqu'à la réponse aux incidents. Utile pour le volet sécurité du développement, là où beaucoup de projets RAG et agents dérapent.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat sur Credly</a>"
+                        },
+                        "ja": {
+                            "title": "Cisco {{サイバーセキュリティ入門}}",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "Cisco",
+                            "text": "Ciscoのサイバーセキュリティ基礎コース：ネットワークセキュリティ、脅威分析、基本的な暗号からインシデント対応まで。RAGやエージェントの開発で問題が起きやすいセキュリティ面に役立ちます。\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Credlyで証明書を表示するにはこちらをクリック</a>"
+                        }
+                    }
+                },
+                {
+                    "id": 28,
+                    "date": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Three {{Codecademy AI courses}}",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Codecademy",
+                            "text": "Prompt Engineering for Software Engineers and Intro to AI Strategy in February, Learn How to Use AI for Coding in May. Short courses, but they're where the habit of working with AI tools every day started.",
+                            "list": [
+                                "Prompt Engineering for Software Engineers (Feb 2024)",
+                                "Intro to AI Strategy (Feb 2024)",
+                                "Learn How to Use AI for Coding (May 2024)"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Три {{курса Codecademy по ИИ}}",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Codecademy",
+                            "text": "Prompt Engineering for Software Engineers и Intro to AI Strategy в феврале, Learn How to Use AI for Coding в мае. Короткие курсы, но именно с них началась привычка работать с ИИ-инструментами каждый день.",
+                            "list": [
+                                "Prompt Engineering for Software Engineers (февраль 2024)",
+                                "Intro to AI Strategy (февраль 2024)",
+                                "Learn How to Use AI for Coding (май 2024)"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Trois {{cours Codecademy sur l'IA}}",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Codecademy",
+                            "text": "Prompt Engineering for Software Engineers et Intro to AI Strategy en février, Learn How to Use AI for Coding en mai. Des cours courts, mais c'est là qu'a commencé l'habitude de travailler chaque jour avec des outils IA.",
+                            "list": [
+                                "Prompt Engineering for Software Engineers (février 2024)",
+                                "Intro to AI Strategy (février 2024)",
+                                "Learn How to Use AI for Coding (mai 2024)"
+                            ]
+                        },
+                        "ja": {
+                            "title": "Codecademyの{{AIコース}}を3つ",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "Codecademy",
+                            "text": "2月にPrompt Engineering for Software EngineersとIntro to AI Strategy、5月にLearn How to Use AI for Coding。短いコースですが、AIツールを毎日使う習慣はここから始まりました。",
+                            "list": [
+                                "Prompt Engineering for Software Engineers（2024年2月）",
+                                "Intro to AI Strategy（2024年2月）",
+                                "Learn How to Use AI for Coding（2024年5月）"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 25,
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Offshore Property Map}}: who owns England and Wales, from where?",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Independent project",
+                            "text": "HM Land Registry publishes which overseas companies own property in England and Wales. Companies House publishes who controls those companies. Neither register carries an identifier linking the two, so the join has to be built, and built carefully, because a wrong match is a libel risk. It's the most technically serious thing I've made: around 9,700 lines of Python across 21 modules, and it refuses to publish anything a person hasn't audited.",
+                            "list": [
+                                "Entity resolution with Splink across two government registers with no shared key",
+                                "~23,000 links covering ~88% of ~91,000 affected titles, at 99.5% measured precision",
+                                "Publishes the 95% lower bound next to the headline figure, not just the headline",
+                                "Won't publish unless a human has audited a sample and the tooling can verify that exact version",
+                                "DuckDB store, monthly change files applied by title number, FollowTheMoney export"
+                            ]
+                        },
+                        "ru": {
+                            "title": "{{Offshore Property Map}}: кто владеет Англией и Уэльсом и откуда?",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Независимый проект",
+                            "text": "HM Land Registry публикует, какие зарубежные компании владеют недвижимостью в Англии и Уэльсе. Companies House публикует, кто контролирует эти компании. Ни один из реестров не содержит идентификатора, связывающего их, поэтому связку нужно строить самому, и строить аккуратно, потому что ошибочное совпадение грозит иском за клевету. Это самая технически серьёзная вещь, которую я сделал: около 9 700 строк Python в 21 модуле, и она отказывается публиковать что-либо, что не проверил человек.",
+                            "list": [
+                                "Разрешение сущностей с помощью Splink между двумя государственными реестрами без общего ключа",
+                                "~23 000 связей, покрывающих ~88% из ~91 000 затронутых титулов, с измеренной точностью 99,5%",
+                                "Публикует нижнюю границу 95% доверительного интервала рядом с основной цифрой, а не только основную цифру",
+                                "Не публикует ничего, пока человек не проверил выборку, а инструменты не подтвердили именно эту версию",
+                                "Хранилище DuckDB, ежемесячные файлы изменений по номеру титула, экспорт в FollowTheMoney"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Offshore Property Map}} : qui possède l'Angleterre et le pays de Galles, et depuis où ?",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet indépendant",
+                            "text": "Le HM Land Registry publie quelles sociétés étrangères possèdent des biens en Angleterre et au pays de Galles. Companies House publie qui contrôle ces sociétés. Aucun des deux registres ne contient d'identifiant reliant l'un à l'autre, donc la jointure doit être construite, et construite avec soin, car une mauvaise correspondance est un risque de diffamation. C'est la chose la plus sérieuse techniquement que j'aie faite : environ 9 700 lignes de Python réparties en 21 modules, et elle refuse de publier quoi que ce soit qu'une personne n'a pas audité.",
+                            "list": [
+                                "Résolution d'entités avec Splink entre deux registres publics sans clé commune",
+                                "~23 000 liens couvrant ~88 % des ~91 000 titres concernés, avec une précision mesurée de 99,5 %",
+                                "Publie la borne inférieure à 95 % à côté du chiffre principal, pas seulement le chiffre principal",
+                                "Ne publie rien tant qu'un humain n'a pas audité un échantillon et que l'outillage n'a pas vérifié cette version exacte",
+                                "Stockage DuckDB, fichiers de changements mensuels appliqués par numéro de titre, export FollowTheMoney"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Offshore Property Map}}：イングランドとウェールズの所有者は誰で、どこから？",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "HM Land Registryは、どの海外企業がイングランドとウェールズの不動産を所有しているかを公開しています。Companies Houseは、それらの企業を誰が支配しているかを公開しています。どちらの登記簿にも両者を結びつける識別子がないため、結合は自分で構築する必要があり、しかも慎重に行う必要があります。誤った照合は名誉毀損のリスクになるからです。これまで作った中で最も技術的に本格的なもので、21モジュール・約9,700行のPythonからなり、人が監査していないものは一切公開しません。",
+                            "list": [
+                                "共通キーのない2つの政府登記簿間で、Splinkによるエンティティ解決",
+                                "約91,000件の対象タイトルのうち約88%をカバーする約23,000件のリンク、実測精度99.5%",
+                                "見出しの数値だけでなく、95%信頼区間の下限も併記して公開",
+                                "人がサンプルを監査し、ツールがその正確なバージョンを検証できるまで公開しない",
+                                "DuckDBストア、タイトル番号ごとに適用する月次変更ファイル、FollowTheMoney形式でのエクスポート"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 24,
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "One engine, {{33 CVs}}, four formats",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Independent project",
+                            "text": "My CVs are generated from Python, not edited. One definition per CV, rendered four ways: designed PDF, ATS PDF, Word and print. Two PDF renderers and two Word renderers share one engine, fonts embedded, and the PDF and Word output agree to within half a millimetre. It's a rendering engine that happens to output CVs, and it means a date or location change lands in all 33 on the next rebuild instead of drifting across thirty files.",
+                            "list": [
+                                "33 CVs, four formats each, plus print versions, from one shared engine",
+                                "ReportLab and python-docx, one renderer per format, no duplicates (the duplicate was found and deleted)",
+                                "Every build is checked for page count and banned phrases, so nothing goes stale silently"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Один движок, {{33 резюме}}, четыре формата",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Независимый проект",
+                            "text": "Мои резюме генерируются из Python, а не редактируются вручную. Одно определение на резюме, четыре варианта рендеринга: дизайнерский PDF, ATS-PDF, Word и печатная версия. Два PDF-рендерера и два Word-рендерера используют один движок, шрифты встроены, а вывод PDF и Word совпадает с точностью до половины миллиметра. Это движок рендеринга, который по случайности выдаёт резюме, и это значит, что изменение даты или города попадает во все 33 при следующей сборке, вместо того чтобы расползаться по тридцати файлам.",
+                            "list": [
+                                "33 резюме, по четыре формата каждое, плюс печатные версии, из одного общего движка",
+                                "ReportLab и python-docx, один рендерер на формат, без дубликатов (дубликат был найден и удалён)",
+                                "Каждая сборка проверяется на количество страниц и запрещённые фразы, поэтому ничего не устаревает незаметно"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Un moteur, {{33 CV}}, quatre formats",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet indépendant",
+                            "text": "Mes CV sont générés depuis Python, pas édités à la main. Une définition par CV, rendue de quatre façons : PDF design, PDF ATS, Word et impression. Deux moteurs de rendu PDF et deux moteurs Word partagent un seul moteur, polices embarquées, et les sorties PDF et Word concordent à un demi-millimètre près. C'est un moteur de rendu qui se trouve produire des CV, ce qui veut dire qu'un changement de date ou de ville atterrit dans les 33 à la prochaine génération au lieu de dériver dans trente fichiers.",
+                            "list": [
+                                "33 CV, quatre formats chacun, plus des versions imprimables, à partir d'un seul moteur partagé",
+                                "ReportLab et python-docx, un moteur de rendu par format, sans doublon (le doublon a été trouvé et supprimé)",
+                                "Chaque génération est vérifiée pour le nombre de pages et les phrases interdites, rien ne devient obsolète en silence"
+                            ]
+                        },
+                        "ja": {
+                            "title": "1つのエンジン、{{33種類の履歴書}}、4つの形式",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "私の履歴書は手で編集するのではなく、Pythonから生成されます。履歴書ごとに1つの定義を、デザインPDF、ATS用PDF、Word、印刷用の4通りにレンダリングします。2つのPDFレンダラーと2つのWordレンダラーが1つのエンジンを共有し、フォントは埋め込み、PDFとWordの出力は0.5ミリ以内で一致します。たまたま履歴書を出力するレンダリングエンジンであり、日付や所在地の変更が30ファイルにばらつくのではなく、次回のビルドで33種類すべてに反映されます。",
+                            "list": [
+                                "33種類の履歴書、それぞれ4形式、さらに印刷版、すべて1つの共有エンジンから",
+                                "ReportLabとpython-docx、形式ごとに1つのレンダラー、重複なし（重複は発見して削除済み）",
+                                "ビルドごとにページ数と禁止フレーズをチェックするので、気づかないうちに古くなることがない"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 23,
+                    "date": {
+                        "year": 2026,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{ISQ Agent}}, presented in person to RiverAI",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Technical assessment",
+                            "text": "A RAG agent for supplier security questionnaires, built for RiverAI's AI Engineer technical challenge and presented to them in person. It reads a blank questionnaire, PDF or XLSX, grounds every answer in the company's policy documents and past responses, drafts an answer with the citations it actually used, and scores its own confidence. The shaky ones get flagged for a human instead of being dressed up as fine.",
+                            "list": [
+                                "Python, FastAPI, LangChain, Claude, Voyage embeddings and Pinecone",
+                                "Per-question confidence scoring across four dimensions, with human-review flags",
+                                "Three output formats: DOCX report, XLSX overlay on the original workbook, lossless JSON",
+                                "Tokens, cost and latency logged per question, 480+ tests, CI on every push",
+                                "Also ships as an installable Claude Code skill"
+                            ]
+                        },
+                        "ru": {
+                            "title": "{{ISQ Agent}}, представлен лично RiverAI",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Техническое задание",
+                            "text": "RAG-агент для анкет по безопасности поставщиков, созданный для технического задания RiverAI на позицию AI Engineer и представленный им лично. Он читает пустую анкету, PDF или XLSX, обосновывает каждый ответ политиками компании и прошлыми ответами, составляет ответ с реально использованными цитатами и оценивает собственную уверенность. Сомнительные ответы помечаются для проверки человеком, а не выдаются за надёжные.",
+                            "list": [
+                                "Python, FastAPI, LangChain, Claude, эмбеддинги Voyage и Pinecone",
+                                "Оценка уверенности по каждому вопросу в четырёх измерениях, с флагами для проверки человеком",
+                                "Три формата вывода: отчёт DOCX, XLSX-наложение на исходную книгу, JSON без потерь",
+                                "Токены, стоимость и задержка логируются по каждому вопросу, 480+ тестов, CI на каждый push",
+                                "Также поставляется как устанавливаемый навык Claude Code"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{ISQ Agent}}, présenté en personne à RiverAI",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Évaluation technique",
+                            "text": "Un agent RAG pour les questionnaires de sécurité fournisseurs, construit pour l'épreuve technique AI Engineer de RiverAI et présenté en personne. Il lit un questionnaire vierge, PDF ou XLSX, fonde chaque réponse sur les documents de politique de l'entreprise et les réponses passées, rédige une réponse avec les citations réellement utilisées, et note sa propre confiance. Les réponses fragiles sont signalées à un humain au lieu d'être présentées comme fiables.",
+                            "list": [
+                                "Python, FastAPI, LangChain, Claude, embeddings Voyage et Pinecone",
+                                "Score de confiance par question sur quatre dimensions, avec signalement pour relecture humaine",
+                                "Trois formats de sortie : rapport DOCX, surcouche XLSX sur le classeur d'origine, JSON sans perte",
+                                "Tokens, coût et latence journalisés par question, 480+ tests, CI à chaque push",
+                                "Livré aussi sous forme de skill Claude Code installable"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{ISQ Agent}}、RiverAIに対面でプレゼン",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "技術課題",
+                            "text": "サプライヤーのセキュリティ質問票のためのRAGエージェント。RiverAIのAIエンジニア技術課題として構築し、対面でプレゼンしました。空の質問票（PDFまたはXLSX）を読み込み、各回答を会社のポリシー文書と過去の回答に根拠づけ、実際に使った引用付きで回答を作成し、自らの確信度を採点します。怪しい回答は問題ないふりをせず、人のレビューにフラグを立てます。",
+                            "list": [
+                                "Python、FastAPI、LangChain、Claude、Voyage埋め込み、Pinecone",
+                                "4つの次元で質問ごとの確信度を採点し、人によるレビューのフラグを付与",
+                                "3つの出力形式：DOCXレポート、元のワークブックへのXLSXオーバーレイ、ロスレスJSON",
+                                "質問ごとにトークン・コスト・レイテンシを記録、480以上のテスト、プッシュごとにCI",
+                                "インストール可能なClaude Codeスキルとしても提供"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 22,
+                    "date": {
+                        "year": 2026,
+                        "month": 6
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://the-premier-league-oracle.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{The Kicker}}: a Dixon-Coles model running in the browser",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Independent project",
+                            "text": "Premier League predictions from a time-decayed Dixon-Coles model fitted over 33 seasons, served up as a tabloid broadsheet written by ten original AI columnists. The bit I'm proudest of is the engine. It ships as about 5 KB of fitted coefficients plus pure TypeScript, so every prediction runs client-side. No server, no tracking, and it works with no API keys at all.",
+                            "list": [
+                                "Dixon-Coles engine, fitted and calibrated over 33 seasons, shipped as a few kilobytes of numbers",
+                                "Runs entirely in the browser: no backend needed for predictions",
+                                "SvelteKit front end, optional FastAPI backend for the training data and an XGBoost blend",
+                                "Backtest pin gate in the test suite, so a refit that gets worse fails CI",
+                                "Ten columnist personas via Claude, using an inline-token pattern for rich content inside plain prose"
+                            ]
+                        },
+                        "ru": {
+                            "title": "{{The Kicker}}: модель Диксона-Коулза, работающая в браузере",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Независимый проект",
+                            "text": "Прогнозы Премьер-лиги от модели Диксона-Коулза с временным затуханием, обученной на 33 сезонах, поданные как таблоид, который пишут десять оригинальных ИИ-колумнистов. Больше всего я горжусь движком. Он поставляется как около 5 КБ подобранных коэффициентов плюс чистый TypeScript, поэтому каждый прогноз считается на стороне клиента. Без сервера, без трекинга, и он работает вообще без API-ключей.",
+                            "list": [
+                                "Движок Диксона-Коулза, обученный и откалиброванный на 33 сезонах, поставляется как несколько килобайт чисел",
+                                "Работает полностью в браузере: для прогнозов бэкенд не нужен",
+                                "Фронтенд на SvelteKit, опциональный бэкенд на FastAPI для обучающих данных и XGBoost-смеси",
+                                "Контрольная точка бэктеста в тестах: если переобучение стало хуже, CI падает",
+                                "Десять персонажей-колумнистов через Claude с inline-token паттерном для форматированного контента внутри обычного текста"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{The Kicker}} : un modèle Dixon-Coles qui tourne dans le navigateur",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet indépendant",
+                            "text": "Des prédictions de Premier League issues d'un modèle Dixon-Coles à décroissance temporelle ajusté sur 33 saisons, servies comme un tabloïd écrit par dix chroniqueurs IA originaux. Ce dont je suis le plus fier, c'est le moteur. Il est livré sous forme d'environ 5 Ko de coefficients ajustés plus du TypeScript pur, donc chaque prédiction tourne côté client. Pas de serveur, pas de tracking, et ça fonctionne sans aucune clé API.",
+                            "list": [
+                                "Moteur Dixon-Coles, ajusté et calibré sur 33 saisons, livré en quelques kilo-octets de nombres",
+                                "Tourne entièrement dans le navigateur : aucun backend nécessaire pour les prédictions",
+                                "Front SvelteKit, backend FastAPI optionnel pour les données d'entraînement et un mélange XGBoost",
+                                "Garde-fou de backtest dans la suite de tests : un réajustement qui régresse fait échouer la CI",
+                                "Dix personnages de chroniqueurs via Claude, avec un motif inline-token pour du contenu riche dans de la prose"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{The Kicker}}：ブラウザで動くDixon-Colesモデル",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "33シーズンで学習した時間減衰型Dixon-Colesモデルによるプレミアリーグ予測を、10人のオリジナルAIコラムニストが書くタブロイド紙として提供します。一番の自慢はエンジンです。約5KBのフィット済み係数と純粋なTypeScriptだけで配布され、すべての予測がクライアント側で動きます。サーバーなし、トラッキングなし、APIキーがなくても動作します。",
+                            "list": [
+                                "33シーズンでフィットと較正を行ったDixon-Colesエンジンを、数キロバイトの数値として配布",
+                                "完全にブラウザ内で動作：予測にバックエンドは不要",
+                                "SvelteKitフロントエンド、学習データとXGBoostブレンド用のオプションのFastAPIバックエンド",
+                                "テストスイートにバックテストのピンゲートがあり、精度が下がる再フィットはCIで失敗",
+                                "Claudeによる10人のコラムニストペルソナ、通常の文章内にリッチコンテンツを埋め込むインライントークンパターン"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 21,
+                    "date": {
+                        "year": 2026,
+                        "month": 4
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Sanctuary}} moves to native iOS",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "AiTomatic",
+                            "text": "Sanctuary is a daily functioning app for neurodiverse users, built from lived experience. This spring it moved from a web reference build to native iOS: Swift, SwiftUI and SwiftData, fully on-device, built against iOS 27. You tap the orb, speak, and it sorts the ramble into tasks and a calm daily view using Apple's on-device speech and AI. Nothing leaves the phone. That isn't a feature, it's the whole design.",
+                            "list": [
+                                "Native Swift, SwiftUI and SwiftData, in active development against iOS 27",
+                                "Fully on-device: no cloud, no accounts, no tracking, works offline",
+                                "600+ automated tests, plus security, privacy and accessibility audits with no critical issues open",
+                                "Solo build end to end: architecture, design, code and testing"
+                            ]
+                        },
+                        "ru": {
+                            "title": "{{Sanctuary}} переходит на нативный iOS",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "AiTomatic",
+                            "text": "Sanctuary, приложение для повседневного функционирования нейроотличных пользователей, созданное на основе личного опыта. Этой весной оно перешло от веб-версии к нативному iOS: Swift, SwiftUI и SwiftData, полностью на устройстве, собрано под iOS 27. Нажимаете на орб, говорите, и оно раскладывает поток мыслей на задачи и спокойный дневной обзор, используя речь и ИИ Apple на устройстве. Ничто не покидает телефон. Это не функция, это весь замысел.",
+                            "list": [
+                                "Нативные Swift, SwiftUI и SwiftData, в активной разработке под iOS 27",
+                                "Полностью на устройстве: без облака, без аккаунтов, без трекинга, работает офлайн",
+                                "600+ автотестов, плюс аудиты безопасности, приватности и доступности без открытых критических замечаний",
+                                "Соло-разработка от начала до конца: архитектура, дизайн, код и тестирование"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Sanctuary}} passe en iOS natif",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "AiTomatic",
+                            "text": "Sanctuary est une application de fonctionnement quotidien pour les utilisateurs neurodivergents, construite à partir d'une expérience vécue. Ce printemps, elle est passée d'une version web de référence à iOS natif : Swift, SwiftUI et SwiftData, entièrement sur l'appareil, construite pour iOS 27. On touche l'orbe, on parle, et elle trie le flot en tâches et en une vue quotidienne apaisée, avec la reconnaissance vocale et l'IA d'Apple sur l'appareil. Rien ne quitte le téléphone. Ce n'est pas une fonctionnalité, c'est toute la conception.",
+                            "list": [
+                                "Swift, SwiftUI et SwiftData natifs, en développement actif pour iOS 27",
+                                "Entièrement sur l'appareil : pas de cloud, pas de compte, pas de tracking, fonctionne hors ligne",
+                                "600+ tests automatisés, plus des audits sécurité, confidentialité et accessibilité sans problème critique ouvert",
+                                "Construit en solo de bout en bout : architecture, design, code et tests"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Sanctuary}}がネイティブiOSへ",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "AiTomatic",
+                            "text": "Sanctuaryは、ニューロダイバースなユーザーのための日常機能アプリで、実体験をもとに作っています。この春、ウェブ版のリファレンス実装からネイティブiOSに移行しました。Swift、SwiftUI、SwiftDataで、完全にオンデバイス、iOS 27向けにビルドしています。オーブをタップして話すと、Appleのオンデバイス音声認識とAIを使って、とりとめのない話をタスクと落ち着いた一日のビューに整理します。何も端末の外に出ません。これは機能ではなく、設計そのものです。",
+                            "list": [
+                                "ネイティブのSwift、SwiftUI、SwiftData、iOS 27向けに開発中",
+                                "完全にオンデバイス：クラウドなし、アカウントなし、トラッキングなし、オフラインで動作",
+                                "600以上の自動テスト、セキュリティ・プライバシー・アクセシビリティ監査で未解決のクリティカルな問題なし",
+                                "アーキテクチャ、デザイン、コード、テストまで一人で構築"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 20,
+                    "date": {
+                        "year": 2026,
+                        "month": 2
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://github.com/ThomasJButler/version-timetravel",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Version TimeTravel}}: nine versions, every one still runs",
+                            "province": "Leeds, Yorkshire",
+                            "country": "UK",
+                            "institution": "Independent project",
+                            "text": "An archive of my personal site, version by version, from hand-written HTML in 2024 to a React and shadcn build today. Nine versions in two years, and every one opens and runs in the browser exactly as it shipped, inside a device frame you can flip between desktop, tablet and mobile. The gap between the first and the ninth is bigger than the gap between what I was working with in paid employment and what I use now. A CV can't make that claim. A working archive can.",
+                            "list": [
+                                "Nine versions, two years, one person, all still running as originally shipped",
+                                "Each version is the real frozen artefact, not a screenshot",
+                                "Desktop, tablet and mobile viewports, keyboard navigation, deep-linkable versions"
+                            ]
+                        },
+                        "ru": {
+                            "title": "{{Version TimeTravel}}: девять версий, и каждая до сих пор работает",
+                            "province": "Лидс, Йоркшир",
+                            "country": "Великобритания",
+                            "institution": "Независимый проект",
+                            "text": "Архив моего личного сайта, версия за версией, от написанного вручную HTML в 2024 году до сегодняшней сборки на React и shadcn. Девять версий за два года, и каждая открывается и работает в браузере ровно так, как была выпущена, в рамке устройства, которую можно переключать между десктопом, планшетом и мобильным. Разрыв между первой и девятой больше, чем разрыв между тем, с чем я работал по найму, и тем, что использую сейчас. Резюме такого сказать не может. Рабочий архив может.",
+                            "list": [
+                                "Девять версий, два года, один человек, все до сих пор работают как при выпуске",
+                                "Каждая версия это настоящий замороженный артефакт, а не скриншот",
+                                "Десктоп, планшет и мобильный, навигация с клавиатуры, прямые ссылки на версии"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Version TimeTravel}} : neuf versions, chacune tourne encore",
+                            "province": "Leeds, Yorkshire",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet indépendant",
+                            "text": "Une archive de mon site personnel, version par version, du HTML écrit à la main en 2024 jusqu'à la version React et shadcn d'aujourd'hui. Neuf versions en deux ans, et chacune s'ouvre et tourne dans le navigateur exactement comme elle a été livrée, dans un cadre d'appareil que l'on peut basculer entre bureau, tablette et mobile. L'écart entre la première et la neuvième est plus grand que l'écart entre ce avec quoi je travaillais en emploi salarié et ce que j'utilise aujourd'hui. Un CV ne peut pas affirmer ça. Une archive qui fonctionne, si.",
+                            "list": [
+                                "Neuf versions, deux ans, une personne, toutes encore en ligne telles que livrées",
+                                "Chaque version est le véritable artefact figé, pas une capture d'écran",
+                                "Bureau, tablette et mobile, navigation au clavier, versions accessibles par lien direct"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Version TimeTravel}}：9つのバージョン、すべて今も動く",
+                            "province": "リーズ、ヨークシャー",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "個人サイトのアーカイブで、2024年の手書きHTMLから現在のReactとshadcnのビルドまで、バージョンごとに残しています。2年間で9つのバージョン、そのすべてがリリース当時のままブラウザで開いて動作し、デスクトップ・タブレット・モバイルを切り替えられるデバイスフレームの中で見られます。最初と9番目の差は、雇用されていた頃に使っていたものと今使っているものの差より大きい。履歴書にはそう主張できません。動くアーカイブにはできます。",
+                            "list": [
+                                "9つのバージョン、2年間、1人、すべてリリース当時のまま稼働中",
+                                "各バージョンはスクリーンショットではなく、本物の凍結されたアーティファクト",
+                                "デスクトップ・タブレット・モバイルのビューポート、キーボード操作、バージョンへの直接リンク"
+                            ]
+                        }
+                    }
+                },
+                {
                     "id": 19,
                     "date": {
                         "year": 2026,
@@ -272,7 +1016,7 @@
                     "locales": {
                         "en": {
                             "title": "New {{Landing Page}} & Retro Preloader",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Portfolio Update",
                             "text": "Created an immersive landing page featuring carefully prompted Midjourney v7 GIFs, unifying all public work in one accessible hub for prospective employers. Added a retro-inspired TB pixel loader with Windows 95 color palette, flying tile assembly animation, and a CRT warmup 'lights turning on' transition effect.",
@@ -280,12 +1024,12 @@
                                 "Designed landing page with Midjourney v7 generated imagery",
                                 "Built retro TB pixel loader with Win95 colors flying in",
                                 "Implemented CRT warmup transition for smooth content reveal",
-                                "Unified all public projects for streamlined portfolio access"
+                                "Put every public project in one place"
                             ]
                         },
                         "ru": {
                             "title": "Новая {{посадочная страница}} и ретро-прелоадер",
-                            "province": "Йоркшир",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Обновление портфолио",
                             "text": "Создана иммерсивная посадочная страница с тщательно подобранными GIF-изображениями Midjourney v7, объединяющая все публичные работы в одном доступном месте для потенциальных работодателей. Добавлен ретро-загрузчик TB пикселей с цветовой палитрой Windows 95, анимацией сборки плиток и эффектом CRT «включения света».",
@@ -298,7 +1042,7 @@
                         },
                         "fr": {
                             "title": "Nouvelle {{page d'accueil}} et préchargeur rétro",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Mise à jour du portfolio",
                             "text": "Création d'une page d'accueil immersive avec des GIFs Midjourney v7 soigneusement générés, unifiant tous les travaux publics en un hub accessible pour les employeurs potentiels. Ajout d'un chargeur de pixels TB rétro avec palette Windows 95, animation d'assemblage et effet de transition CRT.",
@@ -311,7 +1055,7 @@
                         },
                         "ja": {
                             "title": "新しい{{ランディングページ}}とレトロプリローダー",
-                            "province": "ヨークシャー",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "ポートフォリオ更新",
                             "text": "Midjourney v7の慎重に生成されたGIFを使用した没入型ランディングページを作成し、潜在的な雇用主向けにすべての公開作品を1つのアクセスしやすいハブに統合しました。Windows 95カラーパレット、タイルアセンブリアニメーション、CRTウォームアップ「点灯」トランジションを備えたレトロなTBピクセルローダーを追加しました。",
@@ -350,7 +1094,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed {{Agentic AI Portfolio}} Showcase",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Finalised projects and released 5 polished MVP applications alongside an interactive dashboard website documenting the development process. All projects are production-grade full-stack AI applications featuring Docker containerisation and live demo deployments.",
@@ -362,7 +1106,7 @@
                         },
                         "ru": {
                             "title": "Завершена витрина {{Agentic AI Portfolio}}",
-                            "province": "Йоркшир",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Завершены проекты и выпущены 4 отполированных MVP-приложения вместе с интерактивным дашбордом, документирующим процесс разработки. Все проекты - это полноценные full-stack AI-приложения продакшн-уровня с Docker-контейнерами и развернутыми живыми демо.",
@@ -375,7 +1119,7 @@
                         },
                         "fr": {
                             "title": "Vitrine {{Agentic AI Portfolio}} terminée",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Projets finalisés et 4 applications MVP polies publiées avec un tableau de bord interactif documentant le processus de développement. Tous les projets sont des applications IA full-stack de niveau production avec conteneurisation Docker et déploiements de démonstration en direct.",
@@ -388,7 +1132,7 @@
                         },
                         "ja": {
                             "title": "{{Agentic AI Portfolio}}ショーケースを完成",
-                            "province": "ヨークシャー",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "プロジェクトを最終化し、開発プロセスを文書化したインタラクティブなダッシュボードウェブサイトとともに、4つの洗練されたMVPアプリケーションをリリースしました。すべてのプロジェクトは、Dockerコンテナ化とライブデモデプロイメントを備えた本番グレードのフルスタックAIアプリケーションです。",
@@ -427,7 +1171,7 @@
                     "locales": {
                         "en": {
                             "title": "Updated {{Commercial Portfolio}} to v2.0",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Successfully migrated my commercial portfolio website to React v2.0 with significant improvements. A key feature of this update is the comprehensive Web Agency Showcase - detailed documentation of 10+ commercial projects specifically designed for employers and recruiters to review my professional work. This major update also includes enhanced performance, modern design patterns, and improved user experience.",
@@ -441,7 +1185,7 @@
                         },
                         "ru": {
                             "title": "Обновил {{Коммерческое Портфолио}} до v2.0",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Успешно мигрировал свой коммерческий сайт-портфолио на React v2.0 со значительными улучшениями. Ключевой особенностью этого обновления является комплексная витрина веб-агентства - подробная документация более 10 коммерческих проектов, специально разработанная для работодателей и рекрутеров для ознакомления с моей профессиональной работой. Это крупное обновление также включает улучшенную производительность, современные шаблоны дизайна и улучшенный пользовательский опыт.",
@@ -455,7 +1199,7 @@
                         },
                         "fr": {
                             "title": "Mise à jour du {{Portfolio Commercial}} vers v2.0",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Migration réussie de mon site portfolio commercial vers React v2.0 avec des améliorations significatives. Une caractéristique clé de cette mise à jour est la vitrine complète de l'agence web - une documentation détaillée de plus de 10 projets commerciaux spécialement conçue pour que les employeurs et les recruteurs examinent mon travail professionnel. Cette mise à jour majeure comprend également des performances améliorées, des modèles de conception modernes et une expérience utilisateur améliorée.",
@@ -469,7 +1213,7 @@
                         },
                         "ja": {
                             "title": "{{商業ポートフォリオ}}をv2.0に更新",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "商業ポートフォリオウェブサイトをReact v2.0に大幅な改善とともに正常に移行しました。このアップデートの主要な機能は、包括的なウェブエージェンシーショーケースです - 雇用主とリクルーターが私のプロフェッショナルな仕事をレビューするために特別に設計された10以上の商業プロジェクトの詳細なドキュメントです。この主要なアップデートには、パフォーマンスの向上、モダンなデザインパターン、ユーザーエクスペリエンスの改善も含まれています。",
@@ -498,10 +1242,10 @@
                     "locales": {
                         "en": {
                             "title": "Moved to {{Yorkshire}}",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Life Milestone",
-                            "text": "Relocated from Cheshire to Yorkshire for a brand new start. This significant life change brought new opportunities and a fresh perspective on both personal and professional endeavors.",
+                            "text": "Relocated from Cheshire to Yorkshire for a fresh start.",
                             "list": [
                                 "Relocated from Cheshire to Yorkshire",
                                 "Brand new start in a new region",
@@ -511,10 +1255,10 @@
                         },
                         "ru": {
                             "title": "Переехал в {{Йоркшир}}",
-                            "province": "Йоркшир",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Жизненная веха",
-                            "text": "Переехал из Чешира в Йоркшир для совершенно нового начала. Это значительное изменение в жизни принесло новые возможности и свежий взгляд как на личные, так и на профессиональные начинания.",
+                            "text": "Переехал из Чешира в Йоркшир, чтобы начать с чистого листа.",
                             "list": [
                                 "Переезд из Чешира в Йоркшир",
                                 "Совершенно новое начало в новом регионе",
@@ -524,10 +1268,10 @@
                         },
                         "fr": {
                             "title": "Déménagement au {{Yorkshire}}",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Étape de Vie",
-                            "text": "Déménagement de Cheshire vers le Yorkshire pour un tout nouveau départ. Ce changement de vie important a apporté de nouvelles opportunités et une nouvelle perspective sur les projets personnels et professionnels.",
+                            "text": "Déménagé du Cheshire vers le Yorkshire pour repartir de zéro.",
                             "list": [
                                 "Déménagement de Cheshire vers le Yorkshire",
                                 "Tout nouveau départ dans une nouvelle région",
@@ -537,10 +1281,10 @@
                         },
                         "ja": {
                             "title": "{{ヨークシャー}}へ移住",
-                            "province": "ヨークシャー",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "人生の節目",
-                            "text": "チェシャーからヨークシャーへ移住し、まったく新しいスタートを切りました。この大きな人生の変化は、個人的および職業的な取り組みの両方に新しい機会と新鮮な視点をもたらしました。",
+                            "text": "新しいスタートのため、チェシャーからヨークシャーへ引っ越しました。",
                             "list": [
                                 "チェシャーからヨークシャーへ移住",
                                 "新しい地域でまったく新しいスタート",
@@ -565,7 +1309,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed {{CodeCademy Generative AI Bootcamp}}",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Professional Development",
                             "text": "Successfully completed CodeCademy's Generative AI for Developers bootcamp from August to September 2025. This intensive program deepened my expertise in AI development and modern generative AI technologies.",
@@ -578,7 +1322,7 @@
                         },
                         "ru": {
                             "title": "Завершил {{буткемп по генеративному ИИ CodeCademy}}",
-                            "province": "Йоркшир",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Профессиональное развитие",
                             "text": "Успешно завершил буткемп CodeCademy по генеративному ИИ для разработчиков с августа по сентябрь 2025 года. Эта интенсивная программа углубила мой опыт в разработке ИИ и современных технологиях генеративного ИИ.",
@@ -591,7 +1335,7 @@
                         },
                         "fr": {
                             "title": "Terminé le {{Bootcamp IA Générative CodeCademy}}",
-                            "province": "Yorkshire",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Développement Professionnel",
                             "text": "Terminé avec succès le bootcamp IA Générative pour Développeurs de CodeCademy d'août à septembre 2025. Ce programme intensif a approfondi mon expertise en développement IA et en technologies d'IA générative modernes.",
@@ -604,7 +1348,7 @@
                         },
                         "ja": {
                             "title": "{{CodeCademy生成AIブートキャンプ}}を修了",
-                            "province": "ヨークシャー",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "専門能力開発",
                             "text": "2025年8月から9月にかけて、CodeCademyの開発者向け生成AIブートキャンプを正常に修了しました。この集中的なプログラムは、AI開発と最新の生成AIテクノロジーにおける私の専門知識を深めました。",
@@ -626,7 +1370,7 @@
                     "preview": {
                         "links": [
                             {
-                                "href": "https://thomasjbutler.github.io",
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
@@ -638,7 +1382,7 @@
                     "locales": {
                         "en": {
                             "title": "Personal Portfolio {{v3.0 - React Migration}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Migrated personal portfolio from static HTML/CSS/JS to a full React application with SvelteKit framework. This major upgrade brought modern development practices and enhanced user experience to my personal showcase.",
@@ -651,7 +1395,7 @@
                         },
                         "ru": {
                             "title": "Личное Портфолио {{v3.0 - Миграция на React}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Мигрировал личное портфолио со статического HTML/CSS/JS на полноценное React-приложение с фреймворком SvelteKit. Это крупное обновление принесло современные практики разработки и улучшенный пользовательский опыт в мою личную витрину.",
@@ -664,7 +1408,7 @@
                         },
                         "fr": {
                             "title": "Portfolio Personnel {{v3.0 - Migration React}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Migration du portfolio personnel de HTML/CSS/JS statique vers une application React complète avec le framework SvelteKit. Cette mise à niveau majeure a apporté des pratiques de développement modernes et une expérience utilisateur améliorée à ma vitrine personnelle.",
@@ -677,7 +1421,7 @@
                         },
                         "ja": {
                             "title": "個人ポートフォリオ{{v3.0 - React移行}}",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "静的なHTML/CSS/JSから、SvelteKitフレームワークを使用した本格的なReactアプリケーションに個人ポートフォリオを移行しました。この大規模なアップグレードにより、個人のショーケースに最新の開発プラクティスと強化されたユーザーエクスペリエンスがもたらされました。",
@@ -711,7 +1455,7 @@
                     "locales": {
                         "en": {
                             "title": "Built {{Python Backend Collection}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Developed a comprehensive suite of Python applications showcasing various backend development skills. This collection demonstrates proficiency in API development, data processing, and machine learning implementations.",
@@ -724,7 +1468,7 @@
                         },
                         "ru": {
                             "title": "Создал {{коллекцию Python Backend}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Разработал комплексный набор приложений Python, демонстрирующих различные навыки backend-разработки. Эта коллекция демонстрирует мастерство в разработке API, обработке данных и реализации машинного обучения.",
@@ -737,7 +1481,7 @@
                         },
                         "fr": {
                             "title": "Construction de la {{Collection Backend Python}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Développement d'une suite complète d'applications Python mettant en valeur diverses compétences de développement backend. Cette collection démontre la maîtrise du développement d'API, du traitement de données et des implémentations d'apprentissage automatique.",
@@ -750,7 +1494,7 @@
                         },
                         "ja": {
                             "title": "{{Pythonバックエンドコレクション}}を構築",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "さまざまなバックエンド開発スキルを示すPythonアプリケーションの包括的なスイートを開発しました。このコレクションは、API開発、データ処理、機械学習の実装における熟練度を示しています。",
@@ -789,7 +1533,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed {{CSS Showcase}} Project",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Finished development of CSS Showcase, an interactive demonstration of advanced CSS animations and effects. This project serves as both a learning resource and a portfolio piece showcasing modern CSS capabilities.",
@@ -802,7 +1546,7 @@
                         },
                         "ru": {
                             "title": "Завершил проект {{CSS Showcase}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Завершена разработка CSS Showcase, интерактивной демонстрации продвинутых CSS-анимаций и эффектов. Этот проект служит как учебным ресурсом, так и элементом портфолио, демонстрирующим современные возможности CSS.",
@@ -815,7 +1559,7 @@
                         },
                         "fr": {
                             "title": "Projet {{CSS Showcase}} terminé",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Développement terminé de CSS Showcase, une démonstration interactive d'animations et d'effets CSS avancés. Ce projet sert à la fois de ressource d'apprentissage et de pièce de portfolio présentant les capacités CSS modernes.",
@@ -828,7 +1572,7 @@
                         },
                         "ja": {
                             "title": "{{CSS Showcase}}プロジェクトを完了",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "高度なCSSアニメーションとエフェクトのインタラクティブなデモンストレーションであるCSS Showcaseの開発を完了しました。このプロジェクトは、学習リソースとしても、最新のCSS機能を紹介するポートフォリオ作品としても機能します。",
@@ -856,7 +1600,7 @@
                     "locales": {
                         "en": {
                             "title": "Building {{AI Models}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "AI Development",
                             "text": "Started creating custom AI models and applying machine learning knowledge practically. This marked a significant milestone in my AI journey, moving from theory to hands-on implementation.",
@@ -869,7 +1613,7 @@
                         },
                         "ru": {
                             "title": "Создание {{моделей ИИ}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Разработка ИИ",
                             "text": "Начал создавать пользовательские модели ИИ и практически применять знания машинного обучения. Это стало важной вехой в моем путешествии с ИИ, переходя от теории к практической реализации.",
@@ -882,7 +1626,7 @@
                         },
                         "fr": {
                             "title": "Construction de {{modèles IA}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Développement IA",
                             "text": "J'ai commencé à créer des modèles d'IA personnalisés et à appliquer pratiquement les connaissances en apprentissage automatique. Cela a marqué une étape importante dans mon parcours IA, passant de la théorie à la mise en œuvre pratique.",
@@ -895,7 +1639,7 @@
                         },
                         "ja": {
                             "title": "{{AIモデル}}の構築",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "AI開発",
                             "text": "カスタムAIモデルの作成を開始し、機械学習の知識を実践的に適用し始めました。これは、理論から実践的な実装への移行という、私のAIの旅における重要なマイルストーンとなりました。",
@@ -923,7 +1667,7 @@
                     "locales": {
                         "en": {
                             "title": "Completed {{ICT Bootcamp}} Certification",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Professional Development",
                             "text": "Successfully completed an intensive ICT bootcamp, gaining comprehensive knowledge in hardware, cloud computing, networking, and Azure services. This certification has significantly expanded my technical skillset.",
@@ -936,7 +1680,7 @@
                         },
                         "ru": {
                             "title": "Завершил сертификацию {{ICT Bootcamp}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Профессиональное развитие",
                             "text": "Успешно завершил интенсивный буткемп по ИКТ, получив всесторонние знания в области оборудования, облачных вычислений, сетей и сервисов Azure. Эта сертификация значительно расширила мои технические навыки.",
@@ -949,7 +1693,7 @@
                         },
                         "fr": {
                             "title": "Certification {{ICT Bootcamp}} terminée",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Développement Professionnel",
                             "text": "Achèvement réussi d'un bootcamp TIC intensif, acquérant des connaissances complètes en matériel, cloud computing, réseaux et services Azure. Cette certification a considérablement élargi mes compétences techniques.",
@@ -962,7 +1706,7 @@
                         },
                         "ja": {
                             "title": "{{ICTブートキャンプ}}認定を完了",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "専門能力開発",
                             "text": "ハードウェア、クラウドコンピューティング、ネットワーキング、Azureサービスに関する包括的な知識を得て、集中的なICTブートキャンプを正常に完了しました。この認定により、技術的なスキルセットが大幅に拡大されました。",
@@ -990,7 +1734,7 @@
                     "locales": {
                         "en": {
                             "title": "Experimenting with {{AI Tools}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Self-Study",
                             "text": "Began deep exploration of AI tools and models, staying on top of the rapidly evolving AI industry. This period marked the beginning of my journey into practical AI implementation and understanding.",
@@ -1003,7 +1747,7 @@
                         },
                         "ru": {
                             "title": "Экспериментирование с {{инструментами ИИ}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Самообучение",
                             "text": "Начал глубокое изучение инструментов и моделей ИИ, следя за быстро развивающейся индустрией ИИ. Этот период ознаменовал начало моего пути в практическую реализацию и понимание ИИ.",
@@ -1016,7 +1760,7 @@
                         },
                         "fr": {
                             "title": "Expérimentation avec les {{outils IA}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Auto-apprentissage",
                             "text": "J'ai commencé une exploration approfondie des outils et modèles d'IA, en restant au courant de l'industrie de l'IA en évolution rapide. Cette période a marqué le début de mon parcours dans la mise en œuvre pratique et la compréhension de l'IA.",
@@ -1029,7 +1773,7 @@
                         },
                         "ja": {
                             "title": "{{AIツール}}の実験",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "独学",
                             "text": "AIツールとモデルの深い探求を開始し、急速に進化するAI業界の最新動向を把握しました。この期間は、実践的なAI実装と理解への私の旅の始まりを示しました。",
@@ -1063,7 +1807,7 @@
                     "locales": {
                         "en": {
                             "title": "Started {{CodePen}} Journey",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Creative Coding",
                             "text": "Joined CodePen to practice and showcase creative coding experiments. This platform became my playground for exploring ideas beyond client requirements and CMS limitations encountered at work.",
@@ -1076,7 +1820,7 @@
                         },
                         "ru": {
                             "title": "Начал путешествие на {{CodePen}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Творческое кодирование",
                             "text": "Присоединился к CodePen для практики и демонстрации творческих экспериментов с кодом. Эта платформа стала моей площадкой для изучения идей за пределами требований клиентов и ограничений CMS, с которыми сталкивался на работе.",
@@ -1089,7 +1833,7 @@
                         },
                         "fr": {
                             "title": "Début du parcours {{CodePen}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Codage Créatif",
                             "text": "J'ai rejoint CodePen pour pratiquer et présenter des expériences de codage créatif. Cette plateforme est devenue mon terrain de jeu pour explorer des idées au-delà des exigences des clients et des limitations CMS rencontrées au travail.",
@@ -1102,7 +1846,7 @@
                         },
                         "ja": {
                             "title": "{{CodePen}}の旅を開始",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "クリエイティブコーディング",
                             "text": "クリエイティブなコーディング実験を練習し、紹介するためにCodePenに参加しました。このプラットフォームは、仕事で遭遇したクライアントの要件やCMSの制限を超えたアイデアを探求するための遊び場となりました。",
@@ -1130,7 +1874,7 @@
                     "locales": {
                         "en": {
                             "title": "Started {{ML and Python}} Deep Dive",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Self-Study",
                             "text": "Began an intensive self-study program focused on Machine Learning and advanced Python programming. Currently working through comprehensive courses and building practical ML projects.",
@@ -1143,7 +1887,7 @@
                         },
                         "ru": {
                             "title": "Начал глубокое изучение {{ML и Python}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Самообучение",
                             "text": "Начал интенсивную программу самообучения, сосредоточенную на машинном обучении и продвинутом программировании на Python. В настоящее время прохожу комплексные курсы и создаю практические проекты ML.",
@@ -1156,7 +1900,7 @@
                         },
                         "fr": {
                             "title": "Début de l'approfondissement {{ML et Python}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Auto-apprentissage",
                             "text": "Début d'un programme d'auto-apprentissage intensif axé sur l'apprentissage automatique et la programmation Python avancée. Actuellement en train de suivre des cours complets et de construire des projets ML pratiques.",
@@ -1169,7 +1913,7 @@
                         },
                         "ja": {
                             "title": "{{MLとPython}}の深い学習を開始",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "自己学習",
                             "text": "機械学習と高度なPythonプログラミングに焦点を当てた集中的な自己学習プログラムを開始しました。現在、包括的なコースを受講し、実用的なMLプロジェクトを構築しています。",
@@ -1196,55 +1940,51 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Left {{DWP Work Coach}} Role",
-                            "province": "Liverpool",
+                            "title": "Left {{DWP Work Coach}} role",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
-                            "institution": "Career Transition",
-                            "text": "Left my position as a Work Coach at the Department for Work and Pensions (DWP) to pursue my passion for technology and software development. This marked the beginning of my journey into the tech industry.",
+                            "institution": "Career change",
+                            "text": "After school I tried a few things: commercial diving, semi-pro cricket in Australia, financial services, conveyancing, and then two years as a Work Coach at the DWP. Helping other people find careers was where it clicked. I'd used tech my whole life and never once considered it as a job. Winter 2021 I bought an M1 Max MacBook the night it launched and taught myself Python; 2022 went on AI as ChatGPT took off; in November I left the DWP, and by February I was in my first bootcamp.",
                             "list": [
-                                "Transitioned from public sector to pursue tech career",
-                                "Began intensive self-directed learning in programming",
-                                "Discovered ChatGPT and used it as a learning companion",
-                                "Started exploring web development and computer science fundamentals"
+                                "Two years as a DWP Work Coach, twenty appointments a day",
+                                "Self-taught Python from winter 2021, into AI through 2022",
+                                "Left in November 2022, first bootcamp in February 2023"
                             ]
                         },
                         "ru": {
-                            "title": "Покинул должность {{консультанта DWP}}",
-                            "province": "Ливерпуль",
+                            "title": "Ушёл с должности {{консультанта DWP}}",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Карьерный переход",
-                            "text": "Покинул свою должность консультанта по трудоустройству в Департаменте труда и пенсий (DWP), чтобы следовать своей страсти к технологиям и разработке программного обеспечения. Это стало началом моего пути в технологическую индустрию.",
+                            "institution": "Смена карьеры",
+                            "text": "После школы я пробовал разное: коммерческий дайвинг, полупрофессиональный крикет в Австралии, финансовые услуги, конвейансинг, а затем два года консультантом по трудоустройству в DWP. Именно помогая другим найти карьеру, я понял: я всю жизнь пользовался технологиями и ни разу не рассматривал их как работу. Зимой 2021 года я купил M1 Max MacBook в ночь запуска и сам выучил Python; 2022 год ушёл на ИИ, когда взлетел ChatGPT; в ноябре я ушёл из DWP, а в феврале уже был на первом буткемпе.",
                             "list": [
-                                "Переход из государственного сектора для карьеры в технологиях",
-                                "Начал интенсивное самостоятельное обучение программированию",
-                                "Открыл для себя ChatGPT и использовал его как помощника в обучении",
-                                "Начал изучать веб-разработку и основы информатики"
+                                "Два года консультантом по трудоустройству в DWP, двадцать встреч в день",
+                                "Самостоятельно выучил Python с зимы 2021 года, в 2022 году погрузился в ИИ",
+                                "Ушёл в ноябре 2022 года, первый буткемп в феврале 2023 года"
                             ]
                         },
                         "fr": {
-                            "title": "Quitté le rôle de {{Coach DWP}}",
-                            "province": "Liverpool",
+                            "title": "Départ du poste de {{Work Coach au DWP}}",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Transition de Carrière",
-                            "text": "Quitté mon poste de conseiller professionnel au Département du Travail et des Pensions (DWP) pour poursuivre ma passion pour la technologie et le développement logiciel. Cela a marqué le début de mon parcours dans l'industrie technologique.",
+                            "institution": "Reconversion",
+                            "text": "Après l'école, j'ai essayé plusieurs choses : plongée commerciale, cricket semi-pro en Australie, services financiers, conveyancing, puis deux ans comme Work Coach au DWP. C'est en aidant les autres à trouver leur voie que ça a fait tilt : j'avais utilisé la tech toute ma vie sans jamais l'envisager comme métier. Hiver 2021, j'ai acheté un MacBook M1 Max le soir de sa sortie et appris Python seul ; 2022 est parti dans l'IA avec l'arrivée de ChatGPT ; en novembre j'ai quitté le DWP, et en février j'étais dans mon premier bootcamp.",
                             "list": [
-                                "Transition du secteur public vers une carrière dans la tech",
-                                "Commencé un apprentissage intensif autodidacte en programmation",
-                                "Découvert ChatGPT et l'utilisé comme compagnon d'apprentissage",
-                                "Commencé à explorer le développement web et les fondamentaux de l'informatique"
+                                "Deux ans comme Work Coach au DWP, vingt rendez-vous par jour",
+                                "Python en autodidacte depuis l'hiver 2021, l'IA tout au long de 2022",
+                                "Départ en novembre 2022, premier bootcamp en février 2023"
                             ]
                         },
                         "ja": {
-                            "title": "{{DWPワークコーチ}}の職を退職",
-                            "province": "リバプール",
+                            "title": "{{DWPワークコーチ}}を退職",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
-                            "institution": "キャリア転換",
-                            "text": "テクノロジーとソフトウェア開発への情熱を追求するため、労働年金省(DWP)のワークコーチの職を退職しました。これは、テクノロジー業界への私の旅の始まりとなりました。",
+                            "institution": "キャリアチェンジ",
+                            "text": "学校を出てからいろいろ試しました。商業ダイビング、オーストラリアでのセミプロクリケット、金融サービス、不動産登記業務、そしてDWPでワークコーチとして2年。他の人のキャリア探しを手伝っているうちに気づきました。ずっとテクノロジーを使ってきたのに、仕事として考えたことが一度もなかったと。2021年冬、発売当夜にM1 Max MacBookを買い、独学でPythonを学び、2022年はChatGPTの登場とともにAIに費やし、11月にDWPを辞め、2月には最初のブートキャンプにいました。",
                             "list": [
-                                "公共部門からテクノロジーキャリアへの転換",
-                                "プログラミングの集中的な自己学習を開始",
-                                "ChatGPTを発見し、学習の相棒として使用",
-                                "Web開発とコンピュータサイエンスの基礎の探求を開始"
+                                "DWPでワークコーチを2年、1日20件の面談",
+                                "2021年冬からPythonを独学、2022年はAIに没頭",
+                                "2022年11月に退職、2023年2月に最初のブートキャンプ"
                             ]
                         }
                     }
@@ -1264,7 +2004,7 @@
                     "locales": {
                         "en": {
                             "title": "Cloud & Data Engineering {{Bootcamp}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Professional Training",
                             "text": "Enrolled in an intensive Cloud and Data Engineering bootcamp from February to April 2023. This comprehensive program provided hands-on experience with modern cloud technologies and data processing frameworks.",
@@ -1277,7 +2017,7 @@
                         },
                         "ru": {
                             "title": "{{Буткемп}} по облачным технологиям и инженерии данных",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Профессиональная подготовка",
                             "text": "Зачислен в интенсивный буткемп по облачным технологиям и инженерии данных с февраля по апрель 2023 года. Эта комплексная программа предоставила практический опыт работы с современными облачными технологиями и фреймворками обработки данных.",
@@ -1290,7 +2030,7 @@
                         },
                         "fr": {
                             "title": "{{Bootcamp}} Cloud & Data Engineering",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Formation Professionnelle",
                             "text": "Inscrit à un bootcamp intensif Cloud et Data Engineering de février à avril 2023. Ce programme complet a fourni une expérience pratique avec les technologies cloud modernes et les frameworks de traitement de données.",
@@ -1303,7 +2043,7 @@
                         },
                         "ja": {
                             "title": "クラウド＆データエンジニアリング{{ブートキャンプ}}",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "専門トレーニング",
                             "text": "2023年2月から4月まで、集中的なクラウドおよびデータエンジニアリングブートキャンプに参加しました。この包括的なプログラムは、最新のクラウドテクノロジーとデータ処理フレームワークの実践的な経験を提供しました。",
@@ -1331,7 +2071,7 @@
                     "locales": {
                         "en": {
                             "title": "Python Development & {{First Projects}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Projects",
                             "text": "Focused intensively on Python development, creating my first scripts and web applications. This period marked significant growth in practical programming skills and creative exploration with AI tools.",
@@ -1344,7 +2084,7 @@
                         },
                         "ru": {
                             "title": "Разработка на Python и {{первые проекты}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личные проекты",
                             "text": "Интенсивно сосредоточился на разработке на Python, создавая свои первые скрипты и веб-приложения. Этот период ознаменовался значительным ростом практических навыков программирования и творческим исследованием с помощью инструментов ИИ.",
@@ -1357,7 +2097,7 @@
                         },
                         "fr": {
                             "title": "Développement Python & {{Premiers Projets}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projets Personnels",
                             "text": "Concentration intensive sur le développement Python, création de mes premiers scripts et applications web. Cette période a marqué une croissance significative des compétences pratiques en programmation et l'exploration créative avec les outils IA.",
@@ -1370,7 +2110,7 @@
                         },
                         "ja": {
                             "title": "Python開発と{{最初のプロジェクト}}",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "Pythonの開発に集中的に取り組み、最初のスクリプトとWebアプリケーションを作成しました。この期間は、実践的なプログラミングスキルの大幅な成長とAIツールを使った創造的な探求を示しました。",
@@ -1397,55 +2137,55 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Secured {{First Professional Role}}",
-                            "province": "Liverpool",
+                            "title": "Started at {{Fuelius}}, first developer role",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
-                            "institution": "Professional Career",
-                            "text": "Landed my first job in the tech industry, marking a significant milestone in my career transition. This role provided invaluable real-world experience and the opportunity to apply my self-taught skills in a professional environment.",
+                            "institution": "Fuelius",
+                            "text": "First job in tech: apprentice full-stack developer at Fuelius, a HubSpot and Umbraco agency in Chester. Sixteen months of client work across 12 accounts, with the Level 4 Software Developer Apprenticeship studied alongside it through Estio.",
                             "list": [
-                                "Applied coding skills in a professional setting",
-                                "Gained experience working in agile development teams",
-                                "Contributed to production-level code and systems",
-                                "Expanded technical knowledge through on-the-job learning"
+                                "Client releases for M&S Bank Arena, Merseyrail, CDW, InfoTrack and more",
+                                ".NET, C#, React, SCSS, HubSpot and Umbraco in production",
+                                "Studied the Level 4 Software Developer Apprenticeship with Estio alongside the role, 2023-24",
+                                "Covered senior responsibilities during team leave"
                             ]
                         },
                         "ru": {
-                            "title": "Получил {{первую профессиональную роль}}",
-                            "province": "Ливерпуль",
+                            "title": "Начал в {{Fuelius}}, первая работа разработчиком",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Профессиональная карьера",
-                            "text": "Получил свою первую работу в технологической индустрии, что стало важной вехой в моем карьерном переходе. Эта роль предоставила бесценный реальный опыт и возможность применить свои самостоятельно приобретенные навыки в профессиональной среде.",
+                            "institution": "Fuelius",
+                            "text": "Первая работа в IT: младший full-stack разработчик (апрентис) в Fuelius, агентстве на HubSpot и Umbraco в Честере. Шестнадцать месяцев клиентской работы по 12 аккаунтам, параллельно с изучением программы Level 4 Software Developer Apprenticeship в Estio.",
                             "list": [
-                                "Применял навыки программирования в профессиональной среде",
-                                "Получил опыт работы в agile-командах разработки",
-                                "Внес вклад в производственный код и системы",
-                                "Расширил технические знания через обучение на рабочем месте"
+                                "Клиентские релизы для M&S Bank Arena, Merseyrail, CDW, InfoTrack и других",
+                                ".NET, C#, React, SCSS, HubSpot и Umbraco в продакшене",
+                                "Параллельно с работой проходил программу Level 4 Software Developer Apprenticeship в Estio, 2023-24",
+                                "Замещал старших коллег во время их отпусков"
                             ]
                         },
                         "fr": {
-                            "title": "Obtenu {{Premier Rôle Professionnel}}",
-                            "province": "Liverpool",
+                            "title": "Débuts chez {{Fuelius}}, premier poste de développeur",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Carrière Professionnelle",
-                            "text": "Décroché mon premier emploi dans l'industrie technologique, marquant une étape importante dans ma transition de carrière. Ce rôle a fourni une expérience inestimable du monde réel et l'opportunité d'appliquer mes compétences autodidactes dans un environnement professionnel.",
+                            "institution": "Fuelius",
+                            "text": "Premier emploi dans la tech : développeur full-stack apprenti chez Fuelius, une agence HubSpot et Umbraco à Chester. Seize mois de travail client sur 12 comptes, avec l'apprentissage Level 4 Software Developer suivi en parallèle chez Estio.",
                             "list": [
-                                "Application des compétences de codage dans un cadre professionnel",
-                                "Acquisition d'expérience de travail dans des équipes de développement agile",
-                                "Contribution au code et aux systèmes de niveau production",
-                                "Expansion des connaissances techniques grâce à l'apprentissage sur le tas"
+                                "Mises en production client pour M&S Bank Arena, Merseyrail, CDW, InfoTrack et d'autres",
+                                ".NET, C#, React, SCSS, HubSpot et Umbraco en production",
+                                "Apprentissage Level 4 Software Developer suivi chez Estio en parallèle du poste, 2023-24",
+                                "Responsabilités senior assurées pendant les congés de l'équipe"
                             ]
                         },
                         "ja": {
-                            "title": "{{最初の専門職}}を確保",
-                            "province": "リバプール",
+                            "title": "{{Fuelius}}で最初の開発者職に",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
-                            "institution": "プロフェッショナルキャリア",
-                            "text": "テクノロジー業界で最初の仕事を獲得し、キャリア移行の重要なマイルストーンとなりました。この役割は、貴重な実世界の経験と、独学で身につけたスキルをプロフェッショナルな環境で適用する機会を提供しました。",
+                            "institution": "Fuelius",
+                            "text": "テック業界での最初の仕事。チェスターのHubSpot・Umbraco代理店Fueliusで見習いフルスタック開発者として、12アカウントにわたり16か月間クライアント業務を担当。並行してEstioのLevel 4 Software Developer Apprenticeshipを受講しました。",
                             "list": [
-                                "プロフェッショナルな環境でコーディングスキルを適用",
-                                "アジャイル開発チームでの作業経験を獲得",
-                                "本番レベルのコードとシステムに貢献",
-                                "仕事を通じた学習により技術的知識を拡大"
+                                "M&S Bank Arena、Merseyrail、CDW、InfoTrackなどのクライアント向けリリース",
+                                "本番環境での.NET、C#、React、SCSS、HubSpot、Umbraco",
+                                "業務と並行してEstioのLevel 4 Software Developer Apprenticeshipを受講、2023-24",
+                                "チームの休暇中はシニアの業務を代行"
                             ]
                         }
                     }
@@ -1459,7 +2199,7 @@
                     "preview": {
                         "links": [
                             {
-                                "href": "https://thomasjbutler.github.io",
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             },
@@ -1476,7 +2216,7 @@
                     "locales": {
                         "en": {
                             "title": "Created {{Personal Portfolio}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
                             "institution": "Personal Project",
                             "text": "Built my first portfolio website from scratch using custom HTML, CSS, and JavaScript. Designed with a Matrix theme inspired by my favorite films, this became my primary showcase until transitioning to this professional commercial site.",
@@ -1489,7 +2229,7 @@
                         },
                         "ru": {
                             "title": "Создал {{личное портфолио}}",
-                            "province": "Ливерпуль",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
                             "institution": "Личный проект",
                             "text": "Создал свой первый сайт-портфолио с нуля, используя пользовательские HTML, CSS и JavaScript. Разработанный с темой Матрицы, вдохновленной моими любимыми фильмами, он стал моей основной витриной до перехода на этот профессиональный коммерческий сайт.",
@@ -1502,7 +2242,7 @@
                         },
                         "fr": {
                             "title": "Création du {{Portfolio Personnel}}",
-                            "province": "Liverpool",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
                             "text": "Construit mon premier site portfolio à partir de zéro en utilisant HTML, CSS et JavaScript personnalisés. Conçu avec un thème Matrix inspiré de mes films préférés, il est devenu ma vitrine principale jusqu'à la transition vers ce site commercial professionnel.",
@@ -1515,7 +2255,7 @@
                         },
                         "ja": {
                             "title": "{{個人ポートフォリオ}}を作成",
-                            "province": "リバプール",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
                             "text": "カスタムHTML、CSS、JavaScriptを使用して、最初のポートフォリオウェブサイトをゼロから構築しました。お気に入りの映画に触発されたマトリックステーマでデザインされ、このプロフェッショナルな商業サイトに移行するまで私の主要なショーケースとなりました。",
@@ -1542,55 +2282,51 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Started {{Stealth AI Startup}}",
-                            "province": "Liverpool",
+                            "title": "Started building under {{AiTomatic}}",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
-                            "institution": "Entrepreneurship",
-                            "text": "Founded a stealth AI startup focused on neurodiversity solutions. Working behind the scenes to develop AI tools that streamline repetitive tasks and make technology more human-friendly for neurodiverse individuals.",
+                            "institution": "AiTomatic",
+                            "text": "Started building under AiTomatic. Solo, self-funded, no clients. The plan was to ship things nobody asked for and learn from every one of them, and most of what I know now came from exactly that.",
                             "list": [
-                                "Developing AI solutions for neurodiversity support",
-                                "Focus on streamlining repetitive tasks",
-                                "Creating human-friendly interfaces",
-                                "Currently in stealth mode with active development"
+                                "Solo and self-funded",
+                                "First product became Sanctuary, a daily functioning app for neurodiverse users",
+                                "Not being pursued commercially while I look for full-time work"
                             ]
                         },
                         "ru": {
-                            "title": "Основал {{скрытый AI-стартап}}",
-                            "province": "Ливерпуль",
+                            "title": "Начал строить под брендом {{AiTomatic}}",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Предпринимательство",
-                            "text": "Основал скрытый AI-стартап, ориентированный на решения для нейроразнообразия. Работа за кулисами над разработкой AI-инструментов, которые упрощают повторяющиеся задачи и делают технологии более человечными для нейроразнообразных людей.",
+                            "institution": "AiTomatic",
+                            "text": "Начал строить под брендом AiTomatic. Соло, на свои деньги, без клиентов. План был выпускать то, о чём никто не просил, и учиться на каждом проекте, и большая часть того, что я знаю сейчас, пришла именно оттуда.",
                             "list": [
-                                "Разработка решений AI для поддержки нейроразнообразия",
-                                "Фокус на упрощении повторяющихся задач",
-                                "Создание удобных для человека интерфейсов",
-                                "В настоящее время в скрытом режиме с активной разработкой"
+                                "Соло и на собственные средства",
+                                "Первым продуктом стал Sanctuary, приложение для повседневного функционирования нейроотличных пользователей",
+                                "Не развивается коммерчески, пока я ищу работу на полную ставку"
                             ]
                         },
                         "fr": {
-                            "title": "Lancé une {{startup AI secrète}}",
-                            "province": "Liverpool",
+                            "title": "Début du travail sous {{AiTomatic}}",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Entrepreneuriat",
-                            "text": "Fondé une startup IA secrète axée sur les solutions de neurodiversité. Travail en coulisses pour développer des outils IA qui rationalisent les tâches répétitives et rendent la technologie plus conviviale pour les personnes neurodivers.",
+                            "institution": "AiTomatic",
+                            "text": "J'ai commencé à construire sous AiTomatic. Seul, autofinancé, sans clients. Le plan était de livrer des choses que personne n'avait demandées et d'apprendre de chacune, et l'essentiel de ce que je sais aujourd'hui vient exactement de là.",
                             "list": [
-                                "Développement de solutions IA pour le soutien à la neurodiversité",
-                                "Focus sur la rationalisation des tâches répétitives",
-                                "Création d'interfaces conviviales",
-                                "Actuellement en mode furtif avec développement actif"
+                                "Seul et autofinancé",
+                                "Le premier produit est devenu Sanctuary, une application de fonctionnement quotidien pour les utilisateurs neurodivergents",
+                                "Pas poursuivi commercialement pendant que je cherche un poste à temps plein"
                             ]
                         },
                         "ja": {
-                            "title": "{{ステルスAIスタートアップ}}を立ち上げ",
-                            "province": "リバプール",
+                            "title": "{{AiTomatic}}の名のもとで開発を開始",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
-                            "institution": "起業家精神",
-                            "text": "神経多様性ソリューションに焦点を当てたステルスAIスタートアップを設立しました。神経多様性のある個人のために反復的なタスクを合理化し、テクノロジーをより人間に優しくするAIツールの開発に裏で取り組んでいます。",
+                            "institution": "AiTomatic",
+                            "text": "AiTomaticの名のもとで開発を始めました。一人で、自己資金で、クライアントなし。誰にも頼まれていないものを作って、その一つひとつから学ぶという計画で、今知っていることの大半はまさにそこから来ています。",
                             "list": [
-                                "神経多様性サポートのためのAIソリューションの開発",
-                                "反復的なタスクの合理化に焦点",
-                                "人間に優しいインターフェースの作成",
-                                "現在、アクティブな開発でステルスモード中"
+                                "一人で自己資金",
+                                "最初のプロダクトはSanctuary、ニューロダイバースなユーザーのための日常機能アプリになった",
+                                "フルタイムの仕事を探している間は商業的には進めていない"
                             ]
                         }
                     }
@@ -1604,7 +2340,7 @@
                     "preview": {
                         "links": [
                             {
-                                "href": "https://thomasjbutler.github.io/",
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
@@ -1615,55 +2351,55 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Career Transition & {{New Ventures}}",
-                            "province": "Liverpool",
+                            "title": "Made redundant, {{started building}}",
+                            "province": "Leeds, Yorkshire",
                             "country": "UK",
-                            "institution": "Entrepreneurship",
-                            "text": "After being made redundant, I transformed this challenge into an opportunity. Created my Matrix-themed personal portfolio as my primary showcase, created a small AI startup to tackle executive dysfunction by harnessing AI, making tech more human and adapt to us, and began developing this commercial portfolio.",
+                            "institution": "AiTomatic",
+                            "text": "Made redundant from Fuelius in December. Rather than sit on it, I built the first version of my personal site, started building under AiTomatic, and began this commercial site for the job search.",
                             "list": [
-                                "Made redundant from previous position in December",
-                                "Created custom HTML/CSS/JS personal portfolio with Matrix theme",
-                                "Created a small AI startup to tackle executive dysfunction by harnessing AI, making tech more human and adapt to us",
-                                "Began development of this commercial React portfolio for professional presence"
+                                "Made redundant from Fuelius in December 2024",
+                                "Built the first version of my personal site in plain HTML, CSS and JavaScript",
+                                "Started building under AiTomatic, solo and self-funded",
+                                "Began this commercial React site for the job search"
                             ]
                         },
                         "ru": {
-                            "title": "Карьерный переход и {{новые предприятия}}",
-                            "province": "Ливерпуль",
+                            "title": "Сокращение и {{начало собственных проектов}}",
+                            "province": "Лидс, Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Предпринимательство",
-                            "text": "После сокращения я превратил эту проблему в возможность. Создал свое личное портфолио в стиле Матрицы как основную витрину, создал небольшой AI-стартап для борьбы с исполнительной дисфункцией с помощью ИИ, делая технологии более человечными и адаптирующимися к нам, и начал разработку этого коммерческого портфолио.",
+                            "institution": "AiTomatic",
+                            "text": "В декабре меня сократили из Fuelius. Вместо того чтобы сидеть сложа руки, я собрал первую версию личного сайта, начал строить под брендом AiTomatic и взялся за этот коммерческий сайт для поиска работы.",
                             "list": [
-                                "Сокращен с предыдущей должности в декабре",
-                                "Создал индивидуальное HTML/CSS/JS портфолио с темой Матрицы",
-                                "Создал небольшой AI-стартап для борьбы с исполнительной дисфункцией с помощью ИИ, делая технологии более человечными и адаптирующимися к нам",
-                                "Начал разработку этого коммерческого портфолио React для профессионального присутствия"
+                                "Сокращён из Fuelius в декабре 2024 года",
+                                "Собрал первую версию личного сайта на чистых HTML, CSS и JavaScript",
+                                "Начал строить под брендом AiTomatic, соло и на свои деньги",
+                                "Начал этот коммерческий сайт на React для поиска работы"
                             ]
                         },
                         "fr": {
-                            "title": "Transition de carrière et {{Nouvelles Entreprises}}",
-                            "province": "Liverpool",
+                            "title": "Licenciement, {{début des projets perso}}",
+                            "province": "Leeds, Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Entrepreneuriat",
-                            "text": "Après avoir été licencié, j'ai transformé ce défi en opportunité. J'ai créé mon portfolio personnel sur le thème Matrix comme vitrine principale, créé une petite startup IA pour lutter contre la dysfonction exécutive en exploitant l'IA, rendant la technologie plus humaine et s'adaptant à nous, et commencé à développer ce portfolio commercial.",
+                            "institution": "AiTomatic",
+                            "text": "Licencié de Fuelius en décembre. Plutôt que de rester dessus, j'ai construit la première version de mon site personnel, commencé à construire sous AiTomatic, et lancé ce site commercial pour la recherche d'emploi.",
                             "list": [
-                                "Licencié de mon poste précédent en décembre",
-                                "Création d'un portfolio personnel HTML/CSS/JS personnalisé avec le thème Matrix",
-                                "Créé une petite startup IA pour lutter contre la dysfonction exécutive en exploitant l'IA, rendant la technologie plus humaine et s'adaptant à nous",
-                                "Début du développement de ce portfolio commercial React pour une présence professionnelle"
+                                "Licencié de Fuelius en décembre 2024",
+                                "Première version de mon site personnel en HTML, CSS et JavaScript purs",
+                                "Début du travail sous AiTomatic, seul et autofinancé",
+                                "Lancement de ce site commercial React pour la recherche d'emploi"
                             ]
                         },
                         "ja": {
-                            "title": "キャリア転換と{{新しい事業}}",
-                            "province": "リバプール",
+                            "title": "解雇、そして{{開発を始める}}",
+                            "province": "リーズ、ヨークシャー",
                             "country": "イギリス",
-                            "institution": "起業家精神",
-                            "text": "解雇された後、この課題を機会に変えました。マトリックステーマの個人ポートフォリオを主要なショーケースとして作成し、AIを活用して実行機能障害に取り組む小規模なAIスタートアップを作成し、テクノロジーをより人間的で私たちに適応させ、この商業ポートフォリオの開発を開始しました。",
+                            "institution": "AiTomatic",
+                            "text": "12月にFueliusから解雇されました。落ち込んで座っている代わりに、個人サイトの最初のバージョンを作り、AiTomaticの名のもとで開発を始め、求職のためにこの商用サイトを始めました。",
                             "list": [
-                                "12月に前職から解雇",
-                                "マトリックステーマのカスタムHTML/CSS/JS個人ポートフォリオを作成",
-                                "AIを活用して実行機能障害に取り組む小規模なAIスタートアップを作成し、テクノロジーをより人間的で私たちに適応させる",
-                                "プロフェッショナルな存在感のためにこの商業用Reactポートフォリオの開発を開始"
+                                "2024年12月にFueliusから解雇",
+                                "素のHTML、CSS、JavaScriptで個人サイトの最初のバージョンを構築",
+                                "AiTomaticの名のもとで一人・自己資金で開発を開始",
+                                "求職のためにこの商用Reactサイトを開始"
                             ]
                         }
                     }

@@ -1,24 +1,24 @@
 @import "/src/styles/extend.scss";
 
 div.article-skills-items {
-    --item-gap: 25px;
+    --item-gap: 18px;
     --padding: 0;
-    --avatar-size: 48px;
-    --avatar-wrapper-width: 64px;
+    --avatar-size: 40px;
+    --avatar-wrapper-width: 56px;
 
     @include media-breakpoint-down(lg) {
-        --avatar-size: 46px;
-        --avatar-wrapper-width: 62px;
+        --avatar-size: 40px;
+        --avatar-wrapper-width: 56px;
     }
 
     @include media-breakpoint-down(md) {
-        --avatar-size: 44px;
-        --item-gap: 22px;
-        --avatar-wrapper-width: 60px;
+        --avatar-size: 40px;
+        --item-gap: 18px;
+        --avatar-wrapper-width: 56px;
     }
 
     @include media-breakpoint-down(sm) {
-        --item-gap: 20px;
+        --item-gap: 18px;
         --avatar-size: 40px;
         --avatar-wrapper-width: 56px;
     }

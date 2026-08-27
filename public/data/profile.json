@@ -1,69 +1,65 @@
 {
     "name": "Thomas Butler",
-
     "profilePictureUrl": "https://res.cloudinary.com/depqttzlt/image/upload/v1765945933/me_xxtcjs.jpg",
     "resumePdfUrl": "",
-
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
     "statusCircleHoverMessage": "status_message_available_for_freelance",
-
     "personalLink": {
         "href": "https://thomasjbutler.github.io/",
         "faIcon": "fa-solid fa-laptop-code"
     },
-
     "locales": {
         "en": {
             "localized_name": "Thomas Butler",
             "localized_name_stylized": " Thomas [[ {{Butler}}]]",
-            "status_message_available_for_freelance": "Available for freelance!",
+            "status_message_available_for_freelance": "Available for full-time work",
             "personalLinkLabel": "Personal Portfolio",
             "personalLinkTagline": "See my real engineering projects",
             "roles": [
-                "Full-Stack Developer",
-                "AI Integration Specialist",
-                "Python Developer",
-                "Web Developer"
+                "Full-Stack Developer, AI Systems",
+                "Python, LangChain, React, Swift",
+                "Building Sanctuary at AiTomatic",
+                "Leeds, Yorkshire"
             ]
         },
         "ru": {
             "localized_name": "Томас Батлер",
             "localized_name_stylized": " [[Томас {{Батлер}}]]",
-            "status_message_available_for_freelance": "Доступен для фриланса!",
+            "status_message_available_for_freelance": "Открыт для работы на полную ставку",
             "personalLinkLabel": "Личное портфолио",
             "personalLinkTagline": "Мои реальные инженерные проекты",
             "roles": [
-                "Фуллстек разработчик",
-                "Специалист по AI интеграции",
-                "Python разработчик",
-                "Веб-разработчик"
+                "Фуллстек разработчик, AI-системы",
+                "Python, LangChain, React, Swift",
+                "Создаю Sanctuary в AiTomatic",
+                "Лидс, Йоркшир"
             ]
         },
         "fr": {
             "localized_name": "Thomas Butler",
             "localized_name_stylized": " [[Thomas {{Butler}}]]",
-            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "status_message_available_for_freelance": "Disponible pour un poste à temps plein",
             "personalLinkLabel": "Portfolio Personnel",
             "personalLinkTagline": "Voir mes vrais projets d'ingénierie",
             "roles": [
-                "Développeur Full-Stack",
-                "Spécialiste en intégration IA",
-                "Développeur Python",
-                "Développeur Web"
+                "Développeur Full-Stack, systèmes IA",
+                "Python, LangChain, React, Swift",
+                "Je construis Sanctuary chez AiTomatic",
+                "Leeds, Yorkshire"
             ]
         },
         "ja": {
             "localized_name": "トーマス・バトラー",
             "localized_name_stylized": " [[トーマス {{バトラー}}]]",
-            "status_message_available_for_freelance": "フリーランス可能です！",
+            "status_message_available_for_freelance": "フルタイム勤務可能です",
             "personalLinkLabel": "個人ポートフォリオ",
             "personalLinkTagline": "実際のエンジニアリングプロジェクトをご覧ください",
             "roles": [
-                "フルスタック開発者",
-                "AI統合スペシャリスト",
-                "Python開発者",
-                "ウェブ開発者"
+                "フルスタック開発者、AIシステム",
+                "Python, LangChain, React, Swift",
+                "AiTomaticでSanctuaryを開発中",
+                "リーズ、ヨークシャー"
             ]
         }
     }

@@ -47,7 +47,7 @@
             },
             "items": [
                 {
-                    "label": "York – England",
+                    "label": "Leeds, Yorkshire",
                     "link": {
                         "href": null
                     },
@@ -66,6 +66,13 @@
                         "href": "https://github.com/thomasjbutler"
                     },
                     "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "label": "Agency Showcase",
+                    "link": {
+                        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de"
+                    },
+                    "faIcon": "fa-solid fa-briefcase"
                 }
             ]
         },
@@ -92,52 +99,388 @@
                     "img": "/images/svg/logo.svg",
                     "locales": {
                         "en": {
-                            "text": "<p>I'm a web developer with <b>over 3 years</b> experience, specialising in full-stack development.<br>I also have hands-on experience with .NET, Azure, Node.js, C#, SCSS, Python and HubSpot/Umbraco CMS in production environments.</p><p>This diverse background enables me to adapt to a wide range of project needs.</p><p>Thank you for visiting and I look forward to the possibility of collaborating with you.</p><p>Kind regards, Thomas</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View My Commercial Work</a></p></div>"
+                            "text": "<p>I'm a software developer in <b>Leeds, Yorkshire</b>. I started coding in late 2022, spent sixteen months as a junior developer at a HubSpot and Umbraco agency, and since December 2024 I've been building independently: data pipelines, RAG systems, multi-agent tooling and a native iOS app.</p><p>The agency taught me fundamentals and to question everything. I don't use most of that stack day to day now. I use the habits daily.</p><p>Nine versions of my personal site, two years, every one still runs: <a href='https://thomasjbutler.github.io/version-timetravel/' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>Version TimeTravel</a>. Everything else I've shipped is on <a href='https://github.com/thomasjbutler' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>GitHub</a>.</p><p>I'm after full-time work: junior roles for general software, anything non-senior for AI. Details are below and I'm always up for a chat.</p><p>Kind regards, Thomas</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View My Commercial Work</a></p></div>"
                         },
                         "ru": {
-                            "text": "<p>Я веб-разработчик с <b>более чем 3-летним</b> опытом, специализирующийся на full-stack разработке.<br>Также имею практический опыт работы с .NET, Azure, Node.js, C#, SCSS, Python и HubSpot/Umbraco CMS в производственных средах.</p><p>Этот разнообразный опыт позволяет мне адаптироваться к широкому спектру проектных потребностей.</p><p>Спасибо за посещение, и я с нетерпением жду возможности сотрудничать с вами.</p><p>С уважением, Томас</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть мою коммерческую работу</a></p></div>"
+                            "text": "<p>Я разработчик из <b>Лидса, Йоркшир</b>. Начал программировать в конце 2022 года, шестнадцать месяцев проработал младшим разработчиком в агентстве на HubSpot и Umbraco, а с декабря 2024 года строю самостоятельно: пайплайны данных, RAG-системы, мультиагентные инструменты и нативное iOS-приложение.</p><p>Агентство научило меня основам и привычке подвергать всё сомнению. Большую часть того стека я сейчас почти не использую. Привычки использую каждый день.</p><p>Девять версий моего личного сайта, два года, и каждая до сих пор работает: <a href='https://thomasjbutler.github.io/version-timetravel/' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>Version TimeTravel</a>. Всё остальное, что я выпустил, лежит на <a href='https://github.com/thomasjbutler' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>GitHub</a>.</p><p>Ищу работу на полную ставку: младшие позиции в общей разработке, любой уровень ниже сеньора в ИИ. Контакты ниже, и я всегда открыт для разговора.</p><p>С уважением, Томас</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть мою коммерческую работу</a></p></div>"
                         },
                         "fr": {
-                            "text": "<p>Je suis un développeur web avec <b>plus de 3 ans</b> d'expérience, spécialisé dans le développement full-stack.<br>J'ai également une expérience pratique avec .NET, Azure, Node.js, C#, SCSS, Python et HubSpot/Umbraco CMS dans des environnements de production.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Voir Mon Travail Commercial</a></p></div>"
+                            "text": "<p>Je suis développeur logiciel à <b>Leeds, Yorkshire</b>. J'ai commencé à coder fin 2022, passé seize mois comme développeur junior dans une agence HubSpot et Umbraco, et depuis décembre 2024 je construis en indépendant : pipelines de données, systèmes RAG, outillage multi-agents et une application iOS native.</p><p>L'agence m'a appris les fondamentaux et à tout remettre en question. Je n'utilise plus l'essentiel de cette stack au quotidien. Les habitudes, si.</p><p>Neuf versions de mon site personnel, deux ans, chacune tourne encore : <a href='https://thomasjbutler.github.io/version-timetravel/' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>Version TimeTravel</a>. Tout le reste de ce que j'ai livré est sur <a href='https://github.com/thomasjbutler' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>GitHub</a>.</p><p>Je cherche un poste à temps plein : junior pour le développement généraliste, tout niveau non senior pour l'IA. Mes coordonnées sont ci-dessous et je suis toujours partant pour discuter.</p><p>Cordialement, Thomas</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Voir Mon Travail Commercial</a></p></div>"
                         },
                         "ja": {
-                            "text": "<p>私は<b>3年以上</b>の経験を持つウェブ開発者で、フルスタック開発を専門としています。<br>また、プロダクション環境で.NET、Azure、Node.js、C#、SCSS、Python、HubSpot/Umbraco CMSの実務経験があります。</p><p>この多様な背景により、幅広いプロジェクトのニーズに適応できます。</p><p>ご訪問いただきありがとうございます。皆様と協力できる機会を楽しみにしています。</p><p>よろしくお願いします、トーマス</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>私の商業作品を見る</a></p></div>"
+                            "text": "<p>私は<b>リーズ、ヨークシャー</b>のソフトウェア開発者です。2022年後半にコーディングを始め、HubSpotとUmbracoの代理店でジュニア開発者として16か月働き、2024年12月からは独立して開発しています。データパイプライン、RAGシステム、マルチエージェントツール、ネイティブiOSアプリなど。</p><p>代理店では基礎と、あらゆることを問い直す習慣を学びました。当時のスタックの多くは今は日常的には使っていません。習慣は毎日使っています。</p><p>個人サイトの9つのバージョン、2年間、すべて今も動いています：<a href='https://thomasjbutler.github.io/version-timetravel/' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>Version TimeTravel</a>。それ以外に出したものはすべて<a href='https://github.com/thomasjbutler' target='_blank' rel='noopener noreferrer' style='color: #36ad59; text-decoration: underline;'>GitHub</a>にあります。</p><p>フルタイムの仕事を探しています。一般的なソフトウェア開発ならジュニア、AIならシニア未満のどのレベルでも。連絡先は下にあります。気軽にお話ししましょう。</p><p>よろしくお願いします、トーマス</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>私の商業作品を見る</a></p></div>"
                         }
                     }
                 }
             ]
         },
         {
-            "id": "tech_stack",
+            "id": "independent_work",
+            "component": "ArticleText",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "**Independent work**, December 2024 to now"
+                },
+                "ru": {
+                    "title": "**Независимая работа**, с декабря 2024 по сей день"
+                },
+                "fr": {
+                    "title": "**Travail indépendant**, de décembre 2024 à aujourd'hui"
+                },
+                "ja": {
+                    "title": "**独立した仕事**、2024年12月から現在まで"
+                }
+            },
+            "items": [
+                {
+                    "img": null,
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {
+                        "bg": "#36ad59",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p><b>Sanctuary.</b> Native iOS, Swift and SwiftData, fully on-device. A daily functioning app for neurodiverse users, built from lived experience, in active development against iOS 27. Nothing leaves the phone, which is the whole design rather than a feature.</p><p><b>AiTomatic.</b> Where my independent work has lived since December 2024. Solo and self-funded. Data pipelines, RAG systems, multi-agent tooling and a lot of shipping. Not being pursued commercially while I look for full-time work.</p>"
+                        },
+                        "ru": {
+                            "text": "<p><b>Sanctuary.</b> Нативный iOS, Swift и SwiftData, полностью на устройстве. Приложение для повседневного функционирования нейроотличных пользователей, созданное на основе личного опыта, в активной разработке под iOS 27. Ничто не покидает телефон, и это весь замысел, а не отдельная функция.</p><p><b>AiTomatic.</b> Здесь живёт моя независимая работа с декабря 2024 года. Соло и на свои деньги. Пайплайны данных, RAG-системы, мультиагентные инструменты и много выпущенного. Не развивается коммерчески, пока я ищу работу на полную ставку.</p>"
+                        },
+                        "fr": {
+                            "text": "<p><b>Sanctuary.</b> iOS natif, Swift et SwiftData, entièrement sur l'appareil. Une application de fonctionnement quotidien pour les utilisateurs neurodivergents, construite à partir d'une expérience vécue, en développement actif pour iOS 27. Rien ne quitte le téléphone, et c'est toute la conception plutôt qu'une fonctionnalité.</p><p><b>AiTomatic.</b> Là où vit mon travail indépendant depuis décembre 2024. Seul et autofinancé. Pipelines de données, systèmes RAG, outillage multi-agents et beaucoup de livraisons. Pas poursuivi commercialement pendant que je cherche un poste à temps plein.</p>"
+                        },
+                        "ja": {
+                            "text": "<p><b>Sanctuary。</b>ネイティブiOS、SwiftとSwiftData、完全にオンデバイス。実体験をもとに作った、ニューロダイバースなユーザーのための日常機能アプリで、iOS 27向けに開発中です。何も端末の外に出ません。それは機能ではなく設計そのものです。</p><p><b>AiTomatic。</b>2024年12月から私の独立した仕事の拠点です。一人で、自己資金で。データパイプライン、RAGシステム、マルチエージェントツール、そしてたくさんのリリース。フルタイムの仕事を探している間は商業的には進めていません。</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tech_stack_now",
             "component": "ArticleStack",
             "config": {},
             "locales": {
                 "en": {
-                    "title": "My **Tech Stack**"
+                    "title": "What I **use now**"
                 },
                 "ru": {
-                    "title": "Мой **технологический стек**"
+                    "title": "Что я **использую сейчас**"
                 },
                 "fr": {
-                    "title": "Ma **pile technologique**"
+                    "title": "Ce que j'**utilise aujourd'hui**"
                 },
                 "ja": {
-                    "title": "私の**技術スタック**"
+                    "title": "**今使っている**技術"
                 }
             },
             "items": [
                 {
                     "id": 1,
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {
+                        "bg": "#3776AB",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python"
+                        },
+                        "ru": {
+                            "title": "Python"
+                        },
+                        "fr": {
+                            "title": "Python"
+                        },
+                        "ja": {
+                            "title": "Python"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {
+                        "bg": "#3178C6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript"
+                        },
+                        "ru": {
+                            "title": "TypeScript"
+                        },
+                        "fr": {
+                            "title": "TypeScript"
+                        },
+                        "ja": {
+                            "title": "TypeScript"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
                     "faIcon": "fa-brands fa-react",
                     "faIconColors": {
                         "bg": "#61DAFB",
                         "fill": "#282C34"
                     },
                     "locales": {
-                        "en": {"title": "React"},
-                        "ru": {"title": "React"},
-                        "fr": {"title": "React"},
-                        "ja": {"title": "React"}
+                        "en": {
+                            "title": "React"
+                        },
+                        "ru": {
+                            "title": "React"
+                        },
+                        "fr": {
+                            "title": "React"
+                        },
+                        "ja": {
+                            "title": "React"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": {
+                        "bg": "#009688",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "FastAPI"
+                        },
+                        "ru": {
+                            "title": "FastAPI"
+                        },
+                        "fr": {
+                            "title": "FastAPI"
+                        },
+                        "ja": {
+                            "title": "FastAPI"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-link",
+                    "faIconColors": {
+                        "bg": "#1C3C3C",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "LangChain"
+                        },
+                        "ru": {
+                            "title": "LangChain"
+                        },
+                        "fr": {
+                            "title": "LangChain"
+                        },
+                        "ja": {
+                            "title": "LangChain"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {
+                        "bg": "#7C3AED",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "LangGraph"
+                        },
+                        "ru": {
+                            "title": "LangGraph"
+                        },
+                        "fr": {
+                            "title": "LangGraph"
+                        },
+                        "ja": {
+                            "title": "LangGraph"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-book-open",
+                    "faIconColors": {
+                        "bg": "#0EA5E9",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "RAG"
+                        },
+                        "ru": {
+                            "title": "RAG"
+                        },
+                        "fr": {
+                            "title": "RAG"
+                        },
+                        "ja": {
+                            "title": "RAG"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": {
+                        "bg": "#1E1E1E",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Pinecone"
+                        },
+                        "ru": {
+                            "title": "Pinecone"
+                        },
+                        "fr": {
+                            "title": "Pinecone"
+                        },
+                        "ja": {
+                            "title": "Pinecone"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "faIcon": "fa-solid fa-microchip",
+                    "faIconColors": {
+                        "bg": "#111827",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ollama"
+                        },
+                        "ru": {
+                            "title": "Ollama"
+                        },
+                        "fr": {
+                            "title": "Ollama"
+                        },
+                        "ja": {
+                            "title": "Ollama"
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "faIcon": "fa-solid fa-terminal",
+                    "faIconColors": {
+                        "bg": "#CC785C",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Claude Code"
+                        },
+                        "ru": {
+                            "title": "Claude Code"
+                        },
+                        "fr": {
+                            "title": "Claude Code"
+                        },
+                        "ja": {
+                            "title": "Claude Code"
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "faIcon": "fa-brands fa-swift",
+                    "faIconColors": {
+                        "bg": "#F05138",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Swift/SwiftUI"
+                        },
+                        "ru": {
+                            "title": "Swift/SwiftUI"
+                        },
+                        "fr": {
+                            "title": "Swift/SwiftUI"
+                        },
+                        "ja": {
+                            "title": "Swift/SwiftUI"
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {
+                        "bg": "#2496ED",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Docker"
+                        },
+                        "ru": {
+                            "title": "Docker"
+                        },
+                        "fr": {
+                            "title": "Docker"
+                        },
+                        "ja": {
+                            "title": "Docker"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tech_stack_also",
+            "component": "ArticleStack",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Also **worked with**"
+                },
+                "ru": {
+                    "title": "Также **работал с**"
+                },
+                "fr": {
+                    "title": "J'ai aussi **travaillé avec**"
+                },
+                "ja": {
+                    "title": "**経験のある**技術"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#512BD4",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": ".NET/C#"
+                        },
+                        "ru": {
+                            "title": ".NET/C#"
+                        },
+                        "fr": {
+                            "title": ".NET/C#"
+                        },
+                        "ja": {
+                            "title": ".NET/C#"
+                        }
                     }
                 },
                 {
@@ -148,262 +491,260 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "Node.js"},
-                        "ru": {"title": "Node.js"},
-                        "fr": {"title": "Node.js"},
-                        "ja": {"title": "Node.js"}
+                        "en": {
+                            "title": "Node.js"
+                        },
+                        "ru": {
+                            "title": "Node.js"
+                        },
+                        "fr": {
+                            "title": "Node.js"
+                        },
+                        "ja": {
+                            "title": "Node.js"
+                        }
                     }
                 },
                 {
                     "id": 3,
-                    "faIcon": "fa-brands fa-python",
-                    "faIconColors": {
-                        "bg": "#3776AB",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Python"},
-                        "ru": {"title": "Python"},
-                        "fr": {"title": "Python"},
-                        "ja": {"title": "Python"}
-                    }
-                },
-                {
-                    "id": 4,
-                    "faIcon": "fa-brands fa-js",
-                    "faIconColors": {
-                        "bg": "#F7DF1E",
-                        "fill": "#000000"
-                    },
-                    "locales": {
-                        "en": {"title": "TypeScript"},
-                        "ru": {"title": "TypeScript"},
-                        "fr": {"title": "TypeScript"},
-                        "ja": {"title": "TypeScript"}
-                    }
-                },
-                {
-                    "id": 5,
-                    "faIcon": "fa-solid fa-code",
-                    "faIconColors": {
-                        "bg": "#512BD4",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": ".NET/C#"},
-                        "ru": {"title": ".NET/C#"},
-                        "fr": {"title": ".NET/C#"},
-                        "ja": {"title": ".NET/C#"}
-                    }
-                },
-                {
-                    "id": 6,
-                    "faIcon": "fa-brands fa-microsoft",
-                    "faIconColors": {
-                        "bg": "#0078D4",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Azure"},
-                        "ru": {"title": "Azure"},
-                        "fr": {"title": "Azure"},
-                        "ja": {"title": "Azure"}
-                    }
-                },
-                {
-                    "id": 7,
-                    "faIcon": "fa-brands fa-docker",
-                    "faIconColors": {
-                        "bg": "#2496ED",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Docker"},
-                        "ru": {"title": "Docker"},
-                        "fr": {"title": "Docker"},
-                        "ja": {"title": "Docker"}
-                    }
-                },
-                {
-                    "id": 8,
-                    "faIcon": "fa-brands fa-css3-alt",
-                    "faIconColors": {
-                        "bg": "#1572B6",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "CSS3/SCSS"},
-                        "ru": {"title": "CSS3/SCSS"},
-                        "fr": {"title": "CSS3/SCSS"},
-                        "ja": {"title": "CSS3/SCSS"}
-                    }
-                },
-                {
-                    "id": 9,
                     "faIcon": "fa-solid fa-database",
                     "faIconColors": {
                         "bg": "#336791",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "SQL/MongoDB"},
-                        "ru": {"title": "SQL/MongoDB"},
-                        "fr": {"title": "SQL/MongoDB"},
-                        "ja": {"title": "SQL/MongoDB"}
+                        "en": {
+                            "title": "SQL/MongoDB"
+                        },
+                        "ru": {
+                            "title": "SQL/MongoDB"
+                        },
+                        "fr": {
+                            "title": "SQL/MongoDB"
+                        },
+                        "ja": {
+                            "title": "SQL/MongoDB"
+                        }
                     }
                 },
                 {
-                    "id": 10,
-                    "faIcon": "fa-solid fa-link",
+                    "id": 4,
+                    "faIcon": "fa-brands fa-microsoft",
                     "faIconColors": {
-                        "bg": "#7C3AED",
+                        "bg": "#0078D4",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "LangChain"},
-                        "ru": {"title": "LangChain"},
-                        "fr": {"title": "LangChain"},
-                        "ja": {"title": "LangChain"}
+                        "en": {
+                            "title": "Azure"
+                        },
+                        "ru": {
+                            "title": "Azure"
+                        },
+                        "fr": {
+                            "title": "Azure"
+                        },
+                        "ja": {
+                            "title": "Azure"
+                        }
                     }
                 },
                 {
-                    "id": 11,
-                    "faIcon": "fa-solid fa-brain",
-                    "faIconColors": {
-                        "bg": "#FF6F00",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "TensorFlow"},
-                        "ru": {"title": "TensorFlow"},
-                        "fr": {"title": "TensorFlow"},
-                        "ja": {"title": "TensorFlow"}
-                    }
-                },
-                {
-                    "id": 12,
-                    "faIcon": "fa-solid fa-fire",
-                    "faIconColors": {
-                        "bg": "#EE4C2C",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "PyTorch"},
-                        "ru": {"title": "PyTorch"},
-                        "fr": {"title": "PyTorch"},
-                        "ja": {"title": "PyTorch"}
-                    }
-                },
-                {
-                    "id": 13,
+                    "id": 5,
                     "faIcon": "fa-brands fa-aws",
                     "faIconColors": {
                         "bg": "#FF9900",
                         "fill": "#232F3E"
                     },
                     "locales": {
-                        "en": {"title": "AWS"},
-                        "ru": {"title": "AWS"},
-                        "fr": {"title": "AWS"},
-                        "ja": {"title": "AWS"}
+                        "en": {
+                            "title": "AWS"
+                        },
+                        "ru": {
+                            "title": "AWS"
+                        },
+                        "fr": {
+                            "title": "AWS"
+                        },
+                        "ja": {
+                            "title": "AWS"
+                        }
                     }
                 },
                 {
-                    "id": 14,
-                    "faIcon": "fa-solid fa-bolt",
-                    "faIconColors": {
-                        "bg": "#000000",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Vercel"},
-                        "ru": {"title": "Vercel"},
-                        "fr": {"title": "Vercel"},
-                        "ja": {"title": "Vercel"}
-                    }
-                },
-                {
-                    "id": 15,
-                    "faIcon": "fa-solid fa-database",
-                    "faIconColors": {
-                        "bg": "#3ECF8E",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Supabase"},
-                        "ru": {"title": "Supabase"},
-                        "fr": {"title": "Supabase"},
-                        "ja": {"title": "Supabase"}
-                    }
-                },
-                {
-                    "id": 16,
-                    "faIcon": "fa-solid fa-leaf",
-                    "faIconColors": {
-                        "bg": "#3544B1",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {"title": "Umbraco"},
-                        "ru": {"title": "Umbraco"},
-                        "fr": {"title": "Umbraco"},
-                        "ja": {"title": "Umbraco"}
-                    }
-                },
-                {
-                    "id": 17,
+                    "id": 6,
                     "faIcon": "fa-brands fa-hubspot",
                     "faIconColors": {
                         "bg": "#FF7A59",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "HubSpot"},
-                        "ru": {"title": "HubSpot"},
-                        "fr": {"title": "HubSpot"},
-                        "ja": {"title": "HubSpot"}
+                        "en": {
+                            "title": "HubSpot"
+                        },
+                        "ru": {
+                            "title": "HubSpot"
+                        },
+                        "fr": {
+                            "title": "HubSpot"
+                        },
+                        "ja": {
+                            "title": "HubSpot"
+                        }
                     }
                 },
                 {
-                    "id": 18,
+                    "id": 7,
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {
+                        "bg": "#3544B1",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Umbraco"
+                        },
+                        "ru": {
+                            "title": "Umbraco"
+                        },
+                        "fr": {
+                            "title": "Umbraco"
+                        },
+                        "ja": {
+                            "title": "Umbraco"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
                     "faIcon": "fa-brands fa-bootstrap",
                     "faIconColors": {
                         "bg": "#7952B3",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "Bootstrap"},
-                        "ru": {"title": "Bootstrap"},
-                        "fr": {"title": "Bootstrap"},
-                        "ja": {"title": "Bootstrap"}
+                        "en": {
+                            "title": "Bootstrap"
+                        },
+                        "ru": {
+                            "title": "Bootstrap"
+                        },
+                        "fr": {
+                            "title": "Bootstrap"
+                        },
+                        "ja": {
+                            "title": "Bootstrap"
+                        }
                     }
                 },
                 {
-                    "id": 19,
-                    "faIcon": "fa-brands fa-bitbucket",
+                    "id": 9,
+                    "faIcon": "fa-brands fa-css3-alt",
                     "faIconColors": {
-                        "bg": "#0052CC",
+                        "bg": "#1572B6",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {"title": "BitBucket"},
-                        "ru": {"title": "BitBucket"},
-                        "fr": {"title": "BitBucket"},
-                        "ja": {"title": "BitBucket"}
+                        "en": {
+                            "title": "CSS3/SCSS"
+                        },
+                        "ru": {
+                            "title": "CSS3/SCSS"
+                        },
+                        "fr": {
+                            "title": "CSS3/SCSS"
+                        },
+                        "ja": {
+                            "title": "CSS3/SCSS"
+                        }
                     }
                 },
                 {
-                    "id": 20,
+                    "id": 10,
                     "faIcon": "fa-brands fa-js-square",
                     "faIconColors": {
                         "bg": "#F7DF1E",
                         "fill": "#000000"
                     },
                     "locales": {
-                        "en": {"title": "JavaScript"},
-                        "ru": {"title": "JavaScript"},
-                        "fr": {"title": "JavaScript"},
-                        "ja": {"title": "JavaScript"}
+                        "en": {
+                            "title": "JavaScript"
+                        },
+                        "ru": {
+                            "title": "JavaScript"
+                        },
+                        "fr": {
+                            "title": "JavaScript"
+                        },
+                        "ja": {
+                            "title": "JavaScript"
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "#3ECF8E",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Supabase"
+                        },
+                        "ru": {
+                            "title": "Supabase"
+                        },
+                        "fr": {
+                            "title": "Supabase"
+                        },
+                        "ja": {
+                            "title": "Supabase"
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": {
+                        "bg": "#000000",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Vercel"
+                        },
+                        "ru": {
+                            "title": "Vercel"
+                        },
+                        "fr": {
+                            "title": "Vercel"
+                        },
+                        "ja": {
+                            "title": "Vercel"
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "faIcon": "fa-brands fa-bitbucket",
+                    "faIconColors": {
+                        "bg": "#0052CC",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BitBucket"
+                        },
+                        "ru": {
+                            "title": "BitBucket"
+                        },
+                        "fr": {
+                            "title": "BitBucket"
+                        },
+                        "ja": {
+                            "title": "BitBucket"
+                        }
                     }
                 }
             ]

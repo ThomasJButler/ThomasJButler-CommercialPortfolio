@@ -12,10 +12,10 @@
         "profilePictureUrl": "images/pictures/me.jpeg",
 
         "locales": {
-            "en": {"role": "Full-Stack Web Developer"},
-            "ru": {"role": "Полный стек веб-разработчик"},
-            "fr": {"role": "Développeur Web Full-Stack"},
-            "ja": {"role": "フルスタックWeb開発者"}
+            "en": {"role": "Full-Stack Developer, AI Systems"},
+            "ru": {"role": "Фуллстек разработчик, AI-системы"},
+            "fr": {"role": "Développeur Full-Stack, systèmes IA"},
+            "ja": {"role": "フルスタック開発者、AIシステム"}
         }
     },
 
